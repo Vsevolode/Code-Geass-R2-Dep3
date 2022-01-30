@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			JAP = {
+				set_variable = { show_focus_background = 1 }
+			}
+			BRT = {
+				set_variable = { show_focus_background = 2 }
+			}
+			FRA = {
+				set_variable = { show_focus_background = 3 }
+			}			
+			CHI = {
+				set_variable = { show_focus_background = 4 }
+			}
+		}
+	}
+}

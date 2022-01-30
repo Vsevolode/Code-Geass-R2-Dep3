@@ -1,0 +1,665 @@
+ideas = {
+    country = {
+	
+	
+	
+destroyed_infratructures = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			stability_factor = -0.10
+			out_of_supply_factor = 0.70
+			production_speed_infrastructure_factor = -0.25
+			army_speed_factor = -0.30
+		}
+	}
+
+	destroyed_infratructures_2 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			stability_factor = -0.05
+			out_of_supply_factor = 0.40
+			production_speed_infrastructure_factor = -0.15
+			army_speed_factor = -0.20
+		}
+	}
+
+	destroyed_infratructures_3 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			out_of_supply_factor = 0.20
+			production_speed_infrastructure_factor = -0.05
+			army_speed_factor = -0.10
+		}
+	}
+
+
+	food_imports = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			consumer_goods_factor = 0.07
+			stability_factor = 0.05
+		}
+	}
+
+	administrative_strain = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.30
+			stability_factor = -0.15
+			war_support_factor = -0.15
+		}
+	}
+
+	administrative_strain_2 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.25
+			stability_factor = -0.13
+			war_support_factor = -0.13
+		}
+	}
+
+	administrative_strain_3 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.20
+			stability_factor = -0.10
+			war_support_factor = -0.10
+		}
+	}
+
+
+	cultural_repression = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = 0.15
+			drift_defence_factor = 0.50
+			war_support_weekly = -0.003
+			stability_weekly = -0.003
+		}
+	}
+
+	cultural_repression_2 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = 0.20
+			drift_defence_factor = 0.55
+			war_support_weekly = -0.005
+			stability_weekly = -0.005
+		}
+	}
+
+   		
+		jap_brit_corporations = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.10
+			industrial_capacity_factory = 0.15
+			production_factory_efficiency_gain_factor = -0.10
+			production_factory_max_efficiency_factor = -0.10
+			political_power_factor = -0.15
+			stability_factor = -0.10
+
+			}
+		}
+
+						
+		brit_corporations = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+		   consumer_goods_factor = 0.15
+		   industrial_capacity_factory = 0.05
+		   production_factory_max_efficiency_factor = -0.15
+		   production_factory_efficiency_gain_factor = -0.15
+		   }
+	   }
+
+	   extreme_stratocracy_A11 = {
+		
+		allowed = {
+		   always = no
+	   }
+
+	   allowed_civil_war = {
+		   always = yes
+	   }
+
+	   removal_cost = -1
+	   
+	   modifier = {
+	   stability_factor = -0.05
+	   military_leader_cost_factor = 0.15
+	   army_leader_cost_factor = 0.15
+	   }
+   }
+
+   
+   extreme_stratocracy_A11_2 = {
+		
+	allowed = {
+	   always = no
+   }
+
+   allowed_civil_war = {
+	   always = yes
+   }
+
+   removal_cost = -1
+   
+   modifier = {
+   stability_factor = 0.05
+   production_factory_efficiency_gain_factor = -0.05
+   military_leader_cost_factor = 0.30
+   army_leader_cost_factor = 0.30
+   }
+}
+
+economic_stagnation_A11 = {
+
+	allowed = {
+		always = no
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	modifier = {
+		consumer_goods_factor = 0.02
+		local_resources_factor = 0.25
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+		production_speed_buildings_factor = 0.05
+	}
+}
+		
+		
+		
+
+		
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	head_of_government = {	
+	
+	
+		BRT_bismark = {
+
+			picture = bismark
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = A11
+			}
+			
+			traits = { autocracy_guy knight_one }
+		}
+
+		BRT_clovis = {
+
+			picture = clovis
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = A11
+			}
+			
+			traits = { autocracy_guy artist_prince }
+		}
+		
+	}
+	
+	
+	intelligence = {
+						BRT_VV = {
+
+			picture = VV_britannia
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { geass_connections }
+		}	
+	}	
+	
+	economy_minister = {
+	
+							BRT_generic_noble_1 = {
+
+			picture = BRT_generic_noble_1
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { oligarchy_guy corrupt_kleptocrat }
+		}
+
+		A11_kyoto_kirihara = {
+
+			picture = A11_kyoto_kirihara
+			available = {
+			custom_trigger_tooltip = {
+			tooltip = government_change
+			always = no
+			}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+			original_tag = A11
+			}
+			
+			traits = { oligarchy_guy kyoto_house }
+		}
+	}
+	
+	
+	minister_of_interior = {
+		
+							BRT_generic_general_1 = {
+
+			picture = BRT_generic_general_1
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { autocracy_guy iron_fist }
+		}
+	}	
+	
+	foreign_minister = {
+	
+								BRT_generic_minister_1 = {
+
+			picture = BRT_generic_minister_1
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { oligarchy_guy purist_simpaty }
+		}
+	}
+
+
+	materiel_manufacturer = { 
+		
+		designer = yes
+		
+		A11_kubouin_group = {
+			picture = A11_kubouin_group
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_allow_zaibatsu
+			}
+	
+			available = {
+				has_completed_focus = A11_allow_zaibatsu
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+		
+						
+			traits = { artillery_producer_defense_2 kyoto_family_4 }
+			
+		}
+
+		A11_alton_cong = {
+			picture = A11_generic_industry_4
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_no_deal
+			}
+	
+			available = {
+				has_completed_focus = A11_no_deal
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+		
+						
+			traits = {  }
+			
+		}
+	
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		A11_yoshino = {
+			picture = A11_yoshino
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_allow_zaibatsu
+			}
+	
+			available = {
+				has_completed_focus = A11_allow_zaibatsu
+			}
+			
+			research_bonus = {
+				heavy_air = 0.10
+			}
+			
+		
+						
+			traits = { bomber_producer_offense_2 kyoto_family_3 }
+			
+		}
+
+		A11_pendragon_ins = {
+			picture = A11_generic_industry_3
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_no_deal
+			}
+	
+			available = {
+				has_completed_focus = A11_no_deal
+			}
+			
+			research_bonus = {
+	
+			}
+			
+		
+						
+			traits = {  }
+			
+		}
+	
+	}
+	
+	industrial_concern = { 
+			
+		designer = yes
+		
+		A11_munakata_dev = {
+			picture = A11_munakata_dev
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_allow_zaibatsu
+			}
+	
+			available = {
+				has_completed_focus = A11_allow_zaibatsu
+			}
+			
+			research_bonus = {
+
+			}
+			
+		
+						
+			traits = { industrial_manufacturer kyoto_family_2 }
+			
+		}
+
+		A11_darwin_ass = {
+			picture = A11_generic_industry_2
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_no_deal
+			}
+	
+			available = {
+				has_completed_focus = A11_no_deal
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+		
+						
+			traits = {  }
+			
+		}
+	
+	}
+	
+	
+	tank_manufacturer = { 
+			
+		designer = yes
+		
+		A11_kirihara_ind = {
+			picture = A11_kirihara_ind
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_allow_zaibatsu
+			}
+	
+			available = {
+				has_completed_focus = A11_allow_zaibatsu
+			}
+			
+			research_bonus = {
+				sakuradite = 0.05
+				armor = 0.10
+			}
+			
+		
+						
+			traits = { medium_tank_producer_mass_2 kyoto_family_1 }
+			
+		}
+
+		A11_beswick_ind = {
+			picture = A11_generic_industry_1
+	
+			
+			allowed = {
+				original_tag = A11
+				has_completed_focus = A11_no_deal
+			}
+	
+			available = {
+				has_completed_focus = A11_no_deal
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+		
+						
+			traits = {  }
+			
+		}
+	
+	}
+}	

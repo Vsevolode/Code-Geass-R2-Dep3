@@ -1,0 +1,490 @@
+technologies = {
+
+	landship_engine = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -10 y = 0 }		
+		}
+		show_effect_as_desc = yes
+
+		categories = {
+			landship
+		}
+
+		enable_subunits = {
+			commandcentre
+		}
+		
+		enable_equipments = {
+			landship_1
+		}
+
+        allow = {
+            has_technology = yggdrasil_drive
+        }
+
+		path = {
+			leads_to_tech = landship_engine_1
+			research_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = landship_engine_4
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	
+	landship_engine_1 = {
+	
+		commandcentre = {
+			defense = 0.1  
+		}
+
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -12 y = 2 }		
+		}
+		show_effect_as_desc = yes
+
+		XOR = {
+			landship_engine_4
+		}
+
+		categories = {
+			landship
+		}
+
+		path = {
+			leads_to_tech = landship_engine_2
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	
+	landship_engine_2 = {
+
+		commandcentre = {
+
+			defense = 0.1 
+			reliability_factor = 0.1
+			
+		}
+
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -12 y = 4 }		
+		}
+		show_effect_as_desc = yes
+
+		categories = {
+			landship
+		}
+
+		path = {
+			leads_to_tech = landship_engine_3
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	
+	landship_engine_3 = {
+	
+		commandcentre = {
+
+			initiative = 0.2
+			max_strength = 0.2
+			
+		}
+
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -12 y = 6 }		
+		}
+		show_effect_as_desc = yes
+
+		categories = {
+			landship
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+
+	landship_engine_4 = {
+	
+		commandcentre = {
+
+			soft_attack = 0.05
+			hard_attack = 0.05	
+
+			}
+
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -8 y = 2 }		
+		}
+		show_effect_as_desc = yes
+
+		XOR = {
+			landship_engine_1
+		}
+
+		categories = {
+			landship
+		}
+
+		path = {
+			leads_to_tech = landship_engine_5
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	
+	landship_engine_5 = {
+	
+		commandcentre = {
+
+			hard_attack = 0.1	
+			soft_attack = 0.1
+			casualty_trickleback = 0.2 
+
+			}
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -8 y = 4 }		
+		}
+		show_effect_as_desc = yes
+
+		categories = {
+			landship
+		}
+
+		path = {
+			leads_to_tech = landship_engine_6
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	
+	landship_engine_6 = {
+	
+		commandcentre = {
+			breakthrough = 0.2
+			armor_value = 0.1
+							
+			}
+		
+		research_cost = 1.5
+		start_year = 2005
+		folder = { 
+			name = sakuradite_folder 
+			position = { x = -8 y = 6 }		
+		}
+		show_effect_as_desc = yes
+
+		categories = {
+			landship
+		}
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+
+	sakuradite_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -4 y = 0}
+		}		
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+		enable_building = {
+			building = sakuradite_refinery
+			level = 3
+		}
+		path = {
+			leads_to_tech = safe_extraction
+			research_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dangerous_extraction
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	safe_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -6 y = 2}
+		}		
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+
+		path = {
+			leads_to_tech = more_safe_extraction
+			research_coeff = 1
+		}
+
+		XOR = {
+			dangerous_extraction
+		}
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+	
+	more_safe_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -6 y = 4}
+		}		
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+
+		path = {
+			leads_to_tech = more_more_safe_extraction
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+	
+	more_more_safe_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -6 y = 6}
+		}		
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+	
+	dangerous_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -2 y = 2}
+		}		
+
+		XOR = {
+			safe_extraction
+		}
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+
+		path = {
+			leads_to_tech = even_more_dangerous_extraction
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+			
+	even_more_dangerous_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -2 y = 4}
+		}		
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+
+		path = {
+			leads_to_tech = even_more_more_dangerous_extraction
+			research_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+				
+	even_more_more_dangerous_extraction = {
+	
+		research_cost = 1.5
+		start_year = 2005
+		folder = {
+			name = sakuradite_folder
+			position = { x = -2 y = 6}
+		}		
+
+		show_effect_as_desc = yes
+
+		categories = {
+			sakuradite
+		}		
+
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+		
+	atomic_research = {
+
+		research_speed_factor = 0.04
+		
+		start_year = 1940
+		research_cost = 5
+
+		path = {
+			leads_to_tech = nuclear_reactor 
+			research_cost_coeff = 1
+		}
+			
+		folder = {
+			name = sakuradite_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+	
+	nuclear_reactor = {
+
+		# can build reactors
+		
+		start_year = 1943
+		research_cost = 5
+		
+		folder = {
+			name = sakuradite_folder
+			position = { x = 2 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = nukes 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				tag = USA
+				factor = 2
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
+	}
+	
+		nukes = {
+	
+		start_year = 1945
+		research_cost = 5
+		
+		folder = {
+			name = sakuradite_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		nuclear_production = 1
+		categories = {
+			nuclear
+		}
+	}
+
+}

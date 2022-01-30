@@ -1,0 +1,464 @@
+equipments = {
+
+	knightmare_equipment = {
+		year = 2006
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.3
+
+		#Defensive Abilities
+		defense = 9
+		breakthrough = 60
+		hardness = 0.7
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 30
+		ap_attack = 70
+		air_attack = 5
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 15
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+			sakuradite = 5
+		}
+		
+		fuel_consumption = 15
+	}
+
+	knightmare_equipment_gen_3 = {
+		year = 2009
+
+		archetype = knightmare_equipment
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.5
+
+		#Defensive Abilities
+		defense = 9
+		breakthrough = 60
+		hardness = 0.7
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 30
+		ap_attack = 70
+		air_attack = 5
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 15
+		resources = {
+			steel = 3
+			chromium = 4
+			sakuradite = 5
+		}
+
+	}
+
+	knightmare_equipment_gen_4 = {
+		year = 2010
+		archetype = knightmare_equipment
+		parent = knightmare_equipment_gen_3
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 28
+		reliability = 0.75
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 75
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 35
+		hard_attack = 44
+		ap_attack = 105
+		air_attack = 8
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 25
+		resources = {
+			#oil = 1
+			steel = 4
+			chromium = 4
+			sakuradite = 6
+		}
+	}
+
+	knightmare_equipment_gen_5 = {
+		year = 2012
+
+		archetype = knightmare_equipment
+		parent = knightmare_equipment_gen_4
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 31
+		reliability = 0.78
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 80
+		hardness = 0.90
+		armor_value = 95
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 50
+		ap_attack = 115
+		air_attack = 12
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 30
+		resources = {
+			#oil = 1
+			steel = 4
+			chromium = 4
+			sakuradite = 7
+		}
+	}
+
+	knightmare_equipment_gen_6 = {
+		year = 2015
+
+		archetype = knightmare_equipment
+		parent = knightmare_equipment_gen_5
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 33
+		reliability = 0.83
+
+		#Defensive Abilities
+		defense = 11
+		breakthrough = 90
+		hardness = 0.92
+		armor_value = 95
+
+		#Offensive Abilities
+		soft_attack = 45
+		hard_attack = 55
+		ap_attack = 123
+		air_attack = 14
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 36
+		resources = {
+			#oil = 1
+			steel = 4
+			chromium = 4
+			sakuradite = 8
+		}
+	}
+
+	knightmare_equipment_gen_7 = {
+		year = 2018
+
+		archetype = knightmare_equipment
+		parent = knightmare_equipment_gen_6
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 34
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 12.5
+		breakthrough = 95.5
+		hardness = 0.945
+		armor_value = 97.5
+
+		#Offensive Abilities
+		soft_attack = 48.5
+		hard_attack = 59.5
+		ap_attack = 126
+		air_attack = 15.5
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 42
+		resources = {
+			#oil = 1
+			steel = 5
+			chromium = 4
+			sakuradite = 9
+		}
+
+	}
+
+	knightmare_equipment_gen_8 = {
+		year = 2018
+
+		archetype = knightmare_equipment
+		parent = knightmare_equipment_gen_7
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 35
+		reliability = 0.89
+
+		#Defensive Abilities
+		defense = 14
+		breakthrough = 98
+		hardness = 0.96
+		armor_value = 99
+
+		#Offensive Abilities
+		soft_attack = 41
+		hard_attack = 61
+		ap_attack = 130
+		air_attack = 16.5
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 45
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+			sakuradite = 10
+		}
+	}
+
+	knightmare_equipment_gen_9 = {
+		year = 2018
+
+		archetype = knightmare_equipment
+		parent = knightmare_equipment_gen_8
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 38
+		reliability = 0.93
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 100
+		hardness = 0.98
+		armor_value = 102
+
+		#Offensive Abilities
+		soft_attack = 44
+		hard_attack = 64
+		ap_attack = 135
+		air_attack = 19
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 48
+		resources = {
+			#oil = 1
+			steel = 5
+			chromium = 4
+			sakuradite = 11
+		}
+	}
+
+	marine_knightmare_equipment = {
+		year = 2006
+
+		is_archetype = yes
+		is_convertable = yes
+		#picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 9
+		breakthrough = 60
+		hardness = 0.7
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 30
+		ap_attack = 70
+		air_attack = 5
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 15
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+			sakuradite = 5
+		}
+		
+		fuel_consumption = 15
+	}
+
+	marine_knightmare_equipment_gen_3 = {
+		year = 2009
+
+		archetype = marine_knightmare_equipment
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 28
+		reliability = 0.75
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 75
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 35
+		hard_attack = 44
+		ap_attack = 105
+		air_attack = 8
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 25
+		resources = {
+			#oil = 1
+			steel = 4
+			chromium = 4
+			sakuradite = 6
+		}
+
+	}
+	
+		
+	police_knightmare_equipment = {
+		year = 2006
+
+		is_archetype = yes
+		is_convertable = yes
+		#picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.3
+
+		#Defensive Abilities
+		defense = 9
+		breakthrough = 60
+		hardness = 0.7
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 30
+		ap_attack = 70
+		air_attack = 5
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 15
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+			sakuradite = 5
+		}
+		
+		fuel_consumption = 15
+	}
+
+	police_knightmare_equipment_gen_3 = {
+		year = 2009
+
+		archetype = police_knightmare_equipment
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 28
+		reliability = 0.75
+
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 65
+		hardness = 0.75
+		armor_value = 70
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 34
+		ap_attack = 55
+
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 25
+		resources = {
+			#oil = 1
+			steel = 4
+			chromium = 4
+			sakuradite = 6
+		}
+
+	}
+
+		
+}

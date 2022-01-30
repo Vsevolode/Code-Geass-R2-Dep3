@@ -1,0 +1,83 @@
+sub_units = {
+	commandcentre = { #big C&C
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_army
+			category_command_control
+		}
+
+	
+		combat_width = 0
+	
+		#Misc Abilities
+		max_organisation = 12
+		weight = 0.7
+		maximum_speed = 28
+		reliability = 0.75
+		initiative = 0.001
+		default_morale = 0.3
+
+		#Defensive Abilities
+		defense = 5
+		hardness = 1
+		max_strength = 2
+		entrenchment = 3
+		armor_value = 2
+
+		#Offensive Abilities
+		attack = 5
+		soft_attack = 5
+		hard_attack = 5
+		ap_attack = 3
+		air_attack = 1
+		breakthrough = 3.5
+
+
+		
+		essential = {
+			landship
+		}
+
+		need = {
+			landship_1 = 10
+		}
+
+		forest = {
+			movement = 0.05
+		}
+		hills = {
+			movement = 0.10
+		}
+		mountain = {
+			movement = 0.10
+		}
+		jungle = {
+			movement = 0.10
+		}
+		marsh = {
+			movement = 0.10
+		}
+		plains = {
+			movement = 0.05
+		}
+		desert = {
+			movement = 0.05
+		}
+		river = {
+			movement = 0.1
+		}
+		
+	}
+}

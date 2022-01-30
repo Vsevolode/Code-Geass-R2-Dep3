@@ -1,0 +1,86 @@
+scripted_gui = {
+
+	a11_regime_ui = {
+		context_type = decision_category
+		window_name = "a11_regime_decision_ui_window"
+		 
+        visible = {
+            always = yes
+        }
+		effects = {
+			Hokkaido_Map_click = {
+				set_variable = { A11_Chosen_State = 1 }		
+			}
+			Kansai_Map_click = {
+				set_variable = { A11_Chosen_State = 2 }		
+			}
+			Kanto_Map_click = {
+				set_variable = { A11_Chosen_State = 3 }		
+			}
+			Chuguko_Map_click = {
+				set_variable = { A11_Chosen_State = 4 }		
+			}
+			Kyushu_Map_click = {
+				set_variable = { A11_Chosen_State = 5 }		
+			}
+			Chubu_Map_click = {
+				set_variable = { A11_Chosen_State = 6 }		
+			}
+			Tohoku_Map_click = {
+				set_variable = { A11_Chosen_State = 7 }		
+			}		
+		}
+		triggers = {
+			Hokkaido_Map_visible = {
+				536 = { is_owned_and_controlled_by = A11 }
+			}
+			Kyushu_Map_visible = {
+				528 = { is_owned_and_controlled_by = A11 }	
+			}
+			Kanto_Map_visible = {
+				282 = { is_owned_and_controlled_by = A11 }	
+			}
+			Kansai_Map_visible = {
+				531 = { is_owned_and_controlled_by = A11 }
+			}
+			Chuguko_Map_visible = {
+				529 = { is_owned_and_controlled_by = A11 }
+				530 = { is_owned_and_controlled_by = A11 }
+			}
+			Tohoku_Map_visible = {
+				533 = { is_owned_and_controlled_by = A11 }
+			}
+			Chubu_Map_visible = {
+				532 = { is_owned_and_controlled_by = A11 }	
+				535 = { is_owned_and_controlled_by = A11 }	
+				534 = { is_owned_and_controlled_by = A11 }	
+			}			
+		}
+		properties = { 
+			A11_map {
+				image = "GFX_decision_A11_main_map"
+			}			
+			Hokkaido_Map = {
+				image = "[get_Hokkaido_Map_gfx]"
+			}
+			Kyushu_Map = {
+				image = "[get_Kyushu_Map_gfx]"
+			}
+			Kanto_Map = {
+				image = "[get_Kanto_Map_gfx]"
+			}
+			Kansai_Map = {
+				image = "[get_Kansai_Map_gfx]"
+			}
+			Chuguko_Map = {
+				image = "[get_Chuguko_Map_gfx]"
+			}
+			Tohoku_Map = {
+				image = "[get_Tohoku_Map_gfx]"
+			}
+			Chubu_Map = {
+				image = "[get_Chubu_Map_gfx]"
+			}
+		}
+	}
+}

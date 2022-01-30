@@ -1,0 +1,362 @@
+ideas = {
+    country = {
+	
+	    efficient_administration = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.12
+			political_power_factor = 0.15
+			global_building_slots_factor = 0.10
+			production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		legal_segregation = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = -0.15
+			political_power_factor = -0.20
+			recruitable_population_factor = -0.05
+
+           production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		
+		militarized_academia = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.05
+			research_speed_factor = 0.15
+			production_speed_arms_factory_factor = 0.10
+			}
+		}
+		
+		extreme_stratocracy = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.10
+			military_leader_cost_factor = 0.30
+			army_leader_cost_factor = 0.30
+			}
+		}
+		
+		aristocratic_families = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			authoritarian_democracy_drift = 0.02
+			stability_factor = -0.10
+			political_power_gain = -0.35
+			consumer_goods_factor = 0.10
+			}
+		}
+		
+		army_primacy = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			army_attack_factor = 0.25
+			army_defence_factor = 0.20
+			experience_gain_army_factor = 0.15
+			army_morale_factor = 0.15
+			promote_cost_factor = 0.10
+			}
+		}
+	
+				
+		financial_conglomerates = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.15
+			production_factory_max_efficiency_factor = -0.05
+			production_factory_efficiency_gain_factor = -0.10
+			industrial_capacity_factory = 0.15
+            industrial_capacity_dockyard = 0.15
+			}
+		}
+		
+		pax_britannica = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.15
+			stability_factor = 0.10
+			justify_war_goal_time = -0.35
+			}
+		}
+		
+				economic_isolation = {
+		
+		 	allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.15
+			stability_weekly = -0.002
+			min_export = -0.80
+			}
+		}
+		
+						economic_isolation_2 = {
+		
+		 	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.10
+			stability_weekly = -0.001
+			min_export = -0.40
+			}
+		}
+		
+		
+		
+				
+
+
+
+    }
+	
+	
+	
+	head_of_government = {	
+	
+	
+		BRT_odysseus = {
+
+			picture = odysseus_eu_britannia
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { autocracy_guy mediocre_prince }
+		}
+		
+				BRT_schneizel = {
+
+			picture = schneizel_eu_britannia
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { conservative_guy white_prince }
+		}
+		
+		
+						BRT_guinevere = {
+
+			picture = guinevere_eu_britannia
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { nationalist_guy marie_antoniette }
+		}
+
+	
+	
+	
+	
+	}
+	
+	
+	intelligence = {
+						BRT_VV = {
+
+			picture = VV_britannia
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { geass_connections }
+		}	
+	}	
+	
+	economy_minister = {
+	
+							BRT_generic_noble_1 = {
+
+			picture = BRT_generic_noble_1
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { oligarchy_guy corrupt_kleptocrat }
+		}
+	}
+	
+	
+	minister_of_interior = {
+		
+							BRT_generic_general_1 = {
+
+			picture = BRT_generic_general_1
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { autocracy_guy iron_fist }
+		}
+	}	
+	
+	foreign_minister = {
+	
+								BRT_generic_minister_1 = {
+
+			picture = BRT_generic_minister_1
+						available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { oligarchy_guy purist_simpaty }
+		}
+	}
+}	
+	
