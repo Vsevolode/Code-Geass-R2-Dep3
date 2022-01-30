@@ -1,0 +1,15 @@
+version="1.11.*"
+picture="thumbnail.png"
+tags={
+	"Alternative History"
+	"Events"
+	"Historical"
+	"Ideologies"
+	"National Focuses"
+	"Map"
+}
+replace_path="history/states"
+replace_path="events"
+replace_path="gfx/flags"
+name="Code Geass-R2"
+supported_version="1.11.5"

@@ -1,0 +1,482 @@
+﻿
+add_namespace = JAP
+
+
+country_event = {  
+	id = JAP.1
+	title = JAP.1.t
+	desc = JAP.1.d
+	picture = GFX_JAP_birth_problem
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	
+	option = {
+		name = JAP.1.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+
+    }     
+}
+
+
+country_event = {  
+	id = JAP.2
+	title = JAP.2.t
+	desc = JAP.2.d
+	picture = GFX_JAP_discuss_abortion
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	
+	option = {
+		name = JAP.2.a
+		
+		ai_chance = {
+			factor = 100
+		}
+
+		add_political_power = 70
+		
+
+    } 
+	
+	option = {
+		name = JAP.2.b
+		
+		ai_chance = {
+			factor = 100
+		}
+
+		add_political_power = -20
+		add_popularity = {
+			ideology = moderate_conservatism
+			popularity = -0.05
+		}
+
+		set_variable = {
+			JAP_abortion = 1
+		}
+		
+
+    }    
+}
+
+
+country_event = {  
+	id = JAP.3
+	title = JAP.3.t
+	desc = JAP.3.d
+	picture = GFX_JAP_geopolitics
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.3.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+
+    }     
+}
+
+
+country_event = {  
+	id = JAP.4
+	title = JAP.4.t
+	desc = JAP.4.d
+	picture = GFX_JAP_Archer
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.4.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+
+    }     
+}
+
+
+country_event = {  
+	id = JAP.5
+	title = JAP.5.t
+	desc = JAP.5.d
+	picture = GFX_JAP_Earthquake
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		original_tag = JAP
+	}
+
+	mean_time_to_happen = {
+		days = 150
+	}
+	
+	
+	option = {
+		name = JAP.5.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		add_manpower = -150
+		add_stability = -0.02
+		282 = {
+		damage_building = {
+			type = infrastructure
+			damage = 3
+		}
+	    } 
+
+    }     
+}
+
+country_event = {  
+	id = JAP.7
+	title = JAP.7.t
+	desc = JAP.7.d
+	picture = GFX_JAP_extraction
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.7.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+
+    }     
+}
+
+country_event = {  
+	id = JAP.6
+	title = JAP.6.t
+	desc = JAP.6.d
+	picture = GFX_JAP_gamble
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.6.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			country_event = { id = JAP.8 days = 15 }
+		}
+
+    }
+	
+	option = {
+		name = JAP.6.b
+		
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			country_event = { id = JAP.9 days = 15 }
+		}
+
+    } 
+
+	option = {
+		name = JAP.6.c
+		
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			country_event = { id = JAP.10 days = 15 }
+		}
+
+
+    } 
+}
+
+country_event = {  
+	id = JAP.8
+	title = JAP.8.t
+	desc = JAP.8.d
+	picture = GFX_JAP_failure
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.8.a
+		
+		ai_chance = {
+			factor = 100
+		}
+
+		
+		remove_ideas = minerary_industry_funds_4 
+		add_ideas = minerary_industry_funds_fail
+		add_stability = -0.15
+
+		set_variable = {
+			bet_won = 2
+		}
+
+    }     
+}
+
+country_event = {  
+	id = JAP.9
+	title = JAP.9.t
+	desc = JAP.9.d
+	picture = GFX_JAP_success
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.9.a
+		
+		ai_chance = {
+			factor = 100
+		}
+        
+		swap_ideas = {
+			remove_idea = minerary_industry_funds_4
+			add_idea = minerary_industry_funds_5
+		}
+
+		set_variable = {
+			bet_won = 1
+		}
+    }     
+}
+
+country_event = {  
+	id = JAP.10
+	title = JAP.10.t
+	desc = JAP.10.d
+	picture = GFX_JAP_partial_failure
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = JAP.10.a
+		
+		ai_chance = {
+			factor = 100
+		}
+
+
+		set_variable = {
+			bet_won = 1
+		}
+
+		add_stability = 0.05
+		remove_ideas = minerary_industry_funds_4 
+
+    }     
+}
+
+country_event = { #Start of Pacific War
+	id = JAP.11
+	title = JAP.11.t
+	desc = JAP.11.d
+	picture = GFX_JAP_pacific_war
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.11.a
+		add_war_support = -0.20
+		add_political_power = 100
+		add_ideas = political_shock
+		add_to_variable = {
+			var = we_are_not_fucked_by_britannia
+			value = -1
+		}
+		add_timed_idea = {
+			idea = surprise_attack_jap
+			days = 45
+		}
+
+		hidden_effect = {
+			news_event = news.4 
+		}
+	}
+}
+
+
+country_event = { ##Kururugi speech, beginning of total war
+	id = JAP.12
+	title = JAP.12.t
+	desc = JAP.12.d
+	picture = GFX_JAP_destruction
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.12.a
+		add_stability = -0.05
+		add_manpower = -50000
+		add_ideas = total_war
+	}
+}
+
+country_event = { ##Truce
+	id = JAP.13
+	title = JAP.13.t
+	desc = JAP.13.d
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.13.a
+		BRT = {
+			white_peace = JAP
+
+
+			diplomatic_relation = {
+				country = JAP
+				relation = military_access
+			}
+
+			diplomatic_relation = {
+				country = JAP
+				relation = docking_rights
+			}
+
+			transfer_state = 526
+
+			hidden_effect = {
+
+           news_event = news.5 
+	
+					JAP = {
+						give_resource_rights = {
+							receiver = BRT
+							state = 532
+						}
+						give_resource_rights = {
+							receiver = BRT
+							state = 282
+						}
+						give_resource_rights = {
+							receiver = BRT
+							state = 531
+						}
+					}
+				
+	
+	
+			}
+
+		}
+	}
+}
+
+country_event = { #death of Kurugi triggered in the suzaku chain.
+	id = JAP.14
+	title = JAP.14.t
+	desc = JAP.14.d
+	picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.14.a
+        add_political_power = -500
+		kill_country_leader = yes
+		custom_effect_tooltip = country_out_of_control
+		hidden_effect = {
+		    set_variable = {
+				genbu_death = 1
+			}	
+		}
+	}
+}
+
+country_event = { #partition of Japan
+	id = JAP.15
+	title = JAP.15.t
+	desc = JAP.15.d
+	picture = GFX_JAP_divided
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.15.a
+		hidden_effect = {
+			set_cosmetic_tag = JAP_PAR
+			BRT = { 
+				puppet = JAP
+			}
+			CHI = { 
+				puppet = MJA
+			}		
+			MJA = { change_tag_from = JAP }	
+			MJA = { 
+                 transfer_state = 528
+				 transfer_state = 530
+				 transfer_state = 529
+				 transfer_state = 531
+				 transfer_state = 532
+				 transfer_state = 535
+			}	
+
+			CHI = { 
+				transfer_state = 526
+		   }
+
+		   RUS = { 
+			transfer_state = 555
+	        }
+		}
+	}
+
+	option = {
+		name = JAP.15.b
+		hidden_effect = {
+			set_cosmetic_tag = JAP_PAR
+			BRT = { 
+				puppet = JAP
+			}		
+			CHI = { 
+				puppet = MJA
+			}
+			MJA = { 
+                 transfer_state = 528
+				 transfer_state = 530
+				 transfer_state = 529
+				 transfer_state = 531
+				 transfer_state = 532
+				 transfer_state = 535
+			}	
+
+			CHI = { 
+				transfer_state = 526
+		   }
+
+		   RUS = { 
+			transfer_state = 555
+	        }
+		}
+	}
+}

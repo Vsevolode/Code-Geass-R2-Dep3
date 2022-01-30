@@ -1,0 +1,217 @@
+	
+spriteTypes = {
+
+	#A11
+	
+	spriteType = {
+		name = "GFX_A11_event_1"
+		texturefile = "gfx/event_pictures/A11_event_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_A11_event_2"
+		texturefile = "gfx/event_pictures/A11_event_2.dds"
+	}
+
+		spriteType = {
+		name = "GFX_A11_event_3_4"
+		texturefile = "gfx/event_pictures/A11_event_3_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_A11_event_3_4"
+		texturefile = "gfx/event_pictures/A11_event_3_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_A11_event_6"
+		texturefile = "gfx/event_pictures/A11_event_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_A11_event_7"
+		texturefile = "gfx/event_pictures/A11_event_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_A11_event_11"
+		texturefile = "gfx/event_pictures/A11_event_11.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_A11_event_13"
+		texturefile = "gfx/event_pictures/A11_event_13.dds"
+	}
+
+
+
+	#Britannia
+
+	spriteType = {
+		name = "GFX_BRT_marianne_dead"
+		texturefile = "gfx/event_pictures/BRT_marianne_dead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_BRT_area_11"
+		texturefile = "gfx/event_pictures/BRT_area_11.dds"
+	}
+
+		spriteType = {
+		name = "GFX_BRT_lelouch_exiled"
+		texturefile = "gfx/event_pictures/BRT_lelouch_exiled.dds"
+	}
+
+		spriteType = {
+		name = "GFX_BRT_geass"
+		texturefile = "gfx/event_pictures/BRT_geass.dds"
+	}
+
+			spriteType = {
+		name = "GFX_BRT_invasion"
+		texturefile = "gfx/event_pictures/BRT_invasion.dds"
+	}
+				spriteType = {
+		name = "GFX_BRT_chi_flag"
+		texturefile = "gfx/event_pictures/BRT_chi_flag.dds"
+	}
+
+					spriteType = {
+		name = "GFX_news_event_001"
+		texturefile = "gfx/event_pictures/news_event_001.dds"
+	}
+
+					spriteType = {
+		name = "GFX_news_event_002"
+		texturefile = "gfx/event_pictures/news_event_002.dds"
+	}
+
+					spriteType = {
+		name = "GFX_news_event_003"
+		texturefile = "gfx/event_pictures/news_event_003.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_005"
+		texturefile = "gfx/event_pictures/news_event_005.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_006"
+		texturefile = "gfx/event_pictures/news_event_006.dds"
+	}
+
+	#JAP
+	spriteType = {
+		name = "GFX_JAP_birth_problem"
+		texturefile = "gfx/event_pictures/birth_problem.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_divided"
+		texturefile = "gfx/event_pictures/JAP_divided.dds"
+	}
+
+
+						spriteType = {
+		name = "GFX_JAP_discuss_abortion"
+		texturefile = "gfx/event_pictures/discuss_abortion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_geopolitics"
+		texturefile = "gfx/event_pictures/JAP_geopolitics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_Archer"
+		texturefile = "gfx/event_pictures/JAP_Archer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_extraction"
+		texturefile = "gfx/event_pictures/jap_sakuradite_ex.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_gamble"
+		texturefile = "gfx/event_pictures/jap_great_gamble.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_failure"
+		texturefile = "gfx/event_pictures/jap_failure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_success"
+		texturefile = "gfx/event_pictures/jap_success.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_JAP_partial_failure"
+		texturefile = "gfx/event_pictures/jap_partial_failure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_Earthquake"
+		texturefile = "gfx/event_pictures/jap_partial_failure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_destruction"
+		texturefile = "gfx/event_pictures/jap_destruction.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_JAP_genbu_death"
+		texturefile = "gfx/event_pictures/JAP_genbu_death.dds"
+	}
+
+
+
+	#Canada/Area
+
+						spriteType = {
+		name = "GFX_Areas_term"
+		texturefile = "gfx/event_pictures/Areas_term.dds"
+	}
+
+
+						spriteType = {
+		name = "GFX_Areas_purists"
+		texturefile = "gfx/event_pictures/Areas_purists.dds"
+	}
+	
+	#China
+	spriteType = {
+		name = "GFX_india_monument"
+		texturefile = "gfx/event_pictures/chinafed_4.dds"
+	}
+
+	
+								spriteType = {
+		name = "GFX_china_factory"
+		texturefile = "gfx/event_pictures/chinafed_5.dds"
+	}
+	
+									spriteType = {
+		name = "GFX_indonesia"
+		texturefile = "gfx/event_pictures/chinafed_1.dds"
+	}
+	
+									spriteType = {
+		name = "GFX_taliban"
+		texturefile = "gfx/event_pictures/chinafed_2.dds"
+	}
+	
+									spriteType = {
+		name = "GFX_central_asia"
+		texturefile = "gfx/event_pictures/chinafed_3.dds"
+	}
+
+
+}

@@ -1,0 +1,51 @@
+﻿l_english:
+#Names-Ideologies
+authoritarian_democracy_noun:0 "Oligarchic Government"
+authoritarian_democracy:0 "Oligarchic Government"
+moderate_conservatism:0 "Social-Conservatism"
+moderate_conservatism_noun:0 "Social-Conservatism"
+moderate_liberalism:0 "Social-Liberalism"
+moderate_liberalism_noun:0 "Social-Liberalism"
+moderate_socialism:0 "Social-Democracy"
+moderate_socialism_noun:0 "Social-Democracy"
+hardline_socialism_noun:0 "Revolutionary Socialism"
+hardline_socialism:0 "Revolutionary Socialism"
+totalitarian_socialism:0 "Totalitarian Communism"
+totalitarian_socialism_noun:0 "Totalitarian Communism"
+autocracy:0 "Paternal Autocracy"
+autocracy_noun:0 "Paternal Autocracy"
+ultra_nationalism:0 "Nationalist Populism"
+ultra_nationalism_noun:0 "Nationalist Populism"
+
+
+
+#Description
+autocracy_desc:0 "Autocratic State"
+ultra_nationalism_desc:0 "Nationalist State"
+authoritarian_democracy_desc:0 "Oligarchic/Authoritarian State"
+moderate_conservatism_desc:0 "Liberal-Conservative Democracy"
+moderate_liberalism_desc:0 "Liberal Democracy"
+moderate_socialism_desc:0 "Liberal-Socialist Democracy"
+hardline_socialism_desc:0 "Radical Socialist State"
+totalitarian_socialism_desc:0 "Totalitarian Socialist State"
+
+
+authoritarian_democracy_drift:0 "Daily Oligarchic Support"
+autocracy_drift:0 "Daily Autocratic Support"
+ultra_nationalism_drift:0 "Daily Nationalist Support"
+moderate_conservatism_drift:0 "Daily Conservative Support"
+moderate_liberalism_drift:0 "Daily Liberal Support"
+moderate_socialism_drift:0 "Daily Socialist Support"
+hardline_socialism_drift:0 "Daily Revolutionary Socialist Support"
+totalitarian_socialism_drift:0 "Daily Communist Support"
+
+ultra_nationalism_acceptance:0 "Nationalist Populism Acceptance"
+authoritarian_democracy_acceptance:0 "Oligarchic Government Acceptance"
+autocracy_acceptance:0 "Paternal Autocracy Acceptance"
+moderate_conservatism_acceptance:0 "Social-Conservatism Acceptance"
+moderate_liberalism_acceptance:0 "Social-Liberalism Acceptance"
+moderate_socialism_acceptance:0 "Social-Democracy Acceptance"
+hardline_socialism_acceptance:0 "Revolutionary Socialism Acceptance"
+totalitarian_socialism_acceptance:0 "Totalitarian Communism Acceptance"
+##Menu
+WALTZ_LOC:0 "During the last decades three superpowers had been expanding their power: the Britannian Empire, the Chinese Federation and the Europian Universe. They had developed different political and social systems, but their goal is the same- dominate the entire world. As a result of the competition, only few nations have remained independent, struggling to survive between the three Leviathans. Until today, a fragile peace have been preserved; however with the recent tensions in the Pacific and a potential international crisis, nobody knows if this three-sided waltz will survive..."

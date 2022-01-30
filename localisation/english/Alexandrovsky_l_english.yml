@@ -1,0 +1,26 @@
+﻿l_english:
+
+### Leaders ###
+
+### Events ###
+
+### Country ###
+ALE:0 "Fort Alexandrovsky's Naval Base"
+ALE_DEF:0 "the Fort Alexandrovsky's Naval Base"
+ALE_ADJ:0 "Kazakh"
+
+
+
+ALE_authoritarian_democracy_party:0 "Gāodà Tàijiàn"
+ALE_authoritarian_democracy_party_long:0 "High Eunuchs"
+ALE_autocracy_party_long:0 "Imperial Army"
+ALE_autocracy_party:0 "Dìguó Jūn"
+ALE_totalitarian_socialism_party:0 "TPLA"
+ALE_totalitarian_socialism_party_long:0 "Turkestan People's Liberation Army"
+ALE_hardline_socialism_party:0 "TPLA"
+ALE_hardline_socialism_party_long:0 "Turkestan People's Liberation Army"
+ALE_ultra_nationalism_party:0 "TPA"
+ALE_ultra_nationalism_party_long:0 "Turkestan Patriotic Army"
+ALE_moderate_conservatism_party:0 "Leaderless Partisans"
+ALE_moderate_liberalism_party:0 "Leaderless Partisans"
+ALE_moderate_socialism_party:0 "Leaderless Partisans"
