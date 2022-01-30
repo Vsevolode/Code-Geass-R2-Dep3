@@ -1,0 +1,29 @@
+A11_Suppression_Campaign = {
+	icon = GFX_decision_category_A11_Suppression_Campaign
+	priority = 100
+	allowed = {
+		tag = A11
+	}
+	visible_when_empty = yes
+	visible = {
+		OR = {
+
+			has_country_leader = {
+				ruling_only = yes
+				name = "Clovis La Britannia"
+			}
+
+			has_country_leader = {
+				ruling_only = yes
+				name = "Bismark Waldstein"
+			}
+
+			has_country_leader = {
+				ruling_only = yes
+				name = "Britannian Viceroy" #Temporary
+			}
+
+		}	
+	}
+	scripted_gui = a11_regime_ui
+}

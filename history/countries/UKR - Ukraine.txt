@@ -1,6 +1,6 @@
 ﻿capital = 16
 
-oob = "_1936"
+oob = "FRA_1936"
 
 
 set_research_slots = 3
@@ -57,9 +57,6 @@ set_popularities = {
 
 add_ideas = {
 }
-
-
-
 
 create_country_leader = {
 	name = "United European Council"

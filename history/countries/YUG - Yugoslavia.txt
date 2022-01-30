@@ -59,8 +59,6 @@ add_ideas = {
 }
 
 
-
-
 create_country_leader = {
 	name = "United European Council"
 	desc = "POLITICS_CHARLES_DESC"

@@ -1,0 +1,329 @@
+ 
+A11_Suppression_Campaign = {
+	#Selection
+	A11_selected_state = {
+		visible = {
+			OR = {
+				check_variable = { A11_Chosen_State = 1 }
+				check_variable = { A11_Chosen_State = 2 }
+				check_variable = { A11_Chosen_State = 3 }
+				check_variable = { A11_Chosen_State = 4 }
+				check_variable = { A11_Chosen_State = 5 }
+				check_variable = { A11_Chosen_State = 6 }
+				check_variable = { A11_Chosen_State = 7 }
+			}
+		}
+		available = {
+			always = no
+		}
+		cost = freedec?0
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = A11_selected_state_dec
+		}
+		
+	}
+
+   #Hokkaido Section
+	A11_military_crackdown_hokkaido = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_State = 1 }
+            check_variable = { Hokkaido_Resistance > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { has_country_flag = A11_doing_Actions }
+		}
+		cost = 15
+
+		days_remove = 20
+		days_re_enable = 30
+
+		complete_effect = {
+			set_country_flag = A11_doing_Actions
+		}
+
+		
+		modifier = {
+			stability_weekly_factor = -0.0010
+	   }
+
+		remove_effect = {
+			A11_reinforce_control_hokkaido = yes
+			hidden_effect = {
+				clr_country_flag = A11_doing_Actions
+			}
+
+
+		}
+
+
+	}	
+
+	A11_targeted_assassinations_hokkaido = {
+		
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_State = 1 }
+            check_variable = { Hokkaido_Resistance > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { has_country_flag = A11_doing_Actions }
+	        
+		}
+		cost = 35
+
+		days_remove = 30
+		days_re_enable = 30
+
+		complete_effect = {
+			set_country_flag = A11_doing_Actions
+			custom_effect_tooltip = A11_increase_support_small
+		}
+
+		remove_effect = {
+	
+			hidden_effect = {
+				clr_country_flag = A11_doing_Actions
+				add_to_variable = { Hokkaido_Resistance = -0.08 }
+			}
+
+
+		}
+	}
+
+	A11_gas_countryside_hokkaido = {
+				
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_State = 1 }
+            check_variable = { Hokkaido_Resistance > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { has_country_flag = A11_doing_Actions }
+		}
+		cost = 50
+
+		days_remove = 40
+		days_re_enable = 30
+
+		complete_effect = {
+			set_country_flag = A11_doing_Actions
+			custom_effect_tooltip = A11_increase_support_large
+			custom_effect_tooltip = toxic_zone
+		}
+
+		remove_effect = {
+	
+			hidden_effect = {
+				clr_country_flag = A11_doing_Actions
+				add_to_variable = { Hokkaido_Resistance = -0.18 }
+			}
+
+
+		}
+	}
+
+	A11_bribes_hokkaido = {
+				
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_State = 1 }
+            check_variable = { Hokkaido_Resistance > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { has_country_flag = A11_doing_Actions }
+		}
+		cost = 25
+
+		days_remove = 20
+		days_re_enable = 30
+
+		complete_effect = {
+			set_country_flag = A11_doing_Actions
+			custom_effect_tooltip = A11_increase_support_medium
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.15
+	   }
+
+		remove_effect = {
+	
+			hidden_effect = {
+				clr_country_flag = A11_doing_Actions
+				add_to_variable = { Hokkaido_Resistance = -0.13 }
+				
+			}
+
+
+		}
+	}
+
+	A11_force_them_underground_hokkaido = {
+				
+		fire_only_once = yes
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_State = 1 }
+		    }
+		}
+
+		available = {
+			NOT = { has_country_flag = A11_doing_Actions }
+			check_variable = { Hokkaido_Resistance < 0.10 }
+		}
+		cost = 50
+
+		days_remove = 50
+		days_re_enable = 30
+
+		complete_effect = {
+			set_country_flag = A11_doing_Actions
+		}
+
+		remove_effect = {
+	
+			hidden_effect = {
+				clr_country_flag = A11_doing_Actions
+				add_to_variable = {
+					var = tot_cleared_regions
+					value = 1
+				}
+			}
+            add_political_power = 100
+			add_stability = 0.03
+			add_war_support = 0.03
+
+		}
+	}
+
+    
+
+	#Daily Generaal Increase
+	A11_daily_general_increase_1 = {
+
+
+		days_mission_timeout = 30
+		is_good = no
+		fire_only_once = no
+
+		allowed = { tag = A11 } 
+
+		available = {
+			always = no
+		}
+
+
+		activation = {                
+			tag = A11          
+		}
+
+		visible = {
+			OR = {
+				check_variable = { A11_Chosen_State = 1 }
+				check_variable = { A11_Chosen_State = 2 }
+				check_variable = { A11_Chosen_State = 3 }
+				check_variable = { A11_Chosen_State = 4 }
+				check_variable = { A11_Chosen_State = 5 }
+				check_variable = { A11_Chosen_State = 6 }
+				check_variable = { A11_Chosen_State = 7 }
+			}
+	    }
+
+
+	
+	timeout_effect = {
+		custom_effect_tooltip = A11_decrease_support_small
+		if = {
+			limit = { check_variable = { Hokkaido_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { Hokkaido_Resistance = 0.05 }
+			}
+
+			else_if = {
+				limit = { check_variable = { Kansai_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { Kansai_Resistance = 0.05 }
+			}
+			}
+
+			else_if = {
+				limit = { check_variable = { Kanto_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { Kanto_Resistance = 0.05 }
+			}
+			}
+
+			else_if = {
+				limit = { check_variable = { Chuguko_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { Chuguko_Resistance = 0.05 }
+			}
+			}
+
+			else_if = {
+				limit = { check_variable = { kyushu_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { kyushu_Resistance = 0.05 }
+			}
+			}
+
+			else_if = {
+				limit = { check_variable = { Chubu_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { Chubu_Resistance = 0.05 }
+			}
+			}
+
+			else_if = {
+				limit = { check_variable = { tohoku_Resistance > 0.10 } }
+
+			hidden_effect = {
+				add_to_variable = { tohoku_Resistance = 0.05 }
+			}
+			}
+		}
+
+    }
+
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+

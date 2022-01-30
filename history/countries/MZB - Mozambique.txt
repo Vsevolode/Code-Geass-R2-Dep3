@@ -1,6 +1,6 @@
 ﻿capital = 16
 
-oob = "_1936"
+oob = "FRA_1936"
 
 
 set_research_slots = 3
@@ -40,57 +40,23 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = moderate_liberalism
-	last_election = "2008.5.1"
-	election_frequency = 48
-	elections_allowed = yes
 }
 set_popularities = {
-
-	moderate_socialism = 21
-	moderate_conservatism = 27
-	moderate_liberalism = 31
-	totalitarian_socialism = 5
-	authoritarian_democracy = 11
-	autocracy = 5
 }
 
 add_ideas = {
 }
 
 
-
-
 create_country_leader = {
 	name = "United European Council"
 	desc = "POLITICS_CHARLES_DESC"
 	picture = "Portrait_Forty.dds"
 	expire = "2030.1.1"
-	ideology = social_conservatism
+	ideology = paternal_autocracy
 	traits = {
 	}
 }
-
-create_country_leader = {
-	name = "United European Council"
-	desc = "POLITICS_CHARLES_DESC"
-	picture = "Portrait_Forty.dds"
-	expire = "2030.1.1"
-	ideology = social_liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "United European Council"
-	desc = "POLITICS_CHARLES_DESC"
-	picture = "Portrait_Forty.dds"
-	expire = "2030.1.1"
-	ideology = social-capitalism
-	traits = {
-	}
-}
-
 
 
 

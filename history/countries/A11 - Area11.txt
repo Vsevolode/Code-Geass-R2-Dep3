@@ -1,0 +1,190 @@
+﻿capital = 282
+
+oob = "A11_START"
+set_country_flag = hbe_administrative_area
+
+
+set_research_slots = 3
+set_stability = 0.30
+set_war_support = 0.20
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	basic_light_tank = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	eu_war_artillery = 1
+	modern_artillery_90 = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+	sakuradite_extraction = 1
+}
+
+BRT = {
+	set_autonomy = {
+		target = A11
+		autonomous_state = area_reformation
+	}
+	}
+	set_politics = {
+		ruling_party = autocracy
+		last_election = "1936.5.16"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	add_popularity = { ideology = autocracy popularity = 0.80 }
+	add_popularity = { ideology = authoritarian_democracy popularity = 0.25 }
+	add_popularity = { ideology = ultra_nationalism popularity = 0.10 }
+	add_popularity = { ideology = moderate_liberalism popularity = 0.03 }
+	add_popularity = { ideology = moderate_socialism popularity = 0.02 }
+
+set_convoys = 0
+
+
+
+add_ideas = {
+	limited_exports
+	partial_economic_mobilisation
+	limited_conscription
+	administrative_strain
+	destroyed_infratructures
+	BRT_generic_minister_1
+	BRT_generic_general_1
+	BRT_VV
+}
+A11_modifiers_setup = yes
+
+
+
+create_country_leader = {
+	name = "Clovis La Britannia"
+	desc = "POLITICS_AREA_DESC"
+	picture = "Portrait_Clovis.dds"
+	expire = "2020.1.1"
+	ideology = britannian_governorship
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bismark Waldstein"
+	desc = "POLITICS_AREA_DESC"
+	picture = "Portrait_Bismark.dds"
+	expire = "2020.1.1"
+	ideology = britannian_governorship
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Britannian Viceroy"
+	desc = "POLITICS_AREA_DESC"
+	picture = "Portrait_Viceroy.dds"
+	expire = "2020.1.1"
+	ideology = britannian_governorship
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Aristocrats"
+	expire = "2020.1.1"
+	ideology = oligarchic_government
+	picture = "Portrait_Viceroy.dds"
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Britannian Army"
+	expire = "2020.1.1"
+	ideology = iper-nationalism
+		picture = "Portrait_Viceroy.dds"
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Industrial Groups"
+	expire = "2020.1.1"
+	ideology = social_conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Local Cliques"
+	expire = "2020.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Local Cliques"
+	expire = "2020.1.1"
+	ideology = social-capitalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Local Cliques"
+	expire = "2020.1.1"
+	ideology = orthodox_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Local Cliques"
+	expire = "2020.1.1"
+	ideology = hardline_communism
+	traits = {
+	}
+}
+
+
+
+
+
+
+
+
+
+create_field_marshal = {
+
+	name = "Bismarck Waldstein"
+	picture = "Portrait_Waldstein.dds"
+	traits = { absolute_prediction brilliant_strategist aggressive_assaulter }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+
+
+
+
+
+
+
+
+
