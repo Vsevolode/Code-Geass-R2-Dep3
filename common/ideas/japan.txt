@@ -4,7 +4,7 @@ ideas = {
 	    democratic_bastion = {
 		
 		 	allowed = {
-				always = no
+				always = yes
 			}
 
 			allowed_civil_war = {
@@ -42,7 +42,7 @@ ideas = {
 		diplomacy_neutrality = {
 		
 		 	allowed = {
-				always = no
+				always = yes
 			}
 			
 					rule = {

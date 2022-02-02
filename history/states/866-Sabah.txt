@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = MAL
+		owner = INS
 		victory_points = {
 			10212 1 
 		}
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = MAL
+		add_core_of = INS
 
 	}
 

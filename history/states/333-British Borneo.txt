@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SAW
+		owner = INS
 		victory_points = {
 			7371 1 
 		}
@@ -27,7 +27,7 @@ state={
 			}
 
 		}
-		add_core_of = SAW
+		add_core_of = INS
 
 	}
 
