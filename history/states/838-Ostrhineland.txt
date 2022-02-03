@@ -3,7 +3,7 @@ state={
 	name="STATE_838"
 
 	history={
-		owner = GER
+		owner = FRA
 		victory_points = {
 			6469 10 
 		}
@@ -17,7 +17,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = GER
+		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
 				air_base = 6
@@ -35,7 +35,7 @@ state={
 	}
 
 	provinces={
-		529 3512 6469 6570 9482 
+		529 3512 6469 6570 9482 9486
 	}
 	manpower=3130003
 	buildings_max_level_factor=1.000
