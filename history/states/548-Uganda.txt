@@ -2,6 +2,7 @@
 state={
 	id=548
 	name="STATE_548"
+	impassable = yes
 	resources={
 		rubber=3.000
 	}

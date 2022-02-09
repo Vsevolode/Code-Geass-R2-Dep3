@@ -14,8 +14,6 @@ state={
 
 		}
 		add_core_of = YUG
-		add_core_of = CRO
-		start_resistance = CRO
 
 	}
 

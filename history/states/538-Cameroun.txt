@@ -3,13 +3,14 @@ state={
 	id=538
 	name="STATE_538" # Central Congo
 	manpower = 1693974
+	impassable = yes
 	
 	state_category = wasteland
 	resources={
 		rubber=5 # was: 5
 	}
 	history={
-		owner = BEL
+		owner = FRA
 		buildings = {
 			infrastructure = 1
 		}

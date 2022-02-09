@@ -4,6 +4,7 @@ state={
 	name="STATE_556" # Mali (previously French West Africa)
 	manpower = 3324782
 	
+	impassable = yes
 	state_category = rural
 
 	history={
