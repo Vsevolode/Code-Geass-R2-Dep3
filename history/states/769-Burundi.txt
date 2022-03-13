@@ -6,8 +6,13 @@ state={
 	state_category = pastoral
 
 	history={
+<<<<<<< Updated upstream
 		owner = FRA
 		add_core_of = BRD
+=======
+		owner = EAU
+		add_core_of = EAU
+>>>>>>> Stashed changes
 		victory_points = {
 			2220 1
 		}

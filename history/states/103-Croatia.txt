@@ -4,7 +4,7 @@ state={
 	name="STATE_103"
 
 	history={
-		owner = YUG
+		owner = DAN
 		victory_points = {
 			3868 3 
 		}
@@ -28,7 +28,11 @@ state={
 			}
 
 		}
+<<<<<<< Updated upstream
 		add_core_of = YUG
+=======
+		add_core_of = DAN
+>>>>>>> Stashed changes
 
 	}
 

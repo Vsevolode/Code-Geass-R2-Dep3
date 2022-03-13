@@ -7,8 +7,8 @@ state={
 	
 	history=
 	{
-		owner = FRA
-		add_core_of = FRA
+		owner = WAF
+		add_core_of = WAF
 		victory_points = {
 			2038 1 
 		}

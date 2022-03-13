@@ -3,7 +3,7 @@ state={
 	name="STATE_899"
 
 	history= {
-		owner = USA
+		owner = BRT
 		buildings = {
 			infrastructure = 2
 			13275 = {

@@ -4,7 +4,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = FRA
+		owner = WAF
 		add_core_of = CHA
 		victory_points = {
 			2081 1

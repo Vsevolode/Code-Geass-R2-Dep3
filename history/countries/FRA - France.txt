@@ -147,6 +147,11 @@ if = {
 		target = EGY
 		autonomous_state = eu_member
 	}
+	
+	set_autonomy = {
+		target = PAL
+		autonomous_state = eu_member
+	}
 
 	set_autonomy = {
 		target = LBA

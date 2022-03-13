@@ -3,12 +3,16 @@ state={
 	name="STATE_876"
 
 	history={
-		owner = YUG
+		owner = DAN
 		buildings = {
 			infrastructure = 3
 
 		}
+<<<<<<< Updated upstream
 		add_core_of = YUG
+=======
+		add_core_of = DAN
+>>>>>>> Stashed changes
 
 	}
 

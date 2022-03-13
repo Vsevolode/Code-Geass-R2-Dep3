@@ -8,7 +8,7 @@ state=
 	history=
 	{
 		add_core_of = BLZ
-		owner = ENG
+		owner = AR3
 		victory_points = {
 			2077 1 
 		}
