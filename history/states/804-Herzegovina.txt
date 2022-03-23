@@ -19,11 +19,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-<<<<<<< Updated upstream
-		add_core_of = YUG
-=======
 		add_core_of = BOS
->>>>>>> Stashed changes
 	}
 
 	provinces={

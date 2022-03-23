@@ -10,13 +10,8 @@ state=
 		victory_points = {
 			6727 1
 		}
-<<<<<<< Updated upstream
-		add_core_of = UKR
-		owner = UKR
-=======
 	
 		owner =  ROM
->>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

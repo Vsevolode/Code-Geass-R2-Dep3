@@ -7,22 +7,14 @@ state={
 	state_category = city
 
 	history={
-<<<<<<< Updated upstream
-		owner = UKR
-=======
 		owner = RUS
->>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
 		victory_points = {
 			6474 10
 		}
-<<<<<<< Updated upstream
-		add_core_of = UKR
-=======
 		add_core_of = RUS
->>>>>>> Stashed changes
 	}
 
 	provinces={

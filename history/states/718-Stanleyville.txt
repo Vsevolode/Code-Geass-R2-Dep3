@@ -10,11 +10,7 @@ state={
 	}
 
 	history={
-<<<<<<< Updated upstream
-		owner = FRA
-=======
 		owner = COG
->>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 1
 

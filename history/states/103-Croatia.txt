@@ -28,11 +28,7 @@ state={
 			}
 
 		}
-<<<<<<< Updated upstream
-		add_core_of = YUG
-=======
 		add_core_of = DAN
->>>>>>> Stashed changes
 
 	}
 
