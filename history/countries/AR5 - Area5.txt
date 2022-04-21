@@ -56,11 +56,7 @@ set_convoys = 50
 
 
 add_ideas = {
-    BRT_VV 
-    BRT_odysseus
-	BRT_generic_noble_1
-	BRT_generic_general_1
-	BRT_generic_minister_1
+
 quota_level_3
 }
 
@@ -69,78 +65,21 @@ create_country_leader = {
 	desc = "POLITICS_AREA_DESC"
 	picture = "Portrait_Viceroy.dds"
 	expire = "2020.1.1"
-	ideology = britannian_governorship
+	ideology = absolute_monarchy
 	traits = {
 	}
 }
-
-create_country_leader = {
-	name = "Aristocrats"
-	expire = "2020.1.1"
-	ideology = oligarchic_government
-	picture = "Portrait_Viceroy.dds"
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Britannian Army"
-	expire = "2020.1.1"
-	ideology = iper-nationalism
-		picture = "Portrait_Viceroy.dds"
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "-"
-	expire = "2020.1.1"
-	ideology = social_conservatism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "-"
-	expire = "2020.1.1"
-	ideology = social_liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "-"
-	expire = "2020.1.1"
-	ideology = social-capitalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "-"
-	expire = "2020.1.1"
-	ideology = orthodox_socialism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "-"
-	expire = "2020.1.1"
-	ideology = hardline_communism
-	traits = {
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
+recruit_character = aristocrats_brt
+recruit_character = right_officers_brt
+recruit_character = officers_brt_5
+recruit_character = null_brt_4
+recruit_character = null_brt_3
+recruit_character = null_brt_2
+recruit_character = null_brt_1
+recruit_character = BRT_odysseus
+recruit_character = BRT_generic_general_1
+recruit_character = BRT_generic_noble_1
+recruit_character = BRT_generic_minister_1
+recruit_character = BRT_VV
 
 

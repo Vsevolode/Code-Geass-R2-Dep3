@@ -434,6 +434,7 @@ country_event = { #partition of Japan
 			MJA = { change_tag_from = JAP }	
 			MJA = { 
                  transfer_state = 528
+				 transfer_state = 944
 				 transfer_state = 530
 				 transfer_state = 529
 				 transfer_state = 531
@@ -468,6 +469,7 @@ country_event = { #partition of Japan
 				 transfer_state = 531
 				 transfer_state = 532
 				 transfer_state = 535
+				 transfer_state = 944
 			}	
 
 			CHI = { 

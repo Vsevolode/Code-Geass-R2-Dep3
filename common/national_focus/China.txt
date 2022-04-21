@@ -26,8 +26,9 @@ focus_tree = {
 	focus = {
 		id = CHI_eunuchs_rule
 		icon = GFX_CHI_eunuchs_rule
-		x = 15
-		y = 0
+		x = 10
+		y = 1
+
 
 		cost = 5
 
@@ -51,14 +52,23 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 75
 			add_stability = -0.02
-		}
+			add_ideas = {
+	CHI_Chang_idea
+	CHI_black_guy_idea
+	CHI_short_guy_idea
+	CHI_gen_eunuch_idea
+	CHI_fat_guy_idea
+}
+
+	    }
+
 	}
-	
 		focus = {
 		id = CHI_annual_report
 		icon = GFX_CHI_annual_report
 		prerequisite = { focus = CHI_eunuchs_rule }
-		x = 15
+		relative_position_id = CHI_eunuchs_rule 
+		x = 0
 		y = 1
 
 
@@ -97,8 +107,9 @@ focus_tree = {
 		id = CHI_ignore_li
 		icon = GFX_CHI_ignore_li
 		prerequisite = { focus = CHI_annual_report }
-		x = 15
-		y = 2
+		relative_position_id = CHI_annual_report
+		x = 0
+		y = 1
 
 
 		cost = 2
@@ -135,8 +146,9 @@ focus_tree = {
 		id = CHI_celebrate_year
 		icon = GFX_CHI_celebrate_year
 		prerequisite = { focus = CHI_annual_report }
-		x = 17
-		y = 2
+		relative_position_id = CHI_annual_report
+		x = 2
+		y = 1
 
 
 		cost = 2
@@ -168,8 +180,9 @@ focus_tree = {
 		id = CHI_annex_tinies
 		icon = GFX_CHI_annex_tinies
 		prerequisite = { focus = CHI_annual_report }
-		x = 13
-		y = 2
+		relative_position_id = CHI_annual_report
+		x = -2
+		y = 1
 
 
 		cost = 2
@@ -211,8 +224,9 @@ focus_tree = {
 		prerequisite = { focus = CHI_annex_tinies }
 		prerequisite = { focus = CHI_celebrate_year }
 		prerequisite = { focus = CHI_ignore_li }
-		x = 15
-		y = 3
+		relative_position_id = CHI_ignore_li
+		x = 0
+		y = 1
 
 
 		cost = 7

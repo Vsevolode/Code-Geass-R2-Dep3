@@ -9,10 +9,10 @@ state={
 	history={
 		owner = CHI
 		victory_points = {
-			957 15 
+			957 20 
 		}
 		victory_points = {
-			6961 1 
+			6961 5
 		}
 		buildings = {
 			infrastructure = 2

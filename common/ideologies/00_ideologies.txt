@@ -4,9 +4,24 @@ ideologies = {
 		
 		types = {
 		
-			iper-nationalism = {
+			geass_cult = {
+			}
+
+			
+			jupiter_cult = {			
+			}
+
+			integralism = {
+			}
+
+			ultra_spartanism = {
 			}
 			
+			national_syndacalism = {
+			}
+
+			yamato_militarism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -58,7 +73,15 @@ ideologies = {
 			
 			absolute_monarchy = {
 			}
-            britannian_governorship = {
+            britannian_con = {
+			}
+			imperial_cult = {
+			}
+			yamato_statism = {
+			}
+			spartanism = {
+			}
+			romano_brit = {
 			}
 		}
 
@@ -108,9 +131,13 @@ ideologies = {
 		
 			military_dictatorship = {
 			}
-			reactionary = {
-			}
 			oligarchic_government = {
+			}
+			genbuism = {
+			}
+			purist_aristocracy = {
+			}
+			jap_neo_feudalism = {
 			}
 			
 		}
@@ -162,6 +189,9 @@ ideologies = {
 		
 			social_conservatism = {
 			}
+
+			national_conservatism = {
+			}
 			
 		}
 
@@ -211,6 +241,13 @@ ideologies = {
 		
 			social_liberalism = {
 			}
+
+			market_liberalism = {
+			}
+
+			
+			ancap = {
+			}
 			
 		}
 
@@ -258,10 +295,10 @@ ideologies = {
 	
 		types = {
 			
-			social-capitalism = {
+			social_democracy = {
 			}
 			
-			democratic_socialism = {
+			reformist_socialism = {
 			}
 			
 		}
@@ -311,13 +348,25 @@ ideologies = {
 		
 		types = {
 		
-			orthodox_socialism = {
+			anarcho_pacifism = {
 			}
 			
-			libertarian_communism = {
+			anarcho_communism = {
 			}
 			
-            trade_unionism = {
+            left_libertarianism = {
+			}
+
+			agrarian_socialism = {
+			}
+
+			lincolnite_socialism = {
+			}
+
+			syndacalism = {
+			}
+
+			neo_menshevism = {
 			}
 		}
 		
@@ -364,10 +413,22 @@ ideologies = {
 		
 		types = {
 		
-			hardline_communism = {
+			molotovism = {
 			}
 			
-			anarchist_communism = {
+			national_bolshevism = {
+			}
+
+			kalininism = {
+			}
+
+			monarcho_bolshevism = {
+			}
+
+			illyrian_socialism = {
+			}
+
+			marxist_lincolnism = {
 			}
 		}
 		

@@ -1,4 +1,9 @@
 ﻿l_english:
+#Country
+A11:0 "Area 11"
+A11_DEF:0 "Area 11"
+A11_ADJ:0 "Eleven"
+
 
 ### Leaders ###
 BRT_bismark:0 "Bismark Waldstein"
@@ -26,16 +31,13 @@ industrial_manufacturer:0 "Industrial Powerhouse"
 A11_alton_cong:0 "Alton Incorporated"
 A11_pendragon_ins:0 "Pendragon Industrial Institute"
 A11_darwin_ass:0 "Darwin Association"
-A11_beswick_ind :0 "Beswick Conglomerate"
+A11_beswick_ind:0 "Beswick Conglomerate"
 
 ### Various ###
 A11_recon:0 "§GIt's Time To Re-establish An Effective Government§!"
 
 
 ### Country ###
-A11:0 "Area 11"
-A11_DEF:0 "the Area 11"
-A11_ADJ:0 "Eleven"
 
 
 #Events

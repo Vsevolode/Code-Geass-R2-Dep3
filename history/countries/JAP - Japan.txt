@@ -101,39 +101,26 @@ set_popularities = {
 	hardline_socialism = 2
 }
 
+recruit_character = JAP_generic_intelligence
+recruit_character = JAP_generic_minister_1
+recruit_character = JAP_kyoto_kirihara
+recruit_character = JAP_kururugi
+recruit_character = JAP_sawasaki
+recruit_character = JAP_tohdoh
+recruit_character = JAP_generic_navy
+recruit_character = JAP_generic_air
+recruit_character = JAP_katase
 
-create_country_leader = {
-	name = "Collapsed Authority"
-	desc = "POLITICS_COLLAPSE_DESC"
-	picture = "Portrait_Anarchy.dds"
-	expire = "2050.1.1"
-	ideology = social_conservatism
-		traits = {
-	     chaos
-	}
-}
+recruit_character = Erwin_Yokoyama
+recruit_character = tatewaki_darius
+recruit_character = Hideshi_Arai
+recruit_character = Fumihiro_Ogawa
+recruit_character = Josui_Kusakabe
+recruit_character = JAP_Kururugi_1
+recruit_character = JAP_Kururugi_2
+recruit_character = JAP_Anarchy
 
-create_country_leader = {
-	name = "Genbu Kururugi"
-	desc = "POLITICS_KURURUGI_DESC"
-	picture = "Portrait_Kururugi.dds"
-	expire = "2020.1.1"
-	ideology = social_conservatism
-		traits = {
-	
-	}
-}
 
-create_country_leader = {
-	name = "Genbu Kururugi"
-	desc = "POLITICS_KURURUGI_DESC"
-	picture = "Portrait_Kururugi.dds"
-	expire = "2020.1.1"
-	ideology = paternal_autocracy
-		traits = {
-	
-	}
-}
 
 diplomatic_relation = { 
 	country = CHI
@@ -172,65 +159,6 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
-
-
-
-
-
-create_corps_commander = {
-	name = "Hideshi Arai"
-	picture = "jap_general_1.dds"
-	traits = { politically_connected trait_cautious }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Fumihiro Ogawa"
-	picture = "jap_general_2.dds"
-	traits = { media_personality brilliant_strategist }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Josui Kusakabe"
-	picture = "jap_general_3.dds"
-	traits = { war_hero career_officer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 5
-}
-
-create_field_marshal = {
-	name = "Tatewaki <Darius> Katase"
-	picture = "jap_general_5.dds"
-	traits = { old_guard expert_delegator }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Erwin Yokoyama"
-	picture = "jap_general_4.dds"
-	traits = { inspirational_leader trickster trait_reckless }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
 
 
 

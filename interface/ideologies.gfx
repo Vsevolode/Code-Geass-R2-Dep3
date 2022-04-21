@@ -1,32 +1,106 @@
 spriteTypes = {
 	
 	SpriteType = {
-		name = "GFX_ideology_ultra_nationalism"
-		texturefile = "gfx/interface/ideologies/ultra_nationalism_group.dds"
+		name = "GFX_ideology_syndacalism"
+		texturefile = "gfx/interface/ideologies/syndacalism.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ideology_paternal_autocracy"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy_group.dds"
+		name = "GFX_ideology_social_liberalism"
+		texturefile = "gfx/interface/ideologies/social_liberalism.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ideology_britannian_governorship"
-		texturefile = "gfx/interface/ideologies/britannian_governorship_group.dds"
+		name = "GFX_ideology_social_democracy"
+		texturefile = "gfx/interface/ideologies/social_democracy.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ideology_absolute_monarchy"
-		texturefile = "gfx/interface/ideologies/absolute_monarchy_group.dds"
+		name = "GFX_ideology_reformist_socialism"
+		texturefile = "gfx/interface/ideologies/reformist_socialism.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ideology_military_dictatorship"
-		texturefile = "gfx/interface/ideologies/military_dictatorship_group.dds"
+		name = "GFX_ideology_market_liberalism"
+		texturefile = "gfx/interface/ideologies/market_liberalism.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ideology_oligarchic_government"
-		texturefile = "gfx/interface/ideologies/oligarchic_government_group.dds"
+		name = "GFX_ideology_ancap"
+		texturefile = "gfx/interface/ideologies/ancap.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_ideology_anarcho_pacifism"
+		texturefile = "gfx/interface/ideologies/anarcho_pacifism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_anarcho_communism"
+		texturefile = "gfx/interface/ideologies/anarcho_communism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_left_libertarianism"
+		texturefile = "gfx/interface/ideologies/left_libertarianism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_agrarian_socialism"
+		texturefile = "gfx/interface/ideologies/agrarian_socialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_lincolnite_socialism"
+		texturefile = "gfx/interface/ideologies/lincolnite_socialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_neo_menshevism"
+		texturefile = "gfx/interface/ideologies/neo_menshevism.dds"
+	}
+
+	
+	SpriteType = {
+		name = "GFX_ideology_molotovism"
+		texturefile = "gfx/interface/ideologies/molotovism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_national_bolshevism"
+		texturefile = "gfx/interface/ideologies/national_bolshevism.dds"
+	}
+
+	
+	SpriteType = {
+		name = "GFX_ideology_kalininism"
+		texturefile = "gfx/interface/ideologies/kalininism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_monarcho_bolshevism"
+		texturefile = "gfx/interface/ideologies/monarcho_bolshevism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_illyrian_socialism"
+		texturefile = "gfx/interface/ideologies/illyrian_socialism.dds"
+	}
+
+	
+	SpriteType = {
+		name = "GFX_ideology_marxist_lincolnism"
+		texturefile = "gfx/interface/ideologies/marxist_lincolnism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_geass_cult"
+		texturefile = "gfx/interface/ideologies/geass_cult.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_jupiter_cult"
+		texturefile = "gfx/interface/ideologies/jupiter_cult.dds"
+	}
+
 }

@@ -24,6 +24,13 @@ country_event = {
 		}
 		
 		hidden_effect = {
+			add_ideas = {
+				BRT_VV_idea
+				BRT_odysseus_idea
+				BRT_generic_noble_1_idea
+				BRT_generic_general_1_idea
+				BRT_generic_minister_1_idea
+			}	
          set_variable = {
 	     var = area
 	     value = 1

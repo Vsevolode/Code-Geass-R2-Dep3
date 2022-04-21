@@ -1,0 +1,247 @@
+equipments = {
+
+	#equipments = {
+		#<equipment> = {
+			#year = <int>		# Limits the equipment from appearing before the specified year. Optional
+			#picture = <name>	# GFX reference used to define equipment picture in lend-lease
+			
+			#can_be_produced = {	# Optional, specifies when equipment of this category can be produced.
+				#<triggers>
+			#}
+			
+			#is_archetype = yes	# Specifies an entry as an archetype entry. All non-archetype entries inherit 
+			#is_buildable = no	# Prevents this equipment from being built.
+			#active = yes		# Determines if this equipment is available without unlocking from a technology.
+			
+			#type = <type>	   	# Internal type: what kind of unit can use this equipment
+	
+			#group_by = <group>			  # How the equipment is grouped in the production screen
+			#interface_category = <type>	 # Which category the equipment appears in the production screen
+			
+			# Resources used to build this equipment
+			#resources = {
+				#<resource> = <amount>
+			#}
+			
+			# Modifiers the equipment uses
+			#<modifiers> 
+		#}
+	#}
+
+	cold_war_tank_equip = {
+		year = 1970
+		picture = archetype_modern_armour
+
+		is_archetype = yes	
+		is_buildable = no
+
+		priority = 0      # Priority for usage over other equipment.
+
+		type = armor
+
+		group_by = archetype
+		
+	    interface_category = interface_category_armor
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+	}
+
+	cold_war_tank_2 = {
+			
+		year = 2009       # Limits the equipment from appearing before the specified year. Optional
+			
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = cold_war_tank_equip # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+	}
+
+
+	mbt_1 = {
+	
+			year = 2009       # Limits the equipment from appearing before the specified year. Optional
+			
+			active = no            # Determines if this equipment is available without unlocking from a technology.
+			
+			archetype = cold_war_tank_equip # Which archetype equipment this equipment inherits from
+			priority = 1      # Priority for usage over other equipment.
+			visual_level = 1  # Image priority in production screen
+			
+			# Resources used to build this equipment
+			resources = {
+				oil = 2
+				steel = 3
+				chromium = 4
+			}
+			
+			# Modifiers the equipment uses
+			maximum_speed = 10
+			reliability = 0.8
+	
+			#Defensive Abilities
+			defense = 10
+			breakthrough = 6
+			hardness = 0.88
+			armor_value = 92
+	
+			#Offensive Abilities
+			soft_attack = 83
+			hard_attack = 5
+			ap_attack = 13
+			air_attack = 0
+	}
+
+
+	mbt_2 = {
+	
+		year = 2011      # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = cold_war_tank_equip # Which archetype equipment this equipment inherits from.
+		parent = mbt_1
+		priority = 2      # Priority for usage over other equipment.
+		visual_level = 2  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			oil = 2
+			steel = 3
+			chromium = 4
+		}
+		
+		# Modifiers the equipment uses
+		maximum_speed = 13
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 12
+		breakthrough = 8
+		hardness = 0.90
+		armor_value = 94
+
+		#Offensive Abilities
+		soft_attack = 85
+		hard_attack = 7
+		ap_attack = 15
+		air_attack = 0
+}
+
+
+
+mbt_3 = {
+	
+	year = 2014       # Limits the equipment from appearing before the specified year. Optional
+	
+	active = no            # Determines if this equipment is available without unlocking from a technology.
+	
+	archetype = cold_war_tank_equip # Which archetype equipment this equipment inherits from.
+	parent = mbt_2
+	priority = 3      # Priority for usage over other equipment.
+	visual_level = 3  # Image priority in production screen
+	
+	# Resources used to build this equipment
+	resources = {
+		oil = 2
+		steel = 4
+		chromium = 5
+	}
+	
+	# Modifiers the equipment uses
+	maximum_speed = 15
+	reliability = 0.9
+
+	#Defensive Abilities
+	defense = 15
+	breakthrough = 12
+	hardness = 0.95
+	armor_value = 97
+
+	#Offensive Abilities
+	soft_attack = 88
+	hard_attack = 10
+	ap_attack = 17
+	air_attack = 0
+}
+
+
+mobile_bases = {
+	year = 2011
+	picture = archetype_land_cruiser
+
+	is_archetype = yes	
+	is_buildable = no
+	active = no
+
+	type = armor
+
+	priority = 4     # Priority for usage over other equipment.
+	visual_level = 4 
+
+	group_by = archetype
+	
+	interface_category = interface_category_armor
+	resources = {
+		oil = 1
+		steel = 5
+		chromium = 2
+	}
+
+	maximum_speed = 5
+	reliability = 0.9
+
+	#Defensive Abilities
+	defense = 15
+	breakthrough = 2
+	hardness = 0.90
+	armor_value = 98
+
+	#Offensive Abilities
+	soft_attack = 50
+	hard_attack = 1
+	ap_attack = 5
+	air_attack = 0
+}
+}
+
+

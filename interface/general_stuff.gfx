@@ -34,6 +34,11 @@ spriteTypes = {
 		name = "GFX_sort_81"
 		texturefile = "gfx/interface/sort_81.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_generic_text_bg_48"
+		texturefile = "gfx/interface/stateview/generic_text_bg_48.dds"
+	}
 
 	corneredTileSpriteType = {
 		name = "GFX_scrollbar_horisontal_bg"

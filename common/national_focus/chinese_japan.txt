@@ -201,7 +201,7 @@
 	focus = {
 		id = MJA_visit_china
 		icon = GFX_MJA_visit_china
-		x = 1
+		x = 2
 		y = 1
 
 		cost = 5
@@ -277,7 +277,7 @@
 	focus = {
 		id = MJA_smile_tv
 		icon = GFX_MJA_smile_tv
-		x = -1
+		x = -2
 		y = 1
 
 		cost = 5
@@ -315,7 +315,7 @@
 	focus = {
 		id = MJA_national_rehabilitation_plan
 		icon = GFX_MJA_national_rehabilitation_plan
-		x = -1
+		x = -2
 		y = 1
 
 		cost = 5

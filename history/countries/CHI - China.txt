@@ -22,11 +22,6 @@ set_technology = {
 
 
 add_ideas = {
-	CHI_fat_guy
-	CHI_black_guy
-	CHI_Chang
-	CHI_short_guy
-	CHI_gen_eunuch
 	rampant_corruption
 	social_tensions
 	chinese_dominance
@@ -34,10 +29,15 @@ add_ideas = {
 	wealth_distribution
 	chinese_army
 	discontent_army
+	
 }
 
 
-set_convoys = 90
+
+
+
+set_convoys = 500
+set_research_slots = 4
 
 set_politics = {
 	ruling_party = authoritarian_democracy
@@ -78,18 +78,14 @@ add_to_faction = BUK
 add_to_faction = ALE
 
 
+recruit_character = CHI_tianzi
+recruit_character =	CHI_fat_guy
+recruit_character =	CHI_black_guy
+recruit_character =	CHI_Chang
+recruit_character =	CHI_short_guy
+recruit_character =	CHI_gen_eunuch
 
 
-create_country_leader = {
-	name = "Empress Tianzi"
-	desc = "POLITICS_EMPRESS_TIENZI_DESC"
-	picture = "Portrait_Tianzi.dds"
-	expire = "2020.1.1"
-	ideology = oligarchic_government
-	traits = {
-		puppet_empress
-	}
-}
 
 
 

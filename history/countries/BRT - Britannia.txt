@@ -612,11 +612,6 @@ set_popularities = {
 }
 
 add_ideas = {
-    BRT_VV 
-    BRT_odysseus
-	BRT_generic_noble_1
-	BRT_generic_general_1
-	BRT_generic_minister_1
 	extreme_stratocracy
 	efficient_administration
 	legal_segregation
@@ -629,169 +624,28 @@ add_ideas = {
 	partial_economic_mobilisation
 
 }
-
-create_country_leader = {
-	name = "Charles Zi Britannia"
-	desc = "POLITICS_CHARLES_BRTT_DESC"
-	picture = "Portrait_Charles.dds"
-	expire = "2020.1.1"
-	ideology = absolute_monarchy
-	traits = {
-	darwinist
-	}
-}
-
-create_country_leader = {
-	name = "Aristocrats"
-	desc = "NULL"
-	expire = "2020.1.1"
-	ideology = oligarchic_government
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Senior Officers"
-	expire = "2020.1.1"
-	ideology = iper-nationalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Absent"
-	expire = "2020.1.1"
-	ideology = social_conservatism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Absent"
-	expire = "2020.1.1"
-	ideology = social_liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Absent"
-	expire = "2020.1.1"
-	ideology = social-capitalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Absent"
-	expire = "2020.1.1"
-	ideology = orthodox_socialism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Young Officers"
-	expire = "2020.1.1"
-	ideology = hardline_communism
-	traits = {
-	}
-}
-
-
-
-
-
-
-
-create_corps_commander = {
-	name = "Bartley Asprius"
-	picture = "Portrait_Bartley.dds"
-	traits = { inflexible_strategist trait_cautious }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Dot Worsley"
-	picture = "Portrait_Worsley.dds"
-	traits = { politically_connected media_personality }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-
-create_corps_commander = {
-	name = "Seira Barton"
-	picture = "Portrait_Barton.dds"
-	traits = { infantry_officer }
-	skill = 3
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Andreas Darlton"
-	picture = "Portrait_Andreas_Darlton.dds"
-	traits = { career_officer bearer_of_artillery }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-
-
-
-
-
-create_field_marshal = {
-
-	name = "Esdeath Heroux"
-	picture = "Portrait_Heroux.dds"
-	traits = { trait_reckless aggressive_assaulter harsh_leader }
-	skill = 3
-	attack_skill = 7
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-
-	name = "Arthur Kingsley"
-	picture = "Portrait_Kingsley.dds"
-	traits = { old_guard politically_connected organisational_leader }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-
-	name = "Bismarck Waldstein"
-	picture = "Portrait_Waldstein.dds"
-	traits = { absolute_prediction brilliant_strategist aggressive_assaulter }
-	skill = 5
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-
-
-
+recruit_character = charles_brt
+recruit_character = aristocrats_brt
+recruit_character = right_officers_brt
+recruit_character = officers_brt_5
+recruit_character = null_brt_4
+recruit_character = null_brt_3
+recruit_character = null_brt_2
+recruit_character = null_brt_1
+recruit_character = brt_bismark
+recruit_character = brt_arthur
+recruit_character = brt_esdeath
+recruit_character = Andreas_Darlton
+recruit_character = Seira_Barton
+recruit_character = Dot_Worsley
+recruit_character = Bartley_Asprius
+recruit_character = BRT_odysseus
+recruit_character = BRT_generic_general_1
+recruit_character = BRT_schneizel
+recruit_character = BRT_guinevere
+recruit_character = BRT_generic_noble_1
+recruit_character = BRT_generic_minister_1
+recruit_character = BRT_VV
 
 
 create_navy_leader = {

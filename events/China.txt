@@ -1,7 +1,6 @@
 ﻿
 add_namespace = china_fed
 
-
 country_event = {  
 	id = china_fed.1
 	title = china_fed.1.t

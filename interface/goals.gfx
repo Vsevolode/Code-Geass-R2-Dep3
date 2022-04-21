@@ -1,5 +1,36 @@
 spriteTypes = {	
 
+	#China
+	SpriteType = {
+		name = "GFX_CHI_eunuchs_rule"
+		texturefile = "gfx/interface/goals/CHI/CHI_eunuchs_rule.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_annual_report"
+		texturefile = "gfx/interface/goals/CHI/CHI_annual_report.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_ignore_li"
+		texturefile = "gfx/interface/goals/CHI/CHI_ignore_li.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_celebrate_year"
+		texturefile = "gfx/interface/goals/CHI/CHI_celebrate_year.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_annex_tinies"
+		texturefile = "gfx/interface/goals/CHI/CHI_annex_tinies.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_vacation"
+		texturefile = "gfx/interface/goals/CHI/CHI_vacation.dds"			
+	}
+
 	#Area 11
 	SpriteType = {
 		name = "GFX_A11_bismark_1"

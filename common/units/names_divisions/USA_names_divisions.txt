@@ -305,30 +305,6 @@ USA_INF_01 =
 	}
 }
 
-USA_KNF_01 = 
-{
-	name = "Knightmare Order"
-
-	for_countries = { USA }
-
-	can_use = { always = yes }
-
-	division_types = { "knightmare" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { USA_INF_01 }
-
-	fallback_name = "%d Knight Order"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-
-	{
-		1 = { "Gaston Knights" }
-	}
-}
-
 USA_CAV_01 = 
 {
 	name = "Cavalry Division"

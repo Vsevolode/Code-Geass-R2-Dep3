@@ -166,114 +166,12 @@ ideas = {
 			}
 		}
 		
+
+		
     }
 
 
-	head_of_government = {	
 	
 	
-		CHI_fat_guy = {
-
-			picture = CHI_fat_guy
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = CHI
-			}
-			
-			traits = { oligarchy_guy head_snake }
-		}
 	
-	}
-	
-	
-	intelligence = {
-			CHI_Chang = {
-
-			picture = CHI_Chang
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = CHI
-			}
-			
-			traits = { triads_boss }
-		}	
-	}	
-	
-	economy_minister = {
-	
-			CHI_black_guy = {
-
-			picture = CHI_black_guy
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = CHI
-			}
-			
-			traits = { oligarchy_guy corrupt_kleptocrat }
-		}
-	}
-	
-	
-	minister_of_interior = {
-		
-		CHI_short_guy = {
-
-			picture = CHI_short_guy
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = CHI
-			}
-			
-			traits = { oligarchy_guy iron_fist }
-		}
-	}	
-	
-	foreign_minister = {
-	
-			CHI_gen_eunuch = {
-
-			picture = CHI_gen_eunuch
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = CHI
-			}
-			
-			traits = { oligarchy_guy brit_simp }
-		}
-	}
 }	

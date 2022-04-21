@@ -1,22 +1,140 @@
 ﻿l_english:
 #Names-Ideologies
-authoritarian_democracy_noun:0 "Oligarchic Government"
-authoritarian_democracy:0 "Oligarchic Government"
-moderate_conservatism:0 "Social-Conservatism"
-moderate_conservatism_noun:0 "Social-Conservatism"
-moderate_liberalism:0 "Social-Liberalism"
-moderate_liberalism_noun:0 "Social-Liberalism"
-moderate_socialism:0 "Social-Democracy"
-moderate_socialism_noun:0 "Social-Democracy"
-hardline_socialism_noun:0 "Revolutionary Socialism"
-hardline_socialism:0 "Revolutionary Socialism"
-totalitarian_socialism:0 "Totalitarian Communism"
-totalitarian_socialism_noun:0 "Totalitarian Communism"
-autocracy:0 "Paternal Autocracy"
-autocracy_noun:0 "Paternal Autocracy"
-ultra_nationalism:0 "Nationalist Populism"
-ultra_nationalism_noun:0 "Nationalist Populism"
+totalitarian_socialism:0 "Centralist Socialism"
+totalitarian_socialism_noun:0 "Centralist Socialism"
 
+molotovism:0 "Molotovism"
+molotovism_desc:0 "Molotovism, officially Marxist-Leninism-Molotovism, is the most prominent strain of Centralist Socialism across the globe, despite the EU's best efforts of decommunisation. Named after and pioneered by Soviet Premier Yyacheslav Molotov, it believes a strong party-state is required to lead the revolution and guide the people towards communism. During Molotov's Premiership, he created a patriotic bureaucratic state with a technocratic command economy operating under the famous Five Year Plans. The Soviet Union under Molotov was characterised by a by a Soviet form of nationalism and massive socioeconomic improvements for the average citizen, at the cost of being under a massive surveillance state under the notorious NKGB. In terms of foreign policy, Molotov promoted Realpolitik and at various points sided with and against both the EU and Britannia."
+
+national_bolshevism:0 "National Bolshevism"
+national_bolshevism_desc:0 "National Bolshevism is a combination of socialist economics and extreme nationalism. The current generation of National Bolsheviks broadly support socialist economic policies which range from a state capitalist mixed economy to a full command economy. Some strains espouse national syndicalism. Socially, National Bolsheviks are conservative and in some cases reactionary. Chauvinism and cultural supremacy is common in many Nazbol groups with xenophobia is not far behind. Some promote extreme assimilation policies or even a "total solution" to the question of minorities. National Bolsheviks support families values and a return to the church as the center of life. True to their name, National Bolsheviks are nationalists first and foremost. They reject the notion of a world revolution and global communism. Instead, they believe in Bukharin's Socialism in One Country theory. If communism is to achieved, then must be in the nation-state. The foreign policy of National Bolsheviks varies between parties. Some are isolationists and others practice want can be described as "Red Imperialism"."
+
+kalininism:0 "Kalininism"
+kalininism_desc:0 "Premier Kalinin proved himself to be an able statesman, becoming the grandfather to the Soviet people. He decentralised power in the party and government. Practicing and perfecting democratic centralism. It was under Kalinin that the NEP was phased out and a command economy was achieved with the First and Second Five Year plan. However, Kalinin died in 1946 and was replaced by Molotov, who centralised power and purged his opponents. The fall of the Union and the subsequent retreat into Central Asia has caused a reevaluation of Kalinin and his legacy. Marxist-Leninist-Kalininism is moderate strain of centralist socialism. Modern Kalininists support a decentralised one-party state under democratic centralism, a decentralised planned economy, social liberalisation, and multiculturalism in contrast to the Soviet nationalism of Molotovism. They seek to redeem the motherland from her fall and restore the good name of Kalinych"
+
+monarcho_bolshevism:0 "Monarcho-Bolshevism"
+monarcho_bolshevism_desc:0 "In 1916, Tsar Nicholas II of Russia was assassinated and his son, Alexei became Emperor. Due to his age and health, he was put under the Regency of his uncle. Eventually, Alexei overruled his uncle and decreed the reopening of the Duma. He wished to form a new government and invited Vladimir Ilyich Lenin to lead it. Lenin accept, but the army stormed the Duma before he could be sworn in, triggering the revolution. Alexei would continue to reign as Tsar until he died  two years later. Monarcho-Bolsheviks are just as varied and diverse a group as National Bolsheviks. Some, such as the Union of Young Russia (Mladorossi), support fully maintaining the Soviet system with the Tsar as it's head.  Others want a more traditional monarchy and hereditary aristocracy, but support an economy based on collective farms and either guild socialism or workers soviets. There are even those who proposed the reintroduction of serfdom, albeit only for "undesirables". Nearly all Monarcho-Bolsheviks are religious and support the return of the Church to be the center of everyday life. Despite this, some support token progressive reforms. In terms of foreign affairs, Monarcho-Bolsheviks are split between isolationists and "red imperialists"."
+
+illyrian_socialism:0 "Illyrian Socialism"
+illyrian_socialism_desc:0 "In contrast to the bureaucratic and technocratic Molotovism, Illyrian Socialism is based around a cult of heroism and believes the revolution should be led by those who actually fight in it, the partisans. Developed by the Illyrian Bolshevik Josip Tito, who became known as the Partisan King of the Balkans due to his long and brutal resistance campaign against the Danubian Federation. Illyrian Socialism promotes multiethnic solidarity, workers' self management, and market socialism. These policies were chosen in part due to do the perceived deterioration of the worker's state in the Soviet Union leading to the rise ot a bureaucrat-technocrat clique out of touch with the working class, and mostly due to Molotov's constant backstabbing of both the EU and Britannia leading to on-and-off support to Tito's partisans."
+
+marxist_lincolnism:0 "Marxism-Lincolnism"
+marxist_lincolnism_desc:0 "Marxist-Lincolnism is a more authoritarian interpretation of the socialism developed by Karl Marx and Abraham Lincoln. They maintain the commitment to abolition of slavery, anti-monarchist republicanism, the struggle for racial equality, and the liberation of the working class. They also hold the Bill of Rights in the highest regards. Yet, abandon the notion that socialism can be achieved peacefully as proposed by Lincoln and the thesis that democracy is required for socialism as written by Marx. Only through violent, all encompassing revolution can mankind achieve communism. The Marxist-Lincolnites reject reformism and parliamentarianism. A one party state under democratic centralism shall suffice. Economically, the Marxist-Lincolnites support a decentralised planned economy, voluntary collective farms and guild socialism. Socially, the Marxist-Lincolnites are pro-LGBT and seek to give citizenship to the Numbers, along with the abolishment of the Area system."
+
+hardline_socialism:0 "Revisionist Socialism"
+hardline_socialism_noun:0 "Revisionist Socialism"
+
+anarcho_communism:0 "Anarcho-Communism"
+anarcho_communism_desc:0 "Anarcho-Communists advocate for the immediate dismantling of the state via revolutionary means along with an end to private property, wage labour, capitalism, and social hierarchy. Traditionally, the state would be replaced by a confederation of self-governing village communes and city-states. More modern Anarcho-Communists prefer decentralised federalism. Economically, Anarcho-Communists are likewise split between those who advocate a gift economy and the abolition of money, and those who prefer a form of free-market anarchism based around communes and workers cooperatives, along with replacing money with labour vouchers and a return to barter. Anarcho-Communists are opposed to all forms of discrimination and fight for the rights of the oppressed, hence they support the liberation of women, queer folk, and minorities. Though most Anarcho-Communists are atheists or at least anti-clerical, they nevertheless allow the faithful to practice their religions as to deny them that would be against the individualist principle of anarchism. However, some Anarcho-Communists are anti-theistic and seek to eliminate religion all together."
+
+anarcho_pacifism:0 "Anarcho-Pacifism"
+anarcho_pacifism_desc:0 "Anarcho-Pacifism is an anarchist school of thought that rejects violence and instead advocates peaceful forms of resistance in the struggle for social change. Anarcho-Pacifists view violence as principally a form of power and against the anarchist ideal such as the rejection of hierarchy and dominance. Civil disobedience and the creation of libertarian communities are the main tools of Anarcho-Pacifism. Some advocate a return to agrarian ruralism, while others wish to maintain the current industrialised world while making it more eco-friendly and under worker control. Many advocate a gift economy or a return to barter. Not only do anarcho-pacifists wish to abolish the state, they also want to abolish police and militaries. Believing all issues can be delt with peacefully through talks, negotiations, and compromise. Socially, Anarcho-Pacifists accept all regardless of background and beliefs, along with oppressed groups like minorities and the queer. Exactly how they can maintain this idealistic community amongst a cold and uncaring world that actively uses violence as the means to deal with even the smallest issues is an open question."
+
+left_libertarianism:0 "Left Libertarianism"
+left_libertarianism_desc:0 "An umbrella term for various egalitarian, anti-authoritarian ideologies that stresses the importance of both individual freedom and social equality. Left Libertarians oppose capitalism and private property, yet support personal property. They also wish for the means of production to be under either common or social ownership. Economically, they support anything from market anarchism to a decentralised planned economy. What separates Left Libertarians from other leftist is their commitment to Personal Autonomy and Civil Liberties, with many Left Libertarians being advocates of Free Thought and Free Love. Some even desire the abolishment of marriage and the traditional family. Women's Rights are of particular importance, with many Left Libertarians vowing to put an end to the so called "patriarchy" and also defending the rights of sex workers. Minority and LGBT rights are also put to the forefront. Critics denounced Left Libertarianism as utopian and accused them of abandoning their principles at the first sign of trouble, indulging in the same authoritarian measures as the Centralist Socialists they so despised."
+
+agrarian_socialism:0 "Agrarian Socialism"
+agrarian_socialism_desc:0 "In contrast to most forms of socialism, which based it's support from urban workers, Agrarian Socialism represents the interests of the rural peasants. They support the socialisation of land, land reform, and wealth redistribution. Along with other policies aimed to ease the burden of the farmers and peasants. Such as ending monopolies and taking down landlords. Due to their base of support being rural farmers, Agrarian Socialists tend to have rather conservative social views. They support traditional families and the role of the church in daily life. Urban liberals and feminists are viewed with suspicion and contempt. Despite this, some agrarian socialists support limited progressive reforms. Such as free education and universal health care. Along with token women's rights reforms. More radical agrarian socialists have adopted green politics, like environmentalism, social justice, and grassroots democracy. In any case, they vow to defend the land along with those who live and work on it. The virgin countryside shall not be raped by the urban robber barons. Hail to the Soldier, Hail to the Farmer!"
+
+neo_menshevism:0 "Neo-Menshevism"
+neo_menshevism_desc:0 "A distinctively Russian branch of revisionist socialism. As their name implies, they consider themselves the heirs of the Mensheviks that fought with the Bolshevik over the future of the motherland. They continue the belief that socialism must be achieved with democratic reform along with cooperation with trade unions and a transitional capitalist phase is required. Secularisation, multiculturalism, and autonomy for minorities have also been added to their program. They denounce the criminal demagoguery of the Molotovists, the corrupt bureaucratism of the Syndicalists, and the incompetent impotence of the centrists across Russia along with the EU. They vow fulfil the goals and dreams of both the 1905 and 1917 Revolutionists. In order of achieve this, they resorted to some of the same tactics of their hated rivals, the Bolsheviks. The Neo-Mensheviks support the creation of a secret police to deal with "dangerous elements" in society, political commissars to oversee the military, and some say even a restoration of the dreaded GULAG labour camps. The Neo-Mensheviks view all this as necessary evil to maintain freedom and the revolution in a world full of bourgeois opportunists, crypto-reactionaries, and imperialist barbarians.?"
+
+syndacalism:0 "Syndacalism"
+syndacalism_desc:0 "Syndicalism believe that in order to overthrow capitalism, direct action is needed. This includes, but is not limited too; general strikes, industrial sabotage, and armed rebellion. Afterwards, control of the means of production shall be transferred to the trade unions. The political system and society will be transformed under union lines. Followed by the implementation of industrial democracy, the abolishment of political parties, and top-down authority being reduced to a bare minimum. Syndicalists are split between two fractions, the "Revolutionary" Syndicalists and the "Anarcho-Syndicalists". The Revolutionary Syndicalists prefer the creation of "One Big Union" while Anarcho-Syndicalists wish to maintain the Popular Front of various trade unions. The Revolutionary fraction wishes to maintain the state, albeit under a heavily decentralised federal form. While the Anarchist fraction wishes to dissolve completely and replace it with a confederation of self-governing communes. Both support abolishing standing armies and replacing with militias under the control of soldiers' councils with democratically elected officers. Syndicalism is a very urban ideology, with most of its power and support base coming from urban workers. They have a skeptical view of the rural countryside, with many seeing the peasants as reactionaries. Many syndicalists in both fractions support mass urbanisation and mass industrialisation, a "Great Sprint Forwards"."
+
+lincolnite_socialism:0 "Lincolnite Socialism"
+lincolnite_socialism_desc:0 "Lincolnite Socialism is a uniquely Britannian leftist ideology. Created to deal with the particular historical and material conditions of Britannia. It used to be the mainstream strain of socialism in Britannia, until the Bolshevik victory in the Russian Revolution caused it to be denounced as "revisionist" after a schism led to the dissolution of the Socialist Party of Britannia. Lincolnite Socialism espouses abolitionism, anti-monarchist republicanism and racial equality. Along with the liberation of the working class and women's rights. They support worker control of the means of production, while defending and maintaining the market system. Lincolnite Socialism believe that democracy is the bedrock of socialism and a multiple party system along with free elections are precondition for the revolution to succeed. Lincolnite Socialists believe that the revolution can be achieved peacefully through reform, but will not hesitate to pick up arms and March to War. In accordance to Marx, Lincolnite Socialists are internationalists and support the rights of small nationals and the oppressed across the world. Tyranny reigns, but soon it will end and be replaced by a just world."
+
+moderate_socialism:0 "Progressivism"
+moderate_socialism_noun:0 "Progressivism"
+
+social_democracy:0 "Social-Democracy"
+social_democracy_desc:0 "Initially founded by those who rejected Marx's prediction of a coming World Revolution and the very notion that socialism requires a violent revolution. Instead, they advocate gradually, legal reform in order to reach socialism. In stead of tearing down capitalism to make way for socialism, they intend to use capitalism to destroy capitalism. This caused them to adopt a strong welfare state, progressive taxation, universal healthcare, free education, and a social market economy. Instead of class conflict, they promote class cooperation by means of collective bargaining between business owners and trade unions. They support the creation of cooperatives and are friendly towards minorities (both racial and sexual). Many promote the creation of an international organisation to facilitate cooperation between the nations and solve issues using diplomacy. Despite their seemingly utopian image, history shows they can be as treacherous as their centralist rivals. Many social democrats likewise have no problem exploiting the prejudices of society in order to win votes. There also have been high profile cases of social democratic governments siding with the corporations and willingly throwing the working class under the bridge. Despite their commitment to creating socialism democratically, many say all that they are creating a form of red capitalism. In any case, the social democrats stand firm to their convictions. The revolution will be civilised."
+
+reformist_socialism:0 "Reformist Socialism"
+reformist_socialism_desc:0 "Reformist Socialism first arose after the collapse of the Soviet Union and retreat of the Moscow government into Central Asia. Taking a strong influence from the liberal tradition of Europe and the theories of Michał Kalecki. Reformist Socialists believe that socialism must be achieved through peaceful, legal, democratic means. As to follow the steps of their revolutionary predecessors would lead to more ruin. As such, Reformist Socialists fully support taking part in elections and the creation of parliaments. Economically, Reformist Socialism believes the way to create socialism is through a welfare state, managerialism, and the computerisation of the economy. Trade Unions are given a less prominent role, as the corruption among unions become more widely known. Some Reformist Socialists support Business Unionism and more automation in the economy. What really separates reformist socialists from other socialists is their support of youth movements. In order to avoid an gerontocracy, Reformist Socialists promote their young members to leadership roles.They also wish to alleviate the malaise amongst the youth. The reception of this movement across the political left has been overwhelming negativity."
+
+moderate_liberalism:0 "Liberalism"
+moderate_liberalism_noun:0 "Liberalism"
+
+social_liberalism:0 "Social Liberalism"
+social_liberalism_desc:0 "Social Liberals view the purpose of government is to help those who can't help themselves and to maximise the happiness of it's citizens. Under Social Liberalism, the Common Good is seen as being in harmony with the freedom of the individual. The problem lies not with the system, but with individuals according to Social Liberals. If the right individuals could get into power, all of society's problems could be fixed. As such, Social Liberals support various programs and policies that cultivate excellent individuals, such as free education, universal healthcare, and numerous public works projects aimed at improving national infrastructure along with alleviating poverty. Culturally, Social Liberals tend to support progressive stances. In terms of economics, Social Liberals support a social market economy, free trade, entrepreneurship. Despite being pro-worker, they are either suspicious or downright hostile to trade unions. Social Liberalism despises radicalism and instead supports reformism and compromise. This has resulted in them being forced to implement watered down versions of their proposal to appease the conservatives and  given their open mockery of those to the left of them, the left tends to shut down their proposals. Also, Social Liberals have a habit of listening more to their sponsors and donors than to the people they say they represent."
+
+market_liberalism:0 "Market Liberalism"
+market_liberalism_desc:0 "Market Liberalism believes in the superiority of the individual above the group and the state. They support individualism and the rule of law. Market Liberals support a small state with a limited government. The government's main purpose is to protect the individual and their property. As their name implies, they support market liberalisation. Economically, they support deregulation, privatisation, and free trade. Their overall goal is a laissez-faire capitalist society. Where the state has little oversight over the economy and the individual. Market Liberals are anti-union and are opposed to workers rights in general. Market Liberals believe in a meritocracy, they believe that eventually through hard work a worker can be a millionaire. As such, market liberals oppose welfare, viewing it as an inefficient waste and only results in creating lazy leeches. Because of the capitalist nature of Market Liberalism, where everything and everyone is a commodity. Market Liberals are tolerant of both conservatives and those who follow a non-traditional lifestyle. The corporation sell items to both the rightists and the leftists.  Market Liberals wish to create a globalised world of interconnected markets. To further increase profits and gain new resources. The money must flow, the money must flow...."
+
+ancap:0 "Anarcho-Capitalism"
+ancap_desc:0 "Anarcho-Capitalism is Market Liberalism taken to it's logical conclusion. The individual should be free to assert themselves and what better way than through an unregulated free market. Anarcho-Capitalists believe in abolishing the state, governments, courts, police, prisons, banks, and militaries. Replacing them with a private security agencies, private courts, private prisons, and mercenary armies owned by individuals all operating under an unrestricted free market. Many favour a decentralised currency and many more wish for a return to using gold. The fact this would lead to a neo-feudal state consisting of corporations with their own armies, settlements, and currencies is seen as a good thing by Anarcho-Capitalists. Anarcho-Capitalists view the Invisible Hand of the Market as for all intent and purposes as God, therefore they allow the market to run itself with completely no regulation or oversight. Everything and everyone is for sale. Which is why Anarcho-Capitalists are advocating for the legalisation of the drug trade, expanding the international arms trade, and restarting the international slave trade. Socially, Anarcho-Capitalists believe individuals are free to do whatever they want so long as it doesn't betray the non-aggression principle. "
+
+moderate_conservatism:0 "Conservatism"
+moderate_conservatism_noun:0 "Conservatism"
+
+national_conservatism:0 "National Conservatism"
+national_conservatism_desc:0 "NULL"
+
+social_conservatism:0 "Social Conservatism"
+social_conservatism_desc:0 "NULL"
+
+authoritarian_democracy:0 "Authoritarian Democracy"
+authoritarian_democracy_noun:0 "Authoritarian Democracy"
+
+jap_neo_feudalism:0 "Japanese Neo-Feudalism"
+jap_neo_feudalism_desc:0 "NULL"
+
+purist_aristocracy:0 "Purist Aristocracy"
+purist_aristocracy_desc:0 "NULL"
+
+genbuism:0 "Genbuism"
+genbuism_desc:0 "NULL"
+
+oligarchic_government:0 "Oligarchic Government"
+oligarchic_government_desc:0 "NULL"
+
+
+military_dictatorship:0 "Military Dictatorship"
+military_dictatorship_desc:0 "NULL"
+
+autocracy:0 "Autocracy"
+autocracy_noun:0 "Autocracy"
+
+spartanism:0 "Spartanism"
+spartanism_desc:0 "NULL"
+
+yamato_statism:0 "Yamato Statism"
+yamato_statism_desc:0 "NULL"
+
+imperial_cult:0 "Imperial Cult"
+imperial_cult_desc:0 "NULL"
+
+absolute_monarchy:0 "Absolute Monarchy"
+absolute_monarchy_desc:0 ""
+
+paternal_autocracy:0 "Paternal Autocracy"
+paternal_autocracy_desc:0 "NULL"
+
+romano_brit:0 "Roman-Britannianism"
+romano_brit_desc:0 "NULL"
+
+britannian_con:0 "Britannian Constitutionalism"
+britannian_con_desc:0 "NULL"
+
+ultra_nationalism:0 "National Traditionalism"
+ultra_nationalism_noun:0 "National Traditionalism"
+
+geass_cult:"Cult of the Geass"
+geass_cult_desc:0 "Cult of Geass is the religion of the Geass Order. An esoteric, arcane faith as ancient as humanity itself, only a select few know it's full teachings. The Cult believes that free will is the source of all evil and seeks to control mankind through subtle means. Using the mystical force known as Geass, they have manipulated important events throughout history, with varying degrees of success. The Cult is split between two factions; the followers of the teachings of the Pontiff of Megiddo, who want to initiation Ragnarok, and the agents of the renegade known only as the Son of Perun, who has his own plans with Geass and God. Between the two, there is an unofficially third faction, the Enlightened Inquisition, who merely wish to continue the status quo indefinitely and control world events behind the scenes"
+
+jupiter_cult:0 "Cult of Jupiter"
+jupiter_cult_desc:0 "The Children of Jupiter are a secret religious brotherhood that is trapped in an eternal war with the Geass Order. The Children are the remnants of a once larger faith that originated in Atlantis, it's current form was established in the Roman Republic. Unlike the Geass Order, the Children believe that mankind deserves free will because it is both a blessing and a curse. Man is cursed to be free, he is responsible for his own suffering. Yet, with the light of God through Geass, he can achieve his own salvation. Despite their name, the Children don't actually worship Jupiter. They worship the source of existence itself, the progenitor of Geass, an entity known as The Monad in their texts. However, the name remained as they have been called that for so long. It was maintained as to honour those who came before. The Children of Jupiter's main goal is the extinction of the Geass Order, none of it's members must be left alive and all their heretical works must be burned. Once this is achieved, the Children shall reveal themselves to the world and bring Geass to all mankind. Ushering a new and terrifying age."
+
+integralism:0 "Integralism"
+integralism_desc:0 "NULL"
+ultra_spartanism:0 "Ultra-Spartanism"
+ultra_spartanism_desc:0 "NULL"
+national_syndacalism:0 "National Syndacalism"
+national_syndacalism_desc:0 "NULL"
+yamato_militarism:0 "Yamato Militarism"
+yamato_militarism_desc:0 "NULL"
 
 
 #Description
@@ -35,17 +153,19 @@ autocracy_drift:0 "Daily Autocratic Support"
 ultra_nationalism_drift:0 "Daily Nationalist Support"
 moderate_conservatism_drift:0 "Daily Conservative Support"
 moderate_liberalism_drift:0 "Daily Liberal Support"
-moderate_socialism_drift:0 "Daily Socialist Support"
-hardline_socialism_drift:0 "Daily Revolutionary Socialist Support"
-totalitarian_socialism_drift:0 "Daily Communist Support"
+moderate_socialism_drift:0 "Daily Progressist Support"
+hardline_socialism_drift:0 "Daily Revisionist Socialist Support"
+totalitarian_socialism_drift:0 "Daily Centralist Socialist Support"
 
-ultra_nationalism_acceptance:0 "Nationalist Populism Acceptance"
-authoritarian_democracy_acceptance:0 "Oligarchic Government Acceptance"
-autocracy_acceptance:0 "Paternal Autocracy Acceptance"
-moderate_conservatism_acceptance:0 "Social-Conservatism Acceptance"
-moderate_liberalism_acceptance:0 "Social-Liberalism Acceptance"
-moderate_socialism_acceptance:0 "Social-Democracy Acceptance"
-hardline_socialism_acceptance:0 "Revolutionary Socialism Acceptance"
-totalitarian_socialism_acceptance:0 "Totalitarian Communism Acceptance"
+ultra_nationalism_acceptance:0 "National Traditionalism Acceptance"
+authoritarian_democracy_acceptance:0 "Authoritarian Democracy Acceptance"
+autocracy_acceptance:0 "Autocracy Acceptance"
+moderate_conservatism_acceptance:0 "Conservatism Acceptance"
+moderate_liberalism_acceptance:0 "Liberalism Acceptance"
+moderate_socialism_acceptance:0 "Progressism Acceptance"
+hardline_socialism_acceptance:0 "Revisionist Socialism Acceptance"
+totalitarian_socialism_acceptance:0 "Centralist Socialism Acceptance"
 ##Menu
 WALTZ_LOC:0 "During the last decades three superpowers had been expanding their power: the Britannian Empire, the Chinese Federation and the Europian Universe. They had developed different political and social systems, but their goal is the same- dominate the entire world. As a result of the competition, only few nations have remained independent, struggling to survive between the three Leviathans. Until today, a fragile peace have been preserved; however with the recent tensions in the Pacific and a potential international crisis, nobody knows if this three-sided waltz will survive..."
+
+OTHER_WALTZ_DESC:0 "Almost all nations in Earth are under the banner of one of the three superpowers, namely China, Britannia or United Europe. There are two exceptions in this order: Japan and the Middle Eastern Federation.\n\nThe first nation, also called the "Jewel of the Pacific" is the only democracy in the Pacific, and it's only alive thanks to its Sakuradite deposits; a similar logic can be applied to the Middle East. Will these territories be subjugated or their independence ethos will survive?"

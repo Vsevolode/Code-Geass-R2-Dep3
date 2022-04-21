@@ -15,7 +15,7 @@ idea_categories = {
 	}
 
 	country = {
-		national_spirit = yes
+		type = national_spirit
 		
 		cost = 0
 		removal_cost = -1
@@ -36,11 +36,11 @@ idea_categories = {
 	}
 	
 		minister = {
-		slot = head_of_government
-		slot = economy_minister
-		slot = foreign_minister
-		slot = minister_of_interior
-		slot = intelligence
+		character_slot = head_of_government
+		character_slot = economy_minister
+		character_slot = foreign_minister
+		character_slot = minister_of_interior
+		character_slot = intelligence
 
 		ledger = civilian
 
@@ -48,10 +48,12 @@ idea_categories = {
 	}
 	
 		military_staff = {
-		slot = army_chief 
-		slot = navy_chief 
-		slot = air_chief
-		slot = chief_of_staff
+		character_slot = army_chief 
+		character_slot = navy_chief 
+		character_slot = air_chief
+		character_slot = high_command
+		character_slot = high_command
+		character_slot = high_command
 		
 		ledger = invalid # must be overridden
 		
@@ -77,9 +79,120 @@ idea_categories = {
 }
 
 
+	academy_spirit = {
+		type = army_spirit
+
+		cost = 20
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+
+		slot = academy_spirit
+	}
+
+	army_spirit = {
+		type = army_spirit
+
+		cost = 35
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = army_spirit
+	}
+
+	division_command_spirit = {
+		type = army_spirit
+		
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = division_command_spirit
+	}
+
+	naval_academy_spirit = {
+		type = navy_spirit
+
+		cost = 20
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = naval_academy_spirit
+	}
+
+	navy_spirit = {
+		type = navy_spirit
+
+		cost = 35
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = navy_spirit
+	}
+
+	naval_command_spirit = {
+		type = navy_spirit
+		
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = naval_command_spirit
+	}
+
+	air_force_academy_spirit = {
+		type = air_spirit
+
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = air_force_academy_spirit
+	}
+
+	air_force_spirit = {
+		type = air_spirit
+
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = air_force_spirit
+	}
+
+	air_force_command_spirit = {
+		type = air_spirit
+		
+		politics_tab = no
+		
+		cost = 50
+		removal_cost = -1
+		
+		ledger = hidden
+		slot = air_force_command_spirit
+	}
+}
+
+
+
 slot_ledgers = {
 	army_chief = army
-	chief_of_staff = army
 	navy_chief = navy
 	air_chief = air
 	

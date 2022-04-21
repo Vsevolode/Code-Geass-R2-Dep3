@@ -142,11 +142,10 @@
  high_command:0 "Military High Command"
  theorist:0 "Theorist"
 
+
+ SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
+ CHARACTER_NAME_TOOLTIP:0 "$NAME|Y$"
  SELECT_DESIGN_COMPANY_DESC:0 "By selecting this §YDesign Company§! they will permanently affect capabilities on all equipment researched while they are hired.\n"
  DESIGN_COMPANY_DESC:0 "\nThis §YDesign Company§! will permanently affect capabilities on all equipment researched while they are active."
  closed_economy_TT:0 "No resources will be exported.\n\n"
  danieli:0 "Danieli"
- harry_white:0 "Harry White"
- victor_perlo:0 "Victor Perlo"
- whittaker_chambers:0 "Whittaker Chambers"
- walter_krueger:0 "Walter Krueger"

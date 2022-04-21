@@ -12,30 +12,18 @@ state={
 		add_core_of = CHI
 		
 		victory_points = {
-			1319 10 
+			1319 20
+		}
+		victory_points = {
+			4501 10
 		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
+			infrastructure = 3
+			arms_factory = 2
 			industrial_complex = 3
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
 
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
 
 	}
 

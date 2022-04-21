@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "WALTZ_LOC"
 		date = 2009.1.1.12
 		picture = "GFX_select_date_2009"
-				default_country = "BRT"
+		default_country = "BRT"
 		default = yes
 		
 		"BRT"={
@@ -22,7 +22,7 @@ bookmarks = {
 			}
 		}
 		"CHI"={
-			history = "CHI_GATHERING_STORM_DESC"
+			history = "CHI_WALTZ_DESC"
 			ideology = authoritarian_democracy
 			ideas = {
 				rampant_corruption
@@ -30,7 +30,9 @@ bookmarks = {
 				social_tensions
 			}
 			focuses = {
-
+               CHI_ignore_li
+			   CHI_annex_tinies
+			   CHI_celebrate_year
 			}
 		}
 		
@@ -49,14 +51,17 @@ bookmarks = {
 
 			}
 		}
-						"---"={
+		
+		
+		"---"={
 			history = "OTHER_WALTZ_DESC"
-			
-
 		}
+		
+					
 
+		
 		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
 	}
