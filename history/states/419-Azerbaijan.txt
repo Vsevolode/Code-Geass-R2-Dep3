@@ -6,7 +6,7 @@ state={
 	history={
 		owner = IRN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
 		}
 		victory_points = {
@@ -20,7 +20,7 @@ state={
 	provinces={
 		1896 2071 4755 4825 12793 12861 13120 
 	}
-	manpower=831412
+	manpower=6651296
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=4.000
