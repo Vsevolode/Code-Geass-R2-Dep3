@@ -4,7 +4,7 @@ state={
 	provinces={
 		12029 
 	}
-	manpower = 234379
+	manpower = 2578169
 	
 	state_category = enclave
 
@@ -15,7 +15,7 @@ state={
 			12029 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 	}
 

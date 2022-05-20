@@ -2,7 +2,7 @@
 state={
 	id=453
 	name="STATE_453"
-	manpower = 15359
+	manpower = 168949
 	
 	state_category = wasteland
 	
@@ -10,7 +10,7 @@ state={
 	history = {
 		owner = EGY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 
 		victory_points = {
