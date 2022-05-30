@@ -6,7 +6,7 @@ state={
 		chromium=12.000 #added due to portugal setup
 	}
 
-	manpower = 3197719
+	manpower = 38372628
 	
 	state_category = rural
 	
@@ -17,11 +17,11 @@ state={
 			7069 10 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			air_base = 4
 			7069 = {
-				naval_base = 4
+				naval_base = 5
 			}
 		}
 	}

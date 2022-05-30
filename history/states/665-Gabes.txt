@@ -9,7 +9,7 @@ state={
 			7005 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
 		}
 	}
@@ -19,7 +19,7 @@ state={
 	provinces={
 		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179 
 	}
-	manpower=427824
+	manpower=4133888
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

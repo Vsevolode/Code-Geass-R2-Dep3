@@ -9,13 +9,13 @@ state={
 	history={
 		owner = MZB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			8245 = {
 				naval_base = 1
 			}
 			2123 = {
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 		victory_points = {
