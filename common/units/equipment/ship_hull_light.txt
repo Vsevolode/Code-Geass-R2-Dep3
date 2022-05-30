@@ -1,13 +1,7 @@
 equipments = {
 
 	ship_hull_light = {
-		year = 1922
-
-		can_be_produced = {
-			NOT = {
-				has_idea = BUL_army_restrictions
-			}
-		}
+		year = 1980
 
 		is_archetype = yes
 		is_buildable = no
@@ -120,7 +114,7 @@ equipments = {
 
 	ship_hull_light_1 = {
 		abbreviation = "hdb"
-		year = 1922
+		year = 1980
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -131,7 +125,7 @@ equipments = {
 
 	ship_hull_light_2 = {
 		abbreviation = "hdc"
-		year = 1936
+		year = 2009
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -179,7 +173,7 @@ equipments = {
 
 	ship_hull_light_3 = {
 		abbreviation = "hdd"
-		year = 1940
+		year = 2011
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -248,7 +242,7 @@ equipments = {
 
 	ship_hull_light_4 = {
 		abbreviation = "hde"
-		year = 1944
+		year = 2014
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -308,7 +302,7 @@ equipments = {
 		manpower = 500
 	}
 	destroyer_1 = {
-		year = 1922
+		year = 1980
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -356,7 +350,7 @@ equipments = {
 		manpower = 250
 	}
 	destroyer_2 = {
-		year = 1936
+		year = 2009
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -408,7 +402,7 @@ equipments = {
 	}
 	
 	destroyer_3 = {
-		year = 1940
+		year = 2011
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -459,7 +453,7 @@ equipments = {
 	}
 	
 	destroyer_4 = {
-		year = 1944
+		year = 2014
 
 		archetype = ship_hull_light
 		priority = 2000
@@ -509,5 +503,304 @@ equipments = {
 			chromium = 1
 		}		
 		manpower = 500
+	}
+
+
+
+
+	ship_hull_very_light = {
+		year = 1980
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		interface_category = interface_category_screen_ships
+		alias = frigate
+		priority = 2000
+
+		upgrades = {
+			ship_torpedo_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_torpedo_slot = {
+				required = no
+				allowed_module_categories = { ship_torpedo }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			rear_1_custom_slot = mid_1_custom_slot
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		lg_armor_piercing = 20
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 5
+		naval_speed = 55
+		reliability = 0.80
+		
+		naval_range = 2500
+		
+		max_strength = 25
+		
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 400
+		resources = {
+			steel = 1
+		}
+		
+		manpower = 150
+	}
+
+	ship_hull_very_light_1 = {
+		abbreviation = "hdb"
+		year = 2009
+
+		archetype = ship_hull_very_light
+		priority = 2000
+		#alias = destroyer_1
+		
+		module_slots = inherit
+	}
+
+	ship_hull_very_light_2 = {
+		abbreviation = "hdb"
+		year = 2011
+
+		archetype = ship_hull_very_light
+		parent = ship_hull_very_light_1
+		priority = 2000
+		#alias = destroyer_1
+		
+		module_slots = inherit
+	}
+
+	ship_hull_very_light_3 = {
+		abbreviation = "hdb"
+		year = 2014
+
+		archetype = ship_hull_very_light
+		parent = ship_hull_very_light_2
+		priority = 2000
+		#alias = destroyer_1
+		
+		module_slots = inherit
+	}
+
+
+	frigate_1 = {
+		year = 2009
+
+		archetype = ship_hull_very_light
+		priority = 2000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 5
+		surface_visibility = 5
+		naval_speed = 55
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 25
+		
+
+		fuel_consumption = 7
+		
+		build_cost_ic = 400
+		resources = {
+			#oil = 1
+			steel = 1
+		}
+		
+		manpower = 150
+	}
+
+	frigate_2 = {
+		year = 2011
+
+		archetype = ship_hull_very_light
+		parent = frigate_1
+		priority = 2000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 5
+		surface_visibility = 5
+		naval_speed = 60
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 25
+		
+
+		fuel_consumption = 7
+		
+		build_cost_ic = 400
+		resources = {
+			#oil = 1
+			steel = 1
+		}
+		
+		manpower = 150
+	}
+
+	frigate_3 = {
+		year = 2014
+
+		archetype = ship_hull_very_light
+		parent = frigate_2
+		priority = 2000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 3
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 4
+		surface_visibility = 4
+		naval_speed = 65
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 25
+		
+
+		fuel_consumption = 7
+		
+		build_cost_ic = 400
+		resources = {
+			#oil = 1
+			steel = 1
+		}
+		
+		manpower = 150
 	}
 }

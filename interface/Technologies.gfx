@@ -9,6 +9,35 @@ spriteTypes = {
 	
 	### generic equipment tech-Archetypes ###
     
+    #ARTILLERY
+	SpriteType = {
+		name = "GFX_eu_war_anti_air_medium"
+		texturefile = "gfx/interface/technologies/eu_war_anti_air.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_spaa_1_medium"
+		texturefile = "gfx/interface/technologies/modern_spaa_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_spaa_2_medium"
+		texturefile = "gfx/interface/technologies/modern_spaa_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_spaa_3_medium"
+		texturefile = "gfx/interface/technologies/modern_spaa_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_spaa_1_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/modern_spaa_1_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_spaa_2_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/modern_spaa_2_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_spaa_3_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/modern_spaa_3_upgrade_1.dds"
+	}
 
 	##KNIGHTMARES
 	SpriteType = {
@@ -279,22 +308,204 @@ spriteType = {
 	name = "GFX_modern_artillery_3_medium"
 	texturefile = "gfx/interface/technologies/modern_artillery_3.dds"
 }
+
+spriteType = {
+	name = "GFX_super_heavy_artillery_medium"
+	texturefile = "gfx/interface/technologies/super_heavy_artillery.dds"
+}
 spriteType = {
 	name = "GFX_raiko_artillery_medium"
 	texturefile = "gfx/interface/technologies/raiko_artillery.dds"
 }
+
 spriteType = {
-	name = "GFX_eu_war_atgm_medium"
-	texturefile = "gfx/interface/technologies/eu_war_atgm.dds"
+	name = "GFX_varied_propellant_artillery_medium"
+	texturefile = "gfx/interface/technologies/varied_propellant_artillery.dds"
 }
+
 spriteType = {
-	name = "GFX_modern_atgm_medium"
-	texturefile = "gfx/interface/technologies/modern_atgm.dds"
+	name = "GFX_fire_control_system_medium"
+	texturefile = "gfx/interface/technologies/fire_control_system.dds"
 }
+
 spriteType = {
-	name = "GFX_modern_atgm_2_medium"
-	texturefile = "gfx/interface/technologies/modern_atgm_2.dds"
+	name = "GFX_multiple_rounds_simultaneous_impact_1_medium"
+	texturefile = "gfx/interface/technologies/multiple_rounds_simultaneous_impact_1.dds"
 }
-	
+
+spriteType = {
+	name = "GFX_knightmare_coilgun_deployment_medium"
+	texturefile = "gfx/interface/technologies/knightmare_coilgun_deployment.dds"
+}
+
+spriteType = {
+	name = "GFX_anti_kn_features_medium"
+	texturefile = "gfx/interface/technologies/anti_kn_features.dds"
+}
+
+spriteType = {
+	name = "GFX_high_explosives_tearing_projectiles_medium"
+	texturefile = "gfx/interface/technologies/high_explosives_tearing_projectiles.dds"
+}
+
+spriteType = {
+	name = "GFX_bulk_loaded_liquid_propellant_medium"
+	texturefile = "gfx/interface/technologies/bulk_loaded_liquid_propellant.dds"
+}
+
+spriteType = {
+	name = "GFX_sakuradite_engine_medium"
+	texturefile = "gfx/interface/technologies/sakuradite_engine.dds"
+}
+
+
+#NAVAL
+spriteType = {
+	name = "GFX_transport_medium"
+	texturefile = "gfx/interface/technologies/transport.dds"
+}
+
+spriteType = {
+	name = "GFX_landing_craft_medium"
+	texturefile = "gfx/interface/technologies/landing_craft.dds"
+}
+
+spriteType = {
+	name = "GFX_tank_landing_craft_medium"
+	texturefile = "gfx/interface/technologies/tank_landing_craft.dds"
+}
+
+spriteType = {
+	name = "GFX_improved_submarine_medium"
+	texturefile = "gfx/interface/technologies/improved_submarine.dds"
+}
+
+
+spriteType = {
+	name = "GFX_basic_submarine_medium"
+	texturefile = "gfx/interface/technologies/basic_submarine.dds"
+}
+
+
+spriteType = {
+	name = "GFX_sakuradite_propulsion_medium"
+	texturefile = "gfx/interface/technologies/sakuradite_propulsion.dds"
+}
+
+
+spriteType = {
+	name = "GFX_early_submarine_medium"
+	texturefile = "gfx/interface/technologies/early_submarine.dds"
+}
+
+spriteType = {
+	name = "GFX_advanced_destroyer_medium"
+	texturefile = "gfx/interface/technologies/advanced_destroyer.dds"
+}
+
+
+spriteType = {
+	name = "GFX_improved_destroyer_medium"
+	texturefile = "gfx/interface/technologies/improved_destroyer.dds"
+}
+
+
+spriteType = {
+	name = "GFX_basic_destroyer_medium"
+	texturefile = "gfx/interface/technologies/basic_destroyer.dds"
+}
+
+
+spriteType = {
+	name = "GFX_early_destroyer_medium"
+	texturefile = "gfx/interface/technologies/early_destroyer.dds"
+}
+
+spriteType = {
+	name = "GFX_improved_light_cruiser_medium"
+	texturefile = "gfx/interface/technologies/improved_light_cruiser.dds"
+}
+
+
+spriteType = {
+	name = "GFX_basic_light_cruiser_medium"
+	texturefile = "gfx/interface/technologies/basic_light_cruiser.dds"
+}
+
+
+spriteType = {
+	name = "GFX_increased_defense_medium"
+	texturefile = "gfx/interface/technologies/increased_defense.dds"
+}
+
+
+spriteType = {
+	name = "GFX_early_light_cruiser_medium"
+	texturefile = "gfx/interface/technologies/early_light_cruiser.dds"
+}
+
+
+spriteType = {
+	name = "GFX_magnetic_field_medium"
+	texturefile = "gfx/interface/technologies/magnetic_field.dds"
+}
+
+
+spriteType = {
+	name = "GFX_improved_carrier_2_medium"
+	texturefile = "gfx/interface/technologies/improved_carrier_2.dds"
+}
+
+spriteType = {
+	name = "GFX_improved_carrier_medium"
+	texturefile = "gfx/interface/technologies/improved_carrier.dds"
+}
+
+
+spriteType = {
+	name = "GFX_anti_kn_cannons_medium"
+	texturefile = "gfx/interface/technologies/anti_kn_cannons.dds"
+}
+
+
+spriteType = {
+	name = "GFX_basic_carrier_medium"
+	texturefile = "gfx/interface/technologies/basic_carrier.dds"
+}
+
+
+spriteType = {
+	name = "GFX_early_carrier_medium"
+	texturefile = "gfx/interface/technologies/early_carrier.dds"
+}
+
+spriteType = {
+	name = "GFX_early_frigate_medium"
+	texturefile = "gfx/interface/technologies/early_frigate.dds"
+}
+
+
+spriteType = {
+	name = "GFX_basic_frigate_medium"
+	texturefile = "gfx/interface/technologies/basic_frigate.dds"
+}
+
+
+spriteType = {
+	name = "GFX_general_improve_medium"
+	texturefile = "gfx/interface/technologies/general_improve.dds"
+}
+
+
+spriteType = {
+	name = "GFX_advanced_frigate_medium"
+	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
+}
+
+
+
+
+
+
 	
 }
