@@ -2,7 +2,7 @@
 state={
 	id=303
 	name="STATE_303" # Lima
-	manpower = 3563249
+	manpower = 10689747
 	resources={
 		oil=14 # was: 18
 	}
@@ -12,12 +12,12 @@ state={
 	history={
 		owner = AR6
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 6
-			air_base = 3
+			air_base = 7
 			12997 = {
-				naval_base = 5
+				naval_base = 6
 			}
 		}
 		add_core_of = AR6

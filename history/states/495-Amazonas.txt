@@ -2,7 +2,7 @@
 state={
 	id=495
 	name="STATE_495"
-	manpower = 979900
+	manpower = 2939700
 	
 	state_category = pastoral
 	
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = AR8
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 
 		}
 		add_core_of = AR8
