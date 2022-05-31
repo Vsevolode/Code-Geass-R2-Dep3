@@ -283,7 +283,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = 1 }
+			position = { x = 3 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -313,7 +313,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = 7 }
+			position = { x = 3 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -328,6 +328,12 @@ technologies = {
 	
 	general_improve = {
 
+		frigate = {
+			defense = 0.05
+			armor_value = 0.05
+			sub_attack = 0.04
+		}
+
 		
 		path = {
 			leads_to_tech = advanced_frigate 
@@ -341,7 +347,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = 13 }
+			position = { x = 3 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -368,7 +374,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 1 y = 19 }
+			position = { x = 3 y = 19 }
 		}
 		
 		ai_will_do = {
