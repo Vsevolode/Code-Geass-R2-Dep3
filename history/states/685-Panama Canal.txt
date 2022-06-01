@@ -1,7 +1,7 @@
 state={
 	id=685
 	name="STATE_685"
-	manpower = 39467
+	manpower = 42000
 	
 	state_category = enclave
 
@@ -11,10 +11,10 @@ state={
 			7617 5 
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 6
+			infrastructure = 5
+			air_base = 8
 			7617 = {
-				naval_base = 3
+				naval_base = 10
 			}
 		}
 		add_core_of = PAN

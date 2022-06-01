@@ -2,17 +2,17 @@
 state={
 	id=481
 	name="STATE_481" # Durango
-	manpower = 1255094
+	manpower = 3765282
 	
 	state_category = rural
 	
 	history={
 		owner = AR3
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			dockyard = 1
 			8057 = {
-				naval_base = 3
+				naval_base = 4
 			}
 		}
 		add_core_of = AR3

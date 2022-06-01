@@ -2,7 +2,7 @@
 state={
 	id=477
 	name="STATE_477"
-	manpower = 1951460
+	manpower = 5854380
 	
 	state_category = town
 	
@@ -13,10 +13,10 @@ state={
 	history={
 		owner = AR3
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			dockyard = 1
 			12810 = {
-				naval_base = 3
+				naval_base = 4
 			}
 		}
 		add_core_of = AR3
