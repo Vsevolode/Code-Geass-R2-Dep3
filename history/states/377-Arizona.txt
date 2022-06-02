@@ -2,7 +2,7 @@
 state={
 	id=377
 	name="STATE_377"
-	manpower = 435572
+	manpower = 1742288
 	
 	state_category = rural
 	
@@ -15,9 +15,9 @@ state={
 	history={
 		owner = BRT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			industrial_complex = 1
-			air_base = 2
+			air_base = 4
 		}
 		add_core_of = BRT
 		victory_points = {
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 10783 11814 12765 
+		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 11814 12765 
 	}
 
 	local_supplies=8.0 

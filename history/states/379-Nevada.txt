@@ -2,7 +2,7 @@
 state={
 	id=379
 	name="STATE_379"
-	manpower = 91057
+	manpower = 364228
 	
 	state_category = rural
 	
@@ -15,7 +15,7 @@ state={
 	history={
 		owner = BRT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = BRT
 	}

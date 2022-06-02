@@ -2,7 +2,7 @@
 state={
 	id=394
 	name="STATE_394"
-	manpower = 2939004
+	manpower = 11756016
 	state_category = city
 	
 	resources={
@@ -12,7 +12,7 @@ state={
 	history={
 		owner = BRT
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 4 #was: 6
 			industrial_complex = 3
 		}
 		add_core_of = BRT

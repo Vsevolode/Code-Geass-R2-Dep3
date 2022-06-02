@@ -2,7 +2,7 @@
 state={
 	id=361
 	name="STATE_361"
-	manpower = 2118394
+	manpower = 8473576
 	
 	state_category = city
 
@@ -20,11 +20,11 @@ state={
 			dockyard = 1
 			air_base = 6
 			6984 = {
-				naval_base = 2
+				naval_base = 4
 
 			}
 			3957 = {
-				naval_base = 1
+				naval_base = 5
 
 			}
 		}

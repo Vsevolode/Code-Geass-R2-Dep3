@@ -1,0 +1,42 @@
+state={
+	id=945
+	name="STATE_945" #Pendragon
+	provinces={
+		10783 12833
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	
+	history={
+		owner = BRT
+		
+           
+                buildings = {
+                        infrastructure = 10
+                        arms_factory = 4
+                        industrial_complex = 4
+                        dockyard = 4
+                        air_base = 8
+                        12833 = {
+                                 naval_base = 9
+                        }
+                }
+				
+				
+	victory_points = {
+			10783 30
+	}
+		add_core_of = BRT
+    }
+	
+	
+
+	
+		manpower=47250000
+
+	 state_category=megalopolis
+}
+
+
+
