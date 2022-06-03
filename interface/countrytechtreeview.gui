@@ -2035,7 +2035,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
-				text = "AIR_TITLE_HEAVY_FIGHTER"
+				text = "HELICOPTERS"
 				maxWidth = 300
 				maxHeight = 62
 				format = center
@@ -2049,7 +2049,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
-				text = "AIR_TITLE_MEDIUM_BOMBER"
+				text = "JET BOMBER"
 				maxWidth = 300
 				maxHeight = 62
 				format = center
@@ -2063,41 +2063,15 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
-				text = "AIR_TITLE_STRAT_BOMBER"
+				text = "TRANSPORT"
 				maxWidth = 300
 				maxHeight = 62
 				format = center
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "strat_bomber_equipment_desc"
 			}
-
-			instantTextBoxType = {
-				name = "airtech_subtitle_scout"
-				position = { x = 1620 y = 185 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "AIR_TITLE_SCOUT_PLANE"
-				maxWidth = 300
-				maxHeight = 62
-				format = center
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "scout_plane_equipment_1_desc"
-			}			
+		
 			
-			
-			containerWindowType = {
-				name = "tiled_research_bg"
-				position = { x=250 y=807 }
-				size = { width = 1475 height = 350 }
-				clipping = no
-	
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_bg"
-				}			
-			}
-				
 			gridboxtype = {
 				name = "early_jet_design_tree"
 				position = { x = 300 y = 32 }

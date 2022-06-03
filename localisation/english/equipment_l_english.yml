@@ -36,6 +36,8 @@
  impr_arm_3_desc:0 "Anti-Knightmare armour is the official name for the new Non-Explosive-Reactive Armour (NERA) that will be implemented in tanks. NERA operating principle relies on the speed deviation of a shock wave propagating in different materials."
  ##Knightmares
  UNLOCK_KN_1:0 "This Is The First Step Towards The New Knightmare Technology"
+ UNLOCK_KN_2:0 "This Is The Final Step Towards The New Knightmare Technology"
+ UNLOCK_KN_3:0 "This A Necessary Step Towards Different Branches of Knightmare Technology"
  knightmares_folder:0 "Knightmares"
  knightmares_folder_desc:0 "A special technology tree dedicated to Knightmare development."
  knightmare_mass_production:0 "Mass Production"
@@ -50,55 +52,94 @@
  knightmare_frame_1_desc:0 "The beginnings of the Knightmare Frame came from the creation of 'emergency survival cockpits' for conventional vehicles. Equipped with rocket engines to fly the crew away from the wreck, the contraptions were soon equipped with artificial legs to allow greater mobility. Limited room inside said vehicles restricted the number of legs to two. Though not a weapon in any sense of the word, the 'walking cockpits' provided the base form for their successors."
  knightmare_police:0 "Knight Police"
  knightmare_police_desc:0 "The Knightpolice is a Knightmare Frame made from retired Glasgows. They are operated by an elite paramilitary unit of the Britannian Police Force, where they serve as backup support for regular and special police units. It is armed with a pair of machine pistols instead of an assault rifle, as well as a specially-made anti-Knightmare combat knife. In addition, Knight Police frames also use a riot shield during crowd-control situations where firearms or rogue Knightmares may be present."
+ knightmare_pol_1:0 "Knight Police"
+ knightmare_pol_1_desc:0 "The Knightpolice is a Knightmare Frame made from retired Glasgows. They are operated by an elite paramilitary unit of the Britannian Police Force, where they serve as backup support for regular and special police units. It is armed with a pair of machine pistols instead of an assault rifle, as well as a specially-made anti-Knightmare combat knife. In addition, Knight Police frames also use a riot shield during crowd-control situations where firearms or rogue Knightmares may be present."
  landspinner:0 "Landspinner System"
+ landspinner_equip_desc:0 "The Landspinner Propulsion System is essentially a set of wheels that can be attached to the back of each heel of a Knightmare Frame's foot. When a Float System is attached, the Landspinners are folded or removed. Since the legs and the Landspinners themselves can each pivot, these can be used to move off the ground, using the surrounding surfaces as points of contact."
+ factspheres:0 "Factsphere Sensor"
  landspinner_desc:0 "The Landspinner Propulsion System is essentially a set of wheels that can be attached to the back of each heel of a Knightmare Frame's foot. When a Float System is attached, the Landspinners are folded or removed. Since the legs and the Landspinners themselves can each pivot, these can be used to move off the ground, using the surrounding surfaces as points of contact."
  factspheres:0 "Factsphere Sensor"
  factspheres_desc:0 "A Factsphere Sensor is essentially an advanced camera that relays live thermographic images and data to the pilot. It uses both an active/passive sensor for microwave band and visible light region in addition to acoustic pickup and a fire control use environmental sensor to provide the pilot with integrated information. They are usually protected under a retractable layer of armor. When retracted, it allows for greater system sensitivity."
+ factspheres_equip_desc:0 "A Factsphere Sensor is essentially an advanced camera that relays live thermographic images and data to the pilot. It uses both an active/passive sensor for microwave band and visible light region in addition to acoustic pickup and a fire control use environmental sensor to provide the pilot with integrated information. They are usually protected under a retractable layer of armor. When retracted, it allows for greater system sensitivity."
  knightmare_frame_2:0 "2ND Generation Knightmare Design"
  knightmare_frame_2_desc:0 "The creation of several common Knightmare Frame technologies, such as the Factspheres and Landspinners, lead to the funding for Knightmare Frame prototypes. However, the new technologies performed erratically, and the research was outsourced to military-based robotics projects and social-oriented programs. The former was assigned to a Britannian Army Special Division, while the latter went in the hands of a private group, the Ashford Foundation."
+ knightmare_mass_prod_1:0 "3RD Generation Knightmare Frame" #Ganymede
+ knightmare_mass_prod_1_desc:0 "With the results gained from the two separate programs, Knightmare Frames were developed into combat-effective platforms. Use of Sakuradite became paramount in making the Knightmare Frames perform to expectations, resulting in the mineral's value increasing greatly, turning it into a resource as important as fossil fuels in international politics. The Third Age also marked the creation of the Ganymede prototype, manufactured and designed by the Ashford Foundation."
  knightmare_frame_3:0 "3RD Generation Knightmare Frame" #Ganymede
  knightmare_frame_3_desc:0 "With the results gained from the two separate programs, Knightmare Frames were developed into combat-effective platforms. Use of Sakuradite became paramount in making the Knightmare Frames perform to expectations, resulting in the mineral's value increasing greatly, turning it into a resource as important as fossil fuels in international politics. The Third Age also marked the creation of the Ganymede prototype, manufactured and designed by the Ashford Foundation."
  knightmare_frame_4:0 "4TH Generation Knightmare Frame"  #Glasgow
  knightmare_frame_4_desc:0 "The Fourth Age saw the introduction of the RPI-11 Glasgow, the first mass-production weapons platform. Its abilities allowed the Britannian Empire to easily dominate Japan during the invasion of 2010 A.T.B. The Glasgow moved on to become the baseline unit for the Britannian Army, though it is eventually made obsolete. Some Glasgow units are still used by the Knightpolice for law enforcement, and other countries have used it as a base in the creation of their own Knightmare Frames."
+
+ knightmare_mass_prod_2:0 "4TH Generation Knightmare Frame"  #Glasgow
+ knightmare_mass_prod_2_desc:0 "The Fourth Age saw the introduction of the RPI-11 Glasgow, the first mass-production weapons platform. Its abilities allowed the Britannian Empire to easily dominate Japan during the invasion of 2010 A.T.B. The Glasgow moved on to become the baseline unit for the Britannian Army, though it is eventually made obsolete. Some Glasgow units are still used by the Knightpolice for law enforcement, and other countries have used it as a base in the creation of their own Knightmare Frames."
+
+
  knightmare_frame_5:0 "5TH Generation Knightmare Frame"  #Sutherland
  knightmare_frame_5_desc:0 "The RPI-13 Sutherland is the most used and famous result of Anti-Knightmare weapons' development. The Sutherland features improvements to cockpit comfort and function, better mobility, and increased close-combat capabilities to emphasize its role as an anti-Knightmare weapon."
+
+
+ knightmare_mass_prod_3:0 "5TH Generation Knightmare Frame"  #Sutherland
+ knightmare_mass_prod_3_desc:0 "The RPI-13 Sutherland is the most used and famous result of Anti-Knightmare weapons' development. The Sutherland features improvements to cockpit comfort and function, better mobility, and increased close-combat capabilities to emphasize its role as an anti-Knightmare weapon."
+
+
  knightmare_frame_7:0 "7TH Generation Knightmare Frame" #Vincent
  knightmare_frame_7_desc:0 "The creation of the Seventh Generation Lancelot marked the first significant innovation. Sakuradite is not only used in the Yggdrasil Drive, but is also scattered throughout the frame, increasing performance dramatically in all areas. This allows them to effectively employ the MVS (Maser Vibration Sword) and electromagnetic shielding, as well as becoming the first Knightmare to demonstrate the use of the Blaze Luminous, a special type of energy shield." #Vincent Ward
+
+ knightmare_mass_prod_4:0 "7TH Generation Knightmare Frame" #Vincent
+ knightmare_mass_prod_4_desc:0 "The creation of the Seventh Generation Lancelot marked the first significant innovation. Sakuradite is not only used in the Yggdrasil Drive, but is also scattered throughout the frame, increasing performance dramatically in all areas. This allows them to effectively employ the MVS (Maser Vibration Sword) and electromagnetic shielding, as well as becoming the first Knightmare to demonstrate the use of the Blaze Luminous, a special type of energy shield."
+
+ knightmare_frame_9:0 "9TH Gen. Knightmare Frame"
  knightmare_frame_9_desc:0 "The Ninth Age sees the introduction of the Energy Wing, an experimental Float System giving unrivaled agility and allowing for blinding speeds, but being highly difficult to control. Only two Ninth Generation Knightmares are known: the Lancelot Albion and the Guren S.E.I.T.E.N. It is assumed all float-equipped Eighth Generation-and-above Knightmares are built in with their own oxygen supply for combat at high altitudes and, for some, underwater travel and combat."
+
+ knightmare_mass_prod_5:0 "9TH Gen. Knightmare Frame"
+ knightmare_mass_prod_5_desc:0 "The Ninth Age sees the introduction of the Energy Wing, an experimental Float System giving unrivaled agility and allowing for blinding speeds, but being highly difficult to control. Only two Ninth Generation Knightmares are known: the Lancelot Albion and the Guren S.E.I.T.E.N. It is assumed all float-equipped Eighth Generation-and-above Knightmares are built in with their own oxygen supply for combat at high altitudes and, for some, underwater travel and combat."
+
+
  anti_knightmare_design:0 "Anti Knightmare Frame Design"
  anti_knightmare_design_desc:0 "Following the success of the Knightmare Frames against conventional weapons of war, attention was turned to creating Knightmare Frames intended to destroy similar weapons, including other Knightmare Frames."
- knightmare_frame_5_melee:0 "5TH Generation Melee Knightmare" #Gloucester
- knightmare_frame_5_melee_desc:0 "A cheap derivation of a normal Knightmare Frame, the Melee Knightmare presents a limited cost of production and it is simplier to use for the common soldiers. However, there are higher chances of break downs and failures, in addition, they aren't equipped with a proper expulsion system for the pilots. The major producer of these is the Chinese Federation."
+ knightmare_melee_1:0 "5TH Generation Melee Knightmare" #Gloucester
+ knightmare_melee_1_desc:0 "A cheap derivation of a normal Knightmare Frame, the Melee Knightmare presents a limited cost of production and it is simplier to use for the common soldiers. However, there are higher chances of break downs and failures, in addition, they aren't equipped with a proper expulsion system for the pilots. The major producer of these is the Chinese Federation."
  hadron_cannon:0 "Hadron Cannon"
  hadron_cannon_desc:0 "The weapon functions by combining multiple individual particle beams into a single beam of massive power. Hadron blasts are characteristically red and black, often surrounded by chains of electricity. Hadrons are particles made up of quarks, such as protons, neutrons, and mesons. Thus, it is probably safe to assume that the Hadron Cannon is thus some sort of particle cannon that fires Hadrons."
- knightmare_heavy_artiller_7:0 "7TH Gen. Heavy Artillery Knightmare" #Gawain
- knightmare_heavy_artiller_7_desc:0 "The unit is equipped with a prototype integrated Float System, making it capable of sustained flight. Its fingers are miniature Slash Harkens, and it features a pair of shoulder-mounted Hadron Cannons, which can emit continuous streams of destructive energy over prodigious ranges. Despite its strengths, the Gawain is a fairly slow unit, and as such is easily outmaneuvered by smaller, faster Knightmares."
- knightmare_heavy_artiller_8:0 "8TH Gen. Heavy Artillery Knightmare" #Mordred
- knightmare_heavy_artiller_8_desc:0 "The Mordred has an integrated Float System, which enables flight, but it can be sheared through with ease. It possesses two sets of Hadron Cannons mounted on each shoulder, which are unfolded and merged into a quad-barrel cannon called the Stark Hadron Cannon, focusing their power into a single blast capable of obliterating an aerial cruiser in a single shot."
- knightmare_frame_8_melee:0 "8TH Gen. Melee Knightmare" #Percival
- knightmare_frame_8_melee_desc:0 "Its armor is oddly bulky, with large cones extending from the wrists, pointed leg armor at the hips and feet, and spikes from its shoulders and Landspinners. It also has an Integrated Float System for flight capability. The unit's main weapon is a large claw on its right wrist. The claws can reconfigure itself and be spun around, generating a Blaze Luminous field and transforming the arm into an MVS Particle Drill Lance."
+ knightmare_artillery_1:0 "7TH Gen. Heavy Artillery Knightmare" #Gawain
+ knightmare_artillery_1_desc:0 "The unit is equipped with a prototype integrated Float System, making it capable of sustained flight. Its fingers are miniature Slash Harkens, and it features a pair of shoulder-mounted Hadron Cannons, which can emit continuous streams of destructive energy over prodigious ranges. Despite its strengths, the Gawain is a fairly slow unit, and as such is easily outmaneuvered by smaller, faster Knightmares."
+ knightmare_artillery_2:0 "8TH Gen. Heavy Artillery Knightmare" #Mordred
+ knightmare_artillery_2_desc:0 "The Mordred has an integrated Float System, which enables flight, but it can be sheared through with ease. It possesses two sets of Hadron Cannons mounted on each shoulder, which are unfolded and merged into a quad-barrel cannon called the Stark Hadron Cannon, focusing their power into a single blast capable of obliterating an aerial cruiser in a single shot."
+ knightmare_melee_2:0 "8TH Gen. Melee Knightmare" #Percival
+ knightmare_melee_2_desc:0 "Its armor is oddly bulky, with large cones extending from the wrists, pointed leg armor at the hips and feet, and spikes from its shoulders and Landspinners. It also has an Integrated Float System for flight capability. The unit's main weapon is a large claw on its right wrist. The claws can reconfigure itself and be spun around, generating a Blaze Luminous field and transforming the arm into an MVS Particle Drill Lance."
  super_MVS:0 "Super MVS"
  super_MVS_desc:0 "The Maser Vibration Sword is a type of weapon that uses a combination of extremely high oscillation rates and temperatures in order to increase the cutting effectiveness of the weapon, thus causing the gray material to suddenly become red. Due to some Maser Vibration Swords having similar oscillation rates, they can collide with each other without being cut."
- knightmare_frame_8_melee_super:0 "9TH Gen. Super Melee Knightmare Frame" #Galahad
- knightmare_frame_8_melee_super_desc:0 "The unit possesses many features similar to the previous frames, such as built-in Landspinners, hands that feature miniature Slash Harkens as fingers, as well as being twice the size of an ordinary Knightmare. It is equipped with energy shielding and carries a Maser Vibration Sword named Excalibur on its back, which is larger than the Knightmare itself. The sword's sheath has an additional Landspinner and serves as the Galahad's Float System."
+ knightmare_melee_3:0 "9TH Gen. Super Melee Knightmare Frame" #Galahad
+ knightmare_melee_3_desc:0 "The unit possesses many features similar to the previous frames, such as built-in Landspinners, hands that feature miniature Slash Harkens as fingers, as well as being twice the size of an ordinary Knightmare. It is equipped with energy shielding and carries a Maser Vibration Sword named Excalibur on its back, which is larger than the Knightmare itself. The sword's sheath has an additional Landspinner and serves as the Galahad's Float System."
  energy_shield:0 "Energy Shields"
  energy_shield_desc:0 "The Blaze Luminous system, or simply Energy Shields, is a system that projects energy in the form of shields around a nearby target. It was designed as an energy armor system that applies the breakdown phenomenon. The amount of energy required to maintain the shields is proportional to the amount of energy being blocked by the shields."
- all_pur_knightmare:0 "All Purposes Knightmare Frame" #Lancelot
- all_pur_knightmare_desc:0 "As a high-performance unit, the unit features a large number of experimental and innovative devices not yet found on its predecessors. The Lancelot features two retractable Factspheres affixed on its chest, two forearm-mounted beam shields, and four Slash Harkens. These Slash Harkens have experimental thrusters called Harken Boosters which can improve their speed and allow them to change direction midflight."
+ knightmare_all_pur_1:0 "All Purposes Knightmare Frame" #Lancelot
+ knightmare_all_pur_1_desc:0 "As a high-performance unit, the unit features a large number of experimental and innovative devices not yet found on its predecessors. The Lancelot features two retractable Factspheres affixed on its chest, two forearm-mounted beam shields, and four Slash Harkens. These Slash Harkens have experimental thrusters called Harken Boosters which can improve their speed and allow them to change direction midflight."
+ knightmare_all_pur_unit_desc:0 "As a high-performance unit, the unit features a large number of experimental and innovative devices not yet found on its predecessors. The Lancelot features two retractable Factspheres affixed on its chest, two forearm-mounted beam shields, and four Slash Harkens. These Slash Harkens have experimental thrusters called Harken Boosters which can improve their speed and allow them to change direction midflight."
  floater_system:0 "Float System"
  floater_system_desc:0 "The Float System is a flotation device that was developed by Lloyd Asplund and the Holy Britannian Empire for enabling flight for Knightmares. An atmospheric floatation device of unknown principle, but probably electromagnetic in nature, the Float System is capable both of suspending extremely high-mass structures in stationary flight and moving them through the air at decently fast speeds. It requires gyroscopic stabilization. It is also known to have an astronomical energy cost."
- all_pur_knightmare_gen_7:0 "7TH Gen. All Purposes Knightmare Frame" #Lancelot Conquista
- all_pur_knightmare_gen_7_desc:0 "The Float System backpack is now standard equipment. The Conquista gains a Hadron Blaster, which is mounted on top of the Float System and fired by docking its VARIS Rifle to the underside of a larger cannon mount affixed to the Float System. Its unique Core Luminous has been tuned and refined, increasing its power in battle, and it is equipped with countermeasures that provide a partial defense against the Knightmare-disabling Gefjun Disturber."
- all_pur_knightmare_gen_9:0 "9TH Gen. All Purposes Knightmare Frame" #Lancelot Albion
- all_pur_knightmare_gen_9_desc:0 "The unit has maximum mobility and firepower and it is the strongest Knightmare Frame of Britannia. The Albion's main armaments exist as a significant upgrade over the original weapon, being double-barreled compared to its predecessor's single barrel."
+ knightmare_all_pur_2:0 "7TH Gen. All Purposes Knightmare Frame" #Lancelot Conquista
+  knightmare_all_pur_2_desc:0 "The Float System backpack is now standard equipment. The Conquista gains a Hadron Blaster, which is mounted on top of the Float System and fired by docking its VARIS Rifle to the underside of a larger cannon mount affixed to the Float System. Its unique Core Luminous has been tuned and refined, increasing its power in battle, and it is equipped with countermeasures that provide a partial defense against the Knightmare-disabling Gefjun Disturber."
+  knightmare_all_pur_3:0 "9TH Gen. All Purposes Knightmare Frame" #Lancelot Albion
+  knightmare_all_pur_3_desc:0 "The unit has maximum mobility and firepower and it is the strongest Knightmare Frame of Britannia. The Albion's main armaments exist as a significant upgrade over the original weapon, being double-barreled compared to its predecessor's single barrel."
  knightmare_frame_fortress:0 "8TH Gen. Fortress Knightmare Frame"
  knightmare_frame_fortress_desc:0 "A Knight Giga Fortress is a derivation of the Knightmare Frame, characterized by its lack of limbs, immense size, and durability. Such fortresses are essentially hovering assault craft, using a Float System to maneuver themselves through the air, and can be equipped with multiple Slash Harkens, Hadron Cannons, and other weapons."
+
+ knightmare_fortress_1:0 "8TH Gen. Fortress Knightmare Frame"
+ knightmare_fortress_1_desc:0 "A Knight Giga Fortress is a derivation of the Knightmare Frame, characterized by its lack of limbs, immense size, and durability. Such fortresses are essentially hovering assault craft, using a Float System to maneuver themselves through the air, and can be equipped with multiple Slash Harkens, Hadron Cannons, and other weapons."
+
+
  absolute_defense:0 "Absolute Defense"
  absolute_defense_desc:0 "The Absolute Defense system creates red hexagonal shields that overlap each other to form a defensive grid. This shield system is operated through a pair of keyboard controls, setting up effective defensive patterns based on the information from the Druid System, which plots the trajectories of incoming projectiles."
  energy_wing:0 "Energy Winds"
  energy_wing_desc:0 "It exists as a new, experimental, and highly advanced Float System. Data gathered from the captured Guren Flight-Enabled Version was used as the basis for development. When the Energy Wing System was completed, the result was the creation of the first Ninth-Generation Knightmare Frame: the Guren S.E.I.T.E.N. Eight Elements."
+<<<<<<< Updated upstream
  super_knightmare_frame_fortress:0 "Super Fortress Knightmare Frame" #Shinkiro
  super_knightmare_frame_fortress_desc:0 "The Shinkirō possesses an Absolute Defense System which uses an array of hexagonal energy shields that can be projected over any part of the Knightmare. Its Druid System plots the trajectories of incoming projectiles and shifts the shields accordingly, giving the Shinkirō the highest defensive power of any Knightmare Frame. The system requires incredibly complex calculations to form effective barriers. At its full potential, the Absolute Defense System can block a sustained point-blank blast from the Mordred’s Stark Hadron Cannon."
+=======
+ knightmare_fortress_2:0 "Super Fortress Knightmare Frame" #Shinkiro
+ knightmare_fortress_2_desc:0 "The Shinkirō possesses an Absolute Defense System which uses an array of hexagonal energy shields that can be projected over any part of the Knightmare. Its Druid System plots the trajectories of incoming projectiles and shifts the shields accordingly, giving the Shinkirō the highest defensive power of any Knightmare Frame. The system requires incredibly complex calculations to form effective barriers. At its full potential, the Absolute Defense System can block a sustained point-blank blast from the Mordred’s Stark Hadron Cannon."
+>>>>>>> Stashed changes
 
 
 
@@ -183,3 +224,25 @@
 
 
 
+<<<<<<< Updated upstream
+=======
+knightmare_mass_prod_unit:0 "Mass Production KN"
+knightmare_mass_prod_unit_desc:0 "With the results gained from the two separate programs, Knightmare Frames were developed into combat-effective platforms. Use of Sakuradite became paramount in making the Knightmare Frames perform to expectations, resulting in the mineral's value increasing greatly, turning it into a resource as important as fossil fuels in international politics. The Third Age also marked the creation of the Ganymede prototype, manufactured and designed by the Ashford Foundation."
+
+knightmare_pol_unit:0 "Police KN"
+ knightmare_pol_unit_desc:0 "The Knightpolice is a Knightmare Frame made from retired Glasgows. They are operated by an elite paramilitary unit of the Britannian Police Force, where they serve as backup support for regular and special police units. It is armed with a pair of machine pistols instead of an assault rifle, as well as a specially-made anti-Knightmare combat knife. In addition, Knight Police frames also use a riot shield during crowd-control situations where firearms or rogue Knightmares may be present."
+
+ knightmare_all_pur_unit:0 "All Purpose KN"
+
+knightmare_fortress_unit:0 "Fortress KN"
+knightmare_fortress_unit_desc:0 ""
+
+knightmare_melee_unit:0 "Melee KN"
+knightmare_melee_unit_desc:0 ""
+
+knightmare_artillery_unit:0 "Artillery KN"
+knightmare_artillery_unit_desc:0 ""
+
+
+
+>>>>>>> Stashed changes

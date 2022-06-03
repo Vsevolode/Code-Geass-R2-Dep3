@@ -394,6 +394,7 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 2014
+<<<<<<< Updated upstream
 
 		path = {
 			leads_to_tech = modern_artillery_2
@@ -401,6 +402,15 @@ technologies = {
 		}
 
 		path = {
+=======
+
+		path = {
+			leads_to_tech = modern_artillery_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+>>>>>>> Stashed changes
 			leads_to_tech = sp_artillery_2
 			research_cost_coeff = 1
 		}
@@ -477,6 +487,14 @@ technologies = {
 	}
 
 	raiko_artillery = {
+
+		dependencies = {
+            high_explosives_tearing_projectiles = 1
+        }
+
+		dependencies = {
+            bulk_loaded_liquid_propellant = 1
+        }
 
 		enable_equipments = {
 			raiko_artillery
