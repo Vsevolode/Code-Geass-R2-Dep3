@@ -1,7 +1,7 @@
 state={
 	id=680
 	name="STATE_680"
-	manpower = 324110
+	manpower = 3565210
 	
 	state_category = wasteland
 
@@ -17,7 +17,7 @@ state={
 			6883 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		add_core_of = OTT
 

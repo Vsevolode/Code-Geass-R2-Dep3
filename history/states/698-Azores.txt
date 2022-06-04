@@ -1,19 +1,19 @@
 state={
 	id=698
 	name="STATE_698"
-	manpower = 212012
+	manpower = 1272072
 	
 	state_category = small_island
 	
 	history={
-		owner = POR
+		owner = FRA
 		victory_points = {
 			1751 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			1751 = {
-				naval_base = 3
+				naval_base = 8
 			}
 		}
 		add_core_of = POR

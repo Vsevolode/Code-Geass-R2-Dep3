@@ -2,7 +2,7 @@
 state={
 	id=478
 	name="STATE_478" # Jalisco
-	manpower = 2470875
+	manpower = 7412625
 	
 	state_category = town
 	
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = AR3
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = AR3

@@ -2,7 +2,7 @@
 state={
 	id=365
 	name="STATE_365"
-	manpower = 2908504
+	manpower = 11634016
 	
 	state_category = city
 
@@ -13,7 +13,7 @@ state={
 			industrial_complex = 3
 			air_base = 2
 			11975 = {
-				naval_base = 1
+				naval_base = 4
 			}
 		}
 		add_core_of = BRT

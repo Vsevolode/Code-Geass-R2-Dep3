@@ -2,7 +2,7 @@
 state={
 	id=772
 	name="STATE_772" # Middle Congo (Brazzaville)
-	manpower = 746415
+	manpower = 6717735
 	
 	state_category = pastoral
 	resources={
@@ -17,7 +17,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			12975 = {
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 

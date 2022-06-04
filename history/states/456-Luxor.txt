@@ -2,7 +2,7 @@ state=
 {
 	id=456
 	name="STATE_456" # Aswan
-	manpower = 4224516
+	manpower = 46469676
 	
 	state_category = rural
 	
@@ -12,7 +12,7 @@ state=
 		}
 		owner = EGY
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 		}
 
 		victory_points = {

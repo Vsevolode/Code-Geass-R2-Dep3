@@ -2,7 +2,7 @@
 state={
 	id=558
 	name="STATE_558"
-	manpower = 19757000
+	manpower = 177813000
 	
 	state_category = rural
 	resources={
@@ -12,11 +12,11 @@ state={
 		owner = NGA
 		add_core_of = NGA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 0
 			industrial_complex = 1
 			2050 = {
-				naval_base = 3
+				naval_base = 5
 			}
 		}
 		victory_points = {

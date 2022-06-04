@@ -2,14 +2,14 @@
 state={
 	id=414
 	name="STATE_414"
-	manpower = 486013
+	manpower = 3888104
 	
 	state_category = wasteland
 
 	history={
 		owner = IRN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			10913 1 

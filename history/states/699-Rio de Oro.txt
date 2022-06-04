@@ -1,7 +1,7 @@
 state={
 	id=699
 	name="STATE_699"
-	manpower = 21056
+	manpower = 252672
 	
 	state_category = wasteland
 
@@ -11,7 +11,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			8038 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 		victory_points = {

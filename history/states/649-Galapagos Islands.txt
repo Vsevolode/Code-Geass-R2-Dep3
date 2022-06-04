@@ -3,14 +3,14 @@ state=
 	id=649
 	name="STATE_649"
 	state_category = tiny_island
-	manpower=11532
+	manpower=46128
 	history=
 	{
 		owner = BRT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			5023 = {
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 		add_core_of = BRT

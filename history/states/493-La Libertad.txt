@@ -2,7 +2,7 @@
 state={
 	id=493
 	name="STATE_493"
-	manpower = 2826781
+	manpower = 8480343
 	resources={
 		oil=15 # was: 20
 	}
@@ -12,14 +12,14 @@ state={
 	history={
 		owner = AR5
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 2
 			air_base = 4
 			12790 = {
-				naval_base = 5
+				naval_base = 6
 			}
 			8056 = {
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 		add_core_of = AR5

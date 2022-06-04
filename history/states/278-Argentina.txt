@@ -2,14 +2,14 @@
 state={
 	id=278
 	name="STATE_278" # Pampas
-	manpower = 5596366
+	manpower = 16789098
 	
 	state_category = large_city
 
 	history={
 		owner = AR7
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 4 #was: 6
 			arms_factory = 2
 			industrial_complex = 5
 			dockyard = 1
@@ -20,10 +20,10 @@ state={
 				coastal_bunker = 1
 			}
 			7621 = {
-				naval_base = 2
+				naval_base = 4
 			}
 			1639 = {
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 		add_core_of = AR7

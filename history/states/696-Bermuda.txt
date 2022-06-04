@@ -1,7 +1,7 @@
 state={
 	id=696
 	name="STATE_696"
-	manpower=37516
+	manpower=375160
 	state_category = small_island
 
 	history={
@@ -10,9 +10,9 @@ state={
 			13010 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			13010 = {
-				naval_base = 1
+				naval_base = 10
 			}
 		}
 	}

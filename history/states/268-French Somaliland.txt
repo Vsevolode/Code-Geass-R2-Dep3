@@ -1,7 +1,7 @@
 state={
 	id=268
 	name="STATE_268"
-	manpower = 85232
+	manpower = 937552
 
 
 	state_category = enclave
@@ -13,10 +13,10 @@ state={
 			8124 1
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 4
+			air_base = 4
 			8124 = {
-				naval_base = 2
+				naval_base = 8
 			}
 		}
 

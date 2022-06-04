@@ -2,14 +2,14 @@
 state={
 	id=475
 	name="STATE_475"
-	manpower = 805874
+	manpower = 2417622
 	
 	state_category = rural
 
 	history={
 		owner = AR3
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = AR3
 
