@@ -2,7 +2,7 @@
 state={
 	id=444
 	name="STATE_444" # Baluchistan
-	manpower = 463500
+	manpower = 2781000
 	
 	state_category = wasteland
 
@@ -12,7 +12,7 @@ state={
 		}
 		owner = BAL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		add_core_of = BAL
 	}
