@@ -1,7 +1,7 @@
 
 state={
 	id=544
-	name="STATE_544" #Ost Afrika
+	name="STATE_544" #Mozambique
 	manpower = 37120529
 	
 	state_category = rural

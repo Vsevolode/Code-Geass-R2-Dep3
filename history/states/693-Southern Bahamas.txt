@@ -1,7 +1,7 @@
 state={
 	id=693
 	name="STATE_693"
-	manpower = 45,069
+	manpower = 45069
 	
 	state_category = tiny_island
 
