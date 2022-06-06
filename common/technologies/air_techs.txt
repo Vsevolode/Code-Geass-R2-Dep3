@@ -2,17 +2,6 @@ technologies = {
 	
 	early_jet_design = {
 
-<<<<<<< Updated upstream
-	
-		path = {
-			leads_to_tech = g_support1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = fighter1
-			research_cost_coeff = 1
-		}
-=======
 		on_research_complete = {
 			custom_effect_tooltip = UNLOCK_DIVISION_PLANES
 		}
@@ -811,24 +800,18 @@ technologies = {
 			leads_to_tech = trans1
 			research_cost_coeff = 1
 		}
->>>>>>> Stashed changes
 		
 		research_cost = 2
 		start_year = 1980
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = 2 y = 2 }
 		}
 		
 		categories = {
-<<<<<<< Updated upstream
-			light_air
-			light_fighter
-=======
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -843,14 +826,6 @@ technologies = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
-
-	fighter1 = {
-
-	
-		path = {
-			leads_to_tech = fighter2
-=======
 
 	trans1 = {
 
@@ -862,27 +837,18 @@ technologies = {
 	
 		path = {
 			leads_to_tech = trans_improve
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = -4 y = 4 }
-=======
 		start_year = 2009
 		folder = {
 			name = air_techs_folder
 			position = { x = 6 y = 4 }
->>>>>>> Stashed changes
 		}
 		
 		categories = {
-			light_air
-			light_fighter
+			medium_air
 			air_equipment
 		}
 
@@ -898,13 +864,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	fighter2 = {
-
-	
-		path = {
-			leads_to_tech = improved_fighter
-=======
 	trans_improve = {
 
 		transport_plane = {
@@ -914,33 +873,20 @@ technologies = {
 	
 		path = {
 			leads_to_tech = trans2
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = -4 y = 6 }
-=======
 		start_year = 2011
 		folder = {
 			name = air_techs_folder
 			position = { x = 6 y = 6 }
->>>>>>> Stashed changes
 		}
 		
 		categories = {
-			light_air
-			light_fighter
+			medium_air
 			air_equipment
 		}
-<<<<<<< Updated upstream
-
-		
-=======
 
 		
 		
@@ -978,7 +924,6 @@ technologies = {
 		}
 
 		
->>>>>>> Stashed changes
 		
 		ai_will_do = {
 			factor = 1
@@ -990,13 +935,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	improved_fighter = {
-
-	
-		path = {
-			leads_to_tech = fighter4
-=======
 	hel1 = {
 
 		enable_equipments = {
@@ -1007,27 +945,18 @@ technologies = {
 	
 		path = {
 			leads_to_tech = hel_improve
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = -4 y = 8 }
-=======
 		start_year = 2009
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 4 }
->>>>>>> Stashed changes
 		}
 		
 		categories = {
-			light_air
-			light_fighter
+			medium_air
 			air_equipment
 		}
 
@@ -1043,21 +972,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	fighter4 = {
-
-	
-		path = {
-			leads_to_tech = stealth_fighters
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = -4 y = 10 }
-=======
 	hel_improve = {
 
 		helicopter = {
@@ -1076,12 +990,10 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 6 }
->>>>>>> Stashed changes
 		}
 		
 		categories = {
-			light_air
-			light_fighter
+			medium_air
 			air_equipment
 		}
 
@@ -1096,14 +1008,6 @@ technologies = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
-
-	stealth_fighters = {
-
-	
-		path = {
-			leads_to_tech = fighter5
-=======
 
 
 	hel2 = {
@@ -1117,22 +1021,10 @@ technologies = {
 	
 		path = {
 			leads_to_tech = hel2
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = -4 y = 12 }
-		}
-		
-		categories = {
-			light_air
-			light_fighter
-=======
 		start_year = 2014
 		folder = {
 			name = air_techs_folder
@@ -1141,7 +1033,6 @@ technologies = {
 		
 		categories = {
 			medium_air
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1156,23 +1047,6 @@ technologies = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
-
-	fighter5 = {
-
-	
-
-		research_cost = 2
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = -4 y = 14 }
-		}
-		
-		categories = {
-			light_air
-			light_fighter
-=======
 
 	bomber1 = {
 
@@ -1202,7 +1076,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1217,14 +1090,6 @@ technologies = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
-
-	g_support1 = {
-
-	
-		path = {
-			leads_to_tech = g_suppor2
-=======
 
 	bomber2 = {
 
@@ -1241,22 +1106,10 @@ technologies = {
 	
 		path = {
 			leads_to_tech = missile_equip
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 4 y = 4 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-=======
 		start_year = 2011
 		folder = {
 			name = air_techs_folder
@@ -1267,7 +1120,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1283,13 +1135,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	g_suppor2 = {
-
-	
-		path = {
-			leads_to_tech = improved_g_support
-=======
 	missile_equip = {
 
 		strat_bomber = {
@@ -1304,22 +1149,10 @@ technologies = {
 	
 		path = {
 			leads_to_tech = bomber3
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 4 y = 6 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-=======
 		start_year = 2014
 		folder = {
 			name = air_techs_folder
@@ -1330,7 +1163,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1346,13 +1178,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	improved_g_support = {
-
-	
-		path = {
-			leads_to_tech = g_support4
-=======
 	bomber3= {
 
 		enable_equipments = {
@@ -1366,7 +1191,6 @@ technologies = {
 	
 		path = {
 			leads_to_tech = sak_equip
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
@@ -1377,17 +1201,6 @@ technologies = {
 
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 4 y = 8 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-=======
 		start_year = 2015
 		folder = {
 			name = air_techs_folder
@@ -1398,7 +1211,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1414,26 +1226,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	g_support4 = {
-
-	
-		path = {
-			leads_to_tech = stealth_g_support
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 4 y = 10 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-=======
 	sak_equip = {
 
 		strat_bomber = {
@@ -1464,7 +1256,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1480,13 +1271,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-	stealth_g_support = {
-
-	
-		path = {
-			leads_to_tech = g_support5
-=======
 	gen_improv_2 = {
 
 		strat_bomber = {
@@ -1499,23 +1283,11 @@ technologies = {
 	
 		path = {
 			leads_to_tech = bomber4
->>>>>>> Stashed changes
 			research_cost_coeff = 1
 		}
 
 
 		research_cost = 2
-<<<<<<< Updated upstream
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 4 y = 12 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-=======
 		start_year = 2016
 		folder = {
 			name = air_techs_folder
@@ -1526,7 +1298,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1541,23 +1312,6 @@ technologies = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
-
-	g_support5 = {
-
-	
-
-		research_cost = 2
-		start_year = 1933
-		folder = {
-			name = air_techs_folder
-			position = { x = 4 y = 14 }
-		}
-		
-		categories = {
-			light_air
-			cas_bomber
-=======
 
 	bomber4 = {
 
@@ -1580,7 +1334,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			cat_strategic_bomber
->>>>>>> Stashed changes
 			air_equipment
 		}
 
@@ -1596,9 +1349,6 @@ technologies = {
 		}
 	}
 
-<<<<<<< Updated upstream
-=======
 
 
->>>>>>> Stashed changes
 }

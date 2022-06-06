@@ -324,7 +324,6 @@ spriteType = {
 	texturefile = "gfx/interface/technologies/raiko_artillery.dds"
 }
 
-<<<<<<< Updated upstream
 spriteType = {
 	name = "GFX_varied_propellant_artillery_medium"
 	texturefile = "gfx/interface/technologies/varied_propellant_artillery.dds"
@@ -346,29 +345,6 @@ spriteType = {
 }
 
 spriteType = {
-=======
-spriteType = {
-	name = "GFX_varied_propellant_artillery_medium"
-	texturefile = "gfx/interface/technologies/varied_propellant_artillery.dds"
-}
-
-spriteType = {
-	name = "GFX_fire_control_system_medium"
-	texturefile = "gfx/interface/technologies/fire_control_system.dds"
-}
-
-spriteType = {
-	name = "GFX_multiple_rounds_simultaneous_impact_1_medium"
-	texturefile = "gfx/interface/technologies/multiple_rounds_simultaneous_impact_1.dds"
-}
-
-spriteType = {
-	name = "GFX_knightmare_coilgun_deployment_medium"
-	texturefile = "gfx/interface/technologies/knightmare_coilgun_deployment.dds"
-}
-
-spriteType = {
->>>>>>> Stashed changes
 	name = "GFX_anti_kn_features_medium"
 	texturefile = "gfx/interface/technologies/anti_kn_features.dds"
 }
@@ -546,149 +522,78 @@ spriteType = {
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_advanced_frigate_medium"
-	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
-=======
 	name = "GFX_early_jet_design_medium"
 	texturefile = "gfx/interface/technologies/early_jet_design.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_basic_frigate_medium"
-	texturefile = "gfx/interface/technologies/basic_frigate.dds"
-=======
 	name = "GFX_stealth_g_support_medium"
 	texturefile = "gfx/interface/technologies/stealth_g_support.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_general_improve_medium"
-	texturefile = "gfx/interface/technologies/general_improve.dds"
-=======
 	name = "GFX_improved_g_support_medium"
 	texturefile = "gfx/interface/technologies/improved_g_support.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_advanced_frigate_medium"
-	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
-=======
 	name = "GFX_g_support5_medium"
 	texturefile = "gfx/interface/technologies/g_support5.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_basic_frigate_medium"
-	texturefile = "gfx/interface/technologies/basic_frigate.dds"
-=======
 	name = "GFX_g_support4_medium"
 	texturefile = "gfx/interface/technologies/g_support4.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_general_improve_medium"
-	texturefile = "gfx/interface/technologies/general_improve.dds"
-=======
 	name = "GFX_g_support2_medium"
 	texturefile = "gfx/interface/technologies/g_support2.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_advanced_frigate_medium"
-	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
-=======
 	name = "GFX_g_support1_medium"
 	texturefile = "gfx/interface/technologies/g_support1.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_basic_frigate_medium"
-	texturefile = "gfx/interface/technologies/basic_frigate.dds"
-=======
 	name = "GFX_improved_fighter_medium"
 	texturefile = "gfx/interface/technologies/improved_fighter.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_general_improve_medium"
-	texturefile = "gfx/interface/technologies/general_improve.dds"
-=======
 	name = "GFX_stealth_fighters_medium"
 	texturefile = "gfx/interface/technologies/stealth_fighters.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_advanced_frigate_medium"
-	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
-=======
 	name = "GFX_fighter1_medium"
 	texturefile = "gfx/interface/technologies/fighter1.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_basic_frigate_medium"
-	texturefile = "gfx/interface/technologies/basic_frigate.dds"
-=======
 	name = "GFX_fighter2_medium"
 	texturefile = "gfx/interface/technologies/fighter2.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_general_improve_medium"
-	texturefile = "gfx/interface/technologies/general_improve.dds"
-=======
 	name = "GFX_fighter3_medium"
 	texturefile = "gfx/interface/technologies/fighter3.dds"
->>>>>>> Stashed changes
 }
 
 
 spriteType = {
-<<<<<<< Updated upstream
-	name = "GFX_advanced_frigate_medium"
-	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
-}
-
-spriteType = {
-	name = "GFX_advanced_frigate_medium"
-	texturefile = "gfx/interface/technologies/advanced_frigate.dds"
-}
-
-=======
 	name = "GFX_fighter4_medium"
 	texturefile = "gfx/interface/technologies/fighter4.dds"
 }
@@ -768,9 +673,408 @@ spriteType = {
 	texturefile = "gfx/interface/technologies/early_jet_design_2.dds"
 }
 
+spriteType = {
+	name = "GFX_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons1.dds"
+}
+spriteType = {
+	name = "GFX_infantry_weapons2_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_weapons3_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+}
 
 
->>>>>>> Stashed changes
+spriteType = {
+	name = "GFX_infantry_weapons4_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons4.dds"
+}
+spriteType = {
+	name = "GFX_infantry_weapons5_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons5.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_weapons6_medium"
+	texturefile = "gfx/interface/technologies/infantry_weapons6.dds"
+}
+
+spriteType = {
+	name = "GFX_improved_infantry_weapons_2_medium"
+	texturefile = "gfx/interface/technologies/improved_infantry_weapons_2.dds"
+}
+
+spriteType = {
+	name = "GFX_advanced_infantry_weapons2_medium"
+	texturefile = "gfx/interface/technologies/advanced_infantry_weapons_2.dds"
+}
+
+spriteType = {
+	name = "GFX_advanced_infantry_weapons3_medium"
+	texturefile = "gfx/interface/technologies/advanced_infantry_weapons_3.dds"
+}
+
+spriteType = {
+	name = "GFX_advanced_infantry_weapons4_medium"
+	texturefile = "gfx/interface/technologies/advanced_infantry_weapons_4.dds"
+}
+
+spriteType = {
+	name = "GFX_advanced_infantry_weapons5_medium"
+	texturefile = "gfx/interface/technologies/advanced_infantry_weapons_5.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons_medium"
+	texturefile = "gfx/interface/technologies/support_weapons.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons2_medium"
+	texturefile = "gfx/interface/technologies/support_weapons2.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons3_medium"
+	texturefile = "gfx/interface/technologies/support_weapons3.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons4_medium"
+	texturefile = "gfx/interface/technologies/support_weapons4.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons5_medium"
+	texturefile = "gfx/interface/technologies/support_weapons5.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons6_medium"
+	texturefile = "gfx/interface/technologies/support_weapons6.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons7_medium"
+	texturefile = "gfx/interface/technologies/support_weapons7.dds"
+}
+
+spriteType = {
+	name = "GFX_support_weapons8_medium"
+	texturefile = "gfx/interface/technologies/support_weapons8.dds"
+}
+
+spriteType = {
+	name = "GFX_night_vision_medium"
+	texturefile = "gfx/interface/technologies/night_vision.dds"
+}
+
+spriteType = {
+	name = "GFX_night_vision2_medium"
+	texturefile = "gfx/interface/technologies/night_vision2.dds"
+}
+
+
+spriteType = {
+	name = "GFX_infantry_at_medium"
+	texturefile = "gfx/interface/technologies/infantry_at.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_at2_medium"
+	texturefile = "gfx/interface/technologies/infantry_at2.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_at3_medium"
+	texturefile = "gfx/interface/technologies/infantry_at3.dds"
+}
+
+
+spriteType = {
+	name = "GFX_infantry_at4_medium"
+	texturefile = "gfx/interface/technologies/infantry_at4.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_at5_medium"
+	texturefile = "gfx/interface/technologies/infantry_at5.dds"
+}
+
+spriteType = {
+	name = "GFX_infantry_at6_medium"
+	texturefile = "gfx/interface/technologies/infantry_at6.dds"
+}
+
+spriteType = {
+	name = "GFX_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/motorised_infantry.dds"
+}
+
+spriteType = {
+	name = "GFX_motorised_infantry_2_medium"
+	texturefile = "gfx/interface/technologies/motorised_infantry_2.dds"
+}
+
+spriteType = {
+	name = "GFX_motorised_infantry_3_medium"
+	texturefile = "gfx/interface/technologies/motorised_infantry_3.dds"
+}
+
+spriteType = {
+	name = "GFX_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/mechanised_infantry2.dds"
+}
+
+spriteType = {
+	name = "GFX_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/mechanised_infantry.dds"
+}
+spriteType = {
+	name = "GFX_mechanised_infantry_buff_medium"
+	texturefile = "gfx/interface/technologies/mechanised_infantry_buff.dds"
+}
+
+
+spriteType = {
+	name = "GFX_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/mechanised_infantry3.dds"
+}
+spriteType = {
+	name = "GFX_mechanised_infantry4_medium"
+	texturefile = "gfx/interface/technologies/mechanised_infantry4.dds"
+}
+
+spriteType = {
+	name = "GFX_amphibious_mechanized_infantry_medium"
+	texturefile = "gfx/interface/technologies/amphibious_mechanized_infantry.dds"
+}
+
+spriteType = {
+	name = "GFX_amphibious_mechanized_infantry_2_medium"
+	texturefile = "gfx/interface/technologies/amphibious_mechanized_infantry_2.dds"
+}
+
+
+spriteType = {
+	name = "GFX_amphibious_mechanized_infantry_3_medium"
+	texturefile = "gfx/interface/technologies/amphibious_mechanized_infantry_3.dds"
+}
+
+spriteType = {
+	name = "GFX_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/armored_car2.dds"
+}
+spriteType = {
+	name = "GFX_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/armored_car1.dds"
+}
+spriteType = {
+	name = "GFX_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/armored_car3.dds"
+}
+spriteType = {
+	name = "GFX_armored_car4_medium"
+	texturefile = "gfx/interface/technologies/armored_car4.dds"
+}
+spriteType = {
+	name = "GFX_armored_car_buff_medium"
+	texturefile = "gfx/interface/technologies/armored_car_buff.dds"
+}
+
+SpriteType = {
+	name = "GFX_tech_mountaineers3_medium"
+	texturefile = "gfx/interface/technologies/mountain3.dds"
+}
+
+SpriteType = {
+	name = "GFX_tech_mountaineers4_medium"
+	texturefile = "gfx/interface/technologies/mountain4.dds"
+}
+
+SpriteType = {
+	name = "GFX_tech_mountaineers2_medium"
+	texturefile = "gfx/interface/technologies/mountain2.dds"
+}	
+
+SpriteType = {
+	name = "GFX_tech_mountaineers_medium"
+	texturefile = "gfx/interface/technologies/mountain.dds"
+}	
+
+SpriteType = {
+	name = "GFX_marines4_medium"
+	texturefile = "gfx/interface/technologies/marines4.dds"
+}
+
+SpriteType = {
+	name = "GFX_marines3_medium"
+	texturefile = "gfx/interface/technologies/marines3.dds"
+}
+
+SpriteType = {
+	name = "GFX_marines2_medium"
+	texturefile = "gfx/interface/technologies/marines2.dds"
+}	
+
+SpriteType = {
+	name = "GFX_marines_medium"
+	texturefile = "gfx/interface/technologies/marines.dds"
+}	
+
+SpriteType = {
+	name = "GFX_paratroopers3_medium"
+	texturefile = "gfx/interface/technologies/paratroopers3.dds"
+}
+
+SpriteType = {
+	name = "GFX_paratroopers2_medium"
+	texturefile = "gfx/interface/technologies/paratroopers2.dds"
+}	
+
+SpriteType = {
+	name = "GFX_paratroopers4_medium"
+	texturefile = "gfx/interface/technologies/paratroopers4.dds"
+}	
+
+SpriteType = {
+	name = "GFX_paratroopers_medium"
+	texturefile = "gfx/interface/technologies/paratroopers.dds"
+}	
+
+
+SpriteType = {
+	name = "GFX_uniforms_medium"
+	texturefile = "gfx/interface/technologies/uniforms.dds"
+}	
+SpriteType = {
+	name = "GFX_heat_1_medium"
+	texturefile = "gfx/interface/technologies/heat_1.dds"
+}	SpriteType = {
+	name = "GFX_winter_1_medium"
+	texturefile = "gfx/interface/technologies/winter_1.dds"
+}	
+SpriteType = {
+	name = "GFX_heat_2_medium"
+	texturefile = "gfx/interface/technologies/heat_2.dds"
+}	SpriteType = {
+	name = "GFX_winter_2_medium"
+	texturefile = "gfx/interface/technologies/winter_2.dds"
+}	SpriteType = {
+	name = "GFX_heat_3_medium"
+	texturefile = "gfx/interface/technologies/heat_3.dds"
+}	SpriteType = {
+	name = "GFX_winter_3_medium"
+	texturefile = "gfx/interface/technologies/winter_3.dds"
+}	
+SpriteType = {
+	name = "GFX_heat_4_medium"
+	texturefile = "gfx/interface/technologies/heat_4.dds"
+}	SpriteType = {
+	name = "GFX_winter_4_medium"
+	texturefile = "gfx/interface/technologies/winter_4.dds"
+}	
+SpriteType = {
+	name = "GFX_uniforms_2_medium"
+	texturefile = "gfx/interface/technologies/uniforms_2.dds"
+}	
+
+SpriteType = {
+	name = "GFX_uniforms_3_medium"
+	texturefile = "gfx/interface/technologies/uniforms_3.dds"
+}	
+
+SpriteType = {
+	name = "GFX_uniforms_4_medium"
+	texturefile = "gfx/interface/technologies/uniforms_4.dds"
+}	
+
+
+SpriteType = {
+	name = "GFX_tech_special_forces_medium"
+	texturefile = "gfx/interface/technologies/tech_special_forces.dds"
+}
+SpriteType = {
+	name = "GFX_supply_grace_medium"
+	texturefile = "gfx/interface/technologies/tech_special_forces2.dds"
+}
+SpriteType = {
+	name = "GFX_defence_buff_medium"
+	texturefile = "gfx/interface/technologies/tech_special_forces3.dds"
+}
+
+
+SpriteType = {
+	name = "GFX_advanced_special_forces_medium"
+	texturefile = "gfx/interface/technologies/tech_advanced_special_forces_training.dds"
+}
+
+SpriteType = {
+	name = "GFX_improved_special_forces_medium"
+	texturefile = "gfx/interface/technologies/tech_improved_special_forces.dds"
+}
+
+SpriteType = {
+	name = "GFX_survival_training_medium"
+	texturefile = "gfx/interface/technologies/tech_survival_training.dds"
+}
+
+SpriteType = {
+	name = "GFX_elite_forces_medium"
+	texturefile = "gfx/interface/technologies/tech_elite_forces.dds"
+}
+
+SpriteType = {
+	name = "GFX_extreme_environment_training_medium"
+	texturefile = "gfx/interface/technologies/tech_extreme_environment_training.dds"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

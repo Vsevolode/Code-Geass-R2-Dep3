@@ -2,9 +2,7 @@ technologies = {
 
 	tank_design = { 
 
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = modern_armor }
-		}
+
 		on_research_complete = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TANK_TEMPLATE
 		}
@@ -41,14 +39,12 @@ technologies = {
 	cold_war_tank = { 
 
 		enable_equipments = {
-			cold_war_tank
+			cold_war_tank_2
 		}
 		enable_subunits = {
 			modern_armor
 		}
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = modern_armor }
-		}
+
 
 	
 		path = {
@@ -90,9 +86,7 @@ technologies = {
 		enable_subunits = {
 			mobile_bases
 		}
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = modern_armor }
-		}
+		
 
 	
 		path = {
@@ -211,9 +205,7 @@ technologies = {
 			mbt_1
 		}
 
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = modern_armor }
-		}
+		
 	
 		path = {
 			leads_to_tech = impr_arm_1
@@ -306,9 +298,7 @@ technologies = {
 			mbt_2
 		}
 
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = modern_armor }
-		}
+		
 
 		path = {
 			leads_to_tech = impr_arm_2
@@ -403,9 +393,7 @@ technologies = {
 			mbt_3
 		}
 
-		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = modern_armor }
-		}
+		
 
 	
 		path = {

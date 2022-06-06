@@ -394,7 +394,6 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 2014
-<<<<<<< Updated upstream
 
 		path = {
 			leads_to_tech = modern_artillery_2
@@ -402,15 +401,6 @@ technologies = {
 		}
 
 		path = {
-=======
-
-		path = {
-			leads_to_tech = modern_artillery_2
-			research_cost_coeff = 1
-		}
-
-		path = {
->>>>>>> Stashed changes
 			leads_to_tech = sp_artillery_2
 			research_cost_coeff = 1
 		}

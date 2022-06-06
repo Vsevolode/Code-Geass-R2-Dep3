@@ -1,8 +1,5 @@
 spriteTypes = {	
-<<<<<<< Updated upstream
-=======
 	#knightmare_fortress_unit
->>>>>>> Stashed changes
 
 	##################################
 	### Large images for Groups ###
@@ -16,8 +13,6 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_unit_mobile_bases_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_mobile_bases_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_raiko_artillery_unit_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_raiko_artillery_unit_icon.dds" noOfFrames = 2 }
-<<<<<<< Updated upstream
-=======
 	spriteType = { name = "GFX_unit_knightmare_pol_unit_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_knightmare_pol_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_knightmare_all_pur_unit_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_knightmare_all_pur_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_knightmare_fortress_unit_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_knightmare_fortress_unit_icon.dds" noOfFrames = 2 }
@@ -27,7 +22,6 @@ spriteTypes = {
 
 
 	spriteType = { name = "GFX_unit_knightmare_mass_prod_unit_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_knightmare_mass_prod_unit_icon.dds" noOfFrames = 2 }
->>>>>>> Stashed changes
 
 
 	spriteType = { name = "GFX_unit_modern_sp_artillery_brigade_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_artillery_icon.dds" noOfFrames = 2 }
@@ -99,9 +93,6 @@ spriteTypes = {
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
 	spriteType = { name = "GFX_unit_mobile_bases_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mobile_bases_icon.dds" noOfFrames = 2}
-<<<<<<< Updated upstream
-	spriteType = { name = "GFX_unit_raiko_artillery_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_raiko_artillery_icon.dds" noOfFrames = 2}
-=======
 	spriteType = { name = "GFX_unit_raiko_artillery_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_raiko_artillery_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_knightmare_mass_prod_unit_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_knightmare_mass_prod_unit_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_knightmare_pol_unit_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_knightmare_pol_unit_icon.dds" noOfFrames = 2}
@@ -109,7 +100,6 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_knightmare_fortress_unit_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_knightmare_fortress_unit_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_knightmare_melee_unit_icon_medium_white" 				textureFile = "gfx/interface/counters/divisions_small/onmap_knightmare_melee_unit_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_knightmare_artillery_unit_icon_medium_white" 				textureFile = "gfx/interface/counters/divisions_small/onmap_knightmare_artillery_unit_icon.dds" noOfFrames = 2 }
->>>>>>> Stashed changes
 
 
 	spriteType = { name = "GFX_unit_modern_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}

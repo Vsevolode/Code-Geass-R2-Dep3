@@ -34,6 +34,7 @@ equipments = {
 
 		is_archetype = yes	
 		is_buildable = no
+		active = no
 
 		priority = 0      # Priority for usage over other equipment.
 

@@ -530,7 +530,7 @@ instant_effect = {
 	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
 	add_equipment_production = {
 		equipment = {
-			type = heavy_cruiser_1
+			type = cruiser_1
 			creator = "BRT"
 			version_name = "Portland Class"
 		}

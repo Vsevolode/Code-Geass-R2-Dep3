@@ -57,7 +57,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		research_cost = 2
 		start_year = 1970
 		folder = {
 			name = armour_folder

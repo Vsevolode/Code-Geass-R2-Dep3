@@ -1,7 +1,7 @@
 equipments = {
 
 	mechanized_equipment = {
-		year = 1936
+		year = 2009
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment
@@ -51,7 +51,7 @@ equipments = {
 
 	# ~1941
 	mechanized_equipment_1 = {
-		year = 1940
+		year = 2013
 
 		archetype = mechanized_equipment
 		priority = 40
@@ -60,7 +60,7 @@ equipments = {
 
 	# ~1943
 	mechanized_equipment_2 = {
-		year = 1942
+		year = 2015
 
 		archetype = mechanized_equipment
 		parent = mechanized_equipment_1
@@ -88,7 +88,7 @@ equipments = {
 
 	# ~1945
 	mechanized_equipment_3 = {
-		year = 1944
+		year = 2017
 
 		archetype = mechanized_equipment
 		parent = mechanized_equipment_2
@@ -102,6 +102,33 @@ equipments = {
 		breakthrough = 10
 		hardness = 0.75
 		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+			#oil = 2
+		}
+	}
+
+	mechanized_equipment_4 = {
+		year = 2018
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_3
+		priority = 40
+		visual_level = 2
+
+		maximum_speed = 15
+
+		#Defensive Abilities
+		defense = 37
+		breakthrough = 15
+		hardness = 0.75
+		armor_value = 25
 
 		#Offensive Abilities
 		ap_attack = 21

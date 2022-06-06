@@ -481,7 +481,7 @@
  STATE_480:0 "Coahuila"
  STATE_481:0 "Durango"
  STATE_482:0 "Chihuahua"
- STATE_483:0 "Sonora"
+ STATE_483:0 "Pendragon Region"
  STATE_484:0 "Baja California"
  STATE_485:0 "Guerrero"
  STATE_486:0 "Meta"
@@ -943,4 +943,4 @@
  STATE_942:0 "Nigata"
  STATE_943:0 "Fukushima"
  STATE_944:0 "Kyoto"
- STATE_945:0 "Pendragon"
+
