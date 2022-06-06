@@ -337,6 +337,9 @@ infantry_equipment_4_desc:0 "Improved assault rifles are well-balanced weapons u
 infantry_equipment_5:0 "Advanced Assault Rifle"
 infantry_equipment_5_desc:0 "Exploitment of Sakuradite's properties has led to the maximum improvement of Assault Rifles, with few problems affecting the weapon itself."
 
+infantry_equipment:0 "Infantry Equipment"
+infantry_equipment_desc:0 ""
+motorized_equipment:0 "Motorized Equipment"
 
 uniforms:0 "Infantry Uniforms I"
 uniforms_desc:0 "New types of uniforms for infantry troops, that will relieve soliders' stress, as well as enhancing geenral readiness."

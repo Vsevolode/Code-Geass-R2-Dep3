@@ -2160,7 +2160,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1937"
+					text = "2010"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2173,7 +2173,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "2012"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2186,7 +2186,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1941"
+					text = "2014"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2199,7 +2199,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1943"
+					text = "2016"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2260,7 +2260,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1937"
+					text = "2010"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2273,7 +2273,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "2012"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2286,7 +2286,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1941"
+					text = "2014"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2299,7 +2299,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1943"
+					text = "2016"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2344,7 +2344,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_PRODUCTION"
+					text = "PRODUCTION AND INFRASTRUCTURES"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -2357,7 +2357,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
+					text = "SYNTHETIC RESOURCES"
 					maxWidth = 150
 					maxHeight = 62
 					format = center
