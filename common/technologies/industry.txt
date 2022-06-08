@@ -56,7 +56,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 2011
+		start_year = 2010
 		
 		folder = {
 			name = industry_folder
@@ -226,10 +226,9 @@ technologies = {
 	improved_equipment_conversion = {
 	
 		equipment_conversion_speed = 0.40
-
-		allow_branch = {
-			has_dlc = "Death or Dishonor"
-		}
+		conversion_cost_civ_to_mil_factor = -0.05
+		conversion_cost_mil_to_civ_factor = -0.05
+		
 
 		path = {
 			leads_to_tech = advanced_equipment_conversion
@@ -237,7 +236,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2011
+		start_year = 2010
 		
 		folder = {
 			name = industry_folder
@@ -267,9 +266,11 @@ technologies = {
 	advanced_equipment_conversion = {
 		
 		equipment_conversion_speed = 0.40
+		conversion_cost_civ_to_mil_factor = -0.05
+		conversion_cost_mil_to_civ_factor = -0.05
 
 		research_cost = 2
-		start_year = 2011
+		start_year = 2012
 		
 		folder = {
 			name = industry_folder
@@ -279,15 +280,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 
-			modifier = {
-				factor = 2
-				date > "2011.1.1"
-			}
-
-			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
-			}
 		}
 		
 		categories = {
@@ -380,7 +372,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2011
+		start_year = 2010
 		
 		folder = {
 			name = industry_folder
@@ -610,7 +602,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2011
+		start_year = 2010
 		
 		folder = {
 			name = industry_folder
@@ -928,7 +920,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 2011
+		start_year = 2010
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 4 }
@@ -1174,7 +1166,7 @@ technologies = {
 		
 		fuel_gain_factor_from_states = 0.5
 
-		start_year = 2011
+		start_year = 2010
 
 		path = {
 			leads_to_tech = improved_oil_processing
@@ -1404,7 +1396,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 2011
+		start_year = 2010
 		
 		folder = {
 			name = industry_folder
@@ -1734,7 +1726,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2011
+		start_year = 2010
 		
 		categories = {
 			industry
@@ -1765,7 +1757,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2011
+		start_year = 2010
 		
 		categories = {
 			industry

@@ -14,6 +14,26 @@ spriteTypes = {
 
 	
 	### generic equipment tech-Archetypes ###
+	SpriteType = {
+		name = "GFX_convoy_medium"
+		texturefile = "gfx/interface/technologies/convoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_convoy_1_medium"
+		texturefile = "gfx/interface/technologies/convoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_equip_medium"
+		texturefile = "gfx/interface/technologies/support_equip.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_equipment_medium"
+		texturefile = "gfx/interface/technologies/support_equip.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/support_equip.dds"
+	}
     
     #ARTILLERY
 	SpriteType = {
@@ -2190,6 +2210,111 @@ SpriteType = {
 		name = "GFX_nuclear_reactor_medium"
 		texturefile = "gfx/interface/technologies/nuclear_reactor.dds"
 	}
+
+
+	SpriteType = {
+		name = "GFX_train_equipment_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_train_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_train_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_train_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/train_equipment_3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_personal_computer_medium"
+		texturefile = "gfx/interface/technologies/personal_computer.dds"
+	}	
+	SpriteType = {
+		name = "GFX_early_computing_machine_medium"
+		texturefile = "gfx/interface/technologies/early_computing_machine.dds"
+	}	
+	SpriteType = {
+		name = "GFX_modern_machines_medium"
+		texturefile = "gfx/interface/technologies/modern_machines.dds"
+	}	
+	SpriteType = {
+		name = "GFX_modern_encryption_medium"
+		texturefile = "gfx/interface/technologies/modern_encryption.dds"
+	}	
+	SpriteType = {
+		name = "GFX_modern_decryption_medium"
+		texturefile = "gfx/interface/technologies/modern_decryption.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_sakuradite_research_medium"
+		texturefile = "gfx/interface/technologies/sakuradite_research.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_anti_FLEIJA_medium"
+		texturefile = "gfx/interface/technologies/anti_FLEIJA.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_gefjun_disturber_impr_medium"
+		texturefile = "gfx/interface/technologies/gefjun_disturber_impr.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_gefjun_disturber_medium"
+		texturefile = "gfx/interface/technologies/gefjun_disturber.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_sakuradite_destab_in_medium"
+		texturefile = "gfx/interface/technologies/sakuradite_destab_in.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_damocles_medium"
+		texturefile = "gfx/interface/technologies/damocles.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_flying_motors_medium"
+		texturefile = "gfx/interface/technologies/flying_motors.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_FLEIJA_hyper_medium"
+		texturefile = "gfx/interface/technologies/FLEIJA_hyper.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_FLEIJA_bombs_medium"
+		texturefile = "gfx/interface/technologies/FLEIJA_bombs.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_sakuradite_destab_ex_medium"
+		texturefile = "gfx/interface/technologies/sakuradite_destab_ex.dds"
+	}
+	SpriteType = {
+		name = "GFX_sakuradite_destab_medium"
+		texturefile = "gfx/interface/technologies/sakuradite_destab.dds"
+	}	
+	
+
+	SpriteType = {
+		name = "GFX_FLEIJA_reactor_medium"
+		texturefile = "gfx/interface/technologies/FLEIJA_reactor.dds"
+	}
+	
+
+
+
+	
 
 
 

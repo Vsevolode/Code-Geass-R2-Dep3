@@ -340,6 +340,17 @@ infantry_equipment_5_desc:0 "Exploitment of Sakuradite's properties has led to t
 infantry_equipment:0 "Infantry Equipment"
 infantry_equipment_desc:0 ""
 motorized_equipment:0 "Motorized Equipment"
+artillery_equipment:0 "Artillery Equipment"
+artillery_equipment_desc:0 ""
+
+train_equipment_1:0 "High-Velocity Trains"
+train_equipment:0 "High-Velocity Trains"
+train_equipment_desc:0 ""
+support_equipment_1:0 "Support Equipment"
+support_equipment_1_desc:0 "Necessary Equipment that will support our infantry during their operations."
+support_equipment:0 "Support Equipment"
+support_equipment_desc:0 "Necessary Equipment that will support our infantry during their operations."
+
 
 uniforms:0 "Infantry Uniforms I"
 uniforms_desc:0 "New types of uniforms for infantry troops, that will relieve soliders' stress, as well as enhancing geenral readiness."

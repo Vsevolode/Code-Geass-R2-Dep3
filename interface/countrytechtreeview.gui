@@ -2481,7 +2481,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1940"
+					text = ""
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2494,7 +2494,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1943"
+					text = ""
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2507,7 +2507,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1944"
+					text = ""
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2519,8 +2519,8 @@ guiTypes = {
 					position = { x = 0 y = 620 }
 					textureFile = ""
 					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "1945"
+					borderSize = {x = -150 y = 4}
+					text = ""
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2533,7 +2533,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1946"
+					text = ""
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2632,7 +2632,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1938"
+					text = "2011"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2645,7 +2645,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "2013"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2658,7 +2658,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1940"
+					text = "2015"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2671,7 +2671,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1941"
+					text = "2017"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2684,7 +2684,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "2019"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2697,7 +2697,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1945"
+					text = "2020"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -2718,24 +2718,13 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
-				instantTextBoxType = {
-					name = "experimental_rockets_subtitle"
-					position = { x = 1095 y = 325 }
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "TITLE_EXP_ROCKETS_SUBTITLE"
-					maxWidth = 200
-					maxHeight = 122
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
 				
 				instantTextBoxType = {
 					name = "atomic_research_subtitle"
-					position = { x = 900 y = 220 }
+					position = { x = 900 y = 100 }
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "TITLE_ATOMIC_RESEARCH_SUBTITLE"
+					text = "Sakuradite Research"
 					maxWidth = 200
 					maxHeight = 122
 					format = center
@@ -2770,7 +2759,7 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "atomic_research_tree"
+				name = "sakuradite_research_tree"
 				position = { x=655 y=292 }
 				size = { width = 680 height = 500 }
 				slotsize = { width=60 height= 60 }

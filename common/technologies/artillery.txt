@@ -480,10 +480,7 @@ technologies = {
 
 		dependencies = {
             high_explosives_tearing_projectiles = 1
-        }
-
-		dependencies = {
-            bulk_loaded_liquid_propellant = 1
+			bulk_loaded_liquid_propellant = 1
         }
 
 		enable_equipments = {
