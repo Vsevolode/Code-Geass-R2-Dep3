@@ -3,16 +3,16 @@ state=
 	id=648
 	name="STATE_648"
 	state_category = tiny_island
-	manpower=42
+	manpower=422
 	history=
 	{
 		owner = A10
 		add_core_of = GUM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			13026 = {
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 
