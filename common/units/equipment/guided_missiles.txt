@@ -1,13 +1,8 @@
 equipments = {
 	
 	guided_missile_equipment = {
-		year = 1936
+		year = 2009
 
-		can_be_produced = {
-			NOT = {
-				has_idea = BUL_army_restrictions
-			}
-		}
 
 		is_archetype = yes
 		is_buildable = no
@@ -38,7 +33,7 @@ equipments = {
 	}
 
 	guided_missile_equipment_1 = {
-		year = 1944
+		year = 2015
 
 		archetype = guided_missile_equipment
 		is_buildable = no
@@ -54,7 +49,7 @@ equipments = {
 	}
 
 	guided_missile_equipment_2 = {
-		year = 1945
+		year = 2017
 
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_1
@@ -69,7 +64,7 @@ equipments = {
 	}
 	
 	guided_missile_equipment_3 = {
-		year = 1946
+		year = 2019
 
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_2

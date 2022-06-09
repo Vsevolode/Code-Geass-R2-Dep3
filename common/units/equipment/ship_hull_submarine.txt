@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_submarine = {
-		year = 1922
+		year = 1980
 
 		can_be_produced = {
 			NOT = {
@@ -92,7 +92,7 @@ equipments = {
 
 	ship_hull_submarine_1 = {
 		abbreviation = "heb"
-		year = 1922
+		year = 1980
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -102,7 +102,7 @@ equipments = {
 
 	ship_hull_submarine_2 = {
 		abbreviation = "hec"
-		year = 1936
+		year = 2009
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -146,7 +146,7 @@ equipments = {
 
 	ship_hull_submarine_3 = {
 		abbreviation = "hed"
-		year = 1940
+		year = 2011
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -195,62 +195,11 @@ equipments = {
 			submarine
 		}	
 	}
-	ship_hull_submarine_4 = {
-		abbreviation = "hee"
-		year = 1944
 
-		archetype = ship_hull_submarine
-		priority = 2500
-		parent = ship_hull_submarine_3
-		module_slots = {
-			fixed_ship_torpedo_slot = inherit 
-			fixed_ship_engine_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_mine_layer_sub
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_radar
-					ship_sub_snorkel
-				}
-			}
-			rear_1_custom_slot = front_1_custom_slot
-		}
-
-		default_modules = {
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-		
-		sub_visibility = 12
-		naval_speed = 16
-		reliability = 0.80
-
-		naval_range = 6000
-		
-		max_strength = 35
-		
-
-		
-		build_cost_ic = 450
-		resources = {
-			steel = 3
-			chromium = 1
-		}
-		type = { 
-			submarine
-		}	
-	}
 
 	ship_hull_cruiser_submarine = {
 		abbreviation = "hef"
-		year = 1940
+		year = 2011
 
 		archetype = ship_hull_submarine
 		priority = 2600
@@ -309,7 +258,7 @@ equipments = {
 		}	
 	}
 	submarine_1 = {
-		year = 1922
+		year = 1980
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -355,7 +304,7 @@ equipments = {
 	}
 	
 	submarine_2 = {
-		year = 1936
+		year = 2009
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -391,7 +340,7 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			#oil = 1
+			sakuradite = 1
 			steel = 2
 		}
 		type = { 
@@ -400,7 +349,7 @@ equipments = {
 	}
 	
 	submarine_3 = {
-		year = 1940
+		year = 2011
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -436,7 +385,7 @@ equipments = {
 		
 		build_cost_ic = 350
 		resources = {
-			#oil = 2
+			sakuradite = 1
 			steel = 2
 		}
 		type = { 
@@ -444,49 +393,4 @@ equipments = {
 		}		
 	}
 	
-	submarine_4 = {
-		year = 1944
-
-		archetype = ship_hull_submarine
-		priority = 2500
-		parent = submarine_3
-		module_slots = inherit
-		
-		default_modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = ship_torpedo_sub_2
-		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 20
-		
-		anti_air_attack = 0
-		
-		armor_value = 0
-
-		
-		surface_detection = 70
-		sub_detection = 0
-		surface_visibility = 1
-		sub_visibility = 10
-		naval_speed = 16
-		reliability = 0.80
-
-		naval_range = 6000
-		
-		max_strength = 35
-		
-
-		
-		build_cost_ic = 400
-		resources = {
-			#oil = 2
-			steel = 3
-			chromium = 1
-		}
-		type = { 
-			submarine
-		}		
-	}
 }

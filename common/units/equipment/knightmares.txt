@@ -1,6 +1,6 @@
 equipments = {
 
-	factspheres = {
+	factspheres_equip = {
 		year = 2006
 
 		is_archetype = yes
@@ -40,7 +40,16 @@ equipments = {
 		fuel_consumption = 15
 	}
 
-	landspinner = {
+	factspheres = {		
+		year = 2006
+
+		archetype = factspheres_equip
+		priority = 50
+		visual_level = 0
+	}
+	
+
+	landspinner_equip = {
 		year = 2006
 
 		is_archetype = yes
@@ -80,8 +89,17 @@ equipments = {
 		fuel_consumption = 15
 	}
 
-	knightmare_mass_prod = {
+	
+	landspinner = {		
 		year = 2006
+
+		archetype = landspinner_equip
+		priority = 50
+		visual_level = 0
+	}
+
+	knightmare_mass_prod = {
+		year = 2008
 
 		is_archetype = yes
 		is_convertable = yes
@@ -93,218 +111,731 @@ equipments = {
 		interface_category = interface_category_armor
 		
 		
-		#Misc Abilities
-		maximum_speed = 25
-		reliability = 0.3
-
-		#Defensive Abilities
-		defense = 9
-		breakthrough = 60
-		hardness = 0.7
-		armor_value = 50
-
-		#Offensive Abilities
-		soft_attack = 20
-		hard_attack = 30
-		ap_attack = 70
-		air_attack = 5
-
-		#Space taken in convoy
-		lend_lease_cost = 3
-		
-		build_cost_ic = 15
 		resources = {
-			#oil = 1
+			sakuradite = 1
 			steel = 3
 			chromium = 4
-			sakuradite = 5
-		}
-		
-		fuel_consumption = 15
-	}
-
-	knightmare_pol = {
-		year = 2009
-
-		archetype = knightmare_equipment
-		priority = 170
-		visual_level = 0
-		is_convertable = yes
-
-		#Misc Abilities
-		maximum_speed = 25
-		reliability = 0.5
-
-		#Defensive Abilities
-		defense = 9
-		breakthrough = 60
-		hardness = 0.7
-		armor_value = 50
-
-		#Offensive Abilities
-		soft_attack = 20
-		hard_attack = 30
-		ap_attack = 70
-		air_attack = 5
-
-		#Space taken in convoy
-		lend_lease_cost = 3
-		
-		build_cost_ic = 15
-		resources = {
-			steel = 3
-			chromium = 4
-			sakuradite = 5
 		}
 
-	}
-
-	knightmare_all_pur = {
-		year = 2010
-		archetype = knightmare_equipment
-		parent = knightmare_equipment_gen_3
-		priority = 170
-		visual_level = 0
-		is_convertable = yes
-
-		#Misc Abilities
-		maximum_speed = 28
-		reliability = 0.75
+		maximum_speed = 10
+		reliability = 0.8
 
 		#Defensive Abilities
 		defense = 8
-		breakthrough = 75
+		breakthrough = 4
 		hardness = 0.85
 		armor_value = 90
 
 		#Offensive Abilities
-		soft_attack = 35
-		hard_attack = 44
-		ap_attack = 105
-		air_attack = 8
-
-		#Space taken in convoy
-		lend_lease_cost = 3
-		
-		build_cost_ic = 25
-		resources = {
-			#oil = 1
-			steel = 4
-			chromium = 4
-			sakuradite = 6
-		}
+		soft_attack = 80
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
 	}
 
-	knightmare_fortress = {
-		year = 2012
+	knightmare_mass_prod_1 = {
+	
+		year = 2008       # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = knightmare_mass_prod # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			sakuradite = 4
+			steel = 2
+			chromium = 3
+		}
+		
+		# Modifiers the equipment uses
+		maximum_speed = 15
+		reliability = 0.8
 
-		archetype = knightmare_equipment
-		parent = knightmare_equipment_gen_4
-		priority = 170
-		visual_level = 0
+		#Defensive Abilities
+		defense = 30
+		breakthrough = 10
+		hardness = 0.9
+		armor_value = 120
+
+		#Offensive Abilities
+		soft_attack = 100
+		hard_attack = 15
+		ap_attack = 15
+		air_attack = 5
+    }
+
+	knightmare_mass_prod_2 = {
+	
+		year = 2009      # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = knightmare_mass_prod # Which archetype equipment this equipment inherits from
+		parent = knightmare_mass_prod_1
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			sakuradite = 2
+			steel = 2
+			chromium = 3
+		}
+		
+		# Modifiers the equipment uses
+		maximum_speed = 17
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 35
+		breakthrough = 12
+		hardness = 0.9
+		armor_value = 120
+
+		#Offensive Abilities
+		soft_attack = 110
+		hard_attack = 20
+		ap_attack = 20
+		air_attack = 10
+    }
+
+	knightmare_mass_prod_3 = {
+	
+		year = 2011     # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = knightmare_mass_prod # Which archetype equipment this equipment inherits from
+		parent = knightmare_mass_prod_2
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			sakuradite = 2
+			steel = 2
+			chromium = 3
+		}
+		
+		# Modifiers the equipment uses
+		maximum_speed = 20
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 37
+		breakthrough = 14
+		hardness = 0.9
+		armor_value = 125
+
+		#Offensive Abilities
+		soft_attack = 115
+		hard_attack = 25
+		ap_attack = 25
+		air_attack = 15
+    }
+
+	
+	knightmare_mass_prod_4 = {
+	
+		year = 2015    # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = knightmare_mass_prod # Which archetype equipment this equipment inherits from
+		parent = knightmare_mass_prod_3
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			sakuradite = 2
+			steel = 2
+			chromium = 3
+		}
+		
+		# Modifiers the equipment uses
+		maximum_speed = 25
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 17
+		hardness = 0.9
+		armor_value = 135
+
+		#Offensive Abilities
+		soft_attack = 120
+		hard_attack = 30
+		ap_attack = 30
+		air_attack = 20
+    }
+
+	knightmare_mass_prod_5 = {
+	
+		year = 2018    # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = knightmare_mass_prod # Which archetype equipment this equipment inherits from
+		parent = knightmare_mass_prod_4
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			sakuradite = 2
+			steel = 2
+			chromium = 3
+		}
+		
+		# Modifiers the equipment uses
+		maximum_speed = 25
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 45
+		breakthrough = 20
+		hardness = 0.9
+		armor_value = 140
+
+		#Offensive Abilities
+		soft_attack = 120
+		hard_attack = 35
+		ap_attack = 30
+		air_attack = 20
+    }
+
+	
+
+	knightmare_pol = {
+		year = 2009
+
+		is_archetype = yes
 		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		
+		resources = {
+			sakuradite = 1
+			steel = 2
+			chromium = 3
+		}
 
-		#Misc Abilities
-		maximum_speed = 31
-		reliability = 0.78
+		maximum_speed = 7
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 2
+		hardness = 0.65
+		armor_value = 70
+
+		#Offensive Abilities
+		soft_attack = 60
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+	}
+
+	knightmare_pol_1 = {
+	
+		year = 2009       # Limits the equipment from appearing before the specified year. Optional
+		
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		archetype = knightmare_pol # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		# Resources used to build this equipment
+		resources = {
+			sakuradite = 1
+			steel = 2
+			chromium = 2
+		}
+
+    }
+
+	knightmare_all_pur = {
+		year = 2012
+		
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		
+		resources = {
+			sakuradite = 4
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 14
+		reliability = 0.9
 
 		#Defensive Abilities
 		defense = 10
-		breakthrough = 80
-		hardness = 0.90
+		breakthrough = 6
+		hardness = 0.85
 		armor_value = 95
 
 		#Offensive Abilities
-		soft_attack = 40
-		hard_attack = 50
-		ap_attack = 115
-		air_attack = 12
+		soft_attack = 80
+		hard_attack = 10
+		ap_attack = 10
+		air_attack = 0
+	}
 
-		#Space taken in convoy
-		lend_lease_cost = 5
+	knightmare_all_pur_1 = {
+		year = 2014
+		active = no            # Determines if this equipment is available without unlocking from a technology.
 		
-		build_cost_ic = 30
+		archetype = knightmare_all_pur # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		
 		resources = {
-			#oil = 1
-			steel = 4
+			sakuradite = 4
+			steel = 3
 			chromium = 4
-			sakuradite = 7
 		}
+
+		maximum_speed = 14
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 12
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 97
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 10
+		ap_attack = 12
+		air_attack = 0
+	}
+
+	knightmare_all_pur_2 = {
+		year = 2014
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		parent = knightmare_all_pur_1
+		archetype = knightmare_all_pur # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		
+		resources = {
+			sakuradite = 4
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 14
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 12
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 97
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 15
+		ap_attack = 12
+		air_attack = 0
+	}
+
+	
+	knightmare_all_pur_3 = {
+		year = 2018
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		parent = knightmare_all_pur_2
+		archetype = knightmare_all_pur # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		
+		resources = {
+			sakuradite = 4
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 14
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 12
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 99
+
+		#Offensive Abilities
+		soft_attack = 87
+		hard_attack = 15
+		ap_attack = 12
+		air_attack = 40
+	}
+
+	knightmare_fortress = {
+		year = 2015
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		
+		resources = {
+			sakuradite = 3
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 6
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 4
+		hardness = 1.2
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 60
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+	}
+
+	knightmare_fortress_1 = {
+		year = 2015
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		#parent = knightmare_all_pur_2
+		archetype = knightmare_fortress # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		
+		resources = {
+			sakuradite = 4
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 6
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 4
+		hardness = 1.2
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 60
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+
+
+	}
+
+	knightmare_fortress_2 = {
+		year = 2018
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		parent = knightmare_fortress_1
+		archetype = knightmare_fortress # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		
+		resources = {
+			sakuradite = 4
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 6
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 5
+		hardness = 1.2
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 60
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+
+
 	}
 
 	knightmare_artillery = {
-		year = 2015
+		year = 2013
 
-		archetype = knightmare_equipment
-		parent = knightmare_equipment_gen_5
-		priority = 170
-		visual_level = 0
+		is_archetype = yes
 		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		
+		resources = {
+			sakuradite = 3
+			steel = 3
+			chromium = 4
+		}
 
-		#Misc Abilities
-		maximum_speed = 33
-		reliability = 0.83
+		maximum_speed = 10
+		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 11
-		breakthrough = 90
-		hardness = 0.92
-		armor_value = 95
+		defense = 8
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
 
 		#Offensive Abilities
-		soft_attack = 45
-		hard_attack = 55
-		ap_attack = 123
-		air_attack = 14
+		soft_attack = 80
+		hard_attack = 30
+		ap_attack = 10
+		air_attack = 0
+	}
 
-		#Space taken in convoy
-		lend_lease_cost = 5
+	knightmare_artillery_1 = {
+		year = 2013
+
+		active = no            # Determines if this equipment is available without unlocking from a technology.
 		
-		build_cost_ic = 36
+		#parent = knightmare_artillery_1
+		archetype = knightmare_artillery # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
 		resources = {
-			#oil = 1
-			steel = 4
+			sakuradite = 3
+			steel = 3
 			chromium = 4
-			sakuradite = 8
 		}
+
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 30
+		ap_attack = 10
+		air_attack = 0
+	}
+
+	knightmare_artillery_2 = {
+		year = 2016
+
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		parent = knightmare_artillery_1
+		archetype = knightmare_artillery # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		resources = {
+			sakuradite = 3
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 50
+		ap_attack = 10
+		air_attack = 0
 	}
 
 	knightmare_melee = {
-		year = 2018
+		year = 2009
 
-		archetype = knightmare_equipment
-		parent = knightmare_equipment_gen_6
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		
+		resources = {
+			sakuradite = 3
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 82
+		hard_attack = 10
+		ap_attack = 10
+		air_attack = 0
+	}
+
+
+	knightmare_melee_1 = {
+		year = 2009
+
+		
+		archetype = knightmare_melee
+		#parent = knightmare_equipment_gen_5
 		priority = 170
 		visual_level = 0
 		is_convertable = yes
-
-		#Misc Abilities
-		maximum_speed = 34
-		reliability = 0.85
-
-		#Defensive Abilities
-		defense = 12.5
-		breakthrough = 95.5
-		hardness = 0.945
-		armor_value = 97.5
-
-		#Offensive Abilities
-		soft_attack = 48.5
-		hard_attack = 59.5
-		ap_attack = 126
-		air_attack = 15.5
-
-		#Space taken in convoy
-		lend_lease_cost = 5
 		
-		build_cost_ic = 42
 		resources = {
-			#oil = 1
-			steel = 5
+			sakuradite = 3
+			steel = 3
 			chromium = 4
-			sakuradite = 9
 		}
 
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 90
+		hard_attack = 10
+		ap_attack = 30
+		air_attack = 0
+	}
+
+	
+	knightmare_melee_2 = {
+		year = 2014
+
+		
+		archetype = knightmare_melee
+		parent = knightmare_melee_1
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+		
+		resources = {
+			sakuradite = 3
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 12
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 100
+		hard_attack = 10
+		ap_attack = 30
+		air_attack = 0
+	}
+
+		
+	knightmare_melee_3 = {
+		year = 2019
+
+		
+		archetype = knightmare_melee
+		parent = knightmare_melee_2
+		priority = 170
+		visual_level = 0
+		is_convertable = yes
+		
+		resources = {
+			sakuradite = 3
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 12
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 6
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 110
+		hard_attack = 10
+		ap_attack = 30
+		air_attack = 0
 	}
 
 

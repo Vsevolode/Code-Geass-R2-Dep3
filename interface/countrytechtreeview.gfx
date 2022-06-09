@@ -1440,4 +1440,9 @@ spriteType = {
 		name = "GFX_knightmare_techtree_bg"
 		textureFile = "gfx/interface/techtree/knightmares_techtree_bg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_infantry_techtree_bg_2"
+		textureFile = "gfx/interface/techtree/infantry_techtree_bg_2.dds"
+	}
 }

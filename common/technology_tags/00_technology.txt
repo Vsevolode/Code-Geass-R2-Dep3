@@ -12,6 +12,10 @@ technology_categories = {
 	knightmare_mobile
 	knightmare_all
 	knightmare_artillery
+	#Artillery
+	anti_air
+	cat_modern_spaa
+
 
 
 
