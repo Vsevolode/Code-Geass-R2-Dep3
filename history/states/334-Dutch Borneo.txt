@@ -1,7 +1,7 @@
 state= {
 	id=334
 	name="STATE_334"
-	manpower = 2168600
+	manpower = 34168600
 	resources={
 		rubber=75 # was: 138
 		oil=5 # was: 10
@@ -17,15 +17,15 @@ state= {
 		}
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			10237 = {
-				naval_base = 3
+				naval_base = 4
 			}
 			1316 = {
-				naval_base = 1
+				naval_base = 2
 			}
 			10325 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 	}

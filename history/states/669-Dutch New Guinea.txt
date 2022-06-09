@@ -1,7 +1,7 @@
 state={
 	id=669
 	name="STATE_669"
-	manpower = 314300
+	manpower = 3414300
 
 	state_category = pastoral
 
@@ -12,9 +12,9 @@ state={
 			12371 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			12371 = {
-				naval_base = 2
+				naval_base = 4
 			}
 		}
 	}
