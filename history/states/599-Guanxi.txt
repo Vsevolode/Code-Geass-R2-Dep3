@@ -1,7 +1,7 @@
 state= {
 	id=599
 	name="STATE_599"
-	manpower = 8685200
+	manpower = 78166800
 	state_category = town
 	resources={
 		tungsten=15 # was: 20
@@ -15,7 +15,7 @@ state= {
 		add_core_of = CHI
 		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 2

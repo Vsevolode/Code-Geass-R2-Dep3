@@ -1,7 +1,7 @@
 state= {
 	id=595
 	name="STATE_595"
-	manpower = 11755600
+	manpower = 105800400
 	state_category = city
 	history=
 	{
@@ -9,17 +9,17 @@ state= {
 		add_core_of = CHI
 		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 			7071 = {
-				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
+				naval_base = 5
+				coastal_bunker = 8
+				bunker = 7
 			}
 			4196 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
+				naval_base = 5
+				coastal_bunker = 8
+				bunker = 7
 			}
 		}
 		victory_points = { 

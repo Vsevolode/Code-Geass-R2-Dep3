@@ -8,7 +8,7 @@ state={
 	history={
 		owner = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			1791 5 #Darkhan
@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = CHI
 	}
-	manpower=88200
+	manpower=793800
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
