@@ -5,10 +5,10 @@ state={
 	history={
 		owner = BRT
 		buildings = {
-			infrastructure = 2
-			air_base = 6
+			infrastructure = 3
+			air_base = 8
 			13091 = {
-				naval_base = 2
+				naval_base = 6
 
 			}
 
@@ -26,7 +26,13 @@ state={
 	provinces={
 		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
 	}
-	manpower=270000
+
+
+	resources={
+		sakuradite = 37
+	}
+
+	manpower=370000
 	buildings_max_level_factor=1
 	state_category="rural"
 

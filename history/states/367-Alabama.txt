@@ -10,7 +10,7 @@ state={
 		owner = BRT
 		buildings = {
 			infrastructure = 4 #was: 5
-			industrial_complex = 3
+			industrial_complex = 1
 			7480 = {
 				naval_base = 6
 			}
