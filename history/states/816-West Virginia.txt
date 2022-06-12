@@ -6,7 +6,7 @@ state={
 		owner = BRT
 		add_core_of = BRT
 		buildings = {
-			industrial_complex = 2
+			industrial_complex = 1
 			infrastructure = 4
 			air_base = 3
 		}

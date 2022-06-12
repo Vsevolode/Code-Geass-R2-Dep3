@@ -2,7 +2,7 @@
 state={
 	id=613
 	name="STATE_613" # Shanghai
-	manpower = 17305100
+	manpower = 155745900
 	
 	state_category = large_city
 	
@@ -16,9 +16,9 @@ state={
 			air_base = 6
 			dockyard = 1
 			7014 = {
-				naval_base = 6
-				coastal_bunker = 1
-				bunker = 1
+				naval_base = 8
+				coastal_bunker = 9
+				bunker = 9
 			}
 		}
 		victory_points = {

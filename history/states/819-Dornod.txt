@@ -8,14 +8,14 @@ state={
 	history={
 		owner = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			12557 1 #Choibalsan
 		}
 		add_core_of = CHI
 	}
-	manpower=88250
+	manpower=2188250
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

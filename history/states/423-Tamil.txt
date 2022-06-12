@@ -2,7 +2,7 @@
 state={
 	id=423
 	name="STATE_423" # Madurai
-	manpower = 29147500
+	manpower = 116590000
 	
 	state_category = rural
 	
@@ -13,11 +13,11 @@ state={
 	history={
 		owner = IND
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2 #was: 5
 			industrial_complex = 1
 			air_base = 1
 			10278 = {
-				naval_base = 4
+				naval_base = 5
 			}
 		}
 		victory_points = {

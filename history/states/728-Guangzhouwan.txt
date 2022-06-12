@@ -1,7 +1,7 @@
 state={
 	id=728
 	name="STATE_728"
-	manpower = 200000
+	manpower = 11800000
 	
 	state_category = enclave
 	
@@ -10,9 +10,9 @@ state={
 		add_core_of = CHI
 		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			11981 = {
-				naval_base = 1
+				naval_base = 6
 			}
 		}
 	}

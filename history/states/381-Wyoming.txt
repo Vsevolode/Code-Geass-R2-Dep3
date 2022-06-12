@@ -13,6 +13,10 @@ state={
 
 	}
 
+	resources={
+		sakuradite = 8
+	}
+
 	provinces={
 		1815 4610 4723 4794 4820 7688 7814 10640 10711 12651 
 	}

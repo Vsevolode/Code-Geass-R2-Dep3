@@ -8,14 +8,14 @@ state={
 	history={
 		owner = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			7843 1 #Ulaangom
 		}
 		add_core_of = CHI
 	}
-	manpower=149000
+	manpower=1341000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
