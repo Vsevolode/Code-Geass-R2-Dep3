@@ -10,7 +10,6 @@ state={
 		owner = AR6
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = AR6
 	}
