@@ -10,14 +10,14 @@
 		fighter_equipment_0 = { 
 			owner = "BRT"  
 			amount = 500 	
-			start_experience_factor = 0.5	
+			start_experience_factor = 1.0	
 		}		
 	}
 	645 = {
-		tac_bomber_equipment_0 = {
+		strat_bomber_equipment_1 = {
 			owner = "BRT"
 			amount = 100
-			start_experience_factor = 0.1
+			start_experience_factor = 1.0
 		}
 	}
 	648 = { 	
@@ -31,15 +31,15 @@
 		fighter_equipment_0 = { 
 			owner = "BRT"  
 			amount = 300 
-			start_experience_factor = 0.5		
+			start_experience_factor = 1.0		
 		}
 	}
 }
 
 division_template = {
-	name = "Imperial Infantry"	
+	name = "Infantry Royal Battalion"	
 
-	division_names_group = "Imperial Infantry"
+	division_names_group = BRT_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -56,15 +56,14 @@ division_template = {
 		artillery_brigade = { x = 2 y = 3 }
 	}	
 	support = {
-		artillery = { x = 0 y = 1 } 
-		engineer = { x = 0 y = 0 }   
+		artillery = { x = 0 y = 1 }   
 	}
 }
 
 division_template = {
-	name = "Marine Brigade" 		
+	name = "Marine Royal Battalion" 		
 
-	division_names_group = "Imperial Marine"
+	division_names_group = BRT_MAR_01
 
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -72,28 +71,26 @@ division_template = {
 		marine = { x = 1 y = 0 }
 		marine = { x = 1 y = 1 }
 	}
-	support = {
-		engineer = { x = 0 y = 0 }   
-	}
+
 
 }
 
 
 division_template = {
-	name = "Fast Brigade" 		
+	name = "Mechanized Royal Battalion" 		
 
-	division_names_group = "Fast Brigade"
+	division_names_group = BRT_MOT_01
 	
 	regiments = {
 
 		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 1 }
 
 	}	
 
@@ -106,18 +103,18 @@ division_template = {
 }
 
 division_template = {
-	name = "Armored Section" 		
+	name = "Armored Royal Battalion" 		
 
-	division_names_group = "Armored Section"
+	division_names_group = BRT_ARM_01
 
     regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
 
     }
 
@@ -137,11 +134,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 7
 		}
 		location = 10783
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -150,11 +147,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 2
 		}
 		location = 10783
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -163,11 +160,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 3
 		}
 		location = 10783
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -176,11 +173,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 4
 		}
 		location = 12736
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -189,11 +186,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 5
 		}
 		location = 10830
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -202,11 +199,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 6
 		}
 		location = 9671
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -215,11 +212,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 7
 		}
 		location = 9671
-		division_template = "Fast Brigade"
-		start_experience_factor = 0.5
+		division_template = "Mechanized Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -228,11 +225,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 8
 		}
 		location = 7315
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -241,11 +238,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 9
 		}
 		location = 7315
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -254,11 +251,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 10
 		}
 		location = 1799
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -267,11 +264,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 11
 		}
 		location = 1799
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -280,11 +277,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 12
 		}
 		location = 13091
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -293,11 +290,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 13
 		}
 		location = 13067
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -305,11 +302,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 14
 		}
 		location = 12782
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -318,11 +315,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 15
 		}
 		location = 3957
-		division_template = "Fast Brigade"
-		start_experience_factor = 0.5
+		division_template = "Mechanized Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -331,11 +328,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 16
 		}
 		location = 3957
-		division_template = "Armored Section"
-		start_experience_factor = 0.5
+		division_template = "Armored Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -344,11 +341,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 17
 		}
 		location = 6732
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -357,11 +354,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 18
 		}
 		location = 6732
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -370,11 +367,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 19
 		}
 		location = 7361
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -383,11 +380,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 20
 		}
 		location = 6845
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -396,11 +393,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 21
 		}
 		location = 7617
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -409,11 +406,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 22
 		}
 		location = 7630
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -422,11 +419,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 23
 		}
 		location = 1843
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -435,11 +432,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 24
 		}
 		location = 1843
-		division_template = "Fast Brigade"
-		start_experience_factor = 0.5
+		division_template = "Mechanized Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -450,11 +447,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 25
 		}
 		location = 1132
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -463,11 +460,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 26
 		}
 		location = 9450
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -476,11 +473,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 27
 		}
 		location = 9450
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -489,11 +486,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 28
 		}
 		location = 4357
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -502,11 +499,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 29
 		}
 		location = 4357
-		division_template = "Armored Section"
-		start_experience_factor = 0.5
+		division_template = "Armored Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -514,11 +511,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 30
 		}
 		location = 610
-		division_template = "Armored Section"
-		start_experience_factor = 0.5
+		division_template = "Armored Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -526,11 +523,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 31
 		}
 		location = 1562
-		division_template = "Armored Section"
-		start_experience_factor = 0.5
+		division_template = "Armored Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -538,11 +535,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 32
 		}
 		location = 4357
-		division_template = "Marine Brigade"
-		start_experience_factor = 0.5
+		division_template = "Marine Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -550,11 +547,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 33
 		}
 		location = 13023
-		division_template = "Marine Brigade"
-		start_experience_factor = 0.5
+		division_template = "Marine Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -562,11 +559,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 34
 		}
 		location = 13056
-		division_template = "Marine Brigade"
-		start_experience_factor = 0.5
+		division_template = "Marine Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -574,11 +571,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 35
 		}
 		location = 13026
-		division_template = "Marine Brigade"
-		start_experience_factor = 0.5
+		division_template = "Marine Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -587,11 +584,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 36
 		}
 		location = 4357
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -600,11 +597,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 37
 		}
 		location = 13028
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -613,11 +610,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 38
 		}
 		location = 13025
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -626,11 +623,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 39
 		}
 		location = 13025
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -639,11 +636,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 40
 		}
 		location = 13026
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -653,11 +650,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 41
 		}
 		location = 4180
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -667,11 +664,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 42
 		}
 		location = 12503
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -680,11 +677,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 43
 		}
 		location = 10370
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -693,11 +690,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 4
 		}
 		location = 12501
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -706,11 +703,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 44
 		}
 		location = 12384
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -719,11 +716,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 45
 		}
 		location = 4740
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -732,11 +729,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 46
 		}
 		location = 12505
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -745,11 +742,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 47
 		}
 		location = 12505
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -758,11 +755,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 48
 		}
 		location = 6710
-		division_template = "Armored Section"
-		start_experience_factor = 0.5
+		division_template = "Armored Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -771,11 +768,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 49
 		}
 		location = 6710
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -784,11 +781,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 50
 		}
 		location = 10337
-		division_template = "Armored Section"
-		start_experience_factor = 0.5
+		division_template = "Armored Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -797,11 +794,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 51
 		}
 		location = 10337
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -810,11 +807,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 52
 		}
 		location = 9814
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -823,11 +820,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 53
 		}
 		location = 9814
-		division_template = "Fast Brigade"
-		start_experience_factor = 0.5
+		division_template = "Mechanized Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -836,11 +833,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 54
 		}
 		location = 9814
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -849,11 +846,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 55
 		}
 		location = 1562
-		division_template = "Fast Brigade"
-		start_experience_factor = 0.5
+		division_template = "Mechanized Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -863,11 +860,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 5
 		}
 		location = 12461
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -876,11 +873,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 56
 		}
 		location = 11440
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -889,11 +886,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 57
 		}
 		location = 7480
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -902,11 +899,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 58
 		}
 		location = 1408
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -915,11 +912,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 59
 		}
 		location = 1408
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -928,11 +925,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 60
 		}
 		location = 3995
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -940,11 +937,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 61
 		}
 		location = 3995
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -952,11 +949,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 62
 		}
 		location = 12140
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -964,11 +961,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 63
 		}
 		location = 12140
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -976,11 +973,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 6
 		}
 		location = 13030
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -988,11 +985,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 64
 		}
 		location = 13030
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1000,11 +997,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 65
 		}
 		location = 13030
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1012,11 +1009,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 66
 		}
 		location = 13041
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1024,11 +1021,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 67
 		}
 		location = 13050
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1036,11 +1033,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 68
 		}
 		location = 13046
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1048,11 +1045,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 69
 		}
 		location = 13091
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1060,11 +1057,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 70
 		}
 		location = 13091
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1072,11 +1069,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 71
 		}
 		location = 10694
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1084,11 +1081,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 72
 		}
 		location = 4872
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1096,11 +1093,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 73
 		}
 		location = 2407
-		division_template = "Imperial Infantry"
-		start_experience_factor = 0.5
+		division_template = "Infantry Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1109,11 +1106,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 74
 		}
 		location = 13025
-		division_template = "Fast Brigade"
-		start_experience_factor = 0.5
+		division_template = "Mechanized Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1122,11 +1119,11 @@ units = {
 		#name = "1st Britannian Garrison"
 		division_name = {    
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 75
 		}
 		location = 13025
-		division_template = "Marine Brigade"
-		start_experience_factor = 0.5
+		division_template = "Marine Royal Battalion"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -1140,40 +1137,40 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "USA"
+			creator = "BRT"
 		}
 		requested_factories = 5
 		progress = 0.73
-		efficiency = 100
+		efficiency = 50
 	}
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_equipment_1
-			creator = "USA"
+			type = mbt_1
+			creator = "BRT"
 		}
-		requested_factories = 3
+		requested_factories = 5
 		progress = 0.85
-		efficiency = 100
+		efficiency = 50
 	}
 	
 		add_equipment_production = {
 		equipment = {
-			type = motorized_equipment
-			creator = "USA"
+			type = support_equipment_1
+			creator = "BRT"
 		}
-		requested_factories = 3
+		requested_factories = 4
 		progress = 0.85
-		efficiency = 100
+		efficiency = 50
 	}
 	
 			add_equipment_production = {
 		equipment = {
-			type = motorized_equipment_1
-			creator = "USA"
+			type = eu_war_artillery
+			creator = "BRT"
 		}
-		requested_factories = 3
+		requested_factories = 4
 		progress = 0.85
-		efficiency = 100
+		efficiency = 50
 	}
 }
 

@@ -1,0 +1,320 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+BRT_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Infantry Imperial Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Infantry Imperial Battalion" }
+		2 = { "%nd Infantry Imperial Battalion" }
+		3 = { "%rd Infantry Imperial Battalion" }
+		4 = { "%th Infantry Imperial Battalion" }
+		5 = { "%th Infantry Imperial Battalion" }
+		6 = { "%th Infantry Imperial Battalion" }
+		7 = { "%th Infantry Imperial Battalion" }
+		8 = { "%th Infantry Imperial Battalion" }
+		9 = { "%th Infantry Imperial Battalion" }
+		10 = { "%th Infantry Imperial Battalion" }
+		11 = { "%th Infantry Imperial Battalion" }
+		12 = { "%th Infantry Imperial Battalion" }
+		13 = { "%th Infantry Imperial Battalion" }
+		14 = { "%th Infantry Imperial Battalion" }
+		15 = { "%th Infantry Imperial Battalion" }
+		16 = { "%th Infantry Imperial Battalion" }
+		17 = { "%th Infantry Imperial Battalion" }
+		18 = { "%th Infantry Imperial Battalion" }
+		19 = { "%th Infantry Imperial Battalion" }
+		20 = { "%th Infantry Imperial Battalion" }		
+	}
+}
+
+
+BRT_MOT_01 = 
+{
+	name = "Motorized Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BRT_INF_01 }
+
+	fallback_name = "%th Mechanized Royal Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Mechanized Royal Battalion" }
+		2 = { "%nd Mechanized Royal Battalion" }
+		3 = { "%rd Mechanized Royal Battalion" }
+		4 = { "%th Mechanized Royal Battalion" }
+		5 = { "%th Mechanized Royal Battalion" }
+		6 = { "%th Mechanized Royal Battalion" }
+		7 = { "%th Mechanized Royal Battalion" }
+		8 = { "%th Mechanized Royal Battalion" }
+		9 = { "%th Mechanized Royal Battalion" }
+		10 = { "%th Mechanized Royal Battalion" }
+	}
+}
+
+
+BRT_ARM_01 = 
+{
+	name = "Armored Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Armored Royal Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Armored Royal Battalion" }
+		2 = { "%nd Armored Royal Battalion" }
+		3 = { "%rd Armored Royal Battalion" }
+		4 = { "%th Armored Royal Battalion" }
+		5 = { "%th Armored Royal Battalion" }
+		6 = { "%th Armored Royal Battalion" }
+		7 = { "%th Armored Royal Battalion" }
+		8 = { "%th Armored Royal Battalion" }
+		9 = { "%th Armored Royal Battalion" }
+		10 = { "%th Armored Royal Battalion" }
+	}
+}
+
+BRT_PAR_01 = 
+{
+	name = "Parachute Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Parachuted Royal Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Parachuted Royal Battalion" }
+		2 = { "%nd Parachuted Royal Battalion" }
+		3 = { "%rd Parachuted Royal Battalion" }
+		4 = { "%th Parachuted Royal Battalion" }
+		5 = { "%th Parachuted Royal Battalion" }
+		6 = { "%th Parachuted Royal Battalion" }
+		7 = { "%th Parachuted Royal Battalion" }
+		8 = { "%th Parachuted Royal Battalion" }
+		9 = { "%th Parachuted Royal Battalion" }
+		10 = { "%th Parachuted Royal Battalion" }
+	}
+}
+
+BRT_MAR_01 = 
+{
+	name = "Marine Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Marine Royal Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Marine Royal Battalion" }
+		2 = { "%nd Marine Royal Battalion" }
+		3 = { "%rd Marine Royal Battalion" }
+		4 = { "%th Marine Royal Battalion" }
+		5 = { "%th Marine Royal Battalion" }
+		6 = { "%th Marine Royal Battalion" }
+		7 = { "%th Marine Royal Battalion" }
+		8 = { "%th Marine Royal Battalion" }
+		9 = { "%th Marine Royal Battalion" }
+		10 = { "%th Marine Royal Battalion" }
+	}
+}
+
+BRT_MNT_01 = 
+{
+	name = "Mountain Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Mountaineers Royal Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Mountaineers Royal Battalion" }
+		2 = { "%nd Mountaineers Royal Battalion" }
+		3 = { "%rd Mountaineers Royal Battalion" }
+		4 = { "%th Mountaineers Royal Battalion" }
+		5 = { "%th Mountaineers Royal Battalion" }
+		6 = { "%th Mountaineers Royal Battalion" }
+		7 = { "%th Mountaineers Royal Battalion" }
+		8 = { "%th Mountaineers Royal Battalion" }
+		9 = { "%th Mountaineers Royal Battalion" }
+		10 = { "%th Mountaineers Royal Battalion" }
+	}
+}
+
+BRT_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Infantry Imperial Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Infantry Imperial Battalion" }
+		2 = { "%nd Infantry Imperial Battalion" }
+		3 = { "%rd Infantry Imperial Battalion" }
+		4 = { "%th Infantry Imperial Battalion" }
+		5 = { "%th Infantry Imperial Battalion" }
+		6 = { "%th Infantry Imperial Battalion" }
+		7 = { "%th Infantry Imperial Battalion" }
+		8 = { "%th Infantry Imperial Battalion" }
+		9 = { "%th Infantry Imperial Battalion" }
+		10 = { "%th Infantry Imperial Battalion" }
+		11 = { "%th Infantry Imperial Battalion" }
+		12 = { "%th Infantry Imperial Battalion" }
+		13 = { "%th Infantry Imperial Battalion" }
+		14 = { "%th Infantry Imperial Battalion" }
+		15 = { "%th Infantry Imperial Battalion" }
+		16 = { "%th Infantry Imperial Battalion" }
+		17 = { "%th Infantry Imperial Battalion" }
+		18 = { "%th Infantry Imperial Battalion" }
+		19 = { "%th Infantry Imperial Battalion" }
+		20 = { "%th Infantry Imperial Battalion" }		
+}
+}
+
+
+BRT_KN_01 = 
+{
+	name = "Knightmare Division"
+
+	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "knightmare_mass_prod_unit" "knightmare_pol_unit" "knightmare_all_pur_unit" "knightmare_fortress_unit" "knightmare_artillery_unit" "knightmare_melee_unit" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Knightmare Imperial Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Knightmare Imperial Battalion" }
+		2 = { "%nd Knightmare Imperial Battalion" }
+		3 = { "%rd Knightmare Imperial Battalion" }
+		4 = { "%th Knightmare Imperial Battalion" }
+		5 = { "%th Knightmare Imperial Battalion" }
+		6 = { "%th Knightmare Imperial Battalion" }
+		7 = { "%th Knightmare Imperial Battalion" }
+		8 = { "%th Knightmare Imperial Battalion" }
+		9 = { "%th Knightmare Imperial Battalion" }
+		10 = { "%th Knightmare Imperial Battalion" }
+		11 = { "%th Knightmare Imperial Battalion" }
+		12 = { "%th Knightmare Imperial Battalion" }
+		13 = { "%th Knightmare Imperial Battalion" }
+		14 = { "%th Knightmare Imperial Battalion" }
+		15 = { "%th Knightmare Imperial Battalion" }
+		16 = { "%th Knightmare Imperial Battalion" }
+		17 = { "%th Knightmare Imperial Battalion" }
+		18 = { "%th Knightmare Imperial Battalion" }
+		19 = { "%th Knightmare Imperial Battalion" }
+		20 = { "%th Knightmare Imperial Battalion" }		
+}
+}

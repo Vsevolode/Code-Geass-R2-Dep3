@@ -22,13 +22,76 @@ focus_tree = {
 
 	continuous_focus_position = { x = 20 y = 1500 }
 
+	focus = {
+		id = VV_situation
+		icon = GFX_VV_situation
+		x = 15
+		y = 0
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = court_intrigues
+		icon = GFX_court_intrigues
+		x = 13
+		y = 0
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
     		focus = {
 		id = BRT_assassination
 		icon = GFX_BRT_assassination
-		x = 20
-		y = 0
+		x = 14
+		y = 1
 
-		cost = 5
+		prerequisite = { focus = court_intrigues }
+		prerequisite = { focus = VV_situation }
+
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -65,7 +128,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 2
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -107,7 +170,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -146,7 +209,7 @@ focus_tree = {
 		x = 0
 		y = 2
 
-		cost = 2
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -182,7 +245,7 @@ focus_tree = {
 		relative_position_id = BRT_assassination
 
 		x = 0
-		y = 4
+		y = 3
 
 		cost = 3
 
@@ -211,6 +274,255 @@ focus_tree = {
 		log = "[GetDateText]: [Root.GetName]: Focus BRT_continue_plan"
 		}
 	}
+
+	focus = {
+		id = BRT_KN_dev
+		icon = GFX_BRT_KN_dev
+		prerequisite = { focus = BRT_continue_plan }
+		relative_position_id = BRT_assassination
+
+		x = 4
+		y = 5
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRT_KN_module_1
+		icon = GFX_BRT_KN_module_1
+		prerequisite = { focus = BRT_KN_dev }
+		relative_position_id = BRT_assassination
+
+		x = 2
+		y = 6
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRT_KN_module_2
+		icon = GFX_BRT_KN_module_2
+		prerequisite = { focus = BRT_KN_dev }
+		relative_position_id = BRT_assassination
+
+		x = 4
+		y = 6
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRT_KN_ashford
+		icon = GFX_BRT_KN_ashford
+		prerequisite = { focus = BRT_KN_module_1 }
+		prerequisite = { focus = BRT_KN_module_2 }
+		prerequisite = { focus = BRT_KN_module_3 }
+		relative_position_id = BRT_assassination
+
+		x = 4
+		y = 7
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRT_KN_old_guard
+		icon = GFX_BRT_KN_old_guard
+		prerequisite = { focus = BRT_KN_ashford }
+
+		relative_position_id = BRT_assassination
+
+		x = 4
+		y = 8
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRT_KN_glasgow
+		icon = GFX_BRT_KN_glasgow
+		prerequisite = { focus = BRT_KN_old_guard }
+
+		relative_position_id = BRT_assassination
+
+		x = 4
+		y = 10
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BRT_KN_module_3
+		icon = GFX_BRT_KN_module_3
+		prerequisite = { focus = BRT_KN_dev }
+		relative_position_id = BRT_assassination
+
+		x = 6
+		y = 6
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		
+		country_exists = BRT
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+
+		}
+	}
 	
 		focus = {
 		id = BRT_foreign_situation
@@ -221,7 +533,7 @@ focus_tree = {
 		x = -4
 		y = 5
 
-		cost = 7
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -258,7 +570,7 @@ focus_tree = {
 		x = -3
 		y = 6
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -305,7 +617,7 @@ focus_tree = {
 		x = -5
 		y = 6
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -359,7 +671,7 @@ focus_tree = {
 		x = -4
 		y = 7
 
-		cost = 8
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -408,7 +720,7 @@ focus_tree = {
 		x = -4
 		y = 8
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -445,7 +757,7 @@ focus_tree = {
 		x = -4
 		y = 9
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -474,15 +786,15 @@ focus_tree = {
 	}
 	
 				focus = {
-		id = BRT_doctrine
-		icon = GFX_BRT_doctrine
+		id = BRT_protectionism
+		icon = GFX_BRT_protectionism
 		prerequisite = { focus = BRT_oriental }
 		relative_position_id = BRT_assassination
 
 		x = -6
 		y = 9
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -510,15 +822,15 @@ focus_tree = {
 	}
 	
 					focus = {
-		id = BRT_gathering
-		icon = GFX_BRT_gathering
+		id = BRT_aid_MON_rebels
+		icon = GFX_BRT_aid_MON_rebels
 		prerequisite = { focus = BRT_oriental }
 		relative_position_id = BRT_assassination
 
 		x = -2
 		y = 9
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -552,17 +864,17 @@ add_research_slot = 1
 	}
 	
 						focus = {
-		id = BRT_knights
-		icon = GFX_BRT_knights
-		prerequisite = { focus = BRT_doctrine }
+		id = BRT_block_sup
+		icon = GFX_BRT_block_sup
+		prerequisite = { focus = BRT_protectionism }
 		prerequisite = { focus = BRT_diplomacy }
-		prerequisite = { focus = BRT_gathering }
+		prerequisite = { focus = BRT_aid_MON_rebels }
 		relative_position_id = BRT_assassination
 
 		x = -4
 		y = 10
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -597,13 +909,15 @@ add_research_slot = 1
 							focus = {
 		id = BRT_war
 		icon = GFX_BRT_war
-		prerequisite = { focus = BRT_knights }
+		prerequisite = { focus = BRT_block_sup }
+		prerequisite = { focus = BRT_laziness_odysseus }
+		prerequisite = { focus = BRT_KN_glasgow }
         relative_position_id = BRT_assassination
 
-		x = -4
+		x = -0
 		y = 11
 
-		cost = 8
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -651,10 +965,10 @@ load_focus_tree = britannia_proper
 		relative_position_id = BRT_assassination
 
 
-		x = 4
+		x = 0
 		y = 5
 
-		cost = 7
+		cost = 3
 
 		ai_will_do = {
 			factor = 100
@@ -689,10 +1003,10 @@ load_focus_tree = britannia_proper
 		relative_position_id = BRT_assassination
 
 
-		x = 3
+		x = 0
 		y = 6
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 90
@@ -731,14 +1045,14 @@ load_focus_tree = britannia_proper
 									focus = {
 		id = BRT_control_purists
 		icon = GFX_BRT_control_purists
-		prerequisite = { focus = BRT_domestic_front }
+		prerequisite = { focus = BRT_reassure_family }
 		relative_position_id = BRT_assassination
 
 
-		x = 5
-		y = 6
+		x = 0
+		y = 7
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 90
@@ -772,15 +1086,14 @@ load_focus_tree = britannia_proper
 									focus = {
 		id = BRT_nobility_ties
 		icon = GFX_BRT_nobility_ties
-				prerequisite = { focus = BRT_reassure_family }
 		prerequisite = { focus = BRT_control_purists }
 		relative_position_id = BRT_assassination
 
 
-		x = 4
-		y = 7
+		x = 0
+		y = 8
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 90
@@ -811,19 +1124,18 @@ load_focus_tree = britannia_proper
 }
 		}
 	}
-	
-									focus = {
-		id = BRT_front_secured
-		icon = GFX_BRT_front_secured
+
+	focus = {
+		id = BRT_laziness_odysseus
+		icon = GFX_BRT_laziness_odysseus
 		prerequisite = { focus = BRT_nobility_ties }
 		relative_position_id = BRT_assassination
 
 
+		x = 0
+		y = 9
 
-		x = 4
-		y = 8
-
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 90
@@ -845,18 +1157,11 @@ load_focus_tree = britannia_proper
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BRT_front_secured"
-         add_stability = 0.03
-		 add_war_support = 0.03
-		 add_popularity = {
-    ideology = autocracy
-    popularity = 0.05
-}
+
 		}
 	}
 	
-
-
+	
 
 
 

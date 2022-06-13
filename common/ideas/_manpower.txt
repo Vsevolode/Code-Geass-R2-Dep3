@@ -6,7 +6,7 @@ ideas = {
 		
 		disarmed_nation = {
 						
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 7
 			
@@ -15,7 +15,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.0025
 			}
 			
 			cancel_if_invalid = no
@@ -23,7 +23,7 @@ ideas = {
 		
 		volunteer_only = {
 						
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 6
 			
@@ -49,17 +49,19 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.0035
 			}
 			
-			default = yes
+			
 			
 			cancel_if_invalid = no
 		}
 		
 		limited_conscription = {
+
+			default = yes
 					
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 5
 
@@ -121,7 +123,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.025
+				conscription = 0.0045
 			}
 
 			ai_will_do = {
@@ -142,6 +144,7 @@ ideas = {
 		}
 		
 		extensive_conscription = {
+			
 			
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
@@ -237,12 +240,12 @@ ideas = {
 				
 			}
 			
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 4
 			
 			modifier = {
-				conscription = 0.05
+				conscription = 0.0055
 				#industrial_capacity_factory = -0.1
 				#production_speed_buildings_factor = -0.1
 				training_time_factor = 0.1
@@ -373,12 +376,12 @@ ideas = {
 
 			}
 			
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 3
 
 			modifier = {
-				conscription = 0.1
+				conscription = 0.0075
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
@@ -497,12 +500,12 @@ ideas = {
 				}
 			}
 		
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 2
 			
 			modifier = {
-				conscription = 0.2
+				conscription = 0.01
 				industrial_capacity_factory = -0.3
 				industrial_capacity_dockyard = -0.3
 				production_speed_buildings_factor = -0.3
@@ -607,12 +610,12 @@ ideas = {
 				}
 			}
 
-			cost = 150
+			cost = 80
 			removal_cost = -1
 			level = 1
 
 			modifier = {
-				conscription = 0.25
+				conscription = 0.02
 				industrial_capacity_factory = -0.4
 				industrial_capacity_dockyard = -0.4
 				production_speed_buildings_factor = -0.4

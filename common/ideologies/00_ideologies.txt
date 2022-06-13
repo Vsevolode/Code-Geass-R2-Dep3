@@ -22,6 +22,8 @@ ideologies = {
 
 			yamato_militarism = {
 			}
+			purist_aristocracy = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -134,8 +136,6 @@ ideologies = {
 			oligarchic_government = {
 			}
 			genbuism = {
-			}
-			purist_aristocracy = {
 			}
 			jap_neo_feudalism = {
 			}

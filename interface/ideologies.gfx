@@ -4,6 +4,66 @@ spriteTypes = {
 		name = "GFX_ideology_oligarchic_government"
 		texturefile = "gfx/interface/ideologies/oligarchic_government.dds"
 	}
+	SpriteType = {
+		name = "GFX_ideology_genbuism"
+		texturefile = "gfx/interface/ideologies/genbuism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_yamato_statism"
+		texturefile = "gfx/interface/ideologies/yamato_statism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_yamato_militarism"
+		texturefile = "gfx/interface/ideologies/yamato_militarism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_ultra_spartanism"
+		texturefile = "gfx/interface/ideologies/ultra_spartanism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_spartanism"
+		texturefile = "gfx/interface/ideologies/spartanism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_romano_brit"
+		texturefile = "gfx/interface/ideologies/romano_brit.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_purist_aristocracy"
+		texturefile = "gfx/interface/ideologies/purist_aristocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_paternal_autocracy"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_national_syndacalism"
+		texturefile = "gfx/interface/ideologies/national_syndacalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_jap_neo_feudalism"
+		texturefile = "gfx/interface/ideologies/jap_neo_feudalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_integralism"
+		texturefile = "gfx/interface/ideologies/integralism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_imperial_cult"
+		texturefile = "gfx/interface/ideologies/imperial_cult.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_britannian_con"
+		texturefile = "gfx/interface/ideologies/britannian_con.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_absolute_monarchy"
+		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
+	}
+
+
+
+
 
 	SpriteType = {
 		name = "GFX_ideology_syndacalism"
