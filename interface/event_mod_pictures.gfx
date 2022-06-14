@@ -47,6 +47,10 @@ spriteTypes = {
 
 
 	#Britannia
+	spriteType = {
+		name = "GFX_BRT_VV_things"
+		texturefile = "gfx/event_pictures/BRT_VV_things.dds"
+	}
 
 	spriteType = {
 		name = "GFX_BRT_marianne_dead"

@@ -117,6 +117,35 @@ spriteTypes = {
 		name = "GFX_idea_BRT_generic_minister_1"
 		texturefile = "gfx/interface/ideas/BRT/BRT_generic_minister_1.dds"	
 	}
+	spriteType = {
+		name = "GFX_idea_BRT_generic_air"
+		texturefile = "gfx/interface/ideas/BRT/BRT_generic_air.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRT_generic_navy"
+		texturefile = "gfx/interface/ideas/BRT/BRT_generic_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRT_bismark"
+		texturefile = "gfx/interface/ideas/BRT/BRT_bismark.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRT_generic_army_1"
+		texturefile = "gfx/interface/ideas/BRT/BRT_generic_army_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRT_luciano"
+		texturefile = "gfx/interface/ideas/BRT/BRT_luciano.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRT_monica"
+		texturefile = "gfx/interface/ideas/BRT/BRT_monica.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRT_ernst"
+		texturefile = "gfx/interface/ideas/BRT/BRT_ernst.dds"
+	}
 
 
 

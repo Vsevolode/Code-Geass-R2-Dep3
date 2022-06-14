@@ -51,6 +51,7 @@ equipments = {
 
 		maximum_speed = 10
 		reliability = 0.8
+		build_cost_ic = 35.0
 
 		#Defensive Abilities
 		defense = 8
@@ -81,6 +82,8 @@ equipments = {
 			chromium = 4
 		}
 
+
+        build_cost_ic = 35.0
 		maximum_speed = 10
 		reliability = 0.8
 
@@ -117,6 +120,7 @@ equipments = {
 			}
 			
 			# Modifiers the equipment uses
+			build_cost_ic = 35.0
 			maximum_speed = 10
 			reliability = 0.8
 	
@@ -153,6 +157,7 @@ equipments = {
 		}
 		
 		# Modifiers the equipment uses
+		build_cost_ic = 35.0
 		maximum_speed = 13
 		reliability = 0.9
 
@@ -190,6 +195,7 @@ mbt_3 = {
 	}
 	
 	# Modifiers the equipment uses
+	build_cost_ic = 35.0
 	maximum_speed = 15
 	reliability = 0.9
 
@@ -215,7 +221,7 @@ mobile_bases_equip = {
 	is_buildable = no
 	active = no
 
-	type = armor
+	type = support
 
 	priority = 4     # Priority for usage over other equipment.
 	visual_level = 4 
@@ -229,10 +235,11 @@ mobile_bases_equip = {
 		chromium = 2
 	}
 
-	maximum_speed = 5
+	maximum_speed = 16
 	reliability = 0.9
 
 	#Defensive Abilities
+	build_cost_ic = 45.0
 	defense = 15
 	breakthrough = 2
 	hardness = 0.90
@@ -262,8 +269,9 @@ mobile_bases = {
 		chromium = 5
 	}
 	
-	maximum_speed = 5
+	maximum_speed = 18
 	reliability = 0.9
+	build_cost_ic = 45.0
 
 	#Defensive Abilities
 	defense = 15

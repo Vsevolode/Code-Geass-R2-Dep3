@@ -5,16 +5,19 @@ oob = "PHI_START"
 
 
 set_stability = 0.37
-set_war_support = 0.16
+set_war_support = 0.50
 
 set_technology = {
 	infantry_weapons = 1
-	gwtank = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	mass_assault = 1
-	fleet_in_being = 1
+	infantry_weapons1 = 1
+	support_equip = 1
+	early_jet_design = 1
+	early_jet_design_2 = 1
+	fighter1 = 1
+	early_frigate = 1
+	tank_design = 1
+	cold_war_tank = 1
+	eu_war_artillery = 1
 }
 
 
@@ -25,7 +28,7 @@ chinese_exploitation
 }
 
 
-set_convoys = 90
+set_convoys = 190
 
 set_politics = {
 	ruling_party = autocracy

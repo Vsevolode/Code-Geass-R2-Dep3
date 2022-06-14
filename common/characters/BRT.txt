@@ -29,7 +29,7 @@ characters={
 		}
 	}
 
-	right_officers_brt={
+	brt_senior_officers={
 		name = "Senior Officers"
 		portraits={
 		}
@@ -68,7 +68,7 @@ characters={
 		}
 	}
 
-	null_brt_3={
+	null_brt_left={
 		name = "-"
 		portraits={
 		}
@@ -81,7 +81,7 @@ characters={
 		}
 	}
 
-	null_brt_4={
+	null_brt_far_left={
 		name = "-"
 		portraits={
 		}
@@ -94,7 +94,7 @@ characters={
 		}
 	}
 
-	officers_brt_5={
+	brt_left_officers={
 		name = "Young Officers"
 		portraits={
 		}
@@ -116,6 +116,8 @@ characters={
 		portraits={
 			army={
 				large="GFX_portrait_brt_bismark"
+		    	small="GFX_idea_BRT_bismark"
+				
 			}
 		}
 		field_marshal={
@@ -126,6 +128,21 @@ characters={
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id=-1
+		}
+
+		advisor={
+			slot = army_chief
+			idea_token = BRT_bismark_idea
+			allowed = {
+				original_tag = BRT
+			}
+			traits = {
+				army_CombinedArms_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
 
@@ -249,8 +266,8 @@ characters={
 		}
 		advisor={	
 			slot = high_command
-			idea_token = BRT_luciano_idea
-			ledger = air
+			idea_token = BRT_luciano
+			ledger = army
 			allowed = {
 				original_tag = BRT
 			}
@@ -272,8 +289,8 @@ characters={
 		}
 		advisor={	
 			slot = high_command
-			idea_token = BRT_monica_idea
-			ledger = air
+			idea_token = BRT_monica
+			ledger = army
 			allowed = {
 				original_tag = BRT
 			}
@@ -295,8 +312,8 @@ characters={
 		}
 		advisor={	
 			slot = high_command
-			idea_token = BRT_ernst_idea
-			ledger = air
+			idea_token = BRT_ernst
+			ledger = army
 			allowed = {
 				original_tag = BRT
 			}
@@ -357,28 +374,6 @@ characters={
 		}
 	}
 
-	BRT_bismark={
-		name=BRT_bismark
-		portraits={
-			army={
-				small="GFX_idea_BRT_bismark"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = BRT_bismark_idea
-			allowed = {
-				original_tag = BRT
-			}
-			traits = {
-				army_CombinedArms_3
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
 
 	BRT_generic_army_1={
 		name=BRT_generic_army_1

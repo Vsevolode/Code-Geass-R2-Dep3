@@ -48,7 +48,17 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+          country_event = BRT.13
+		  hidden_effect = {
+			add_ideas = {
+				BRT_VV_idea
+				BRT_odysseus_idea
+				BRT_generic_noble_1_idea
+				BRT_generic_general_1_idea
+				BRT_generic_minister_1_idea
+				BRT_generic_army_1_idea
+			}
+		}
 		}
 	}
 
@@ -78,7 +88,17 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+            country_event = BRT.14
+			hidden_effect = {
+			add_ideas = {
+				BRT_VV_idea
+				BRT_odysseus_idea
+				BRT_generic_noble_1_idea
+				BRT_generic_general_1_idea
+				BRT_generic_minister_1_idea
+				BRT_generic_army_1_idea
+			}
+		}
 		}
 	}
 
@@ -291,7 +311,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+		has_completed_focus = BRT_block_sup
 		country_exists = BRT
 
 		}
@@ -306,6 +326,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_war_support = 0.01
+			add_tech_bonus = {
+				bonus = 0.9
+				uses = 2
+				category = knightmare_mass_production
+			}
 
 		}
 	}
@@ -341,6 +367,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_war_support = 0.01
+			add_tech_bonus = {
+				bonus = 0.9
+				uses = 1
+				category = knightmare_mass_production
+			}
 
 		}
 	}
@@ -361,7 +393,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+		has_completed_focus = BRT_KN_module_1
 		country_exists = BRT
 
 		}
@@ -376,6 +408,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_war_support = 0.01
+			add_tech_bonus = {
+				bonus = 0.9
+				uses = 1
+				category = knightmare_mass_production
+			}
 
 		}
 	}
@@ -400,6 +438,7 @@ focus_tree = {
 		available = {
 		
 		country_exists = BRT
+		has_tech = knightmare_frame_3
 
 		}
 
@@ -413,6 +452,28 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = kn_template
+			hidden_effect = {
+				
+			division_template = {
+				name = "Knightmare Frame Squadron"
+				is_locked = yes
+				division_names_group = BRT_KN_01
+				priority = 1
+				template_counter = 1
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					knightmare_mass_prod_unit = { x = 0 y = 1 }
+					infantry = { x = 1 y = 0 }
+					knightmare_mass_prod_unit= { x = 1 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					recon = { x = 0 y = 2 }
+				}
+			}
+			}
 
 		}
 	}
@@ -449,7 +510,14 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+				add_ideas = BRT_bismark_idea
+				hidden_effect = {
+                        remove_ideas = BRT_generic_army_1_idea
+				}	
+			   
 
+			   add_command_power = -50
+			   add_political_power = -50
 		}
 	}
 
@@ -471,7 +539,9 @@ focus_tree = {
 
 		available = {
 		
-		country_exists = BRT
+			country_exists = BRT
+			has_tech = knightmare_frame_4
+	
 
 		}
 
@@ -485,7 +555,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			custom_effect_tooltip = kn_deploy
+			hidden_effect = {
+			load_oob = "deploy_knightmares"
+		}
 		}
 	}
 
@@ -505,7 +578,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+			has_completed_focus = BRT_KN_module_2
 		country_exists = BRT
 
 		}
@@ -520,6 +593,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_war_support = 0.01
+			add_tech_bonus = {
+				bonus = 0.9
+				uses = 1
+				category = knightmare_mass_production
+			}
 
 		}
 	}
@@ -816,8 +895,12 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BRT_doctrine"
-		add_ideas = pax_britannica
+			swap_ideas = {
+				remove_idea = export_focus
+				add_idea = limited_exports
+			}
+			add_stability = -0.03
+		
 		}
 	}
 	
@@ -852,14 +935,20 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BRT_gathering"
-		add_tech_bonus = {
-    bonus = 1.0
-    uses = 3
-    category = knightmare
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+				producer = BRT
+			}
+			CHI = {
+              add_stability = -0.05
+			  add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.04
+			}
 
-}
-add_research_slot = 1
+			}
+		
 		}
 	}
 	
@@ -880,11 +969,8 @@ add_research_slot = 1
 			factor = 100
 		}
 
-		available = {
-		
+		available = {	
 		country_exists = BRT
-		has_tech = knightmare_frame_gen_4
-
 		}
 
 		bypass = {
@@ -897,12 +983,8 @@ add_research_slot = 1
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BRT_knights"
-										hidden_effect = {
-	     load_oob = "deploy_knightmares"
-		  
-        }
-		custom_effect_tooltip = new_tanks
+			add_threat = 5
+			add_command_power = 50
 		}
 	}
 	
@@ -923,10 +1005,8 @@ add_research_slot = 1
 			factor = 100
 		}
 
-		available = {
-		
+		available = {	
 		country_exists = BRT
-        has_completed_focus = BRT_front_secured
 		}
 
 		bypass = {
@@ -1078,7 +1158,11 @@ load_focus_tree = britannia_proper
 		add_political_power = -50
 				 add_popularity = {
     ideology = ultra_nationalism
-    popularity = -0.07
+    popularity = -0.04
+}
+add_popularity = {
+    ideology = totalitarian_socialism
+    popularity = -0.04
 }
 		}
 	}
@@ -1157,6 +1241,9 @@ load_focus_tree = britannia_proper
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_war_support = 0.01
+			add_stability = 0.01
+			add_political_power = 10
 
 		}
 	}

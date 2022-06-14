@@ -418,7 +418,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_conscription_laws"
-		texturefile = "gfx/interface/goals/JAP/conscription_laws.dds"			
+		texturefile = "gfx/interface/goals/JAP/cconscription_laws.dds"			
     }
 	
 	SpriteType = {
@@ -549,6 +549,59 @@ spriteTypes = {
 
 
     #Britannia
+	SpriteType = {
+		name = "GFX_BRT_KN_glasgow"
+		texturefile = "gfx/interface/goals/BRT/BRT_KN_glasgow.dds"			
+	}
+	SpriteType = {
+			name = "GFX_BRT_KN_old_guard"
+			texturefile = "gfx/interface/goals/BRT/BRT_KN_old_guard.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_KN_ashford"
+		texturefile = "gfx/interface/goals/BRT/BRT_KN_ashford.dds"			
+	}
+	SpriteType = {
+			name = "GFX_BRT_KN_module_1"
+			texturefile = "gfx/interface/goals/BRT/BRT_KN_module_1.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_KN_module_2"
+		texturefile = "gfx/interface/goals/BRT/BRT_KN_module_2.dds"			
+	}
+	SpriteType = {
+			name = "GFX_BRT_KN_module_3"
+			texturefile = "gfx/interface/goals/BRT/BRT_KN_module_3.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_KN_dev"
+		texturefile = "gfx/interface/goals/BRT/BRT_KN_dev.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_BRT_protectionism"
+		texturefile = "gfx/interface/goals/BRT/BRT_protectionism.dds"			
+		}
+		SpriteType = {
+			name = "GFX_BRT_block_sup"
+			texturefile = "gfx/interface/goals/BRT/BRT_block_sup.dds"			
+			}
+			SpriteType = {
+			name = "GFX_BRT_aid_MON_rebels"
+			texturefile = "gfx/interface/goals/BRT/BRT_aid_MON_rebels.dds"			
+			}
+			SpriteType = {
+			name = "GFX_BRT_laziness_odysseus"
+			texturefile = "gfx/interface/goals/BRT/BRT_laziness_odysseus.dds"			
+		}			
+	SpriteType = {
+		name = "GFX_court_intrigues"
+		texturefile = "gfx/interface/goals/BRT/court_intrigues.dds"			
+		}
+		SpriteType = {
+			name = "GFX_VV_situation"
+			texturefile = "gfx/interface/goals/BRT/VV_situation.dds"			
+			}
 	SpriteType = {
 	name = "GFX_BRT_assassination"
 	texturefile = "gfx/interface/goals/BRT/focus_BRT_marianne_dead.dds"			

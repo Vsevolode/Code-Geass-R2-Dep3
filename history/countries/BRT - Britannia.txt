@@ -235,13 +235,14 @@ add_ideas = {
 	export_focus
 	partial_economic_mobilisation
 
+
 }
 recruit_character = charles_brt
 recruit_character = aristocrats_brt
-recruit_character = right_officers_brt
-recruit_character = officers_brt_5
-recruit_character = null_brt_4
-recruit_character = null_brt_3
+recruit_character = brt_senior_officers
+recruit_character = brt_left_officers
+recruit_character = null_brt_far_left
+recruit_character = null_brt_left
 recruit_character = null_brt_2
 recruit_character = null_brt_1
 recruit_character = brt_bismark
@@ -258,9 +259,9 @@ recruit_character = BRT_guinevere
 recruit_character = BRT_generic_noble_1
 recruit_character = BRT_generic_minister_1
 recruit_character = BRT_VV
-recruit_character = BRT_luciano
-recruit_character = BRT_monica
-recruit_character = BRT_ernst
+recruit_character = brt_luciano
+recruit_character = brt_monica
+recruit_character = brt_ernst
 recruit_character = BRT_generic_air
 recruit_character = BRT_generic_navy
 recruit_character = BRT_generic_army_1

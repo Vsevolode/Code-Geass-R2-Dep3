@@ -51,13 +51,16 @@ country_event = {  #death of Marianne
 	desc = BRT.1.d
 	picture = GFX_BRT_marianne_dead
 	fire_only_once = yes
-	trigger = { tag = BRT }
-    mean_time_to_happen = { days = 30 }
+	trigger = { 
+		has_completed_focus = court_intrigues
+		has_completed_focus = VV_situation
+     }
+    mean_time_to_happen = { days = 5 }
 	
 	
 	option = {
 		name = BRT.1.a
-		add_political_power = -100
+		add_political_power = -50
 		add_manpower = -1
 				add_popularity = {
     ideology = ultra_nationalism
@@ -69,13 +72,6 @@ country_event = {  #death of Marianne
 		}
 		
 		hidden_effect = {
-			add_ideas = {
-				BRT_VV_idea
-				BRT_odysseus_idea
-				BRT_generic_noble_1_idea
-				BRT_generic_general_1_idea
-				BRT_generic_minister_1_idea
-			}
 	     set_variable = {
 	     var = mar_dead
 	     value = 10
@@ -256,6 +252,26 @@ country_event = {
 		
 		ai_chance = {
 			factor = 80
+		}
+		
+		
+    }
+
+	option = {	
+		name = BRT.6.a
+		add_political_power = 50
+		add_popularity = {
+    ideology = autocracy
+    popularity = 0.05
+	}
+	BRT = {	
+		declare_war_on = {
+			target = CHI
+		}
+    }
+		
+		ai_chance = {
+			factor = 20
 		}
 		
 		
@@ -570,5 +586,34 @@ country_event = { #Post-Truce Effects on Britannia
 		name = BRT.12.a
 	}
 }
+
+country_event = { #VV Things
+	id = BRT.13
+	title = BRT.13.t
+	desc = BRT.13.d
+
+	picture = GFX_BRT_VV_things
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = BRT.13.a
+	}
+}
+
+country_event = { #Pendragon's Intrigues
+id = BRT.14
+title = BRT.14.t
+desc = BRT.14.d
+
+is_triggered_only = yes
+fire_only_once = yes
+
+option = {
+	name = BRT.14.a
+}
+}
+
 
 
