@@ -94,6 +94,7 @@ sub_units = {
 			landspinner_equip = 20
 			factspheres_equip = 20
 		}
+		suppression_factor = 0.8
 		manpower = 200
 		max_organisation = 60
 		max_strength = 4

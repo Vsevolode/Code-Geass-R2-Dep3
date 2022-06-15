@@ -145,7 +145,7 @@ equipments = {
 		
 		# Resources used to build this equipment
 		resources = {
-			sakuradite = 4
+			sakuradite = 3
 			steel = 2
 			chromium = 3
 		}
@@ -180,7 +180,7 @@ equipments = {
 		
 		# Resources used to build this equipment
 		resources = {
-			sakuradite = 2
+			sakuradite = 4
 			steel = 2
 			chromium = 3
 		}
@@ -215,9 +215,9 @@ equipments = {
 		
 		# Resources used to build this equipment
 		resources = {
-			sakuradite = 2
-			steel = 2
-			chromium = 3
+			sakuradite = 5
+			steel = 3
+			chromium = 4
 		}
 		
 		# Modifiers the equipment uses
@@ -251,26 +251,26 @@ equipments = {
 		
 		# Resources used to build this equipment
 		resources = {
-			sakuradite = 2
-			steel = 2
-			chromium = 3
+			sakuradite = 6
+			steel = 5
+			chromium = 6
 		}
 		
 		# Modifiers the equipment uses
-		maximum_speed = 25
+		maximum_speed = 22
 		reliability = 0.8
 
 		#Defensive Abilities
 		defense = 40
-		breakthrough = 17
+		breakthrough = 14
 		hardness = 0.9
-		armor_value = 135
+		armor_value = 130
 
 		#Offensive Abilities
 		soft_attack = 120
 		hard_attack = 30
 		ap_attack = 30
-		air_attack = 20
+		air_attack = 15
     }
 
 	knightmare_mass_prod_5 = {
@@ -286,9 +286,9 @@ equipments = {
 		
 		# Resources used to build this equipment
 		resources = {
-			sakuradite = 2
-			steel = 2
-			chromium = 3
+			sakuradite = 7
+			steel = 5
+			chromium = 6
 		}
 		
 		# Modifiers the equipment uses
@@ -296,13 +296,13 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 45
+		defense = 50
 		breakthrough = 20
 		hardness = 0.9
 		armor_value = 140
 
 		#Offensive Abilities
-		soft_attack = 120
+		soft_attack = 130
 		hard_attack = 35
 		ap_attack = 30
 		air_attack = 20
@@ -325,8 +325,8 @@ equipments = {
 		
 		resources = {
 			sakuradite = 1
-			steel = 2
-			chromium = 3
+			steel = 3
+			chromium = 2
 		}
 
 		maximum_speed = 7
@@ -410,25 +410,25 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 4
-			steel = 3
-			chromium = 4
+			sakuradite = 7
+			steel = 4
+			chromium = 5
 		}
 
-		maximum_speed = 14
-		reliability = 0.9
+		maximum_speed = 25
+		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 12
-		breakthrough = 6
-		hardness = 0.85
-		armor_value = 97
+		defense = 40
+		breakthrough = 14
+		hardness = 0.9
+		armor_value = 125
 
 		#Offensive Abilities
-		soft_attack = 80
-		hard_attack = 10
-		ap_attack = 12
-		air_attack = 0
+		soft_attack = 120
+		hard_attack = 40
+		ap_attack = 40
+		air_attack = 40
 	}
 
 	knightmare_all_pur_2 = {
@@ -443,25 +443,25 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 4
-			steel = 3
-			chromium = 4
+			sakuradite = 8
+			steel = 4
+			chromium = 5
 		}
 
-		maximum_speed = 14
-		reliability = 0.9
+		maximum_speed = 25
+		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 12
-		breakthrough = 6
-		hardness = 0.85
-		armor_value = 97
+		defense = 40
+		breakthrough = 34
+		hardness = 0.9
+		armor_value = 135
 
 		#Offensive Abilities
-		soft_attack = 80
-		hard_attack = 15
-		ap_attack = 12
-		air_attack = 0
+		soft_attack = 130
+		hard_attack = 50
+		ap_attack = 50
+		air_attack = 50
 	}
 
 	
@@ -477,25 +477,25 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 4
-			steel = 3
-			chromium = 4
+			sakuradite = 9
+			steel = 5
+			chromium = 6
 		}
 
-		maximum_speed = 14
-		reliability = 0.9
+		maximum_speed = 25
+		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 12
-		breakthrough = 6
-		hardness = 0.85
-		armor_value = 99
+		defense = 50
+		breakthrough = 37
+		hardness = 0.9
+		armor_value = 145
 
 		#Offensive Abilities
-		soft_attack = 87
-		hard_attack = 15
-		ap_attack = 12
-		air_attack = 40
+		soft_attack = 140
+		hard_attack = 60
+		ap_attack = 60
+		air_attack = 60
 	}
 
 	knightmare_fortress = {
@@ -512,25 +512,26 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 3
-			steel = 3
-			chromium = 4
+			sakuradite = 6
+			steel = 5
+			chromium = 6
 		}
-
-		maximum_speed = 6
+		
+		# Modifiers the equipment uses
+		maximum_speed = 22
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 15
-		breakthrough = 4
-		hardness = 1.2
-		armor_value = 90
+		defense = 70
+		breakthrough = 14
+		hardness = 0.9
+		armor_value = 140
 
 		#Offensive Abilities
-		soft_attack = 60
-		hard_attack = 3
-		ap_attack = 10
-		air_attack = 0
+		soft_attack = 100
+		hard_attack = 15
+		ap_attack = 15
+		air_attack = 10
 	}
 
 	knightmare_fortress_1 = {
@@ -545,25 +546,26 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 4
-			steel = 3
-			chromium = 4
+			sakuradite = 6
+			steel = 5
+			chromium = 6
 		}
-
-		maximum_speed = 6
+		
+		# Modifiers the equipment uses
+		maximum_speed = 22
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 15
-		breakthrough = 4
-		hardness = 1.2
-		armor_value = 90
+		defense = 70
+		breakthrough = 14
+		hardness = 0.9
+		armor_value = 140
 
 		#Offensive Abilities
-		soft_attack = 60
-		hard_attack = 3
-		ap_attack = 10
-		air_attack = 0
+		soft_attack = 100
+		hard_attack = 15
+		ap_attack = 15
+		air_attack = 10
 
 
 	}
@@ -580,25 +582,26 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 4
-			steel = 3
-			chromium = 4
+			sakuradite = 7
+			steel = 5
+			chromium = 6
 		}
-
-		maximum_speed = 6
+		
+		# Modifiers the equipment uses
+		maximum_speed = 20
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 40
-		breakthrough = 5
-		hardness = 1.2
-		armor_value = 90
+		defense = 75
+		breakthrough = 14
+		hardness = 0.9
+		armor_value = 150
 
 		#Offensive Abilities
-		soft_attack = 60
-		hard_attack = 3
-		ap_attack = 10
-		air_attack = 0
+		soft_attack = 100
+		hard_attack = 15
+		ap_attack = 15
+		air_attack = 10
 
 
 	}
@@ -633,7 +636,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 80
-		hard_attack = 30
+		hard_attack = 50
 		ap_attack = 10
 		air_attack = 0
 	}
@@ -650,40 +653,7 @@ equipments = {
 		
 		
 		resources = {
-			sakuradite = 3
-			steel = 3
-			chromium = 4
-		}
-
-		maximum_speed = 10
-		reliability = 0.8
-
-		#Defensive Abilities
-		defense = 8
-		breakthrough = 4
-		hardness = 0.85
-		armor_value = 90
-
-		#Offensive Abilities
-		soft_attack = 80
-		hard_attack = 30
-		ap_attack = 10
-		air_attack = 0
-	}
-
-	knightmare_artillery_2 = {
-		year = 2016
-
-		active = no            # Determines if this equipment is available without unlocking from a technology.
-		
-		parent = knightmare_artillery_1
-		archetype = knightmare_artillery # Which archetype equipment this equipment inherits from
-		priority = 1      # Priority for usage over other equipment.
-		visual_level = 1  # Image priority in production screen
-		
-		
-		resources = {
-			sakuradite = 3
+			sakuradite = 4
 			steel = 3
 			chromium = 4
 		}
@@ -700,6 +670,39 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 80
 		hard_attack = 50
+		ap_attack = 10
+		air_attack = 0
+	}
+
+	knightmare_artillery_2 = {
+		year = 2016
+
+		active = no            # Determines if this equipment is available without unlocking from a technology.
+		
+		parent = knightmare_artillery_1
+		archetype = knightmare_artillery # Which archetype equipment this equipment inherits from
+		priority = 1      # Priority for usage over other equipment.
+		visual_level = 1  # Image priority in production screen
+		
+		
+		resources = {
+			sakuradite = 5
+			steel = 3
+			chromium = 4
+		}
+
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 14
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 90
+		hard_attack = 60
 		ap_attack = 10
 		air_attack = 0
 	}
@@ -751,25 +754,26 @@ equipments = {
 		is_convertable = yes
 		
 		resources = {
-			sakuradite = 3
+			sakuradite = 4
 			steel = 3
 			chromium = 4
 		}
 
-		maximum_speed = 10
-		reliability = 0.8
-
-		#Defensive Abilities
-		defense = 8
-		breakthrough = 6
-		hardness = 0.85
-		armor_value = 90
-
-		#Offensive Abilities
-		soft_attack = 90
-		hard_attack = 10
-		ap_attack = 30
-		air_attack = 0
+				# Modifiers the equipment uses
+				maximum_speed = 17
+				reliability = 0.8
+		
+				#Defensive Abilities
+				defense = 35
+				breakthrough = 20
+				hardness = 0.9
+				armor_value = 120
+		
+				#Offensive Abilities
+				soft_attack = 110
+				hard_attack = 20
+				ap_attack = 20
+				air_attack = 10
 	}
 
 	
@@ -784,7 +788,7 @@ equipments = {
 		is_convertable = yes
 		
 		resources = {
-			sakuradite = 3
+			sakuradite = 5
 			steel = 3
 			chromium = 4
 		}
@@ -793,16 +797,20 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 8
-		breakthrough = 6
-		hardness = 0.85
-		armor_value = 90
+		maximum_speed = 22
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 30
+		hardness = 0.9
+		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 100
-		hard_attack = 10
+		soft_attack = 120
+		hard_attack = 30
 		ap_attack = 30
-		air_attack = 0
+		air_attack = 15
 	}
 
 		
@@ -817,25 +825,25 @@ equipments = {
 		is_convertable = yes
 		
 		resources = {
-			sakuradite = 3
+			sakuradite = 6
 			steel = 3
 			chromium = 4
 		}
 
-		maximum_speed = 12
+		maximum_speed = 25
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 8
-		breakthrough = 6
-		hardness = 0.85
-		armor_value = 90
+		defense = 50
+		breakthrough = 50
+		hardness = 0.9
+		armor_value = 140
 
 		#Offensive Abilities
-		soft_attack = 110
-		hard_attack = 10
+		soft_attack = 130
+		hard_attack = 35
 		ap_attack = 30
-		air_attack = 0
+		air_attack = 20
 	}
 
 

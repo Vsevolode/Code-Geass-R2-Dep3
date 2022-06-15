@@ -2,7 +2,7 @@ air_wings = {
 	282 = { 
 		CAS_equipment_1 = { 
 			owner = "JAP" 
-			amount = 100
+			amount = 300
 			start_experience_factor = 0.2 #optional, otherwise starts with 0 expereince
 		}
 	}
@@ -69,24 +69,6 @@ priority = 0
 }
 
 
-division_template = {
-	name = "Kuni no kiheitai"
-	
-	division_names_group = JAP_CAV_01
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-	}
-	support = {
-
-	}
-	priority = 0
-}
-
 
 division_template = {
 	name = "Dendō no bunkatsu" 		
@@ -119,12 +101,12 @@ division_template = {
 	
 	regiments = {
 
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
 
 	}	
 
@@ -195,10 +177,51 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
+
+		
+	division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1092
+		division_template = "Dendō no bunkatsu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
 	
 
 	
 			division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12031
+		division_template = "Fuhyōshidan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+			division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10125
+		division_template = "Fuhyōshidan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+
+
+	division= {	
 
 		division_name = {    
 			is_name_ordered = yes
@@ -238,6 +261,59 @@ units = {
 	}
 	
 			division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7169
+		division_template = "Fuhyōshidan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+
+		
+	division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10032
+		division_template = "Fuhyōshidan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+			division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7169
+		division_template = "Fuhyōshidan"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+			division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1117
+		division_template = "Dendō no bunkatsu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {	
 
 		division_name = {    
 			is_name_ordered = yes

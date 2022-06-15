@@ -259,13 +259,13 @@ recruit_character = BRT_guinevere
 recruit_character = BRT_generic_noble_1
 recruit_character = BRT_generic_minister_1
 recruit_character = BRT_VV
-recruit_character = brt_luciano
-recruit_character = brt_monica
-recruit_character = brt_ernst
 recruit_character = BRT_generic_air
 recruit_character = BRT_generic_navy
-recruit_character = BRT_generic_army_1
 recruit_character = BRT_bismark
+recruit_character = BRT_generic_army_1
+recruit_character = BRT_monica
+recruit_character = BRT_luciano
+recruit_character = BRT_ernst
 
 create_navy_leader = {
 	name = "Avelin Thompson"

@@ -80,7 +80,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/A11/economic_stagnation_A11.dds"	
 	}
 
-
+    #Companies
+	SpriteType = {
+		name = "GFX_idea_BRT_gen_tank_man_2"
+		texturefile = "gfx/interface/ideas/BRT/BRT_gen_tank_man_2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BRT_gen_tank_man"
+		texturefile = "gfx/interface/ideas/BRT/BRT_gen_tank_man.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BRT_gen_industry"
+		texturefile = "gfx/interface/ideas/BRT/BRT_gen_industry.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BRT_gen_air"
+		texturefile = "gfx/interface/ideas/BRT/BRT_gen_air.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BRT_generic_materiel"
+		texturefile = "gfx/interface/ideas/BRT/BRT_generic_materiel.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_BRT_gen_naval"
+		texturefile = "gfx/interface/ideas/BRT/BRT_gen_naval.dds"	
+	}
     #Advisors
 	#britannia
 		SpriteType = {

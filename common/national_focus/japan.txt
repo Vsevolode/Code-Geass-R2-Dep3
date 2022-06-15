@@ -110,10 +110,8 @@
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }	
+		
+
 		}
 		bypass = {}
 	
@@ -148,10 +146,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -182,10 +178,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }			
+		
+		
 		}
 		bypass = {}
 	
@@ -219,10 +213,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }			
+		
+		
 		}
 		bypass = {}
 	
@@ -286,10 +278,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -366,10 +356,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }			
+		
+		
 		}
 		bypass = {}
 	
@@ -446,10 +434,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }			
+		
+		
 		}
 		bypass = {}
 	
@@ -485,10 +471,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		x = 1
 		y = 1
 		available = {
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 			check_variable = { bet_won = 1 }	
 		}
 		bypass = {}
@@ -522,10 +506,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 				check_variable = { bet_won = 2 }
 	
 		}
@@ -560,10 +542,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }			
+		
+		
 		}
 		bypass = {}
 	
@@ -618,10 +598,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }			
+		
+		
 		}
 		bypass = {}
 	
@@ -654,10 +632,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 			BRT = {
 				
 				OR = {
@@ -708,10 +684,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -745,10 +719,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -789,10 +761,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -829,10 +799,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -869,10 +837,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -922,10 +888,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -960,10 +924,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -999,10 +961,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -1035,10 +995,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -1074,10 +1032,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -1110,10 +1066,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }	
+		
+
 		}
 		bypass = {}
 	
@@ -1144,10 +1098,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }	
+		
+
 		}
 		bypass = {}
 	
@@ -1181,10 +1133,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -1219,10 +1169,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 		}
 		bypass = {}
 	
@@ -1254,10 +1202,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 			check_variable = { JAP_abortion = 1 }	
 		}
 		bypass = {}
@@ -1297,10 +1243,8 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				tooltip = JAP_not_war
-			}
-check_variable = { we_are_not_fucked_by_britannia = 1 }		
+		
+	
 			check_variable = { JAP_abortion = 1 }	
 		}
 		bypass = {}
@@ -1334,7 +1278,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = suprise_invasion
 		icon = GFX_suprise_invasion
-		cost = 2
+		cost = 0.5
 		x = 27
 		y = 0
 		available = {
@@ -1367,7 +1311,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = timing_is_everything
 		icon = GFX_timing_is_everything
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -1405,7 +1349,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = war_committee
 		icon = GFX_war_committee
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -1462,7 +1406,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = call_all_reservists
 		icon = GFX_call_all_reservists
-		cost = 2
+		cost = 0.5
 		x = -1
 		y = 1
 		available = {
@@ -1501,7 +1445,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = factory_conversion
 		icon = GFX_factory_conversion
-		cost = 2
+		cost = 0.5
 		x = 1
 		y = 1
 		available = {
@@ -1541,7 +1485,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = bunkers_building
 		icon = GFX_bunkers_building
-		cost = 2
+		cost = 1
 		x = 0
 		y = 1
 		available = {
@@ -1596,7 +1540,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = bring_todoh
 		icon = GFX_bring_todoh
-		cost = 2
+		cost = 1
 		x = 0
 		y = 1
 		available = {
@@ -1626,14 +1570,14 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 		completion_reward = {
 			add_command_power = 70
 			add_ideas = JAP_tohdoh
-			custom_effect_tooltip = new_decision
+
 		}
 	}
 
 	focus = {
 		id = this_is_not_working
 		icon = GFX_this_is_not_working
-		cost = 2
+		cost = 0.5
 		x = 1
 		y = 1
 		available = {
@@ -1678,7 +1622,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = great_speech
 		icon = GFX_great_speech
-		cost = 2
+		cost = 1
 		x = 0
 		y = 1
 		available = {
@@ -1713,14 +1657,14 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 			country_event = {
 				id = JAP.12
 			}
-			custom_effect_tooltip = new_decision
+
 		}
 	}
 
 	focus = {
 		id = reasserting_control
 		icon = GFX_reasserting_control
-		cost = 2
+		cost = 0.5
 		x = -2
 		y = 1
 		available = {
@@ -1780,7 +1724,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = extreme_bushido
 		icon = GFX_extreme_bushido
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -1820,7 +1764,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = extreme_conscription
 		icon = GFX_extreme_conscription
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -1862,7 +1806,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = people_militia
 		icon = GFX_people_militia
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -1898,7 +1842,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = infrastructure_obliteration
 		icon = GFX_infrastructure_obliteration
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -1936,7 +1880,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = chemical_warfare
 		icon = GFX_chemical_warfare
-		cost = 2
+		cost = 0.5
 		x = 2
 		y = 1
 		available = {
@@ -1977,7 +1921,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = pouring_mercenaries
 		icon = GFX_pouring_mercenaries
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {
@@ -2017,7 +1961,7 @@ check_variable = { we_are_not_fucked_by_britannia = 1 }
 	focus = {
 		id = yakuza_friends
 		icon = GFX_yakuza_friends
-		cost = 2
+		cost = 0.5
 		x = 0
 		y = 1
 		available = {

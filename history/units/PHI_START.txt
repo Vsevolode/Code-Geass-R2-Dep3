@@ -22,39 +22,8 @@
 
 
 units = {
-	division= {	
-		#name = "1st Britannian Garrison"
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10265
-		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-	division= {	
-		#name = "1st Britannian Garrison"
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10265
-		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-		division= {	
-		#name = "1st Britannian Garrison"
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10265
-		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
+
+
 			division= {	
 		#name = "1st Britannian Garrison"
 		division_name = {    

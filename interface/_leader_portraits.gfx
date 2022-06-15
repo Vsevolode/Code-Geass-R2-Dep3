@@ -48,7 +48,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_Bartley_Asprius"
-		texturefile = "gfx/leaders/BRT/Portrait_Bartley.dds.dds"
+		texturefile = "gfx/leaders/BRT/Portrait_Bartley.dds"
     }
 
 	spriteType = {
@@ -67,6 +67,10 @@ spriteTypes = {
     }
 
 	### JAP
+	spriteType = {
+		name = "GFX_portrait_General_Tohdoh"
+		texturefile = "gfx/leaders/JAP/Portrait_Tohdoh.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_Portrait_Kururugi"
 		texturefile = "gfx/leaders/JAP/Portrait_Kururugi.dds"

@@ -66,6 +66,8 @@ set_popularities = {
 	hardline_socialism = 2
 }
 
+
+
 recruit_character = JAP_generic_intelligence
 recruit_character = JAP_generic_minister_1
 recruit_character = JAP_kyoto_kirihara
@@ -84,6 +86,7 @@ recruit_character = Josui_Kusakabe
 recruit_character = JAP_Kururugi_1
 recruit_character = JAP_Kururugi_2
 recruit_character = JAP_Anarchy
+recruit_character = Kyoshiro_Tohdoh
 
 
 

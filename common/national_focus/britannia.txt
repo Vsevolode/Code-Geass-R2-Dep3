@@ -452,6 +452,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_ideas = BRT_gen_tank_man_2
 			custom_effect_tooltip = kn_template
 			hidden_effect = {
 				
@@ -849,7 +850,6 @@ focus_tree = {
 		}
 
 		bypass = {
-        country_exists = PHI
 		}
 		
 
@@ -999,7 +999,7 @@ focus_tree = {
 		x = -0
 		y = 11
 
-		cost = 3
+		cost = 6
 
 		ai_will_do = {
 			factor = 100
@@ -1022,14 +1022,9 @@ focus_tree = {
 		log = "[GetDateText]: [Root.GetName]: Focus BRT_war"
 	declare_war_on = {
     target = JAP
-    type = annex_everything
+	type = annex_everything
     }
-load_focus_tree = britannia_proper
     JAP = {
-		set_variable = {
-			var = we_are_not_fucked_by_britannia
-			value = 0
-		}
 		country_event = {
 			id = JAP.11
 		}

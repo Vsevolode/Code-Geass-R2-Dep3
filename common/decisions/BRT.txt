@@ -82,7 +82,7 @@ BRT_pacific = {		#Name of category that decisions will appear under, decisions M
 	conquest_jap = {		#ID of the mission, must not contain spaces!
 
 		icon = GFX_first_BRT_war		#The left side icon to show for this mission.
-		days_mission_timeout = 250	#The amount of days remaining until the mission is removed.
+		days_mission_timeout = 120	#The amount of days remaining until the mission is removed.
 		is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission
 		
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
@@ -92,7 +92,9 @@ BRT_pacific = {		#Name of category that decisions will appear under, decisions M
             country_exists = JAP
 			}
 		}
-		activation = {                
+		activation = {    
+				original_tag = BRT
+				
               has_war_with = JAP                     
           }
 		
@@ -131,10 +133,65 @@ BRT_pacific = {		#Name of category that decisions will appear under, decisions M
 		}
 	}
 
+	conquest_jap_ai = {		#ID of the mission, must not contain spaces!
+
+	icon = GFX_first_BRT_war		#The left side icon to show for this mission.
+	days_mission_timeout = 65	#The amount of days remaining until the mission is removed.
+	is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission
+	
+	# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+	
+	available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
+		NOT = {
+		country_exists = JAP
+		}
+	}
+	activation = {    
+		NOT  = { 
+			original_tag = BRT
+		}	
+		  has_war_with = JAP                        
+	  }
+	
+	fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+	allowed = { tag = BRT }  
+
+	visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
+		tag = BRT
+		AND = {
+		has_war_with = JAP
+		}			
+	}
+
+	# EFFECTS OF THIS DECISION/MISSION
+
+	timeout_effect = {
+	 add_stability = -0.10
+	 add_war_support = -0.10
+	 country_event = { id = BRT.11 }
+
+	}
+	
+	complete_effect  = {
+	add_stability = 0.10
+	 add_war_support = 0.10
+	   country_event = { id = BRT.10 }
+		
+
+	}
+	
+	
+	# AI LOGIC FOR THIS DECISION/MISSION
+
+	ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
+		factor = 10
+	}
+}
+
 	pacific_war_escalating = {
 		icon = GFX_decision_category_generic_crisis
 
-		days_mission_timeout = 35	#The amount of days remaining until the mission is removed.
+		days_mission_timeout = 20	#The amount of days remaining until the mission is removed.
 		is_good = no
         
 

@@ -199,7 +199,7 @@ ideas = {
 			min_export = -0.40
 			}
 		}
-
+	}
 
 		naval_manufacturer = { 
 		
@@ -210,23 +210,18 @@ ideas = {
 		
 				
 						
-							
 				allowed = {
-					tag = BRT
-				}
-		
-				available = {
-					tag = BRT
-				}
+					original_tag = BRT
+				  }
 				
 				
 				research_bonus = {
-					naval_equipment = 0.10
+					naval_equipment = 0.07
 				}
 				
 		
 							
-				traits = { pacific_fleet_naval_manufacturer }
+				traits = { raiding_fleet_naval_manufacturer }
 				
 			}
 		
@@ -242,16 +237,11 @@ ideas = {
 				
 							
 				allowed = {
-					tag = BRT
-				}
-		
-				available = {
-					tag = BRT
-				}
-				
+					original_tag = BRT
+				  }
 				
 				research_bonus = {
-					artillery = 0.10
+					artillery = 0.07
 				}
 				
 			
@@ -270,26 +260,20 @@ ideas = {
 				picture = BRT_gen_air
 		
 				
-							
 				allowed = {
-					tag = BRT
-				}
-		
-				available = {
-					tag = BRT
-				}
-				
+					original_tag = BRT
+				  }
 		
 				
 				
 				research_bonus = {
-					heavy_air = 0.10
+					heavy_air = 0.05
 					light_air = 0.05
 				}
 				
 			
 							
-				traits = { bomber_producer_offense_2 }
+				traits = { light_aircraft_manufacturer_2 }
 				
 			}
 		
@@ -304,13 +288,8 @@ ideas = {
 				
 							
 				allowed = {
-					tag = BRT
-				}
-		
-				available = {
-					tag = BRT
-				}
-				
+					original_tag = BRT
+				  }
 				
 				research_bonus = {
 					industry = 0.02
@@ -334,13 +313,8 @@ ideas = {
 		
 				
 				allowed = {
-					tag = BRT
-				}
-		
-				available = {
-					tag = BRT
-				}
-				
+					original_tag = BRT
+				  }
 				research_bonus = {
 					sakuradite = 0.02
 					armor = 0.05
@@ -348,7 +322,7 @@ ideas = {
 				
 			
 							
-				traits = { modern_tank_producer_mass_2 }
+				traits = { modern_tank_manufacturer }
 				
 			}
 
@@ -356,15 +330,11 @@ ideas = {
 				picture = BRT_gen_tank_man_2
 		
 				
-							
-				allowed = {
-					tag = BRT
-				}
-		
-				available = {
-					tag = BRT
-				}
 				
+		
+		     allowed = {
+			  original_tag = BRT
+		    }
 				
 
 					research_bonus = {
@@ -375,11 +345,11 @@ ideas = {
 				
 			
 							
-				traits = { knightmare_tank_producer_mass_1 }
+				traits = { knightmare_producer_mass_1 }
 				
 			}
 		
-		}
+		 }
 		
 		
 		
@@ -388,7 +358,7 @@ ideas = {
 
 
 
-    }
+
 	
 	
 }	

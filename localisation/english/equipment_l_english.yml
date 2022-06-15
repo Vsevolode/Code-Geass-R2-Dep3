@@ -445,6 +445,25 @@ supply_grace_desc:0 "Better supplies for our special forces will be fundamental 
 defence_buff:0 "Defense Improvements"
 defence_buff_desc:0 ""
 
+anti_air_equipment:0 "Anti-Air Equipment"
+anti_tank_equipment:0 "Anti Tank Equipment"
+
+ship_hull_heavy:0 "Heavy Ships"
+
+tac_bomber_equipment:0 "Jet Bomber"
+strat_bomber_equipment:0 "Strategic Jet Bomber"
+knightmare_all_pur:0 "Mass Produced KN"
+knightmare_all_pur_research:0 "Mass Produced KN Research"
+
+fighter_equipment:0 "Jet Multirole"
+cv_fighter_equipment:0 "Carrier Jet Multirole"
+
+modern_tank_manufacturer:0 "Modern Tank Designer"
+knightmare_producer_mass_1:0 "Mass Production KN"
+knightmare_mass_prod:0 "Mass Production KN"
+landspinner_equip:0 "Landspinner" 
+factspheres_equip:0 "Factsphere"
+cold_war_tank_equip_desc:0 "MBT Tank"
 
 
 

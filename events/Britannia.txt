@@ -356,9 +356,8 @@ country_event = {
 		option = {	
 		name = BRT.8.a
 		add_political_power = -50
-        INS = {	
-         transfer_state = 627
-		 transfer_state = 626
+        RUS = {	
+         transfer_state = 650
 
 		}
 		
@@ -457,7 +456,7 @@ country_event = {  #Total victory against Japan - Establish Area
 			var = demographic_chaos
 			value = 0
 		}	
-		add_dynamic_modifier = { modifier =  rampant_chaos_area_11 scope = A11 }
+		add_dynamic_modifier = { modifier = rampant_chaos_area_11 scope = A11 }
 		add_dynamic_modifier = { modifier = economic_collapse_area_11 scope = A11 }
 		add_dynamic_modifier = { modifier = demographic_death_area_11 scope = A11 }
 
@@ -511,7 +510,7 @@ country_event = {  #Total victory against Japan - Establish Area
 					value = 0
 				}	
 		
-				add_dynamic_modifier = { modifier =  rampant_chaos_area_11 scope = A11 }
+				add_dynamic_modifier = { modifier = rampant_chaos_area_11 scope = A11 }
 				add_dynamic_modifier = { modifier = economic_collapse_area_11 scope = A11 }
 				add_dynamic_modifier = { modifier = demographic_death_area_11 scope = A11 }
 				########
@@ -544,7 +543,7 @@ country_event = { #War has exceeded time limit.
 	id = BRT.11
 	title = BRT.11.t
 	desc = BRT.11.d
-	picture = GFX_JAP_pacific_war
+
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -554,7 +553,7 @@ country_event = { #War has exceeded time limit.
 	option = {
 		name = BRT.11.a
 		hidden_effect = {
-			custom_effect_tooltip = war_continue_brt
+			custom_effect_tooltip = war_continue_brt	
 			set_variable = {
 				jap_continue_war = 1
 			}

@@ -32,49 +32,6 @@ pacific_war_JAP = {
 		}
 	}
 
-	support_tohdoh = {
-		icon = GFX_decision_generic_army_support
-
-		available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
-		has_completed_focus = bring_todoh
-		NOT = {
-		has_unit_leader = 1
-	    }
-	    }
-		allowed = { tag = JAP } 
-
-		visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
-		AND = {
-		has_war_with = BRT
-		tag = JAP
-		has_completed_focus = bring_todoh	
-		}
-				
-	}
-
-		fire_only_once = yes
-
-
-		cost = 35
-
-		complete_effect = {
-			create_corps_commander = {
-				name = "Kyoshiro Tohdoh"
-				portrait_path = "gfx/leaders/JAP/Portrait_General_Tohdoh.dds"
-				traits = { trickster brilliant_strategist adaptable }
-				id = 1
-				skill = 4
-				attack_skill = 6
-				defense_skill = 4
-				planning_skill = 4
-				logistics_skill = 3
-			}
-		}   
-
-		ai_will_do = {
-			base = 10
-		}
-	}
 
 	
 	factory_conversion_decision = {
@@ -179,7 +136,7 @@ pacific_war_JAP = {
 	surrender = {
 		icon = GFX_decision_category_generic_crisis
 
-		days_mission_timeout = 15	#The amount of days remaining until the mission is removed.
+		days_mission_timeout = 3	#The amount of days remaining until the mission is removed.
 		is_good = no
         
 
@@ -236,7 +193,7 @@ timeout_effect = {
 
 		fire_only_once = no
 		days_re_enable = 5
-		days_remove = 20
+		days_remove = 3
 
 		cost = 35
 
@@ -273,7 +230,7 @@ timeout_effect = {
 
 		fire_only_once = no
 		days_re_enable = 5
-		days_remove = 20
+		days_remove = 3
 
 		cost = 50
 

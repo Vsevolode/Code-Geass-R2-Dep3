@@ -257,75 +257,7 @@ characters={
     
 
 	##HIGH COMMAND/ ADMIRALS/ MILITARY ADVISORS
-	BRT_luciano={
-		name=BRT_luciano
-		portraits={
-			army={
-				small="GFX_idea_BRT_luciano"
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = BRT_luciano
-			ledger = army
-			allowed = {
-				original_tag = BRT
-			}
-			traits = {
-				army_chief_entrenchment_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 0.200
-			}
-		}
-	}
-	BRT_monica={
-		name=BRT_monica
-		portraits={
-			army={
-				small="GFX_idea_BRT_monica"
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = BRT_monica
-			ledger = army
-			allowed = {
-				original_tag = BRT
-			}
-			traits = {
-				army_regrouping_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 0.200
-			}
-		}
-	}
-	BRT_ernst={
-		name=BRT_ernst
-		portraits={
-			army={
-				small="GFX_idea_BRT_ernst"
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = BRT_ernst
-			ledger = army
-			allowed = {
-				original_tag = BRT
-			}
-			traits = {
-			    army_logistics_3
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 0.200
-			}
-		}
-	}
+
 
 	BRT_generic_air={
 		name=BRT_generic_air 
@@ -394,6 +326,76 @@ characters={
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
+			}
+		}
+	}
+	
+		BRT_luciano={
+		name=BRT_luciano
+		portraits={
+			army={
+				small="GFX_idea_BRT_luciano"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = BRT_luciano_idea
+			ledger = army
+			allowed = {
+				original_tag = BRT
+			}
+			traits = {
+				army_chief_entrenchment_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+	}
+	BRT_monica={
+		name=BRT_monica
+		portraits={
+			army={
+				small="GFX_idea_BRT_monica"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = BRT_monica_idea
+			ledger = army
+			allowed = {
+				original_tag = BRT
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+	}
+	BRT_ernst={
+		name=BRT_ernst
+		portraits={
+			army={
+				small="GFX_idea_BRT_ernst"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = BRT_ernst_idea
+			ledger = army
+			allowed = {
+				original_tag = BRT
+			}
+			traits = {
+			    army_logistics_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
 			}
 		}
 	}

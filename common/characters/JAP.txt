@@ -140,6 +140,23 @@ characters={
 			legacy_id=-1
 		}
 	}
+
+	Kyoshiro_Tohdoh = {
+		name = "Kyoshiro Tohdoh"
+		portraits={
+			army={
+				large="GFX_portrait_General_Tohdoh"
+			}
+		}
+		corps_commander={
+		traits = { trickster brilliant_strategist adaptable }
+		skill = 4
+		attack_skill = 6
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+	    }
+	}
     
 
 	##HIGH COMMAND/ ADMIRALS/ MILITARY ADVISORS

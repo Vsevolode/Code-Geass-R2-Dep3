@@ -106,6 +106,7 @@ ideologies = {
 			can_puppet = no
 			can_send_volunteers = no
 		}
+
 		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
@@ -124,7 +125,7 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_fascist = yes # 
 	}
 	
 	authoritarian_democracy = {
@@ -179,7 +180,7 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_fascist = yes # 
 	}
 	
 	

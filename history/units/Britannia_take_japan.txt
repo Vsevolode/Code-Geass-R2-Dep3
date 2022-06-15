@@ -7,11 +7,10 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		knightmare_mass_prod_unit = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
-		knightmare_mass_prod_unit= { x = 1 y = 1 }
+		knightmare_mass_prod_unit = { x = 0 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
 		recon = { x = 0 y = 2 }
 	}
 }
@@ -25,7 +24,7 @@ units = {
 		}
 		location = 9950
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -35,7 +34,7 @@ units = {
 		}
 		location = 9950
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -45,7 +44,7 @@ units = {
 		}
 		location = 1158
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -55,7 +54,7 @@ units = {
 		}
 		location = 1158
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -65,7 +64,7 @@ units = {
 		}
 		location = 7072
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -75,7 +74,7 @@ units = {
 		}
 		location = 7072
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -85,7 +84,7 @@ units = {
 		}
 		location = 7113
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -95,7 +94,7 @@ units = {
 		}
 		location = 7113
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -105,7 +104,7 @@ units = {
 		}
 		location = 7157
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -115,7 +114,7 @@ units = {
 		}
 		location = 9998
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -125,7 +124,7 @@ units = {
 		}
 		location = 9998
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -135,7 +134,7 @@ units = {
 		}
 		location = 1182
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -145,7 +144,7 @@ units = {
 		}
 		location = 4188
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
     division= {	
@@ -155,7 +154,7 @@ units = {
 		}
 		location = 4184
 		division_template = "Knightmare Frame Squadron"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 }

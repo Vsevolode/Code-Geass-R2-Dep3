@@ -1,7 +1,7 @@
 division_template = {
 	name = "Imperial Marine" 		
 
-	division_names_group = "Imperial Marine"
+	division_names_group = BRT_MAR_01
 
 	regiments = {
 		marine = { x = 0 y = 0 }
