@@ -26,8 +26,30 @@ units = {
 		}
 		location = 10265
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+		division= {	
+		#name = "1st Britannian Garrison"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10265
+		division_template = "Chinese Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+		division= {	
+		#name = "1st Britannian Garrison"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10265
+		division_template = "Chinese Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -37,8 +59,30 @@ units = {
 		}
 		location = 4288
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+		division= {	
+		#name = "1st Britannian Garrison"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12213
+		division_template = "Chinese Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+		division= {	
+		#name = "1st Britannian Garrison"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12213
+		division_template = "Chinese Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -48,8 +92,8 @@ units = {
 		}
 		location = 4288
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -59,8 +103,8 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -70,8 +114,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -81,8 +125,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -92,8 +136,8 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -103,8 +147,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -114,8 +158,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -125,8 +169,8 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -136,8 +180,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -147,8 +191,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 
 	
@@ -172,6 +216,16 @@ instant_effect = {
 		}
 		requested_factories = 4
 		progress = 0.73
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = eu_war_artillery
+			creator = "CAN"
+		}
+		requested_factories = 2
+		progress = 0.85
 		efficiency = 100
 	}
 }
