@@ -34,7 +34,12 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-
+FRA = {
+	set_autonomy = {
+		target = POR
+		autonomous_state = eu_outer_sphere
+	}
+}
 ANG = {
     add_popularity = { ideology = autocracy popularity = 0.80 }
     add_popularity = { ideology = authoritarian_democracy popularity = 0.45 }

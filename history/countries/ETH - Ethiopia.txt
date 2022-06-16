@@ -39,9 +39,18 @@ set_technology = {
 set_convoys = 300
 
 
-set_politics = {
-}
-set_popularities = {
+ETH = {
+    add_popularity = { ideology = autocracy popularity = 0.80 }
+    add_popularity = { ideology = authoritarian_democracy popularity = 0.45 }
+	add_popularity = { ideology = moderate_liberalism popularity = 0.11 }
+	add_popularity = { ideology = moderate_socialism popularity = 0.12 }
+
+    set_politics = {
+        ruling_party = autocracy
+        last_election = "1936.6.16"
+        election_frequency = 48
+        elections_allowed = no
+    }
 }
 
 add_ideas = {
@@ -58,7 +67,12 @@ create_country_leader = {
 	}
 }
 
-
+ITA = {
+	set_autonomy = {
+		target = ETH
+		autonomous_state = eu_colony
+	}
+	}
 
 
 

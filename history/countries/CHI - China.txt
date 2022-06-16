@@ -58,24 +58,92 @@ set_popularities = {
 
 
 create_faction = Chinese_Federation
+set_autonomy = {
+	target = INS
+	autonomous_state = member_state
+}
 add_to_faction = INS
 add_to_faction = BRM
+set_autonomy = {
+	target = BRM
+	autonomous_state = autonomous_kingdom
+}
 add_to_faction = KOR
+set_autonomy = {
+	target = KOR
+	autonomous_state = military_state
+}
 add_to_faction = PHI
+set_autonomy = {
+	target = PHI
+	autonomous_state = military_state
+}
 add_to_faction = VIN
+set_autonomy = {
+	target = VIN
+	autonomous_state = military_state
+}
 add_to_faction = CAM
+set_autonomy = {
+	target = CAM
+	autonomous_state = autonomous_kingdom
+}
 add_to_faction = LAO
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomous_kingdom
+}
 add_to_faction = THA
+set_autonomy = {
+	target = THA
+	autonomous_state = autonomous_kingdom
+}
 add_to_faction = NEP
+set_autonomy = {
+	target = NEP
+	autonomous_state = autonomous_kingdom
+}
 add_to_faction = BHU
+set_autonomy = {
+	target = BHU
+	autonomous_state = autonomous_kingdom
+}
 add_to_faction = BAL
+set_autonomy = {
+	target = BAL
+	autonomous_state = member_state
+}
 add_to_faction = IND
+set_autonomy = {
+	target = IND
+	autonomous_state = military_state
+}
 add_to_faction = KAZ
+set_autonomy = {
+	target = KAZ
+	autonomous_state = member_state
+}
 add_to_faction = TAS
+set_autonomy = {
+	target = TAS
+	autonomous_state = member_state
+}
 add_to_faction = AFG
+set_autonomy = {
+	target = AFG
+	autonomous_state = member_state
+}
 add_to_faction = TMS
+set_autonomy = {
+	target = TMS
+	autonomous_state = military_state
+}
 add_to_faction = BUK
-add_to_faction = ALE
+set_autonomy = {
+	target = BUK
+	autonomous_state = member_state
+}
+
 
 
 recruit_character = CHI_tianzi

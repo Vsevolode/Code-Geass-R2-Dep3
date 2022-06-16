@@ -35,6 +35,13 @@ set_technology = {
 	fuel_refining = 1
 }
 
+YUG = {
+	set_autonomy = {
+		target = BOS
+		autonomous_state = eu_outer_sphere
+	}
+	}
+
 
 set_convoys = 300
 

@@ -35,7 +35,12 @@ set_technology = {
 	fuel_refining = 1
 }
 
-
+FRA = {
+	set_autonomy = {
+		target = POL
+		autonomous_state = eu_outer_sphere
+	}
+}
 set_convoys = 300
 
 

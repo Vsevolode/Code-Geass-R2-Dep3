@@ -1,5 +1,10 @@
 ﻿l_english:
 
+#Autonomies
+autonomous_kingdom:0 "Autonomous Kingdom"
+member_state:0 "Member State"
+military_state:0 "Military District"
+
 ### Country ###
 CHI:0 "Federal Empire of Jiang China"
 CHI_DEF:0 "the Federal Empire of Jiang China"
@@ -25,7 +30,6 @@ puppet_empress:0 "The Puppet Empress"
 chinese_oppression:0 "Symbol of the Chinese Oppression"
 chinese_occupation:0 "Symbol of the Chinese Occupation"
 POLITICS_EMPRESS_TIENZI_DESC:0 "While it might be more respectful of human rights than its Britannian counterpart, the Imperial Government of Luoyang, composed by the High Eunuchs, detains all the power and the Empress is only a figurehead, or for some people a puppet. In particular the Imperial Monarchy is highly centralized in the Eunuchs' system at every administrative level, both inside proper China and in the Federation, resulting in a capillar control of society and eventual discontent."
-member_state:0 "Member State of the Federation"
 
 rampant_corruption:0 "Paralyzing Corruption"
 rampant_corruption_desc:0 "The eccessive centralization of the Eunuchs; links between the Oligarchy, the industrial corporations and the Army Commanders and a pervasive organized criminality create a massive corruption and inefficiency in the Federation's politics. §RIn the future, this problem is only destined to grow...§!"

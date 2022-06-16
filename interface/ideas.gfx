@@ -1,5 +1,41 @@
 spriteTypes = {	
 
+	#Autonomies
+	spriteType = {
+		name = "GFX_member_state_icon"
+		textureFile = "gfx/interface/autonomy/member_state.dds"
+	}
+	spriteType = {
+		name = "GFX_military_state_icon"
+		textureFile = "gfx/interface/autonomy/military_state.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomous_kingdom_icon"
+		textureFile = "gfx/interface/autonomy/autonomous_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_eu_ass_member_icon"
+		textureFile = "gfx/interface/autonomy/eu_ass_member.dds"
+	}
+	spriteType = {
+		name = "GFX_eu_inner_sphere_icon"
+		textureFile = "gfx/interface/autonomy/eu_inner_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_eu_outer_sphere_icon"
+		textureFile = "gfx/interface/autonomy/eu_outer_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_eu_colony_icon"
+		textureFile = "gfx/interface/autonomy/eu_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_eu_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/eu_protectorate.dds"
+	}
+
+
+
     #Area11
 	SpriteType = {
 		name = "GFX_idea_extreme_stratocracy_A11"
@@ -5088,35 +5124,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_navy_female_africa.dds"
 	}
 	
-	# Finland
-	
-	spriteType = {
-		name = "GFX_idea_russians_minority"
-		texturefile = "gfx/interface/ideas/FIN/russians_minority.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_race_to_artic"
-		texturefile = "gfx/interface/ideas/FIN/race_to_artic.tga"
-	}
-	
-	# Tibet
-	
-	spriteType = {
-		name = "GFX_idea_han_immigration"
-		texturefile = "gfx/interface/ideas/TIB/han_immigration.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_return_lama"
-		texturefile = "gfx/interface/ideas/TIB/return_lama.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_chinese_occupation"
-		texturefile = "gfx/interface/ideas/TIB/chinese_occupation.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_unstable_economy"
-		texturefile = "gfx/interface/ideas/TIB/unstable_economy.dds"
-	}
+
 	
 }

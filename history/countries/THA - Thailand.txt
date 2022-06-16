@@ -20,7 +20,6 @@ set_technology = {
 
 add_ideas = {
 rampant_corruption
-member_state
 chinese_exploitation
 }
 

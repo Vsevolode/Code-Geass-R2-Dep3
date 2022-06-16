@@ -48,6 +48,12 @@ LBA = {
         elections_allowed = no
     }
 }
+FRA = {
+	set_autonomy = {
+		target = ITA
+		autonomous_state = eu_inner_sphere
+	}
+}
 
 set_convoys = 300
 
