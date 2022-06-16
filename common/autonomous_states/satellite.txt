@@ -32,22 +32,19 @@ autonomy_state = {
 		always = no
 	}
 
-	allowed = {
-		has_dlc = "Death or Dishonor"
-		NOT = { is_in_faction_with = FRA } 
-		OVERLORD = { not = { tag = BRT } 
-		if = {
-			limit = { has_dlc = "Waking the Tiger" }
-			NOT = { OVERLORD = { original_tag = JAP } }
-			NOT = { OVERLORD = { original_tag = MAN } }
+
+		allowed = {
+			NOT = { is_in_faction_with = FRA } 
+			NOT = { is_in_faction_with = BRT }
+			NOT = { is_in_faction_with = CHI }
 		}
-	}
+	
 	
 	can_take_level = {
-		#trigger here
+		always = no
 	}
 
 	can_lose_level = {
-		#trigger here
+		always = no
 	}
 }

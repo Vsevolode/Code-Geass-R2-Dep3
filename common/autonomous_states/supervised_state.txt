@@ -36,32 +36,12 @@ autonomy_state = {
 
 	allowed = {
 		NOT = { is_in_faction_with = FRA } 
-		OVERLORD = { not = { tag = BRT } 
-		has_dlc = "Man the Guns"
-		OR = {
-			is_subject = no
-			has_autonomy_state = autonomy_supervised_state
-		}
-	}
-
-	allowed_levels_filter = {
-		autonomy_supervised_state
-	}
-
-	#ROOT is puppet - FROM is potential OVERLORD
-	use_for_peace_conference_weight = {
-		base = 0
-		modifier = {
-			add = 5
-			has_dlc = "Man the Guns"
-			FROM = {
-				has_government = democratic 
-			}
-		}
+		NOT = { is_in_faction_with = BRT }
+		NOT = { is_in_faction_with = CHI }
 	}
 
 	can_take_level = {
-		always = yes
+		always = no
 	}
 
 	can_lose_level = {

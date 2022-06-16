@@ -37,34 +37,20 @@ autonomy_state = {
 		always = no
 	}
 
-	allowed = {
-		NOT = { is_in_faction_with = FRA } 
-		OVERLORD = { not = { tag = BRT } 
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
-		}
-	}
 
-	#ROOT is puppet - FROM is potential OVERLORD
-	use_for_peace_conference_weight = {
-		base = 0
-		modifier = {
-			add = 10
-			FROM = {
-				OR = {
-					has_wargoal_against = { target = ROOT type = puppet_wargoal_focus }
-					has_rule = can_puppet
-				}
-			}
+		allowed = {
+			NOT = { is_in_faction_with = FRA } 
+			NOT = { is_in_faction_with = BRT }
+			NOT = { is_in_faction_with = CHI }
 		}
-	}
+	
+
 
 	can_take_level = {
-		#trigger here
+		always = no
 	}
 
 	can_lose_level = {
-		#trigger here
+		always = no
 	}
 }
