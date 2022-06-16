@@ -26,7 +26,7 @@ units = {
 		}
 		location = 10265
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 		division= {	
@@ -37,7 +37,7 @@ units = {
 		}
 		location = 4288
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 	division= {	
@@ -48,7 +48,7 @@ units = {
 		}
 		location = 4288
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 		division= {	
@@ -59,7 +59,7 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 		division= {	
@@ -70,7 +70,7 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 	division= {	
@@ -81,7 +81,7 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 	division= {	
@@ -92,7 +92,7 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 		division= {	
@@ -103,7 +103,7 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 	division= {	
@@ -114,7 +114,7 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 	division= {	
@@ -125,7 +125,7 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 		division= {	
@@ -136,7 +136,7 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 	division= {	
@@ -147,7 +147,7 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
 	}
 
@@ -170,17 +170,8 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "CAN"
 		}
-		requested_factories = 6
-		progress = 0.73
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = eu_war_artillery
-			creator = "CAN"
-		}
 		requested_factories = 4
-		progress = 0.85
+		progress = 0.73
 		efficiency = 100
 	}
 }
