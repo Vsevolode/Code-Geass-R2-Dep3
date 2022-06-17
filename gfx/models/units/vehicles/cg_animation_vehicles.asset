@@ -1,0 +1,20 @@
+
+
+###########
+# IFV # MILEK
+###########
+
+animation = {
+	name = "BRT_mechanized01_idle_animation"
+	file = "BRT_mechanized01_idle.anim"
+}
+
+animation = {
+	name = "BRT_mechanized01_attack_animation"
+	file = "BRT_mechanized01_attack.anim"
+}
+
+animation = {
+	name = "BRT_mechanized01_move_animation"
+	file = "BRT_mechanized01_moving.anim"
+}
