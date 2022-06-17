@@ -63,121 +63,30 @@ add_ideas = {
 	limited_conscription
 	administrative_strain
 	destroyed_infratructures
-	BRT_generic_minister_1
-	BRT_generic_general_1
-	BRT_VV
 }
 A11_modifiers_setup = yes
 
 
-
-create_country_leader = {
-	name = "Clovis La Britannia"
-	desc = "POLITICS_AREA_DESC"
-	picture = "Portrait_Clovis.dds"
-	expire = "2020.1.1"
-	ideology = absolute_monarchy
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Bismark Waldstein"
-	desc = "POLITICS_AREA_DESC"
-	picture = "Portrait_Bismark.dds"
-	expire = "2020.1.1"
-	ideology = absolute_monarchy
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Britannian Viceroy"
-	desc = "POLITICS_AREA_DESC"
-	picture = "Portrait_Viceroy.dds"
-	expire = "2020.1.1"
-	ideology = absolute_monarchy
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Aristocrats"
-	expire = "2020.1.1"
-	ideology = oligarchic_government
-	picture = "Portrait_Viceroy.dds"
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Britannian Army"
-	expire = "2020.1.1"
-	ideology = iper-nationalism
-		picture = "Portrait_Viceroy.dds"
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Industrial Groups"
-	expire = "2020.1.1"
-	ideology = social_conservatism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Local Cliques"
-	expire = "2020.1.1"
-	ideology = social_liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Local Cliques"
-	expire = "2020.1.1"
-	ideology = social-capitalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Local Cliques"
-	expire = "2020.1.1"
-	ideology = orthodox_socialism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Local Cliques"
-	expire = "2020.1.1"
-	ideology = hardline_communism
-	traits = {
-	}
-}
+recruit_character = A11_generic_minister_1
+recruit_character = A11_generic_general_1
+recruit_character = a11_kirihara
+recruit_character = a11_gen_noble
+recruit_character = a11_vv
+recruit_character = a11_clovis
+recruit_character = a11_bismark
+recruit_character = local_clique_1
+recruit_character = local_clique_2
+recruit_character = local_clique_3
+recruit_character = local_clique_4
+recruit_character = local_clique_5
+recruit_character = ind_groups
+recruit_character = brt_army
+recruit_character = A11_aristocrats
+recruit_character = A11_clovis
+recruit_character = A11_bismark
+recruit_character = A11_viceroy
 
 
-
-
-
-
-
-
-
-create_field_marshal = {
-
-	name = "Bismarck Waldstein"
-	picture = "Portrait_Waldstein.dds"
-	traits = { absolute_prediction brilliant_strategist aggressive_assaulter }
-	skill = 5
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
 
 
 

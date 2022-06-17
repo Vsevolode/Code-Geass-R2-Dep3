@@ -105,4 +105,20 @@ spriteTypes = {
 		name = "GFX_portrait_Hideshi_Arai"
 		texturefile = "gfx/leaders/JAP/jap_general_1.dds"
 	}
+
+	#A11
+	spriteType = {
+		name = "GFX_portrait_a11_bismark"
+		texturefile = "gfx/leaders/A11/Portrait_Waldstein.dds"
+    }
+
+	spriteType = {
+		name = "GFX_portrait_A11_viceroy"
+		texturefile = "gfx/leaders/A11/Portrait_Viceroy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_A11_clovis"
+		texturefile = "gfx/leaders/A11/Portrait_Clovis.dds"
+	}
 }	

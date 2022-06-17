@@ -1,0 +1,366 @@
+characters={
+    ##GOVERNORS
+	
+	local_clique_1={
+		name = "Local Cliques"
+		portraits={
+		}
+		country_leader={
+		     desc = ""
+			ideology=marxist_lincolnism
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+	
+
+	local_clique_2={
+		name = "Local Cliques"
+		portraits={
+		}
+		country_leader={
+		     desc = ""
+			ideology=left_libertarianism
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+	local_clique_3={
+		name = "Local Cliques"
+		portraits={
+		}
+		country_leader={
+		     desc = ""
+			ideology=social_democracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+	local_clique_4={
+		name = "Local Cliques"
+		portraits={
+		}
+		country_leader={
+		     desc = ""
+			ideology=social_democracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+	local_clique_5={
+		name = "Local Cliques"
+		portraits={
+		}
+		country_leader={
+		     desc = ""
+			ideology=social_liberalism
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+	ind_groups={
+		name = "Industrial Groups"
+		portraits={
+		}
+		country_leader={
+		     desc = ""
+			ideology=national_conservatism
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+
+	brt_army={
+		name = "Senior Officers"
+		portraits={
+		}
+		country_leader={
+		     desc = "NULL"
+			ideology=purist_aristocracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+	A11_aristocrats={
+		name = "Aristocrats"
+		portraits={
+			civilian={
+				large=GFX_idea_A11_viceroy
+			}
+		}
+		country_leader={
+		     desc = "NULL"
+			ideology=oligarchic_government
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+
+
+
+
+	A11_viceroy={
+		name = "Britannian Viceroy"
+		portraits={
+			civilian={
+				large=GFX_portrait_A11_viceroy
+			}
+		}
+		country_leader={
+		     desc = "POLITICS_AREA_DESC"
+			ideology=paternal_autocracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+
+	A11_bismark={
+		name = "Bismark Waldstein"
+		portraits={
+			civilian={
+				large=GFX_portrait_A11_bismark
+			}
+		}
+		country_leader={
+		     desc = "POLITICS_AREA_DESC"
+			ideology=paternal_autocracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+	A11_clovis={
+		name = "Clovis La Britannia"
+		portraits={
+			civilian={
+				large=GFX_portrait_A11_clovis
+			}
+		}
+		country_leader={
+		     desc = "POLITICS_AREA_DESC"
+			ideology=paternal_autocracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
+
+
+	#GENERALS
+	a11_bismark={
+		name="Bismarck Waldstein"
+		portraits={
+			army={
+				large="GFX_portrait_a11_bismark"		
+			}
+			civilian={
+				small="GFX_idea_a11_bismark"	
+			}
+		}
+		field_marshal={
+			traits={ absolute_prediction brilliant_strategist aggressive_assaulter }
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id=-1
+		}
+
+		advisor={
+			slot = head_of_government
+			idea_token = a11_bismark_idea
+			allowed = {
+				original_tag = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			traits = {
+				autocracy_guy knight_one
+			}
+			cancel_if_invalid = no
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+
+
+
+
+
+	### POLITICAL ADVISORS ###
+
+
+	
+	a11_clovis={
+		name=BRT_generic_general_1
+		portraits={
+			civilian={
+				small="GFX_idea_A11_clovis"
+			}
+		}
+		advisor={
+			slot = head_of_government
+			idea_token = a11_clovis_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				autocracy_guy artist_prince
+			}
+		}
+	}
+
+	a11_vv={
+		name=a11_vv
+		portraits={
+			civilian={
+				small="GFX_idea_BRT_VV"
+			}
+		}
+		advisor={
+			slot = intelligence
+			idea_token = a11_vv_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				geass_connections
+			}
+		}
+	}
+
+	a11_gen_noble={
+		name=a11_gen_noble
+		portraits={
+			civilian={
+				small="GFX_idea_BRT_generic_noble_1"
+			}
+		}
+		advisor={
+			slot = economy_minister
+			idea_token = a11_gen_noble_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				oligarchy_guy corrupt_kleptocrat
+			}
+		}
+	}
+	a11_kirihara={
+		name=a11_kirihara
+		portraits={
+			civilian={
+				small="GFX_idea_A11_kirihara"
+			}
+		}
+		advisor={
+			slot = economy_minister
+			idea_token = a11_kirihara_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				oligarchy_guy kyoto_house
+			}
+		}
+	}
+
+	A11_generic_general_1={
+		name=A11_generic_general_1
+		portraits={
+			civilian={
+				small="GFX_idea_BRT_generic_general_1"
+			}
+		}
+		advisor={
+			slot = minister_of_interior
+			idea_token = A11_generic_general_1_idea
+			allowed  = {
+				original_tag =A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				autocracy_guy iron_fist
+			}
+		}
+	}
+
+	A11_generic_minister_1 ={
+		name=A11_generic_minister_1
+		portraits={
+			civilian={
+				small="GFX_idea_BRT_generic_minister_1"
+			}
+		}
+		advisor={
+			slot = foreign_minister
+			idea_token = A11_generic_minister_1_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				oligarchy_guy purist_simpaty
+			}
+		}
+	}
+	
+
+}

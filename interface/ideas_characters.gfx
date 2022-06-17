@@ -135,5 +135,22 @@ spriteTypes = {
 		}
 
 
+		### A11
+		spriteType = {
+			name = "GFX_idea_A11_clovis"
+			texturefile = "gfx/interface/ideas/A11/clovis_portrait.dds"
+		}
+
+		spriteType = {
+			name = "GFX_idea_a11_bismark"
+			texturefile = "gfx/interface/ideas/A11/bismark_portrait.dds"
+		}
+
+		spriteType = {
+			name = "GFX_idea_A11_kirihara"
+			texturefile = "gfx/interface/ideas/JAP/JAP_kyoto_kirihara.dds"
+		}
+
+
 
 }
