@@ -104,44 +104,40 @@ characters={
 
 
 
+	A11_clovis={
+		name = "Clovis La Britannia"
+		portraits={
+			civilian={
+				large="GFX_portrait_A11_clovis"
+				small="GFX_idea_A11_clovis"
+			}
+		}
+		advisor={
+			slot = head_of_government
+			idea_token = a11_clovis_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_change
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			traits  = {
+				autocracy_guy artist_prince
+			}
+		}
+	}
 
 
 	A11_viceroy={
 		name = "Britannian Viceroy"
 		portraits={
 			civilian={
-				large=GFX_portrait_A11_viceroy
-			}
-		}
-		country_leader={
-		     desc = "POLITICS_AREA_DESC"
-			ideology=paternal_autocracy
-			traits={ }
-			expire = "2020.1.1"
-		}
-	}
+				large="GFX_portrait_A11_viceroy"
 
-
-	A11_bismark={
-		name = "Bismark Waldstein"
-		portraits={
-			civilian={
-				large=GFX_portrait_A11_bismark
-			}
-		}
-		country_leader={
-		     desc = "POLITICS_AREA_DESC"
-			ideology=paternal_autocracy
-			traits={ }
-			expire = "2020.1.1"
-		}
-	}
-
-	A11_clovis={
-		name = "Clovis La Britannia"
-		portraits={
-			civilian={
-				large=GFX_portrait_A11_clovis
 			}
 		}
 		country_leader={
@@ -156,13 +152,14 @@ characters={
 
 	#GENERALS
 	a11_bismark={
-		name="Bismarck Waldstein"
+		name=a11_bismark
 		portraits={
 			army={
-				large="GFX_portrait_a11_bismark"		
+				large="GFX_portrait_A11_bismark"		
 			}
 			civilian={
 				small="GFX_idea_a11_bismark"	
+				large="GFX_portrait_A11_bismark"
 			}
 		}
 		field_marshal={
@@ -205,33 +202,6 @@ characters={
 
 	### POLITICAL ADVISORS ###
 
-
-	
-	a11_clovis={
-		name=BRT_generic_general_1
-		portraits={
-			civilian={
-				small="GFX_idea_A11_clovis"
-			}
-		}
-		advisor={
-			slot = head_of_government
-			idea_token = a11_clovis_idea
-			allowed  = {
-				original_tag  = A11
-			}
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			traits  = {
-				autocracy_guy artist_prince
-			}
-		}
-	}
 
 	a11_vv={
 		name=a11_vv
@@ -358,6 +328,151 @@ characters={
 			cancel_if_invalid = no
 			traits  = {
 				oligarchy_guy purist_simpaty
+			}
+		}
+	}
+
+
+
+	#Military Advisors
+	
+	A11_generic_air={
+		name=A11_generic_air 
+		portraits={
+			army={
+				small="GFX_idea_A11_generic_air"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = A11_generic_air_idea
+			allowed = {
+				original_tag = A11
+			}
+			traits = {
+				naval_aviation_doctrine
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+
+	A11_generic_navy={
+		name=A11_generic_navy
+		portraits={
+			army={
+				small="GFX_idea_A11_generic_navy"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = A11_generic_navy_idea
+			allowed = {
+				original_tag = A11
+			}
+			traits = {
+				decisive_battle_doctrine
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+
+	A11_gen_general_1={
+		name=A11_gen_general_1
+		portraits={
+			army={
+				small="GFX_idea_A11_gen_general_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = A11_gen_general_1_idea
+			allowed = {
+				original_tag = A11
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	A11_gen_general_2={
+		name=A11_gen_general_2
+		portraits={
+			army={
+				small="GFX_idea_A11_gen_general_2"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = A11_gen_general_2_idea
+			ledger = army
+			allowed = {
+				original_tag = A11
+			}
+			traits = {
+				army_chief_entrenchment_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+	}
+	A11_gen_general_3={
+		name=A11_gen_general_3
+		portraits={
+			army={
+				small="GFX_idea_A11_gen_general_3"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = A11_gen_general_3_idea
+			ledger = army
+			allowed = {
+				original_tag = A11
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+	}
+	A11_gen_general_4={
+		name=A11_gen_general_4
+		portraits={
+			army={
+				small="GFX_idea_A11_gen_general_4"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = A11_gen_general_4_idea
+			ledger = army
+			allowed = {
+				original_tag = A11
+			}
+			traits = {
+			    army_logistics_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
 			}
 		}
 	}

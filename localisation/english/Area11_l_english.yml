@@ -5,17 +5,29 @@ A11_DEF:0 "Area 11"
 A11_ADJ:0 "Eleven"
 
 
+a11_vv:0 "V.V."
+a11_gen_noble:0 "Julius Enneagram"
+A11_generic_general_1:0 "General Alstreim"
+A11_generic_minister_1:0 "Mark Cornwell"
+
 ### Leaders ###
-BRT_bismark:0 "Bismark Waldstein"
+A11_gen_general_1:0 "Darwin Ansley"
+A11_gen_general_2:0 "Strudwick Barclay"
+A11_gen_general_3:0 "Crawford Marlow"
+A11_gen_general_4:0 "Bradford Penley"
+A11_generic_air:0 "Alfred Afton"
+A11_generic_navy:0 "Ackley Barden"
+a11_bismark:0 "Bismark Waldstein"
 knight_one:0 "Knight Of One"
-A11_kyoto_kirihara:0 "Taizō Kirihara"
+a11_kirihara:0 "Taizō Kirihara"
 kyoto_family_1:0 "First Kyoto Family"
 kyoto_family_2:0 "Second Kyoto Family"
 kyoto_family_3:0 "Third Kyoto Family"
 kyoto_family_4:0 "Fourth Kyoto Family"
 kyoto_family_5:0 "Fifth Kyoto Family"
-BRT_clovis:0 "Clovis La Britannia"
+A11_clovis:0 "Clovis La Britannia"
 artist_prince:0 "The Artistic Prince"
+A11_stratford:0 "Stratford Naval Conglomerate"
 
 #Industry
 A11_kirihara_ind:0 "Kirihara Industries"
@@ -35,6 +47,8 @@ A11_beswick_ind:0 "Beswick Conglomerate"
 
 ### Various ###
 A11_recon:0 "§GIt's Time To Re-establish An Effective Government§!"
+A11_new_garrisons:0 "§GWe Will Gain New Garrison Forces§!"
+A11_cliques_weakened:0 "§RJapanese Resistanc Will Be Severely Weakened§!"
 
 
 ### Country ###
@@ -88,8 +102,25 @@ area11.13.t:0 "New Office Of Human Resources"
 area11.13.d:0 "New directives from the SRA has ordered the division of the Honorary Britannians into two groups: the first one will join as cannon fodder in the garrison army, while the rest will be put to work in special relief zones, including many slaves from South America. These camps will be established to favour a quick economic growth, with the reconstruction of many industrial parks and Sakuradite rafineries.\n\nThe administrative part, instead, will be controlled by the economic branch of the SRA, excluding Bismark group, in close ties with the corporations. Although this, the process is going to require considerable efforts and the public order, since many reports indicated riots in the major camps. Hopefully, this is the reason we have a military garrison, right?"
 area11.13.a:0 "Work Makes You Free!"
 area11.14.t:0 "Tokyo Declaration"
-area11.14.d:0 "Near midnight, Bismark was seen heading towards the Fuji Mount, and immediately blocked by some guards loyal to the SRA, while Kirihara was seen in the same area by our spies. The connection was clear, and so the intentions of Bismark, who was forced to give in our demands. In the following days, he agreed to break any deal with the Kyoto House and make a hoint declaration, in Tokyo Settlment, condemning the old Japanese government and its industries, in particular Kirihara.\n\nWith this step, we have assured the continuation of the standard Britannian economic politics, and the predominance of the pure Britannian conglomerates, which will operate in the territory without any further restriction.This victory will surely favour the power of radical factions within the SRA, purists and nobles in head."
+area11.14.d:0 "Near midnight, Bismark was seen heading towards the Fuji Mount, and immediately blocked by some guards loyal to the SRA, while Kirihara was seen in the same area by our spies. The connection was clear, and so the intentions of Bismark, who was forced to give in our demands. In the following days, he agreed to break any deal with the Kyoto House and make a joint declaration, in Tokyo Settlment, condemning the old Japanese government and its industries, in particular Kirihara.\n\nWith this step, we have assured the continuation of the standard Britannian economic politics, and the predominance of the pure Britannian conglomerates, which will operate in the territory without any further restriction.This victory will surely favour the power of radical factions within the SRA, purists and nobles in head."
 area11.14.a:0 "Nothing But Subversives."
+area11.16.t:0 "The Art of Guerilla"
+area11.16.d:0 "After months of researchs and effort, we have managed to complete the mapping of major rebel activities across the new area, not without risks and some deaths. This was ordered directly by Bismark and it will surely help to figure out the best method to get rid of this insurgency.\n\nIn particular, we have verified that each major rebel group is not actively collaborating with one or another, and now they seem uncapable of uniting their plans. This rapresents a great advantage to us, since they don't have enough offensive power to seriously threaten our iron grip in major urban cities or supply point.\n\nThese groups can be considered as separate Cliques, with many remnants of the old Japanese army; each group of soldier is also commanded by a Senior General of Kururugi's army, which is regarded as a Generalissimo. Sometimes, we have confirmed internal clashes among these groups, which can be exploited to weaken their positions."
+area11.16.a:0 "Their Struggle Is Less United Than Expected."
+area11.17.t:0 "The Tiger In The North"
+area11.17.d:0 "Several investigations and information gathering efforts have resulted in a more detailed map of all insurgency groups.\n\nIn the centre, ex-General Josui Kusakabe is leading the largest militia group in the country; in addition, he has a vast reserve of equipment, especially light one, located in secret warehouses in the ruins of Tokyo and its surroundings. The General has proved to be short-tempered and impulsive, which severely hurts his effectiveness in battle.\n\nIn the south, another ex-General, named Katase, is establishing his base somewhere around the Kyushu region, with several forts build in the mountainous territories. He lacks serious attack capabilities but he has a formidable defense.\n\nThe last, and by far the most dangerous, it's Tohdoh, the responsible of several victories against our Knightmares. He has,by far, the largest military skills, and he is the most sensible tactician of Kururugi's army. He uses Hit-And-Run strategies, a real thorn in the side of our troops."
+area11.17.a:0 "That Damned Lieutenant."
+area11.15.t:0 "Passing The Torch"
+area11.15.d:0 "After several years of service, Bismark was ready to dismiss himself from the absolute ruler of Area 11 and dissolve the Supreme Reconstruction Authority; he was too tired to carry on another decade in this mess. Despite this, he wasn't so eager to let his work ruined by some arrogant Britannian aristocratic Governor. For this reason, he had decided on the insitution of a local Senate, which would have been filled with its supporters and advisor.\n\nAfter all, his balance was delicate and it had to be managed really well, in order to maintain the stability he had reached. Many collaborators begged him to remain in his place, but Emperor Charles had greater plans for him into the battlefield, rather than a bureaucratic office."
+area11.15.a:0 "Bismark, You Will Be Missed."
+area11.18.t:0 "PenNIIOKhT substance No. 33"
+area11.18.d:0 "Conventional tacticts are resulting really ineffective in most anti-terrorism operations,and Knightmare production is still too low to cover all this territory at the same time.\n\nLuckily for us, Pendragon Research Institute has offered us a powerful nervine agent, possible the most powerful ever developed in Britannian territory. Using this substance, code name PenNIIOKhT substance No. 33, we will be able to catch them and neutralize them in a more efficient way, with less casualties in our ranks. It's important to consider that this actions will also hurt the civilian population, who will get caught in the gas releases."
+area11.18.a:0 "One Rat At A Time..."
+area11.19.t:0 "Bismark's Special Operation"
+area11.19.d:0 "Supreme Commander Bismark has decided that the time has come to strike a major blow to the Japanese resistance. His plan was carefully planned by Bismark himself and his closest advisors.\n\nThe major objective will be Kusakabe in the centre, where our elite troops will be deployed to eliminate most of warehouses (discovered by our Secret Services) and foil Japanese soldiers. We will make them believe that we will be retreating to more secure positions,near Sakuradite mines, and ,at last, a double flanking will do the job.\n\nIn the south, our Knightmares will take care of several defensive stronholds located around the mountain ranges, forcing Katase to flee into even more deeper positions, far from our supply posts.\n\nEventually, Tohdoh will be faced by Bismark's personal soldiers, with the help of Attack Helicopters and Long-Range Artillery, in this way,the superior firepower will stop Tohdoh from helping the other Cliques. After his operation, they will stay quiet and lick their wounds."
+area11.19.a:0 "This Should Keep Them At Bay For A While."
+
+
 
 
 
@@ -212,6 +243,7 @@ A11_nominate_clovis_desc:0 "Emperor Charles has decided that Bismark's vacant po
 
 
 ##Parties
+area11_focus_2:0 "Clovis Focus Tree"
 A11_ultra_nationalism_party:0 "Britannian Governorship-Radicals"
 A11_autocracy_party:0 "Britannian Governorship"
 A11_moderate_conservatism_party:0 "Japanese Resistance"
@@ -224,28 +256,49 @@ A11_totalitarian_socialism_party:0 "Japanese Resistance"
 
 
 #Ideas
+A11_martial_law_idea_1:0 "Martial Law"
+A11_martial_law_idea_1_desc:0 "A series of repressive laws have been implemented, including a strict curfew, arrest without trial, and the institution of military courts, to improve internal order. Despite this, it will surely alienate the majority of the Eleven population."
+A11_martial_law_idea_2:0 "Martial Law"
+A11_martial_law_idea_2_desc:0 "A series of repressive laws have been implemented, including a strict curfew, arrest without trial, and the institution of military courts, to improve internal order. Despite this, it will surely alienate the majority of the Eleven population."
 rampant_chaos_area_11:0 "Widespread Chaos"
+rampant_chaos_area_11_desc:0 "The Japanese nation may have lost the conventional military conflict, but its rebellious spirit is far from gone. Several ex-generals of Kururugi's government are waging an insurgency all over the new Area. This is a thorn in the side of the Britannian administration, and it must be eradicated as soon as possible."
 demographic_death_area_11:0 "Demographic Collapse"
+demographic_death_area_11_desc:0 "Demographic situation of Area 11 was dire even before the war; but now, with the slaughter of many young soldiers, birth rates have collapsed and entire cities are currently de-populated."
 economic_collapse_area_11:0 "Economic Disaster"
+economic_collapse_area_11_desc:0 "Most of Japanese heavy industry and Sakuradite mines, the main source of income in this region, have been destroyed during the course of the war. This Area needs a complete re-development of its industry, following a Britannian model of economics and finance."
 administrative_strain:0 "Administrative Strain"
+administrative_strain_desc:0 "With the old bureaucracy in ruins and the serious damages of the previous administration, the new Britannnian colonial government is having hard times in managing efficiently this territory. Furthermore, the lack of native collaborators makes things even more complicated for our men."
 administrative_strain_2:0 "Administrative Strain"
+administrative_strain_2_desc:0 "With the old bureaucracy in ruins and the serious damages of the previous administration, the new Britannnian colonial government is having hard times in managing efficiently this territory. Furthermore, the lack of native collaborators makes things even more complicated for our men."
 administrative_strain_3:0 "Administrative Strain"
+administrative_strain_3_desc:0 "With the old bureaucracy in ruins and the serious damages of the previous administration, the new Britannnian colonial government is having hard times in managing efficiently this territory. Furthermore, the lack of native collaborators makes things even more complicated for our men."
 destroyed_infratructures:0 "Destroyed Infrastructures"
-destroyed_infratructures_2:0 "Destroyed Infrastructures"
-destroyed_infratructures_3:0 "Destroyed Infrastructures"
+destroyed_infratructures_desc:0 "Knightmare Frames were really useful in destroying enemy's troops, but they were also terribly efficient in destroying infrastructures and supply posts located around the country. As a result of this, supply chain is severely compromised in the country."
+destroyed_infratructures_2:0 "Damaged Infrastructures"
+destroyed_infratructures_2_desc:0 "Knightmare Frames were really useful in destroying enemy's troops, but they were also terribly efficient in destroying infrastructures and supply posts located around the country. As a result of this, supply chain is severely compromised in the country."
+destroyed_infratructures_3:0 "Damaged Infrastructures"
+destroyed_infratructures_3_desc:0 "Knightmare Frames were really useful in destroying enemy's troops, but they were also terribly efficient in destroying infrastructures and supply posts located around the country. As a result of this, supply chain is severely compromised in the country."
 food_imports:0 "Food Imports"
+food_imports_desc:0 "Wheat and other primary sources of food are arriving from the mainland, to cover the reduced output of the local agriculture."
 cultural_repression:0 "Cultural Suppression"
+cultural_repression_desc:0 "Japanese identity has to be erased once and for all, and for this reason we are conducting campaigns of Britannisation inside the country."
 cultural_repression_2:0 "Cultural Cleansing"
+cultural_repression_2_desc:0 "Japanese identity has to be erased once and for all, and for this reason we are conducting campaigns of Britannisation inside the country."
 jap_brit_corporations:0 "Hybrid Corporations"
+jap_brit_corporations_desc:0 "A mix of Britannian corporations and the old Kyoto House oligarchy are currently working together, to ensure a proper economic growth. This, on the other hand, is highly criticized by the majority of the SRA."
 brit_corporations:0 "Britannian Corporations"
+brit_corporations_desc:0 "Britannian-led corporations dominate the economy of Area 11, with similar effects seen in Britannia proper."
 extreme_stratocracy_A11:0 "Enforced Stratocratic Model"
+extreme_stratocracy_A11_desc:0 "Currently, we are trying to imitate the strict Britannian social structure in all its components. In particular, we will create a new society divided in well-defined classes."
 extreme_stratocracy_A11_2:0 "Stratocratic Model"
+extreme_stratocracy_A11_2_desc:0 "Currently, we are trying to imitate the strict Britannian social structure in all its components. In particular, we will create a new society divided in well-defined classes."
 economic_stagnation_A11:0 "Economic Balance"
+economic_stagnation_A11_desc:0 "With the recession gone, Bismark has bought a period of delicate economic balance and he has restored order in the financial field."
 
 
 #Decisions
 A11_Suppression_Campaign:0 "Britannian Suppression Campaign"
-A11_Suppression_Campaign_desc:0 "Although we have already claimed a complete military victory against Japan, the majority of their Generals and Ministers have flew the country and, from their new bases abroad, they are now directing subversive actions against the occupation; considering that many officers and soldiers have §Rrefused to surrender§!. The majority of the fightings are localised in the §Ycountryside§!, outside Tokyo metropolitan area, and in the main islands, in particular §YHokkaido§! and §YKyushu§!. With the Homeland support, secret services and -carrot and stick- strategies, we have to keep under control and, possibly, eradicate all the formal resistance!"
+A11_Suppression_Campaign_desc:0 "Although we have already claimed a complete military victory against Japan, the majority of their Generals and Ministers have flew the country and, from their new bases abroad, they are now directing subversive actions against the occupation; considering that many officers and soldiers have §Rrefused to surrender§!. The majority of the fightings are localised in the §Ycountryside§!, outside Tokyo metropolitan area, and in the main islands, in particular §YHokkaido§! and §YKyushu§!. With the Homeland support, secret services and -carrot and stick- strategies, we have to keep under control and, possibly, eradicate all the formal resistance!\n\n§RATTENTION:You Will Be Able to Conduct Only 2 Different Actions at The Same Time."
 
 
 #GUI STUFF
@@ -299,6 +352,42 @@ A11_targeted_assassinations_hokkaido:0 "Conduct Targeted Assassinations"
 A11_gas_countryside_hokkaido:0 "Launch A Gas Attack"
 A11_bribes_hokkaido:0 "Bribe The Officers"
 A11_force_them_underground_hokkaido:0 "Clamp Down The Local Resistance"
+
+A11_military_crackdown_kansai:0 "Enact A Military Crackdown"
+A11_targeted_assassinations_kansai:0 "Conduct Targeted Assassinations"
+A11_gas_countryside_kansai:0 "Launch A Gas Attack"
+A11_bribes_kansai:0 "Bribe The Officers"
+A11_force_them_underground_kansai:0 "Clamp Down The Local Resistance"
+
+A11_military_crackdown_chubu:0 "Enact A Military Crackdown"
+A11_targeted_assassinations_chubu:0 "Conduct Targeted Assassinations"
+A11_gas_countryside_chubu:0 "Launch A Gas Attack"
+A11_bribes_chubu:0 "Bribe The Officers"
+A11_force_them_underground_chubu:0 "Clamp Down The Local Resistance"
+
+A11_military_crackdown_chuguko:0 "Enact A Military Crackdown"
+A11_targeted_assassinations_chuguko:0 "Conduct Targeted Assassinations"
+A11_gas_countryside_chuguko:0 "Launch A Gas Attack"
+A11_bribes_chuguko:0 "Bribe The Officers"
+A11_force_them_underground_chuguko:0 "Clamp Down The Local Resistance"
+
+A11_military_crackdown_kyushu:0 "Enact A Military Crackdown"
+A11_targeted_assassinations_kyushu:0 "Conduct Targeted Assassinations"
+A11_gas_countryside_kyushu:0 "Launch A Gas Attack"
+A11_bribes_kyushu:0 "Bribe The Officers"
+A11_force_them_underground_kyushu:0 "Clamp Down The Local Resistance"
+
+A11_military_crackdown_kanto:0 "Enact A Military Crackdown"
+A11_targeted_assassinations_kanto:0 "Conduct Targeted Assassinations"
+A11_gas_countryside_kanto:0 "Launch A Gas Attack"
+A11_bribes_kanto:0 "Bribe The Officers"
+A11_force_them_underground_kanto:0 "Clamp Down The Local Resistance"
+
+A11_military_crackdown_tohoku:0 "Enact A Military Crackdown"
+A11_targeted_assassinations_tohoku:0 "Conduct Targeted Assassinations"
+A11_gas_countryside_tohoku:0 "Launch A Gas Attack"
+A11_bribes_tohoku:0 "Bribe The Officers"
+A11_force_them_underground_tohoku:0 "Clamp Down The Local Resistance"
 
 
 #Modifiers Stuff

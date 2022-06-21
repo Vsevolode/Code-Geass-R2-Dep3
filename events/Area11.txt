@@ -2,6 +2,8 @@
 add_namespace = area11
 
 
+
+
 country_event = {  
 	id = area11.1
 	title = area11.1.t
@@ -375,7 +377,6 @@ country_event = {
 	id = area11.15
 	title = area11.15.t
 	desc = area11.15.d
-	picture = GFX_A11_event_15
 	fire_only_once = yes
     is_triggered_only = yes
 	
@@ -411,7 +412,88 @@ country_event = {
 	}	
  }
 
-}
+ country_event = {  
+	id = area11.17
+	title = area11.17.t
+	desc = area11.17.d
+	picture = GFX_A11_event_17
+	fire_only_once = yes
+    is_triggered_only = yes
+	
+	
+	option = {
+		name = area11.17.a
+
+		
+		
+		ai_chance = {
+			factor = 30
+		}
+	}	
+ }
+
+ country_event = {  
+	id = area11.18
+	title = area11.18.t
+	desc = area11.18.d
+	picture = GFX_A11_event_18
+	fire_only_once = yes
+    is_triggered_only = yes
+	
+	
+	option = {
+		name = area11.18.a
+
+		
+		
+		ai_chance = {
+			factor = 30
+		}
+	}	
+ }
+
+ country_event = {  
+	id = area11.19
+	title = area11.19.t
+	desc = area11.19.d
+	picture = GFX_A11_event_19
+	fire_only_once = yes
+    is_triggered_only = yes
+	
+	
+	option = {
+		name = area11.19.a
+		custom_effect_tooltip = A11_cliques_weakened
+
+		
+		
+		ai_chance = {
+			factor = 30
+		}
+	}	
+ }
+
+ country_event = {  
+	id = area11.20
+	title = area11.20.t
+	desc = area11.20.d
+	picture = GFX_A11_event_20
+	fire_only_once = yes
+    is_triggered_only = yes
+	
+	
+	option = {
+		name = area11.20.a
+
+		
+		
+		ai_chance = {
+			factor = 30
+		}
+	}	
+ }
+
+
 
 
 

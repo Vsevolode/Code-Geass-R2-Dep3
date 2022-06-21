@@ -476,6 +476,8 @@ country_event = {  #Total victory against Japan - Establish Area
 		transfer_state = 944
 		transfer_state = 943
 		transfer_state = 942
+		load_oob = "A11_START"
+		load_oob = "A11_NAVAL"
 		}
 		
 	}	
@@ -530,6 +532,8 @@ country_event = {  #Total victory against Japan - Establish Area
 		transfer_state = 944
 		transfer_state = 943
 		transfer_state = 942
+		load_oob = "A11_START"
+		load_oob = "A11_NAVAL"
 		}
 		
 		

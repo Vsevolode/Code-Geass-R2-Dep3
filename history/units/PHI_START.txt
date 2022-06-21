@@ -5,22 +5,14 @@
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-<<<<<<< Updated upstream
-		artillery = {
-=======
 		artillery_brigade = {
->>>>>>> Stashed changes
 			x = 0
 			y = 2
 		}
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-<<<<<<< Updated upstream
-		artillery = {
-=======
 		artillery_brigade = {
->>>>>>> Stashed changes
 			x = 1
 			y = 2
 		}
@@ -40,13 +32,8 @@ units = {
 		}
 		location = 10265
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -56,13 +43,8 @@ units = {
 		}
 		location = 4288
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -72,13 +54,8 @@ units = {
 		}
 		location = 4288
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -88,13 +65,8 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -104,13 +76,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -120,13 +87,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -136,13 +98,8 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -152,13 +109,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -168,13 +120,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -184,13 +131,8 @@ units = {
 		}
 		location = 1415
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 		division= {	
 		#name = "1st Britannian Garrison"
@@ -200,13 +142,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 	division= {	
 		#name = "1st Britannian Garrison"
@@ -216,13 +153,8 @@ units = {
 		}
 		location = 4241
 		division_template = "Chinese Garrison"
-<<<<<<< Updated upstream
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-=======
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
->>>>>>> Stashed changes
 	}
 
 	
@@ -238,8 +170,6 @@ units = {
 
 
 ##### Starting Production #####
-<<<<<<< Updated upstream
-=======
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -264,4 +194,3 @@ instant_effect = {
 	}
 }
 
->>>>>>> Stashed changes

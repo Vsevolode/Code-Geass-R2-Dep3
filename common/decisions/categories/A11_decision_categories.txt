@@ -10,11 +10,6 @@ A11_Suppression_Campaign = {
 
 			has_country_leader = {
 				ruling_only = yes
-				name = "Clovis La Britannia"
-			}
-
-			has_country_leader = {
-				ruling_only = yes
 				name = "Bismark Waldstein"
 			}
 

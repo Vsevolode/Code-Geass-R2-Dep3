@@ -11,6 +11,7 @@ A11_resistance_setup = {
 
 
 	set_variable = { tot_cleared_regions = 0 }
+	set_variable = { A11_doing_Actions = 0 }
 
 	#Kirihara Thing
 	set_variable = { kirihara_buddy = 0 }
@@ -99,10 +100,10 @@ A11_post_war_chaos_worse = {
 A11_post_war_chaos_better = {
 	
 
-	add_to_variable = { post_war_chaos_1 = 0.002 }
-	add_to_variable = { post_war_chaos_2 = 0.002 }
-	add_to_variable = { post_war_chaos_3 = -0.03 }
-	add_to_variable = { post_war_chaos_4 = 50 }
+	add_to_variable = { post_war_chaos_1 = 0.005 }
+	add_to_variable = { post_war_chaos_2 = 0.005 }
+	add_to_variable = { post_war_chaos_3 = -0.05 }
+	add_to_variable = { post_war_chaos_4 = 250 }
 
 	
 }
@@ -143,5 +144,209 @@ A11_reinforce_control_hokkaido = {
 		}
 	
 }
+
+
+A11_reinforce_control_tohoku = {
+
+	effect_tooltip = {
+			random_list = {
+				30 = { custom_effect_tooltip = A11_increase_support_small  }
+				40 = { custom_effect_tooltip = A11_increase_support_medium  }
+				30 = { custom_effect_tooltip = A11_increase_support_large   }
+			}
+		
+	}
+	hidden_effect = { 
+			random_list = {
+
+				30 = {	
+					#custom_effect_tooltip = A11_increase_support_small 
+	             	add_to_variable = { tohoku_Resistance = -0.08 }
+				  
+				}
+				40 = { 
+					#custom_effect_tooltip = A11_increase_support_medium 
+					add_to_variable = { tohoku_Resistance = -0.13 }
+				  
+				}
+			    30 = { 
+					#custom_effect_tooltip = A11_increase_support_large 
+					add_to_variable = { tohoku_Resistance = -0.18 }
+			    }
+			}
+
+		}
+	
+}
+
+A11_reinforce_control_chubu = {
+
+	effect_tooltip = {
+			random_list = {
+				30 = { custom_effect_tooltip = A11_increase_support_small  }
+				40 = { custom_effect_tooltip = A11_increase_support_medium  }
+				30 = { custom_effect_tooltip = A11_increase_support_large   }
+			}
+		
+	}
+	hidden_effect = { 
+			random_list = {
+
+				30 = {	
+					#custom_effect_tooltip = A11_increase_support_small 
+	             	add_to_variable = { Chubu_Resistance = -0.08 }
+				  
+				}
+				40 = { 
+					#custom_effect_tooltip = A11_increase_support_medium 
+					add_to_variable = { Chubu_Resistance = -0.13 }
+				  
+				}
+			    30 = { 
+					#custom_effect_tooltip = A11_increase_support_large 
+					add_to_variable = { Chubu_Resistance = -0.18 }
+			    }
+			}
+
+		}
+	
+}
+
+A11_reinforce_control_kansai = {
+
+	effect_tooltip = {
+			random_list = {
+				30 = { custom_effect_tooltip = A11_increase_support_small  }
+				40 = { custom_effect_tooltip = A11_increase_support_medium  }
+				30 = { custom_effect_tooltip = A11_increase_support_large   }
+			}
+		
+	}
+	hidden_effect = { 
+			random_list = {
+
+				30 = {	
+					#custom_effect_tooltip = A11_increase_support_small 
+	             	add_to_variable = { Kansai_Resistance = -0.08 }
+				  
+				}
+				40 = { 
+					#custom_effect_tooltip = A11_increase_support_medium 
+					add_to_variable = { Kansai_Resistance = -0.13 }
+				  
+				}
+			    30 = { 
+					#custom_effect_tooltip = A11_increase_support_large 
+					add_to_variable = { Kansai_Resistance = -0.18 }
+			    }
+			}
+
+		}
+	
+}
+
+A11_reinforce_control_kanto = {
+
+	effect_tooltip = {
+			random_list = {
+				30 = { custom_effect_tooltip = A11_increase_support_small  }
+				40 = { custom_effect_tooltip = A11_increase_support_medium  }
+				30 = { custom_effect_tooltip = A11_increase_support_large   }
+			}
+		
+	}
+	hidden_effect = { 
+			random_list = {
+
+				30 = {	
+					#custom_effect_tooltip = A11_increase_support_small 
+	             	add_to_variable = { Kanto_Resistance = -0.08 }
+				  
+				}
+				40 = { 
+					#custom_effect_tooltip = A11_increase_support_medium 
+					add_to_variable = { Kanto_Resistance = -0.13 }
+				  
+				}
+			    30 = { 
+					#custom_effect_tooltip = A11_increase_support_large 
+					add_to_variable = { Kanto_Resistance = -0.18 }
+			    }
+			}
+
+		}
+	
+}
+
+A11_reinforce_control_kyushu = {
+
+	effect_tooltip = {
+			random_list = {
+				30 = { custom_effect_tooltip = A11_increase_support_small  }
+				40 = { custom_effect_tooltip = A11_increase_support_medium  }
+				30 = { custom_effect_tooltip = A11_increase_support_large   }
+			}
+		
+	}
+	hidden_effect = { 
+			random_list = {
+
+				30 = {	
+					#custom_effect_tooltip = A11_increase_support_small 
+	             	add_to_variable = { kyushu_Resistance = -0.08 }
+				  
+				}
+				40 = { 
+					#custom_effect_tooltip = A11_increase_support_medium 
+					add_to_variable = { kyushu_Resistance = -0.13 }
+				  
+				}
+			    30 = { 
+					#custom_effect_tooltip = A11_increase_support_large 
+					add_to_variable = { kyushu_Resistance = -0.18 }
+			    }
+			}
+
+		}
+	
+}
+
+
+A11_reinforce_control_chuguko = {
+
+	effect_tooltip = {
+			random_list = {
+				30 = { custom_effect_tooltip = A11_increase_support_small  }
+				40 = { custom_effect_tooltip = A11_increase_support_medium  }
+				30 = { custom_effect_tooltip = A11_increase_support_large   }
+			}
+		
+	}
+	hidden_effect = { 
+			random_list = {
+
+				30 = {	
+					#custom_effect_tooltip = A11_increase_support_small 
+	             	add_to_variable = { Chuguko_Resistance = -0.08 }
+				  
+				}
+				40 = { 
+					#custom_effect_tooltip = A11_increase_support_medium 
+					add_to_variable = { Chuguko_Resistance = -0.13 }
+				  
+				}
+			    30 = { 
+					#custom_effect_tooltip = A11_increase_support_large 
+					add_to_variable = { Chuguko_Resistance = -0.18 }
+			    }
+			}
+
+		}
+	
+}
+
+
+
+
 
 

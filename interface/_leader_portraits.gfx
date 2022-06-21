@@ -108,7 +108,7 @@ spriteTypes = {
 
 	#A11
 	spriteType = {
-		name = "GFX_portrait_a11_bismark"
+		name = "GFX_portrait_A11_bismark"
 		texturefile = "gfx/leaders/A11/Portrait_Waldstein.dds"
     }
 

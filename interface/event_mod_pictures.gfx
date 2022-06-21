@@ -43,6 +43,28 @@ spriteTypes = {
 		name = "GFX_A11_event_13"
 		texturefile = "gfx/event_pictures/A11_event_13.dds"
 	}
+	spriteType = {
+		name = "GFX_A11_event_16"
+		texturefile = "gfx/event_pictures/A11_event_16.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_17"
+		texturefile = "gfx/event_pictures/A11_event_17.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_18"
+		texturefile = "gfx/event_pictures/A11_event_18.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_19"
+		texturefile = "gfx/event_pictures/A11_event_19.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_20"
+		texturefile = "gfx/event_pictures/A11_event_20.dds"
+	}
+
+
 
 
 

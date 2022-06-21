@@ -1,5 +1,107 @@
 spriteTypes = {	
 
+	### GENERIC COMPANIES
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_motorized_equipment_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_motorized_equipment_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_motorized_equipment_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_infantry_equipment_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_infantry_equipment_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_infantry_equipment_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_artillery_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_artillery_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_artillery_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_2"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_3"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_refining_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_generic_electronics_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_electronics_concern_2"
+		texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_electronics_concern_3"
+		texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
+	}
+
 	#Autonomies
 	spriteType = {
 		name = "GFX_member_state_icon"
@@ -114,6 +216,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_economic_stagnation_A11"
 		texturefile = "gfx/interface/ideas/A11/economic_stagnation_A11.dds"	
+	}
+	SpriteType = {
+		name = "GFX_A11_martial_law_idea_1"
+		texturefile = "gfx/interface/ideas/A11/A11_martial_law_idea.dds"	
+	}
+	SpriteType = {
+		name = "GFX_A11_martial_law_idea_2"
+		texturefile = "gfx/interface/ideas/A11/A11_martial_law_idea.dds"	
 	}
 
     #Companies

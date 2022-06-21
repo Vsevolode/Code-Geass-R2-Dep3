@@ -743,7 +743,7 @@ tank_manufacturer = {
 		
 	
 					
-		traits = { medium_tank_producer_mass_2 kyoto_family_1 }
+		traits = { modern_tank_manufacturer kyoto_family_1 }
 		
 	}
 
