@@ -264,14 +264,13 @@ country_event = {
     ideology = autocracy
     popularity = 0.05
 	}
-	BRT = {	
-		declare_war_on = {
-			target = CHI
-		}
-    }
+	declare_war_on = {
+		target = CHI
+		type = annex_everything
+	}
 		
 		ai_chance = {
-			factor = 20
+			factor = 0
 		}
 		
 		

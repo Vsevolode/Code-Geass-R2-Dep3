@@ -99,21 +99,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1.5
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = fighter1
-					is_researching_technology = fighter1
-				}
-			}
-			modifier = {
-				factor = 3
-				has_navy_size = { type = carrier size > 3 }# if nation has several carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
 		}
 	}
 

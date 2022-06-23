@@ -611,7 +611,7 @@ naval_manufacturer = {
 		
 	designer = yes
 	
-	osakabe_shipyard = {
+	JAP_osakabe_shipyard = {
 		picture = JAP_shipyard_1
 
 		

@@ -528,6 +528,10 @@ spriteTypes = {
 		name = "GFX_idea_resource_economy"
 		texturefile = "gfx/interface/ideas/JAP/resource_economy.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_resource_economy_2"
+		texturefile = "gfx/interface/ideas/JAP/resource_economy.dds"	
+	}
 
 	SpriteType = {
 		name = "GFX_idea_minerary_industry_funds"

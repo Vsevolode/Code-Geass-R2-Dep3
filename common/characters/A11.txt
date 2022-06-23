@@ -113,16 +113,17 @@ characters={
 			}
 		}
 		advisor={
+			cost=2000
 			slot = head_of_government
 			idea_token = a11_clovis_idea
 			allowed  = {
 				original_tag  = A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -173,22 +174,22 @@ characters={
 		}
 
 		advisor={
+				cost = 2000
 			slot = head_of_government
 			idea_token = a11_bismark_idea
 			allowed = {
 				original_tag = A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			traits = {
 				autocracy_guy knight_one
 			}
 			cancel_if_invalid = no
-			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -211,16 +212,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = intelligence
 			idea_token = a11_vv_idea
 			allowed  = {
 				original_tag  = A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -237,16 +239,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = economy_minister
 			idea_token = a11_gen_noble_idea
 			allowed  = {
 				original_tag  = A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -262,16 +265,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = economy_minister
 			idea_token = a11_kirihara_idea
 			allowed  = {
 				original_tag  = A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -288,16 +292,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = minister_of_interior
 			idea_token = A11_generic_general_1_idea
 			allowed  = {
 				original_tag =A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -314,16 +319,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = foreign_minister
 			idea_token = A11_generic_minister_1_idea
 			allowed  = {
 				original_tag  = A11
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
 			}
 			cancel_if_invalid = no
 			traits  = {

@@ -311,7 +311,6 @@ focus_tree = {
 		}
 
 		available = {
-		has_completed_focus = BRT_block_sup
 		country_exists = BRT
 
 		}
@@ -1019,17 +1018,20 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BRT_war"
-	declare_war_on = {
-    target = JAP
-	type = annex_everything
-    }
-    JAP = {
-		country_event = {
-			id = JAP.11
-		}
-    }
-	}
+			hidden_effect = {
+				set_country_flag = JAP_invasion
+				set_country_flag = Super_Event_Visible
+			}	
+	        declare_war_on = {
+             target = JAP
+	        type = annex_everything
+            }
+            JAP = {
+		      country_event = {
+			   id = JAP.11
+		       }
+            }
+	    }
 	}
 	
 		

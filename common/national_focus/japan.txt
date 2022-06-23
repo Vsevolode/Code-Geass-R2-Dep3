@@ -24,7 +24,7 @@
 			country_exists = JAP
 			has_government = moderate_conservatism
 		}
-		bypass = {}
+		bypass = { }
 	
 
 		mutually_exclusive = {
@@ -37,20 +37,15 @@
 	
 		completion_reward = {
 			hidden_effect = {
-				set_variable = {
-					var = we_are_not_fucked_by_britannia
-					value = 1
-				}
+			add_ideas = {
+				JAP_generic_intelligence_idea
+				JAP_generic_minister_1_idea
+				JAP_kyoto_kirihara_idea
+				JAP_kururugi_idea
+				JAP_sawasaki_idea
 
-				add_ideas = {
-					JAP_generic_intelligence_idea
-					JAP_generic_minister_1_idea
-					JAP_kyoto_kirihara_idea
-					JAP_kururugi_idea
-					JAP_sawasaki_idea
-
-				}	
 			}
+		    }
 
 			add_political_power = -50
 			custom_effect_tooltip = JAP_form_gov
@@ -68,9 +63,7 @@
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				JAP_not_war = yes
-			}
+			
 		}
 		bypass = {}
 	
@@ -548,9 +541,6 @@
 		bypass = {}
 	
 
-		mutually_exclusive = {
-			focus = house_always_win
-		}
 
 
 		ai_will_do = {
@@ -830,9 +820,7 @@
 		icon = GFX_import_guns
 		cost = 2
 
-		mutually_exclusive = {
-			focus = EU_advisors
-		}
+	
 		x = -1
 		y = 1
 		available = {
@@ -863,7 +851,7 @@
 				producer = CHI
 			}
 			add_equipment_to_stockpile = {
-				type = light_tank_equipment
+				type = mbt_1
 				amount = 1000
 				producer = CHI
 			}
@@ -1098,6 +1086,7 @@
 		y = 1
 		available = {
 			country_exists = JAP
+			has_completed_focus = promote_datings
 		
 
 		}

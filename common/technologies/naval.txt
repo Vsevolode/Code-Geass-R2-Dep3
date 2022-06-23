@@ -510,6 +510,18 @@ technologies = {
 			name = naval_folder
 			position = { x = -2 y = 1 }
 		}
+
+				
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+
+		}
 		
 
 		
@@ -536,6 +548,18 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = -2 y = 7 }
+		}
+
+				
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+
 		}
 		
 
@@ -601,6 +625,18 @@ technologies = {
 		categories = {
 			naval_equipment
 			cv_tech
+		}
+
+				
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+
 		}
 	}
 	

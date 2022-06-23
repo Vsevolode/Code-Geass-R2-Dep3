@@ -119,7 +119,7 @@ naval_aviation_doctrine:0 "Naval Aviation"
 #Industry
 JAP_kirihara_ind:0 "Kirihara Industries"
 medium_tank_producer_mass_2:0 "Mass Production"
-osakabe_shipyard:0 "Osakabe Naval Arsenal"
+JAP_osakabe_shipyard:0 "Osakabe Naval Arsenal"
 capital_ship_producer_offense_2:0 "Attack Capital Ships"
 JAP_kubouin_group:0 "Kubouin Group"
 artillery_producer_defense_2:0 "Defense Artillery"

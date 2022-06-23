@@ -1,4 +1,6 @@
 ﻿l_english:
+CHANGE_ADVISOR:1 "\nYou can replace this advisor by clicking here and selecting a replacement."
+ALREADY_HAS_ADVISOR_WITH_TRAIT:0 "There is already an appointed advisor with this trait."
 #Names-Ideologies
 totalitarian_socialism:0 "Centralist Socialism"
 totalitarian_socialism_noun:0 "Centralist Socialism"

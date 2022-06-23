@@ -77,6 +77,162 @@ BRT_pacific = {		#Name of category that decisions will appear under, decisions M
 	}
 
 
+		conquest_phi = {		#ID of the mission, must not contain spaces!
+
+		icon = GFX_first_BRT_war		#The left side icon to show for this mission.
+		days_mission_timeout = 60	#The amount of days remaining until the mission is removed.
+		is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
+		NOT = {
+			country_exists = PHI
+			}
+		}
+		activation = {  
+			original_tag = BRT              
+              has_war_with = PHI                     
+          }
+		
+		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+		allowed = { tag = BRT }  
+
+		visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
+			tag = BRT
+			AND = {
+			has_war_with = PHI
+            }			
+		}
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		timeout_effect = {
+         add_stability = -0.05
+		 add_war_support = -0.10
+		 country_event = { id = BRT.6 }
+		 		 						hidden_effect = {
+		   set_variable = { 
+			   var = oriental_incident 
+			   value = 1 
+			}
+		   JAP = {
+		   country_event = { id = JAP.1 }
+            }
+        }
+		}
+		
+		complete_effect  = {
+		add_stability = 0.05
+		 add_war_support = 0.05
+		 						hidden_effect = {
+	     A10 = {
+         set_state_owner = 628
+		 set_state_owner = 624
+		 set_state_owner = 623
+		 set_state_owner = 627
+		 set_state_owner = 327
+		 set_state_owner = 625
+		 set_state_owner = 626
+           }
+		set_variable = { 
+			var = oriental_incident 
+			value = 1 
+		 }
+		   		   JAP = {
+		   country_event = { id = JAP.1 }
+            }
+
+        }
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
+			factor = 10
+		}
+	}
+
+
+	conquest_phi_ai = {		#ID of the mission, must not contain spaces!
+
+	icon = GFX_first_BRT_war		#The left side icon to show for this mission.
+	days_mission_timeout = 60	#The amount of days remaining until the mission is removed.
+	is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission
+	
+	# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+	
+	available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
+		PHI = {
+			surrender_progress > 80
+		}
+	}
+	activation = {    
+		 NOT = { 
+			original_tag = BRT
+		}	           
+		  has_war_with = PHI                     
+	  }
+	
+	fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+	allowed = { tag = BRT }  
+
+	visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
+		tag = BRT
+		AND = {
+		has_war_with = PHI
+		}			
+	}
+
+	# EFFECTS OF THIS DECISION/MISSION
+
+	timeout_effect = {
+	 add_stability = -0.05
+	 add_war_support = -0.10
+	 country_event = { id = BRT.6 }
+									  hidden_effect = {
+	   set_variable = { 
+		   var = oriental_incident 
+		   value = 1 
+		}
+	   JAP = {
+	   country_event = { id = JAP.1 }
+		}
+	}
+	}
+	
+	complete_effect  = {
+	add_stability = 0.05
+	 add_war_support = 0.05
+							 hidden_effect = {
+	 A10 = {
+	 set_state_owner = 628
+	 set_state_owner = 624
+	 set_state_owner = 623
+	 set_state_owner = 627
+	 set_state_owner = 327
+	 set_state_owner = 625
+	 set_state_owner = 626
+	   }
+	set_variable = { 
+		var = oriental_incident 
+		value = 1 
+	 }
+				  JAP = {
+	   country_event = { id = JAP.1 }
+		}
+
+	}
+	}
+	
+	# AI LOGIC FOR THIS DECISION/MISSION
+
+	ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
+		factor = 10
+	}
+}
+
+
 	
 
 	conquest_jap = {		#ID of the mission, must not contain spaces!
@@ -142,9 +298,9 @@ BRT_pacific = {		#Name of category that decisions will appear under, decisions M
 	# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 	
 	available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
-		NOT = {
-		country_exists = JAP
-		}
+	JAP = {
+		surrender_progress > 95
+	}
 	}
 	activation = {    
 		NOT  = { 
