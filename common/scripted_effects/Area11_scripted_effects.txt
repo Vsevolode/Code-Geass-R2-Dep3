@@ -100,8 +100,8 @@ A11_post_war_chaos_worse = {
 A11_post_war_chaos_better = {
 	
 
-	add_to_variable = { post_war_chaos_1 = 0.005 }
-	add_to_variable = { post_war_chaos_2 = 0.005 }
+	add_to_variable = { post_war_chaos_1 = 0.002 }
+	add_to_variable = { post_war_chaos_2 = 0.002 }
 	add_to_variable = { post_war_chaos_3 = -0.05 }
 	add_to_variable = { post_war_chaos_4 = 250 }
 

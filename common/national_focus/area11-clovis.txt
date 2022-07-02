@@ -728,7 +728,7 @@ completion_reward = {
 
 	focus = {  #A Place of Leisure...
 		id = A11_leisure_place
-		icon = GFX_A11_interior_minister
+		icon = GFX_A11_leisure_place
 		relative_position_id = A11_interior_minister
 
 		prerequisite = {

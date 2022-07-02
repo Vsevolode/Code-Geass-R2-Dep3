@@ -347,6 +347,24 @@ country_event = { ##Truce
 
 	option = {
 		name = JAP.13.a
+		hidden_effect = {
+			load_focus_tree = japan_focus_2
+			swap_ideas = {
+				remove_idea = stagnant_population_5
+				add_idea = stagnant_population_6
+			}
+			add_ideas = pacific_war_scars
+			add_ideas = military_anarchy
+			remove_ideas = total_war
+			remove_ideas = total_war_2
+			remove_ideas = total_war_3
+			remove_ideas = total_war_4
+			remove_ideas = total_war_5
+			remove_ideas = surprise_attack_jap_2
+			remove_ideas = minerary_industry_funds_5
+			remove_ideas = minerary_industry_funds_4
+			remove_ideas = minerary_industry_funds_fail_2
+		}
 		BRT = {
 			white_peace = JAP
 

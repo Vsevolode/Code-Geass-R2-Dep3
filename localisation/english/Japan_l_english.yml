@@ -128,6 +128,30 @@ bomber_producer_offense_2:0 "Attack Heavy Bombers"
 JAP_munakata_dev:0 "Munakata Development"
 industrial_manufacturer:0 "Industrial Powerhouse"
 
+#Focus Tree-AfterWar
+unexpected_victory:0 "Unexpected Victory!"
+rubber_stamp_gov:0 "Rubber-Stamp Legislation"
+adress_mil_anarchy:0 "Address The Military Anarchy"
+peace_pres_act:0 "Peace Preservation Act"
+democracy_question:0 "Democracy Question"
+confront_kirihara:0 "Confront Kirihara"
+uniformity_act:0 "Uniformity Act"
+tohdoh_position:0 "Tohdoh's Position"
+population_question:0 "And The Population?"
+international_aid:0 "Call International Aid"
+reassure_chinese:0 "Reassure The Chinese"
+partial_dem:0 "Start Demobilization"
+growing_violence:0 "Growing Violence"
+tokyo_strike:0 "Tokyo Strikes!"
+back_in_control:0 "Back In Control"
+chaos_expand:0 "The Chaos Expands..."
+it_falls_down:0 "...And It All Falls Down"
+military_rule:0 "Salvatage Of The Situation"
+kirihara_steps_in:0 "Kirihara Steps In"
+
+
+
+
 #Focus Tree
 second_kururugi_term:0 "Kururugi's Second Term"
 second_kururugi_term_desc:0 "Victory!\nOnce again, our party has achieved the most votes in the country!\nNow it’s time to officially form the cabinet of the new government, although we will be forced to compromise with the powerful industrial groups and the liberal party Rikken Minseito, which is right now positioned in second place."

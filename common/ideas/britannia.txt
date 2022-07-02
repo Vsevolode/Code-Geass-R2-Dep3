@@ -96,7 +96,7 @@ ideas = {
 			authoritarian_democracy_drift = 0.02
 			stability_factor = -0.10
 			political_power_gain = -0.35
-			consumer_goods_factor = 0.10
+			consumer_goods_factor = 0.05
 			}
 		}
 		
@@ -135,7 +135,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			consumer_goods_factor = 0.15
+			consumer_goods_factor = 0.07
 			production_factory_max_efficiency_factor = -0.05
 			production_factory_efficiency_gain_factor = -0.10
 			industrial_capacity_factory = 0.15

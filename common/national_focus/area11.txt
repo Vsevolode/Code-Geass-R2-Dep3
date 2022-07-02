@@ -969,6 +969,10 @@ focus = {
 		factor = 100
 	}
 
+	historical_ai = {
+		is_historical_focus_on = yes
+	}
+
 	available = {
 		custom_trigger_tooltip = {
 			tooltip = A11_kirihara_yes
@@ -2589,11 +2593,6 @@ focus = {
 				modifier = economic_collapse_area_11
 			}
 			add_ideas = economic_stagnation_A11
-			hidden_effect = {
-				country_event = {
-			       id = area11.16
-				}	
-			}
 		}
 
 	}
@@ -2679,6 +2678,12 @@ focus = {
 			load_focus_tree = area11_focus_2
 	        retire_country_leader = yes
 			hidden_effect = {
+				remove_dynamic_modifier = {
+					modifier = demographic_death_area_11
+				}
+				add_ideas = a11_clovis_idea
+				remove_ideas = a11_bismark_idea
+				A11 = {
 				add_state_core = 555
 				add_state_core = 536
 				add_state_core = 533
@@ -2694,6 +2699,8 @@ focus = {
 				add_state_core = 944
 				add_state_core = 943
 				add_state_core = 942
+			    }
+
 				set_party_name = { 
 					ideology = ultra_nationalism
 					long_name = "Britannian Governorship-Radicals"

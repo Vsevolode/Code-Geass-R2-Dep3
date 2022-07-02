@@ -190,11 +190,15 @@ spriteTypes = {
 		name = "GFX_JAP_destruction"
 		texturefile = "gfx/event_pictures/jap_destruction.dds"
 	}
-
-	
 	spriteType = {
 		name = "GFX_JAP_genbu_death"
 		texturefile = "gfx/event_pictures/JAP_genbu_death.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_JAP_pacific_war"
+		texturefile = "gfx/event_pictures/jap_pacific_war.dds"
 	}
 
 

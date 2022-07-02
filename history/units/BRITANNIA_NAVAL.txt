@@ -42,10 +42,10 @@ units= {
 			ship = { name = "HMS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			ship = { name = "HMS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 6 #		
-			ship = { name = "HMS New Orleans" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Astoria" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Minneapolis" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Indianapolis" definition = heavy_cruiser equipment = { lightcruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS New Orleans" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Astoria" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Minneapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Indianapolis" definition = frigate equipment = { lightcruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 		}					
 					
 		### Destroyer Flotilla 1 ###				
@@ -143,18 +143,18 @@ units= {
 			### Cruisers ###				
 			ship = { name = "HMS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 4 #		
-			ship = { name = "HMS Northampton" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Houston" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Pensacola" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Salt Lake City" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Northampton" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Houston" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Pensacola" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Salt Lake City" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 5 #		
-			ship = { name = "HMS Chicago" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Chester" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Louisville" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }					
+			ship = { name = "HMS Chicago" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Chester" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Louisville" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }					
 			# Cruiser Division 7 #
-			ship = { name = "HMS Tuscaloosa" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS San Francisco" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Portland" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Tuscaloosa" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS San Francisco" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Portland" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 			### Destroyer Squadron 10 ###
 			ship = { name = "HMS Decatur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
 			# 22nd Destroyer Division				

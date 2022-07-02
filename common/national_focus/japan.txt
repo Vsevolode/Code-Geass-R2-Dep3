@@ -1232,6 +1232,7 @@
 		y = 1
 		available = {
 			country_exists = JAP
+			has_completed_focus = ban_abortion
 		
 	
 			check_variable = { JAP_abortion = 1 }	
@@ -1276,7 +1277,9 @@
 		}
 
 		allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1308,8 +1311,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1346,8 +1351,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1403,8 +1410,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1442,8 +1451,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1482,8 +1493,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1537,8 +1550,10 @@
             has_war_with = BRT			
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1581,8 +1596,10 @@
 			set_variable = { suzaku_var = 0 }  #starts at zero, if it advances suzaku_var > 1 - P.M. Kurugi is murderized
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1622,8 +1639,10 @@
 			}				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1661,8 +1680,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1721,8 +1742,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1762,8 +1785,10 @@
 			has_completed_focus = extreme_bushido				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1802,8 +1827,10 @@
 			country_exists = JAP			
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1839,8 +1866,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1878,8 +1907,10 @@
 			has_completed_focus = people_militia			
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1918,8 +1949,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	
@@ -1954,12 +1987,15 @@
 		x = 0
 		y = 1
 		available = {
+			has_completed_focus = pouring_mercenaries
 			country_exists = JAP
             has_war_with = BRT				
 		}
 
-		allow_branch = {
+				allow_branch = {
+			JAP = {
 			has_war_with = BRT	
+		}
 		}
 		bypass = {}
 	

@@ -39,7 +39,7 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 9
+				factor = 4000
 				tag = BRT
 			}
 		}
@@ -124,7 +124,7 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 9
+				factor = 4000
 				tag = BRT
 			}
 		}
@@ -168,7 +168,7 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 9
+				factor = 4000
 				tag = BRT
 			}
 		}
@@ -219,7 +219,7 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 9
+				factor = 4000
 				tag = BRT
 			}
 		}
@@ -270,7 +270,7 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 9
+				factor = 4000
 				tag = BRT
 			}
 		}
@@ -322,7 +322,7 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 9
+				factor = 4000
 				tag = BRT
 			}
 		}

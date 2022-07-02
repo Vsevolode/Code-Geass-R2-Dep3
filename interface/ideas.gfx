@@ -218,11 +218,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/A11/economic_stagnation_A11.dds"	
 	}
 	SpriteType = {
-		name = "GFX_A11_martial_law_idea_1"
+		name = "GFX_idea_A11_martial_law_idea_1"
 		texturefile = "gfx/interface/ideas/A11/A11_martial_law_idea.dds"	
 	}
 	SpriteType = {
-		name = "GFX_A11_martial_law_idea_2"
+		name = "GFX_idea_A11_martial_law_idea_2"
 		texturefile = "gfx/interface/ideas/A11/A11_martial_law_idea.dds"	
 	}
 
@@ -576,6 +576,14 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_idea_total_war_2"
+		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_total_war_3"
+		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_total_war_4"
 		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
 	}
 

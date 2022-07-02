@@ -1,0 +1,64 @@
+ideas = {
+    country = {
+	
+		stagnant_population_6 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			monthly_population = -0.50
+			stability_weekly_factor = -0.0010
+			consumer_goods_factor = 0.15
+			industrial_capacity_factory = -0.15
+			stability_factor = -0.15
+			}
+		}
+
+			
+		pacific_war_scars = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				max_command_power = -25
+				war_support_factor = -0.50
+				planning_speed = -0.1
+				max_planning = -0.1
+				army_attack_factor = -0.05
+			}
+		}
+
+		military_anarchy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+		         
+			}
+		}
+    }
+}	

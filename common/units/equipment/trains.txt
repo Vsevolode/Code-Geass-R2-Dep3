@@ -6,7 +6,7 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		active = yes
-		type = infantry
+		type = train
 		picture = archetype_train
 		group_by = archetype
 		sprite = train
@@ -27,7 +27,7 @@ equipments = {
 
 		archetype = train_equipment
 		type = {
-			infantry
+			train
 		}
 
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value

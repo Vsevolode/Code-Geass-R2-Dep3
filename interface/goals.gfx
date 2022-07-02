@@ -33,6 +33,184 @@ spriteTypes = {
 
 	#Area 11
 	SpriteType = {
+		name = "GFX_A11_clovis_gov"
+		texturefile = "gfx/interface/goals/A11/A11_clovis_gov.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_bismark_legacy"
+		texturefile = "gfx/interface/goals/A11/A11_bismark_legacy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_smile_cam"
+		texturefile = "gfx/interface/goals/A11/A11_smile_cam.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_duties"
+		texturefile = "gfx/interface/goals/A11/A11_duties.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_growing_boredom"
+		texturefile = "gfx/interface/goals/A11/A11_growing_boredom.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_organised_crime"
+		texturefile = "gfx/interface/goals/A11/A11_organised_crime.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_tolerate_purists"
+		texturefile = "gfx/interface/goals/A11/A11_tolerate_purists.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_corruption"
+		texturefile = "gfx/interface/goals/A11/A11_corruption.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_partying"
+		texturefile = "gfx/interface/goals/A11/A11_partying.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_pen_message"
+		texturefile = "gfx/interface/goals/A11/A11_pen_message.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_clovis_decision"
+		texturefile = "gfx/interface/goals/A11/A11_clovis_decision.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_tokyo_bombings"
+		texturefile = "gfx/interface/goals/A11/A11_tokyo_bombings.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_organise"
+		texturefile = "gfx/interface/goals/A11/A11_organise.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_ghetto_battle_1"
+		texturefile = "gfx/interface/goals/A11/A11_ghetto_battle_1.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_ghetto_battle_2"
+		texturefile = "gfx/interface/goals/A11/A11_ghetto_battle_2.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_ghetto_battle_3"
+		texturefile = "gfx/interface/goals/A11/A11_ghetto_battle_3.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_clovis_death"
+		texturefile = "gfx/interface/goals/A11/A11_clovis_death.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_diarchy"
+		texturefile = "gfx/interface/goals/A11/A11_diarchy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_interior_minister"
+		texturefile = "gfx/interface/goals/A11/A11_interior_minister.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_war_minister"
+		texturefile = "gfx/interface/goals/A11/A11_war_minister.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_leisure_place"
+		texturefile = "gfx/interface/goals/A11/A11_leisure_place.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_duties_2"
+		texturefile = "gfx/interface/goals/A11/A11_duties_2.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_geass_reserch"
+		texturefile = "gfx/interface/goals/A11/A11_geass_reserch.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_rebuild_army"
+		texturefile = "gfx/interface/goals/A11/A11_rebuild_army.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_promote_culture"
+		texturefile = "gfx/interface/goals/A11/A11_promote_culture.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_remove_martial_law"
+		texturefile = "gfx/interface/goals/A11/A11_remove_martial_law.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_geass_cult"
+		texturefile = "gfx/interface/goals/A11/A11_geass_cult.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_native_navy"
+		texturefile = "gfx/interface/goals/A11/A11_native_navy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_no_restrictions"
+		texturefile = "gfx/interface/goals/A11/A11_no_restrictions.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_art_contests"
+		texturefile = "gfx/interface/goals/A11/A11_art_contests.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_housing"
+		texturefile = "gfx/interface/goals/A11/A11_housing.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_new_universities"
+		texturefile = "gfx/interface/goals/A11/A11_new_universities.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_abolish_mil_regions"
+		texturefile = "gfx/interface/goals/A11/A11_abolish_mil_regions.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_project_green_witch"
+		texturefile = "gfx/interface/goals/A11/A11_project_green_witch.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_knight_police"
+		texturefile = "gfx/interface/goals/A11/A11_knight_police.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_slow_ethnic_cleansing"
+		texturefile = "gfx/interface/goals/A11/A11_slow_ethnic_cleansing.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_minor_crackdowns"
+		texturefile = "gfx/interface/goals/A11/A11_minor_crackdowns.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_project_green_witch_2"
+		texturefile = "gfx/interface/goals/A11/A11_project_green_witch_2.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_funds"
+		texturefile = "gfx/interface/goals/A11/A11_funds.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_A11_honorary_brt"
+		texturefile = "gfx/interface/goals/A11/A11_honorary_brt.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_secret_bases"
+		texturefile = "gfx/interface/goals/A11/A11_secret_bases.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A11_upgrade_area_status"
+		texturefile = "gfx/interface/goals/A11/A11_upgrade_area_status.dds"			
+	}
+	SpriteType = {
 		name = "GFX_A11_bismark_1"
 		texturefile = "gfx/interface/goals/A11/A11_bismark.dds"			
 	}
