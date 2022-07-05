@@ -85,6 +85,8 @@ ideologies = {
 			}
 			romano_brit = {
 			}
+			genbuism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -135,8 +137,6 @@ ideologies = {
 			military_dictatorship = {
 			}
 			oligarchic_government = {
-			}
-			genbuism = {
 			}
 			jap_neo_feudalism = {
 			}

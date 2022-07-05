@@ -45,7 +45,7 @@ units= {
 			ship = { name = "HMS New Orleans" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 			ship = { name = "HMS Astoria" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 			ship = { name = "HMS Minneapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Indianapolis" definition = frigate equipment = { lightcruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Indianapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 		}					
 					
 		### Destroyer Flotilla 1 ###				
@@ -137,9 +137,9 @@ units= {
 			name = "Scouting Force"				
 			location = 9814 # Los Angeles
 			### Battleship Division 4 ###			
-			ship = { name = "HMS Arkansas" definition = battleship equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS New York" definition = battleship equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Texas" definition = battleship equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Arkansas" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS New York" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Texas" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			### Cruisers ###				
 			ship = { name = "HMS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 4 #		

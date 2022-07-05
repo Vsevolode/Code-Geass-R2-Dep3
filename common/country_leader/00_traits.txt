@@ -200,6 +200,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	balanced_fist = {
+
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	
 	white_prince = {

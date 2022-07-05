@@ -16,15 +16,15 @@ state={
 			dockyard = 2
 			air_base = 10
 			1562 = {
-				naval_base = 8
+				naval_base = 9
 
 			}
 			9671 = {
-				naval_base = 4
+				naval_base = 10
 
 			}
 			9814 = {
-				naval_base = 5
+				naval_base = 9
 
 			}
 

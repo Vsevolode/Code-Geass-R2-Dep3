@@ -115,7 +115,7 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.80
 		
-		naval_range = 3000
+		naval_range = 5000
 		
 		max_strength = 350
 
@@ -175,7 +175,7 @@ equipments = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 2250
+		naval_range = 4250
 		
 		max_strength = 300
 		naval_speed = 13
@@ -271,7 +271,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 
-		naval_range = 3000
+		naval_range = 5000
 		
 		max_strength = 350
 		reliability = 0.80
@@ -328,7 +328,7 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_2
 		}
-		naval_range = 3500
+		naval_range = 5500
 		
 		max_strength = 370
 		reliability = 0.85
@@ -393,7 +393,7 @@ equipments = {
 			rear_1_custom_slot = empty
 			
 		}
-		naval_range = 4000
+		naval_range = 5000
 		naval_speed = 24
 		max_strength = 400
 		reliability = 0.9
@@ -458,7 +458,7 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4500
+		naval_range = 6000
 		
 		max_strength = 450
 		naval_speed = 26
@@ -555,7 +555,7 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4500
+		naval_range = 6500
 		naval_speed = 22
 		max_strength = 700
 		fuel_consumption = 75
@@ -659,7 +659,7 @@ equipments = {
 		naval_speed = 15
 		reliability = 0.80
 
-		naval_range = 3000
+		naval_range = 5000
 		
 		max_strength = 350
 
@@ -714,7 +714,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.85
 
-		naval_range = 4000
+		naval_range = 5000
 
 		max_strength = 450		
 
@@ -768,7 +768,7 @@ equipments = {
 		naval_speed = 28
 		reliability = 0.90
 
-		naval_range = 5000
+		naval_range = 5500
 		
 		max_strength = 500
 		
@@ -823,7 +823,7 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.92
 
-		naval_range = 6000
+		naval_range = 7000
 		
 		max_strength = 550
 		
@@ -942,7 +942,7 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.85
 		
-		naval_range = 4000
+		naval_range = 9000
 		
 		max_strength = 600
 		
@@ -1062,7 +1062,7 @@ equipments = {
 		naval_speed = 23
 		reliability = 0.90
 		
-		naval_range = 4500
+		naval_range = 9500
 
 		max_strength = 800
 		
@@ -1172,7 +1172,7 @@ equipments = {
 		naval_speed = 32
 		reliability = 0.90
 
-		naval_range = 5000
+		naval_range = 6000
 		
 		max_strength = 400
 		

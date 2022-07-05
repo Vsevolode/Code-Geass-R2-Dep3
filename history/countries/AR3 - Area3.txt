@@ -68,6 +68,24 @@ create_country_leader = {
 	traits = {
 	}
 }
+create_country_leader = {
+	name = "Britannian Viceroy"
+	desc = "POLITICS_AREA_DESC"
+	picture = "Portrait_Viceroy.dds"
+	expire = "2020.1.1"
+	ideology = purist_aristocracy
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Britannian Viceroy"
+	desc = "POLITICS_AREA_DESC"
+	picture = "Portrait_Viceroy.dds"
+	expire = "2020.1.1"
+	ideology = oligarchic_government
+	traits = {
+	}
+}
 recruit_character = aristocrats_brt
 recruit_character = right_officers_brt
 recruit_character = officers_brt_5

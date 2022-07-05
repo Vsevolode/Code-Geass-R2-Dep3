@@ -2678,27 +2678,58 @@ focus = {
 			load_focus_tree = area11_focus_2
 	        retire_country_leader = yes
 			hidden_effect = {
+				A11_decadence_setup = yes
 				remove_dynamic_modifier = {
 					modifier = demographic_death_area_11
 				}
 				add_ideas = a11_clovis_idea
 				remove_ideas = a11_bismark_idea
 				A11 = {
-				add_state_core = 555
-				add_state_core = 536
-				add_state_core = 533
-				add_state_core = 534
-				add_state_core = 535
-				add_state_core = 532
-				add_state_core = 531
-				add_state_core = 529
-				add_state_core = 530
-				add_state_core = 528
-				add_state_core = 526
-				add_state_core = 282
-				add_state_core = 944
-				add_state_core = 943
-				add_state_core = 942
+				555 = {
+				add_compliance = 80 
+			    }
+				536 = {
+					add_compliance = 80 
+				}
+				533 = {
+						add_compliance = 80 
+				}
+				534 = {
+					add_compliance = 80 
+				}
+				535 = {
+					add_compliance = 80 
+				}
+				532 = {
+					add_compliance = 80 
+				}
+				531 = {
+					add_compliance = 80 
+				}
+				529 = {
+					add_compliance = 80 
+				}
+				530 = {
+					add_compliance = 80 
+				}
+				528 = {
+					add_compliance = 80 
+				}
+				526 = {
+					add_compliance = 80 
+				}
+				282 = {
+					add_compliance = 80 
+				}
+				944 = {
+					add_compliance = 80 
+				}
+				943 = {
+					add_compliance = 80 
+				}
+				942 = {
+					add_compliance = 80 
+				}
 			    }
 
 				set_party_name = { 

@@ -4,8 +4,12 @@ spriteTypes = {
 	### categories
 	
 	spriteType = {
-		name = "GFX_develop_arizona_sakuradite_deposits"
-		textureFile = "gfx/interface/technologies/sakuradite.dds"
+		name = "GFX_decision_category_A11_Decadence"
+		textureFile = "gfx/interface/decisions/decision_category_A11_Decadence.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_A11_Geass_Research"
+		textureFile = "gfx/interface/decisions/decision_category_A11_Geass_Research.dds"
 	}
 
 

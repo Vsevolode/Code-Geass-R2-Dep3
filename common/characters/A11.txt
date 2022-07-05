@@ -311,6 +311,33 @@ characters={
 		}
 	}
 
+	A11_generic_general_2={
+		name=A11_generic_general_2
+		portraits={
+			civilian={
+				small="GFX_idea_A11_generic_general_2"
+			}
+		}
+		advisor={
+			cost = 2000
+			slot = minister_of_interior
+			idea_token = A11_generic_general_2_idea
+			allowed  = {
+				original_tag =A11
+			}
+			available = {
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
+			}
+			cancel_if_invalid = no
+			traits  = {
+				autocracy_guy balanced_fist
+			}
+		}
+	}
+
 	A11_generic_minister_1 ={
 		name=A11_generic_minister_1
 		portraits={
@@ -335,6 +362,33 @@ characters={
 			traits  = {
 				oligarchy_guy purist_simpaty
 			}
+		}
+	}
+
+	A11_Aspirius ={
+		name=A11_Aspirius
+		portraits={
+			civilian={
+				small="GFX_idea_A11_Aspirius"
+			}
+		}
+		advisor={
+			cost = 2000
+			slot = intelligence
+			idea_token = A11_Aspirius_idea
+			allowed  = {
+				original_tag  = A11
+			}
+			traits  = {
+			     autocracy_guy geass_connections
+			}
+			available = {
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = A11
+			}
+			cancel_if_invalid = no
 		}
 	}
 

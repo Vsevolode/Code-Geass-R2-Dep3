@@ -140,6 +140,30 @@ spriteTypes = {
 
     #Area11
 	SpriteType = {
+		name = "GFX_idea_research_funds"
+		texturefile = "gfx/interface/ideas/A11/research_funds.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_2"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_3"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_4"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_5"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
 		name = "GFX_idea_extreme_stratocracy_A11"
 		texturefile = "gfx/interface/ideas/BRT/extreme_stratocracy.dds"	
 	}

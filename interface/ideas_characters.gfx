@@ -137,8 +137,16 @@ spriteTypes = {
 
 		### A11
 		spriteType = {
+			name = "GFX_idea_A11_generic_general_2"
+			texturefile = "gfx/interface/ideas/A11/A11_generic_general_2.dds"
+		}
+		spriteType = {
 			name = "GFX_idea_A11_clovis"
 			texturefile = "gfx/interface/ideas/A11/clovis_portrait.dds"
+		}
+		spriteType = {
+			name = "GFX_idea_A11_Aspirius"
+			texturefile = "gfx/interface/ideas/A11/A11_Aspirius.dds"
 		}
 
 		spriteType = {

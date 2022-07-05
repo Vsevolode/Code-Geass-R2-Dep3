@@ -42,7 +42,7 @@ characters={
 		}
 		country_leader={
 		     desc = "POLITICS_KURURUGI_DESC"
-			ideology=genbuism
+			ideology=paternal_autocracy
 			traits={ }
 			expire = "2020.1.1"
 			id=13

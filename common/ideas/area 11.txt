@@ -62,6 +62,122 @@ destroyed_infratructures = {
 		}
 	}
 
+	
+	neglected_government = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.05
+			stability_factor = -0.05
+		}
+	}
+
+		
+	neglected_government_2 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.10
+			consumer_goods_factor = 0.05
+			stability_factor = -0.10
+		}
+	}
+		
+	neglected_government_3 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.15
+			consumer_goods_factor = 0.05
+			stability_factor = -0.15
+		}
+	}
+		
+	neglected_government_4 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.15
+			consumer_goods_factor = 0.10
+			stability_factor = -0.20
+		}
+	}
+
+	neglected_government_5 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.20
+			consumer_goods_factor = 0.10
+			stability_factor = -0.25
+		}
+	}
+
+	
+	research_funds = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			research_speed_factor = 0.10
+			consumer_goods_factor = 0.05
+		}
+	}
+
+
 
 	food_imports = {
 

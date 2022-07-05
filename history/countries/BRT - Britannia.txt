@@ -30,6 +30,7 @@ set_technology = {
 	fighter1 = 1
 	g_support1 = 1
 	bomber1 = 1
+	transport = 1
 }
 
 

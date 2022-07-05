@@ -9,6 +9,9 @@ a11_vv:0 "V.V."
 a11_gen_noble:0 "Julius Enneagram"
 A11_generic_general_1:0 "General Alstreim"
 A11_generic_minister_1:0 "Mark Cornwell"
+balanced_fist:0 "Balanced Personality"
+A11_generic_general_2:0 "Ronald Hadleigh"
+A11_Aspirius:0 "Bartley Aspirius"
 
 ### Leaders ###
 A11_gen_general_1:0 "Darwin Ansley"
@@ -338,7 +341,20 @@ extreme_stratocracy_A11_2:0 "Stratocratic Model"
 extreme_stratocracy_A11_2_desc:0 "Currently, we are trying to imitate the strict Britannian social structure in all its components. In particular, we will create a new society divided in well-defined classes."
 economic_stagnation_A11:0 "Economic Balance"
 economic_stagnation_A11_desc:0 "With the recession gone, Bismark has bought a period of delicate economic balance and he has restored order in the financial field."
-
+neglected_government_5:0 "Unstable Government"
+neglected_government_5_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
+neglected_government_2:0 "Unstable Government"
+neglected_government_2_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
+neglected_government_3:0 "Unstable Government"
+neglected_government_3_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
+neglected_government_4:0 "Unstable Government"
+neglected_government_4_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
+neglected_government:0 "Unstable Government"
+neglected_government_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
+research_funds:0 "Education Funding"
+research_funds_desc:0 "The government is supporting the construction of school and other educational districts for Britannians in the Area."
+A11_KN:0 "§RWe Will Get Our First Knightmare Divisions.§!"
+A11_decadence_low_all:0 "Level Of Decadence In Army, Government and Society Must Be Under §R20%.§!"
 
 #Decisions
 A11_Suppression_Campaign:0 "Britannian Suppression Campaign"
@@ -346,6 +362,79 @@ A11_Suppression_Campaign_desc:0 "Although we have already claimed a complete mil
 
 
 #GUI STUFF
+
+A11_increase_training:0 "Improve Military Training"
+A11_routine_check_up:0 "Routine Checks In The Barracks"
+A11_shuffle_officers:0 "Re-shuffle Senior Officers"
+A11_bribe_high_command:0 "§RBribe High Command§!"
+
+A11_promote_moral_values:0 "Promote Moral Cleanliness"
+A11_propaganda:0 "Use Propaganda Influence"
+A11_improve_education:0 "Funds To Education"
+A11_iron_fist:0 "§RCarrot-And-Stick Strategy§!"
+
+A11_loyalty_tests:0 "§RLoyalty Tests§!"
+A11_improve_bureaucracy:0 "Improve General Bureaucracy"
+A11_keep_purists_bay:0 "Keep Purists At Bay"
+A11_bismark_advice:0 "Follow Bismark Advice"
+
+
+
+
+A11_army_decadence_increase_high:0 "Army Decadence Will Increase By A §RGreat Amount§!."
+A11_army_decadence_increase_low:0 "Army Decadence Will Increase By A §RSmall Amount§!."
+A11_army_decadence_increase_medium:0 "Army Decadence Will Increase By A §RMedium Amount§!."
+
+A11_army_decadence_decrease_high:0 "Army Decadence Will Decrease By A §GGreat Amount§!."
+A11_army_decadence_decrease_low:0 "Army Decadence Will Decrease By A §GSmall Amount§!."
+A11_army_decadence_decrease_medium:0 "Army Decadence Will Decrease By A §GMedium Amount§!."
+
+A11_civil_decadence_increase_high:0 "Social Decadence Will Increase By A §RGreat Amount§!."
+A11_civil_decadence_increase_low:0 "Social Decadence Will Increase By A §RSmall Amount§!."
+A11_civil_decadence_increase_medium:0 "Social Decadence Will Increase By A §RMedium Amount§!."
+
+A11_civil_decadence_decrease_high:0 "Social Decadence Will Decrease By A §GGreat Amount§!."
+A11_civil_decadence_decrease_low:0 "Social Decadence Will Decrease By A §GSmall Amount§!."
+A11_civil_decadence_decrease_medium:0 "Social Decadence Will Decrease By A §GMedium Amount§!."
+
+A11_gov_decadence_increase_high:0 "Administrative Decadence Will Increase By A §RGreat Amount§!."
+A11_gov_decadence_increase_low:0 "Administrative Decadence Will Increase By A §RSmall Amount§!."
+A11_gov_decadence_increase_medium:0 "Administrative Decadence Will Increase By A §RMedium Amount§!."
+
+A11_gov_decadence_decrease_high:0 "Administrative Decadence Will Decrease By A §GGreat Amount§!."
+A11_gov_decadence_decrease_low:0 "Administrative Decadence Will Decrease By A §GSmall Amount§!."
+A11_gov_decadence_decrease_medium:0 "Administrative Decadence Will Decrease By A §GMedium Amount§!."
+
+
+
+A11_general_increase_decadence:0 "Levels Of Decadence Are Increasing..."
+A11_selected_field:0 "Select One Of The Three Panels To Manage Respective Decisions."
+A11_Army_Decadence_desc:0 "Level Of Decadence (Army Field) - [?Root.Army_Decadence|R%0]"
+A11_Gov_Decadence_desc:0 "Level Of Decadence (Government Field) - [?Root.Gov_Decadence|R%0]"
+A11_Civil_Decadence_desc:0 "Level Of Decadence (Social Field) - [?Root.Civil_Decadence|R%0]"
+
+
+A11_Army_Decadence_tt:0 "§RArmy\nStatus:§!"
+A11_Gov_Decadence_tt:0 "§RGov.\nStatus:§!"
+A11_Civil_Decadence_tt:0 "§RSocial\nStatus:§!"
+
+Army_Decadence_High:0 "§RIneffective§!"
+Army_Decadence_Low:0 "§GEffective§!"
+Army_Decadence_Medium:0 "§YAcceptable§!"
+
+Gov_Decadence_High:0 "§RIneffective§!"
+Gov_Decadence_Low:0 "§GEffective§!"
+Gov_Decadence_Medium:0 "§YAcceptable§!"
+
+Civil_Decadence_High:0 "§RIneffective§!"
+Civil_Decadence_Low:0 "§GEffective§!"
+Civil_Decadence_Medium:0 "§YAcceptable§!"
+
+A11_Decadence:0 "Decadence Of Area 11"
+A11_Decadence_desc:0 "After Bismark's departure, many are wondering if §YClovis La Britannia§! will be able to maintain the §Rbalance§! reached in the previous administration. Some reliable sources of information reveal that the Britannian Prince has shown a careless and lazy behavior in his last assignments. For this reason, it will be fundamental to keep in check the situation of the Army, the colonial Government and the civil society of this Area. If left behind, they could deteriorate to a point of no return, offering a chance for our enemies and the Japanese Resistance to §Rrise up§! yet again."
+
+
+
 A11_selected_state_dec:0 "[selected_state]"
 A11_region_Hokkaido:0 "[A11_region]"
 A11_region_Kyushu:0 "[A11_region_5]"

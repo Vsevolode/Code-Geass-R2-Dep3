@@ -21,20 +21,6 @@ bookmarks = {
 				BRT_oriental
 			}
 		}
-		"CHI"={
-			history = "CHI_WALTZ_DESC"
-			ideology = authoritarian_democracy
-			ideas = {
-				rampant_corruption
-				chinese_dominance
-				social_tensions
-			}
-			focuses = {
-               CHI_ignore_li
-			   CHI_annex_tinies
-			   CHI_celebrate_year
-			}
-		}
 		
 		"JAP"={
 			history = "JAP_WALTZ_DESC"

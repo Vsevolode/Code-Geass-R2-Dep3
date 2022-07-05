@@ -466,7 +466,6 @@ id = japan_focus_2
 		}
 	
 		completion_reward = {
-			load_focus_tree = japan_kururugi
 		}
 
 

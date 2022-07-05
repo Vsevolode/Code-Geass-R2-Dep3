@@ -19,6 +19,191 @@ A11_resistance_setup = {
 	
 }
 
+A11_decadence_setup = {
+	
+    set_variable = { Army_Decadence = 0.50 }
+	set_variable = {  Gov_Decadence = 0.50 }
+	set_variable = {  Civil_Decadence = 0.50 }	
+
+	set_variable = { A11_Chosen_Field = 1 }	
+	
+	set_variable = { A11_doing_Actions_2 = 0 }
+}
+
+A11_Army_Decadence_Medium = {
+	
+	custom_effect_tooltip = A11_army_decadence_increase_medium
+	if = {
+		limit = { check_variable = { Army_Decadence < 1.0 } }
+
+		hidden_effect = {
+			add_to_variable = { Army_Decadence = 0.10 }
+		}
+	}
+}
+
+A11_Army_Decadence_Low = {
+	
+	custom_effect_tooltip = A11_army_decadence_increase_low
+	if = {
+		limit = { check_variable = { Army_Decadence < 1.0 } }
+
+		hidden_effect = {
+			add_to_variable = { Army_Decadence = 0.05 }
+		}
+	}
+}
+
+A11_Army_Decadence_High = {
+	
+	custom_effect_tooltip = A11_army_decadence_increase_high
+	if = {
+		limit = { check_variable = { Army_Decadence < 1.0 } }
+
+		hidden_effect = {
+			add_to_variable = { Army_Decadence = 0.15 }
+		}
+	}
+}
+A11_Army_Improve_Medium = {
+	
+	custom_effect_tooltip = A11_army_decadence_decrease_medium
+		hidden_effect = {
+			add_to_variable = { Army_Decadence = -0.10 }
+		}
+}
+
+A11_Army_Improve_Low = {
+	
+	custom_effect_tooltip = A11_army_decadence_decrease_low
+		hidden_effect = {
+			add_to_variable = { Army_Decadence = -0.05 }
+		}
+	
+}
+
+A11_Army_Improve_High = {
+	
+	custom_effect_tooltip = A11_army_decadence_decrease_high
+
+		hidden_effect = {
+			add_to_variable = { Army_Decadence = -0.15 }
+		}
+}
+A11_Gov_Decadence_Medium = {
+	
+	custom_effect_tooltip = A11_gov_decadence_increase_medium	
+		hidden_effect = {
+			add_to_variable = { Gov_Decadence = 0.10 }
+		}
+}
+A11_Gov_Decadence_Low = {
+	
+	custom_effect_tooltip = A11_gov_decadence_increase_low
+		hidden_effect = {
+			add_to_variable = { Gov_Decadence = 0.05 }
+		}
+}
+A11_Gov_Decadence_High = {
+	
+	custom_effect_tooltip = A11_gov_decadence_increase_high	
+		hidden_effect = {
+			add_to_variable = { Gov_Decadence = 0.15 }
+		}
+}
+
+A11_Gov_Improve_Medium = {
+	
+	custom_effect_tooltip = A11_gov_decadence_decrease_medium
+		hidden_effect = {
+			add_to_variable = { Gov_Decadence = -0.10 }
+		}
+}
+
+A11_Gov_Improve_Low = {
+	
+	custom_effect_tooltip = A11_gov_decadence_decrease_low
+		hidden_effect = {
+			add_to_variable = { Gov_Decadence = -0.05 }
+		}
+	
+}
+
+A11_Gov_Improve_High = {
+	
+	custom_effect_tooltip = A11_gov_decadence_decrease_high
+
+		hidden_effect = {
+			add_to_variable = { Gov_Decadence = -0.15 }
+		}
+}
+
+
+A11_Civil_Decadence_Medium = {
+	
+	custom_effect_tooltip = A11_civil_decadence_increase_medium		
+	if = {
+		limit = { check_variable = { Civil_Decadence < 1.0 } }
+
+		hidden_effect = {
+			add_to_variable = { Civil_Decadence = 0.10 }
+		}
+	}
+}
+
+A11_Civil_Decadence_Low = {
+	
+	custom_effect_tooltip = A11_civil_decadence_increase_low	
+	if = {
+		limit = { check_variable = { Civil_Decadence < 1.0 } }
+
+		hidden_effect = {
+			add_to_variable = { Civil_Decadence = 0.05 }
+		}
+	}
+}
+
+
+A11_Civil_Decadence_High = {
+	
+	custom_effect_tooltip = A11_civil_decadence_increase_high	
+	if = {
+		limit = { check_variable = { Civil_Decadence < 1.0 } }
+
+		hidden_effect = {
+			add_to_variable = { Civil_Decadence = 0.15 }
+		}
+	}
+}
+
+A11_Civil_Improve_Medium = {
+	
+	custom_effect_tooltip = A11_gov_decadence_decrease_medium
+		hidden_effect = {
+			add_to_variable = { Civil_Decadence = -0.10 }
+		}
+}
+
+A11_Civil_Improve_Low = {
+	
+	custom_effect_tooltip = A11_gov_decadence_decrease_low
+		hidden_effect = {
+			add_to_variable = { Civil_Decadence = -0.05 }
+		}
+	
+}
+
+A11_Civil_Improve_High = {
+	
+	custom_effect_tooltip = A11_gov_decadence_decrease_high
+
+		hidden_effect = {
+			add_to_variable = { Civil_Decadence = -0.15 }
+		}
+}
+
+
+
 
 A11_modifiers_setup = {
 	

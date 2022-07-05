@@ -83,4 +83,70 @@ scripted_gui = {
 			}
 		}
 	}
+
+	a11_decadence_gui = {
+		context_type = decision_category
+		window_name = "a11_decadence_decision_ui_window"
+		 
+        visible = {
+            always = yes
+        }
+		effects = {
+			Army_Decadence_click = {
+				set_variable = { A11_Chosen_Field = 1 }		
+			}
+			Gov_Decadence_click = {
+				set_variable = { A11_Chosen_Field = 2 }		
+			}
+			Civil_Decadence_click = {
+				set_variable = { A11_Chosen_Field = 3 }		
+			}
+	
+		}
+		triggers = {	
+			A11_Army_Decadence_text_high_visible = {
+				check_variable = { Army_Decadence > 0.50 }
+            }			
+			A11_Army_Decadence_text_medium_visible = {
+				check_variable = { Army_Decadence = 0.50 }
+            }	
+			A11_Army_Decadence_text_low_visible = {
+				check_variable = { Army_Decadence < 0.50 }
+            }
+			
+			A11_Gov_Decadence_text_high_visible = {
+				check_variable = { Gov_Decadence > 0.50 }
+            }			
+			A11_Gov_Decadence_text_medium_visible = {
+				check_variable = { Gov_Decadence = 0.50 }
+            }	
+			A11_Gov_Decadence_text_low_visible = {
+				check_variable = { Gov_Decadence < 0.50 }
+            }
+
+			A11_Civil_Decadence_text_high_visible = {
+				check_variable = { Civil_Decadence > 0.50 }
+            }			
+			A11_Civil_Decadence_text_medium_visible = {
+				check_variable = { Civil_Decadence = 0.50 }
+            }	
+			A11_Civil_Decadence_text_low_visible = {
+				check_variable = { Civil_Decadence < 0.50 }
+            }
+		}
+			A11_decadence_container = {
+				image = "GFX_decision_A11_decadence_container"
+			}
+
+			Army_Decadence = {
+				image = "[get_Army_Decadence_gfx]"
+			}
+			Gov_Decadence = {
+				image = "[get_Gov_Decadence_gfx]"
+			}
+			Civil_Decadence = {
+				image = "[get_Civil_Decadence_gfx]"
+			}
+		}				
+	}
 }

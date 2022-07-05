@@ -8,48 +8,29 @@ units= {
 	fleet = {
 		name = "Battle Force"			
 		naval_base = 1562 # San Diego
-		task_force = {				
-			name = "Battleships, Battle Force"
-			location = 1562 # San Diego
-			### Battleship Division 1 ###			
-			ship = { name = "HMS Nevada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Pennsylvania Class" } } }				
-			ship = { name = "HMS Arizona" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Pennsylvania Class" } } }				
-			ship = { name = "HMS Pennsylvania" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Pennsylvania Class" } } }				
-			### Battleship Division 2 ###			
-			ship = { name = "HMS Oklahoma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Pennsylvania Class" } } }				
-			ship = { name = "HMS Tennessee" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "New Mexico Class" } } }				
-			ship = { name = "HMS California" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "New Mexico Class" } } }				
-			### Battleship Division 3 ###			
-			ship = { name = "HMS New Mexico" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "New Mexico Class" } } }				
-			ship = { name = "HMS Mississippi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "New Mexico Class" } } }				
-			ship = { name = "HMS Idaho" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "New Mexico Class" } } }				
-			### Battleship Division 4 ###			
-			ship = { name = "HMS Colorado" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Colorado Class" } } }				
-			ship = { name = "HMS West Virginia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Colorado Class" } } }				
-			ship = { name = "HMS Maryland" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT version_name = "Colorado Class" } } }				
-		}				
+				
 		task_force = {					
 			name = "Carrier Division, Battle Force"		
 			location = 1562 # San Diego
-			ship = { name = "HMS Ranger" definition = carrier equipment = { carrier_2 = { amount = 1 owner = BRT } } 
+			ship = { name = "HMS Ranger" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BRT } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "BRT" amount = 8 } # historical: 36
 					cv_CAS_equipment_1 =  { owner = "BRT" amount = 14 } # historical: 15
-					cv_nav_bomber_equipment_1 =  { owner = "BRT" amount = 8 } # historical: 12
+					cv_strat_bomber_equipment =  { owner = "BRT" amount = 8 } # historical: 12
 				}
 			}
-			ship = { name = "HMS Lexington" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BRT } } 
+			ship = { name = "HMS Georgetown" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BRT } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "BRT" amount = 8 } # historical: 16
 					cv_CAS_equipment_1 =  { owner = "BRT" amount = 14 } # historical: 30
-					cv_nav_bomber_equipment_1 =  { owner = "BRT" amount = 8 } # historical: 12
+					cv_strat_bomber_equipment =  { owner = "BRT" amount = 8 } # historical: 12
 				}
 			}
-			ship = { name = "HMS Saratoga" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BRT } } 
+			ship = { name = "HMS New York" definition = carrier equipment = { carrier_1 = { amount = 1 owner = BRT } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "BRT" amount = 8 } # historical: 16
 					cv_CAS_equipment_1 =  { owner = "BRT" amount = 14 } # historical: 30
-					cv_nav_bomber_equipment_1 =  { owner = "BRT" amount = 8 } # historical: 12
+					cv_strat_bomber_equipment =  { owner = "BRT" amount = 8 } # historical: 12
 				}
 			}
 		}					
@@ -61,18 +42,12 @@ units= {
 			ship = { name = "HMS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			ship = { name = "HMS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 6 #		
-			ship = { name = "HMS New Orleans" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Astoria" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Minneapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Indianapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS New Orleans" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Astoria" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Minneapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Indianapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 		}					
-		task_force = {					
-			name = "Cruiser Division 3"				
-			base = 1562
-			location = 1562 # San Diego
-			ship = { name = "HMS Trenton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-		}					
+					
 		### Destroyer Flotilla 1 ###				
 		task_force = {					
 			name = "Destroyer Flotilla 1"				
@@ -162,24 +137,24 @@ units= {
 			name = "Scouting Force"				
 			location = 9814 # Los Angeles
 			### Battleship Division 4 ###			
-			ship = { name = "HMS Arkansas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS New York" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Texas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Arkansas" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS New York" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Texas" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			### Cruisers ###				
 			ship = { name = "HMS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 4 #		
-			ship = { name = "HMS Northampton" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Houston" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Pensacola" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Salt Lake City" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Northampton" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Houston" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Pensacola" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Salt Lake City" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
 			# Cruiser Division 5 #		
-			ship = { name = "HMS Chicago" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Chester" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Louisville" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }					
+			ship = { name = "HMS Chicago" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Chester" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Louisville" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }					
 			# Cruiser Division 7 #
-			ship = { name = "HMS Tuscaloosa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS San Francisco" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Portland" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Tuscaloosa" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS San Francisco" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
+			ship = { name = "HMS Portland" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
 			### Destroyer Squadron 10 ###
 			ship = { name = "HMS Decatur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
 			# 22nd Destroyer Division				
@@ -397,45 +372,6 @@ units= {
 		}					
 	}
 	
-	##### ASIATIC FLEET #####
-	fleet = {
-		name = "Asiatic Fleet"			
-		naval_base = 10265 # Manilla
-		task_force = {					
-			name = "Asiatic Fleet"				
-			location = 10265 # Manilla
-			ship = { name = "HMS Augusta" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Marblehead" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }
-			### Destroyer Squadron 5 ###				
-			ship = { name = "HMS Paul Jones" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 13th Destroyer Division				
-			ship = { name = "HMS Alden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Barker" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS John D Edwards" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Whipple" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 14th Destroyer Division				
-			ship = { name = "HMS Edsall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Parrott" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Bulmer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Stewart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 15th Destroyer Division				
-			ship = { name = "HMS Pope" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Peary" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Pillsbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS John D Ford" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-		}					
-		task_force = {					
-			name = "5th Submarine Squadron"				
-			location = 10265 # Manilla
-			# 10th Submarine Division				
-			ship = { name = "HMS S-36" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRT } } }
-			ship = { name = "HMS S-37" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRT } } }
-			ship = { name = "HMS S-38" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRT } } }
-			ship = { name = "HMS S-39" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRT } } }
-			ship = { name = "HMS S-40" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRT } } }
-			ship = { name = "HMS S-41" definition = submarine equipment = { submarine_1 = { amount = 1 owner = BRT } } }
-		}					
-	}
 } 
 
 
@@ -451,7 +387,7 @@ instant_effect = {
 		equipment = {
 			type = destroyer_1
 			creator = "BRT"
-			version_name = "Farragut Class"
+			version_name = "Edward Class"
 		}
 		requested_factories = 2
 		progress = 0.80
@@ -459,9 +395,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = destroyer_1
+			type = carrier_1
 			creator = "BRT"
-			version_name = "Farragut Class"
+			version_name = "Charles Class"
 		}
 		requested_factories = 2
 		progress = 0.70
@@ -469,9 +405,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = destroyer_1
+			type = light_cruiser_1
 			creator = "BRT"
-			version_name = "Farragut Class"
+			version_name = "Salomon Class"
 		}
 		requested_factories = 2
 		progress = 0.60
@@ -479,65 +415,15 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = destroyer_1
+			type = submarine_1
 			creator = "BRT"
-			version_name = "Farragut Class"
+			version_name = "Darwin Class"
 		}
 		requested_factories = 2
 		progress = 0.50
 		amount = 2
 	}
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_1
-			creator = "BRT"
-			version_name = "Farragut Class"
-		}
-		requested_factories = 2
-		progress = 0.40
-		amount = 2
-	}
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_1
-			creator = "BRT"
-			version_name = "Farragut Class"
-		}
-		requested_factories = 2
-		progress = 0.30
-		amount = 2
-	}
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_1
-			creator = "BRT"
-			version_name = "Farragut Class"
-		}
-		requested_factories = 1
-		progress = 0.20
-		amount = 1
-	}
-	# SS: Porpoise class (x1) ("HMS Tarpon")
-	add_equipment_production = {
-		equipment = {
-			type = submarine_2
-			creator = "BRT"
-		}
-		requested_factories = 1
-		progress = 0.50
-		amount = 1
-	}
-	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
-	add_equipment_production = {
-		equipment = {
-			type = heavy_cruiser_1
-			creator = "BRT"
-			version_name = "Portland Class"
-		}
-		requested_factories = 2
-		progress = 0.85
-		amount = 1
-	}
+
 }
 
 #####################

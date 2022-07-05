@@ -97,7 +97,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2500
 		
 		max_strength = 25
 		
@@ -162,7 +162,7 @@ equipments = {
 
 
 		reliability = 0.85
-		naval_range = 1800
+		naval_range = 3000
 		max_strength = 40
 		build_cost_ic = 500
 		resources = {
@@ -228,7 +228,7 @@ equipments = {
 		surface_detection = 20
 		surface_visibility = 10
 		reliability = 0.90
-		naval_range = 2000
+		naval_range = 4000
 		max_strength = 50
 		build_cost_ic = 550
 		manpower = 400
@@ -292,7 +292,7 @@ equipments = {
 
 		surface_detection = 20
 		reliability = 0.92
-		naval_range = 2500
+		naval_range = 3500
 		max_strength = 60
 		build_cost_ic = 600
 		resources = {
@@ -334,7 +334,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 3200
 		
 		max_strength = 25
 		
@@ -382,7 +382,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.85
 
-		naval_range = 1800
+		naval_range = 3500
 		
 		max_strength = 40
 		
@@ -434,7 +434,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.90
 
-		naval_range = 2000
+		naval_range = 3800
 		
 		max_strength = 50
 		
@@ -485,7 +485,7 @@ equipments = {
 		naval_speed = 25
 		reliability = 0.92
 
-		naval_range = 2500
+		naval_range = 4000
 		
 		max_strength = 60
 		
@@ -604,7 +604,7 @@ equipments = {
 		naval_speed = 55
 		reliability = 0.80
 		
-		naval_range = 2500
+		naval_range = 4200
 		
 		max_strength = 25
 		
@@ -688,7 +688,7 @@ equipments = {
 		naval_speed = 55
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2000
 		
 		max_strength = 25
 		
@@ -738,7 +738,7 @@ equipments = {
 		naval_speed = 60
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2500
 		
 		max_strength = 25
 		
@@ -788,7 +788,7 @@ equipments = {
 		naval_speed = 65
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 2800
 		
 		max_strength = 25
 		

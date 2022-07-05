@@ -47,7 +47,11 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+            country_event = area11.25
+			swap_ideas = {
+				remove_idea = neglected_government_5
+				add_idea = neglected_government_4
+			}
 			 
 		}
 	}
@@ -78,7 +82,7 @@ focus_tree = {
 	
 		bypass = {
 	
-		}
+		}s
 	
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -86,7 +90,9 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			remove_ideas = A11_generic_general_1_idea
+			add_ideas = A11_generic_general_2_idea
+			add_political_power = 20
 			 
 		}
 	}
@@ -125,6 +131,9 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			remove_ideas = a11_vv_idea
+			add_ideas = A11_Aspirius_idea
+			add_political_power = 20
 
 			 
 		}
@@ -204,7 +213,9 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+             army_experience = 50
+			 add_command_power = 100
+			 add_war_support = 0.04
 			 
 		}
 	}
@@ -243,6 +254,15 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = knightmare_all
+			}
+			hidden_effect = {
+				load_oob = A11_KN
+			}
+			custom_effect_tooltip = A11_KN
 
 			 
 		}
@@ -282,7 +302,15 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = marine_tech
+			}
+		hidden_effect = {
+			load_oob = A11_NAVAL
+		}
+      
 			 
 		}
 	}
@@ -307,8 +335,28 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
+		select_effect = {
+			hidden_effect = {
+				country_event = {
+					id=area11.32
+					days = 20
+				}	
+			}
+		}
 	
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = A11_decadence_low_all
+			}
+			check_variable = {
+				Gov_Decadence < 20
+			}
+			check_variable = {
+				Civil_Decadence < 20
+			}
+			check_variable = {
+				Army_Decadence < 20
+			}
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
 	
@@ -324,7 +372,17 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			add_political_power = 100
+			add_stability = 0.10
+			add_war_support = 0.10
+			BRT = {
+			set_autonomy = {
+				target = A11
+				autonomy_state = area_developing
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
 			 
 		}
 	}
@@ -363,7 +421,10 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			set_technology = {
+				knightmare_police = 1
+			}
+			A11_Army_Improve_Low = yes
 			 
 		}
 	}
@@ -403,6 +464,13 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+
+			A11_Army_Improve_Medium = yes
 
 			 
 		}
@@ -442,7 +510,7 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+              A11_Gov_Decadence_Medium = yes
 			 
 		}
 	}
@@ -481,7 +549,8 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			country_event = area11.29
+			add_political_power = 10
 			 
 		}
 	}
@@ -520,7 +589,8 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			country_event = area11.30
+			add_political_power = 10
 			 
 		}
 	}
@@ -562,7 +632,8 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			country_event = area11.31
+			A11_Army_Improve_Low = yes
 			 
 		}
 	}
@@ -603,6 +674,22 @@ focus_tree = {
 
 	search_filters = { FOCUS_FILTER_POLITICAL }
 	completion_reward = {
+		if = {
+			limit = { has_idea = neglected_government_3 }
+			swap_ideas = {
+				remove_idea = neglected_government_3
+				add_idea = neglected_government_2
+			}
+		}
+		if = {
+			limit = { has_idea = neglected_government_4 }
+			swap_ideas = {
+				remove_idea = neglected_government_4
+				add_idea = neglected_government_3
+			}
+		}
+
+
 
 		 
 	}
@@ -643,6 +730,13 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
+	swap_ideas = {
+		remove_idea = A11_martial_law_idea_2
+		add_idea = A11_martial_law_idea_1
+	}
+	A11_post_war_chaos_worse = yes
+	custom_effect_tooltip = A11_post_war_chaos_worse
+
 
 	 
 }
@@ -682,6 +776,11 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
+		custom_effect_tooltip = A11_post_war_chaos_worse
+
+	A11_post_war_chaos_worse = yes
+	add_stability = 0.05
+	add_war_support = 0.05
 
 	 
 }
@@ -721,6 +820,10 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
+	custom_effect_tooltip = A11_post_war_chaos_better
+
+	A11_post_war_chaos_better = yes
+	add_manpower = -1000
 
 	 
 }
@@ -760,6 +863,20 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			if = {
+				limit = { has_idea = neglected_government_3 }
+				swap_ideas = {
+					remove_idea = neglected_government_3
+					add_idea = neglected_government_2
+				}
+			}
+			if = {
+				limit = { has_idea = neglected_government_4 }
+				swap_ideas = {
+					remove_idea = neglected_government_4
+					add_idea = neglected_government_3
+				}
+			}
 
 			 
 		}
@@ -799,6 +916,9 @@ completion_reward = {
 
 	search_filters = { FOCUS_FILTER_POLITICAL }
 	completion_reward = {
+		country_event = area11.26
+		A11_Civil_Improve_Low = yes
+		add_war_support = 0.05
 
 		 
 	}
@@ -838,7 +958,8 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
-
+   add_political_power = 0.20
+   add_stability = 0.02
 	 
 }
 } 
@@ -877,6 +998,22 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
+	add_manpower = 50000
+	A11_Civil_Improve_Low = yes
+536 = {
+	add_extra_state_shared_building_slots = 2
+}
+533 = {
+	add_extra_state_shared_building_slots = 2
+}
+534 = {
+	add_extra_state_shared_building_slots = 2
+}
+535 = {
+	add_extra_state_shared_building_slots = 2
+}
+
+
 
 	 
 }
@@ -921,7 +1058,14 @@ focus = {
 
 	search_filters = { FOCUS_FILTER_POLITICAL }
 	completion_reward = {
-
+        swap_ideas = {
+			remove_idea = cultural_repression_2
+			add_idea = cultural_repression
+		}
+		add_popularity = {
+			ideology = moderate_conservatism
+			popularity = 0.05
+		}
 		 
 	}
 }
@@ -964,6 +1108,12 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
+	country_event = area11.27
+	add_stability = 0.02
+	add_popularity = {
+		ideology =  ultra_nationalism
+		popularity = 0.05
+	}
 
 	 
 }
@@ -1003,8 +1153,8 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
-
-	 
+	A11_Civil_Improve_Low = yes
+	add_ideas = research_funds	 
 }
 } 
 
@@ -1045,8 +1195,8 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
-			 
+			country_event = area11.20	
+			add_political_power = 50	 
 		}
 	}
 
@@ -1083,7 +1233,8 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			country_event = area11.21
+			A11_Gov_Decadence_Low = yes
 			 
 		}
 	}
@@ -1121,6 +1272,9 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = area11.22
+			add_war_support = -0.05
+			remove_ideas = economic_stagnation_A1
 
 			 
 		}
@@ -1162,6 +1316,8 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_stability = -0.10
+			add_political_power = -50
 
 			 
 		}
@@ -1201,8 +1357,8 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
-			 
+            add_ideas = neglected_government	
+			add_stability = -0.10		 
 		}
 	}
 
@@ -1223,7 +1379,7 @@ completion_reward = {
 		}
 	
 		available = {
-		
+		has_completed_focus = A11_organised_crime
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
 	
@@ -1239,6 +1395,17 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_popularity = {
+				ideology = ultra_nationalism
+				popularity = 0.10
+			}
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = neglected_government_2
+					add_idea = neglected_government_3
+				}
+			}
+			A11_Army_Decadence_Medium = yes
 
 			 
 		}
@@ -1261,7 +1428,8 @@ completion_reward = {
 		}
 	
 		available = {
-		
+		has_completed_focus = A11_organised_crime
+		has_completed_focus = A11_tolerate_purists
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
 	
@@ -1277,6 +1445,15 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = A11_post_war_chaos_worse
+			hidden_effect = {
+				A11_post_war_chaos_worse = yes
+				swap_ideas = {
+					remove_idea = neglected_government_3
+					add_idea = neglected_government_4
+				}
+			}
+			A11_Gov_Decadence_Medium = yes
 
 			 
 		}
@@ -1315,7 +1492,16 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			custom_effect_tooltip = A11_post_war_chaos_worse
+			hidden_effect = {
+				A11_post_war_chaos_worse = yes
+				swap_ideas = {
+					remove_idea = neglected_government
+					add_idea = neglected_government_2
+				}
+			}
+			A11_Civil_Decadence_Medium = yes
+             
 			 
 		}
 	}
@@ -1359,7 +1545,11 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+    
+		   swap_ideas = {
+			remove_idea = neglected_government_4
+			add_idea = neglected_government_5
+		   }
 			 
 		}
 	}
@@ -1399,7 +1589,7 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+			country_event = area11.23
 			 
 		}
 	}
@@ -1438,7 +1628,8 @@ completion_reward = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-
+            country_event = area11.24
+			add_political_power = 70
 			 
 		}
 	}
