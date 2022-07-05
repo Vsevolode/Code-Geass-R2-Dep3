@@ -1,4 +1,558 @@
 A11_Decadence = { 
+<<<<<<< Updated upstream
+
+	A11_selected_field = {
+		visible = {
+			always = yes
+		}
+		available = {
+			always = no
+		}
+		cost = freedec?0
+		fire_only_once = yes
+		
+
+		
+	}
+
+	A11_increase_training = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 1 }
+            check_variable = { Army_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 30
+
+		days_remove = 30
+		days_re_enable = 30
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			army_experience = 30
+			navy_experience = 30
+			air_experience = 30
+			A11_Army_Improve_Medium = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+	
+	A11_routine_check_up = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 1 }
+            check_variable = { Army_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 15
+
+		days_remove = 20
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_war_support = -0.02
+			A11_Army_Improve_Low = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+	A11_shuffle_officers = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 1 }
+            check_variable = { Army_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 50
+
+		days_remove = 30
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_stability = -0.05
+			add_political_power = -50
+			A11_Army_Improve_Medium = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+	A11_bribe_high_command = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 1 }
+            check_variable = { Army_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 40
+
+		days_remove = 15
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_war_support = -0.05
+			add_political_power = 50
+			A11_Army_Decadence_Low = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+
+
+	A11_promote_moral_values = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 2 }
+            check_variable = { Civil_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 30
+
+		days_remove = 30
+		days_re_enable = 30
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+
+
+		remove_effect = {
+			add_stability = 0.02
+			A11_Civil_Improve_Medium = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+	
+	A11_propaganda = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 2 }
+            check_variable = { Civil_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 15
+
+		days_remove = 20
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_war_support = 0.02
+			A11_Civil_Improve_Low = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+	A11_improve_education = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 2 }
+            check_variable = { Civil_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 50
+
+		days_remove = 30
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+		modifier = {
+			research_speed_factor = 0.03
+			consumer_goods_factor = 0.02
+		}
+
+
+		remove_effect = {
+			add_political_power = -50
+			A11_Civil_Improve_Medium = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+	A11_iron_fist = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 2 }
+            check_variable = { Civil_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 40
+
+		days_remove = 15
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_stability = -0.05
+			add_political_power = 50
+			A11_Civil_Decadence_Low = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+
+	
+	A11_bismark_advice = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 3 }
+            check_variable = { Gov_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 30
+
+		days_remove = 30
+		days_re_enable = 30
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+
+		remove_effect = {
+			add_stability = 0.02
+			A11_Gov_Improve_Low = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+	
+	A11_keep_purists_bay = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 3 }
+            check_variable = { Gov_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 15
+
+		days_remove = 20
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_war_support = -0.02
+			add_popularity = {
+				ideology = ultra_nationalism
+				popularity = -0.02
+			}
+			A11_Gov_Improve_Medium = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+	A11_improve_bureaucracy = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 3 }
+            check_variable = { Gov_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 50
+
+		days_remove = 30
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.02
+		}
+
+
+		remove_effect = {
+			add_political_power = -50
+			A11_Gov_Improve_Medium = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+	A11_loyalty_tests = {
+
+		fire_only_once = no
+
+		visible = {
+			AND = {
+			check_variable = { A11_Chosen_Field = 3 }
+            check_variable = { Gov_Decadence > 0 }
+		    }
+		}
+
+		available = {
+			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
+		}
+		cost = 40
+
+		days_remove = 15
+		days_re_enable = 20
+
+		complete_effect = {
+			add_to_variable = { A11_doing_Actions_2 = 1 }
+		}
+
+
+		remove_effect = {
+			add_command_power = -50
+			add_political_power = 50
+			A11_Gov_Decadence_Low = yes
+			hidden_effect = {
+				add_to_variable = { A11_doing_Actions_2 = -1 }
+			}
+
+
+		}
+
+
+	}
+
+
+
+
+
+
+	A11_general_increase_decadence = {
+
+		days_mission_timeout = 20
+		is_good = no
+		fire_only_once = no
+		cancel_if_not_visible = yes
+
+		allowed = { 
+			tag = A11 	
+		} 
+
+		available = {
+			always = no
+		}
+
+
+		activation = {                
+			tag = A11     
+			OR = {
+
+				has_country_leader = {
+					ruling_only = yes
+					name = "Clovis La Britannia"
+				}
+	
+			}     
+		}
+
+		visible = {
+				OR = {
+					check_variable = { A11_Chosen_Field = 1 }
+					check_variable = { A11_Chosen_Field = 2 }
+					check_variable = { A11_Chosen_Field = 3 }
+
+				}
+	
+	    }
+
+		timeout_effect = {
+			A11_Army_Decadence_Medium = yes
+			A11_Gov_Decadence_Medium = yes
+			A11_Civil_Decadence_Medium = yes
+		}
+    }
+
+
+}	
+A11_Suppression_Campaign = {
+=======
+>>>>>>> Stashed changes
 
 	A11_selected_field = {
 		visible = {
@@ -2134,6 +2688,501 @@ A11_Suppression_Campaign = {
 
 		
 	}
+}
+	#set_variable = { geass_understand = 0.0 }
+	#set_variable = { searching_material = 0.0 }
+	#set_variable = { infrastructure_building = 0.0 }	
+	#set_variable = { controlling_geass = 0.0 }		
+	#set_variable = { geass_weapons = 0.0 }
+
+	A11_Geass_Research = { 
+
+		A11_fund_research_1 = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand < 100 }
+				check_variable = { searching_material = 0 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 20
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { geass_understand = 10 }
+				custom_effect_tooltip = A11_geass_research_adv_low
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+			
+		A11_ancient_references = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand < 100 }
+				check_variable = { searching_material = 0 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 20
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { geass_understand = 20 }
+				custom_effect_tooltip = A11_geass_research_adv_medium
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+		A11_more_accurate_studies = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand < 100 }
+				check_variable = { searching_material = 0 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 30
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { geass_understand = 30 }
+				custom_effect_tooltip = A11_geass_research_adv_high
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+
+
+
+
+
+
+
+		A11_fund_research_2 = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material = 0 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 20
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { searching_material = 10 }
+				custom_effect_tooltip = A11_geass_research_adv_low
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+			
+		A11_black_market = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material = 0 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 50
+	
+			days_remove = 15
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { searching_material = 20 }
+				custom_effect_tooltip = A11_geass_research_adv_medium
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+		A11_establish_concessions = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material = 0 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 30
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { searching_material = 30 }
+				custom_effect_tooltip = A11_geass_research_adv_high
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	           add_stability = -0.02
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		A11_fund_research_3 = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material > 99 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 20
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { infrastructure_building = 10 }
+				custom_effect_tooltip = A11_geass_research_adv_low
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+
+
+
+
+		A11_use_royal_connections = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material > 99 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 30
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { infrastructure_building = 30 }
+				custom_effect_tooltip = A11_geass_research_adv_high
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	           add_stability = -0.02
+			}
+		}
+
+		A11_divert_resources = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material  > 99  }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building = 0 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 50
+	
+			days_remove = 15
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { infrastructure_building = 20 }
+				custom_effect_tooltip = A11_geass_research_adv_medium
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+		
+		A11_fund_research_5 = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material > 99 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass > 99 }
+				check_variable = { infrastructure_building > 99 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 20
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { geass_weapons = 10 }
+				custom_effect_tooltip = A11_geass_research_adv_low
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+
+
+		A11_fund_research_4 = {
+						
+			fire_only_once = yes
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material > 99 }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building > 99 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 25
+	
+			days_remove = 20
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { controlling_geass = 10 }
+				custom_effect_tooltip = A11_geass_research_adv_low
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+
+		A11_geass_experiments = {
+						
+			fire_only_once = no
+	
+			visible = {
+				AND = {
+				check_variable = { geass_understand > 99 }
+				check_variable = { searching_material  > 99  }
+				check_variable = { geass_weapons = 0 }
+				check_variable = { controlling_geass = 0 }
+				check_variable = { infrastructure_building > 99 }
+				check_variable = { tokyo_bombings = 0 }
+			    }
+				
+			}
+	
+			available = {
+				always = yes
+			}
+			cost = 50
+	
+			days_remove = 15
+			days_re_enable = 30
+	
+			complete_effect = {
+				add_to_variable = { controlling_geass = 20 }
+				custom_effect_tooltip = A11_geass_research_adv_medium
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.03
+		    }
+	
+			remove_effect = {
+	
+			}
+		}
+
+
+	}	
 
 }
 

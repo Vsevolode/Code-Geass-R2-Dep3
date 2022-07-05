@@ -32,6 +32,8 @@ A11_clovis:0 "Clovis La Britannia"
 artist_prince:0 "The Artistic Prince"
 A11_stratford:0 "Stratford Naval Conglomerate"
 
+tokyo_bombings_tt:0 "§RThose Terrorists Have Hit Us!§!"
+
 #Industry
 A11_kirihara_ind:0 "Kirihara Industries"
 medium_tank_producer_mass_2:0 "Mass Production"
@@ -362,6 +364,32 @@ A11_Suppression_Campaign_desc:0 "Although we have already claimed a complete mil
 
 
 #GUI STUFF
+<<<<<<< Updated upstream
+=======
+A11_Geass_Research:0 "Geass Research"
+A11_Geass_Research_desc:0 "Bartley Aspirius might be a respected General, but he has other interests as well. He has founded, with the protection of Clovis, the Code R Research Team, whose main focus is the research of C.C. and the nature of the Geass ability, with the intent of duplicating her powers. Furthermore, this might lead to the creation of powerful weapons thanks to the Geass powers. The existence of this project is secret even to some members of the Imperial Family, and it must maintain this level of secrecy, for the sake of its final success.\n\nTheoretical Development: [?Root.geass_understand|R%0].\n\nMaterial Procurement: [?Root.searching_material|R%0].\n\nInfrastructure Construction: [?Root.infrastructure_building|R%0].\n\nControlling The Geass: [?Root.controlling_geass|R%0].\n\nWeapons Manufacturing: [?Root.geass_weapons|R%0]."
+
+A11_geass_research_adv_medium:0 "We Will Make §RMedium§! Advancements In This Field"
+A11_geass_research_adv_low:0 "We Will Make §RLow§! Advancements In This Field"
+A11_geass_research_adv_high:0 "We Will Make §RHigh§! Advancements In This Field"
+
+A11_fund_research_1:0 "Increase Funds To The Project"
+A11_fund_research_2:0 "Increase Funds To The Project"
+A11_fund_research_3:0 "Increase Funds To The Project"
+A11_fund_research_4:0 "Increase Funds To The Project"
+A11_fund_research_5:0 "Increase Funds To The Project"
+A11_ancient_references:0 "Look For Ancient References"
+A11_more_accurate_studies:0 "Intensify Theoretical Studies"
+
+A11_establish_concessions:0 "Establish Private Concessions"
+A11_black_market:0 "Eyes To The Black Market"
+
+A11_divert_resources:0 "Divert Strategic Resources"
+A11_use_royal_connections:0 "Use Royal Connections"
+
+A11_geass_experiments:0 "Non-Conventional Experiments"
+
+>>>>>>> Stashed changes
 
 A11_increase_training:0 "Improve Military Training"
 A11_routine_check_up:0 "Routine Checks In The Barracks"

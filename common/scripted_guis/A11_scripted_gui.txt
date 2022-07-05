@@ -57,7 +57,7 @@ scripted_gui = {
 			}			
 		}
 		properties = { 
-			A11_map {
+			A11_map = {
 				image = "GFX_decision_A11_main_map"
 			}			
 			Hokkaido_Map = {
@@ -134,6 +134,10 @@ scripted_gui = {
 				check_variable = { Civil_Decadence < 0.50 }
             }
 		}
+<<<<<<< Updated upstream
+=======
+		properties = { 
+>>>>>>> Stashed changes
 			A11_decadence_container = {
 				image = "GFX_decision_A11_decadence_container"
 			}
@@ -147,6 +151,32 @@ scripted_gui = {
 			Civil_Decadence = {
 				image = "[get_Civil_Decadence_gfx]"
 			}
+<<<<<<< Updated upstream
 		}				
 	}
 }
+=======
+		}
+	    }
+		
+		
+		a11_geass_research_gui = {
+			context_type = decision_category
+			window_name = "a11_geass_research_decision_ui_window"
+	
+			visible = {
+				always = yes
+			}
+			properties = { 
+			A11_geass_research_picture = {
+				image = "GFX_decision_A11_geass_research_picture"
+			}
+		    }
+		}
+}
+
+
+
+			
+	
+>>>>>>> Stashed changes

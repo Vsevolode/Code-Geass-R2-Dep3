@@ -13,6 +13,15 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+<<<<<<< Updated upstream
+=======
+	spriteType = {
+		name = "GFX_decision_A11_geass_research_picture"
+		texturefile = "gfx/interface/scripted_gui_graphics/A11_gui/A11_Geass_Research.png"
+		transparencecheck = yes
+	}
+
+>>>>>>> Stashed changes
 	#Decadence
 	spriteType = {
 		name = "GFX_decision_A11_Civil_Decadence"

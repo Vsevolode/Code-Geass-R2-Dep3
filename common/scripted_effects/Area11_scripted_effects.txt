@@ -20,6 +20,10 @@ A11_resistance_setup = {
 }
 
 A11_decadence_setup = {
+<<<<<<< Updated upstream
+=======
+	set_variable = { tokyo_bombings = 0 }
+>>>>>>> Stashed changes
 	
     set_variable = { Army_Decadence = 0.50 }
 	set_variable = {  Gov_Decadence = 0.50 }
@@ -30,6 +34,18 @@ A11_decadence_setup = {
 	set_variable = { A11_doing_Actions_2 = 0 }
 }
 
+<<<<<<< Updated upstream
+=======
+A11_geass_research_setup = {
+	
+    set_variable = { geass_understand = 0.0 }
+	set_variable = { searching_material = 0.0 }
+	set_variable = { infrastructure_building = 0.0 }	
+	set_variable = { controlling_geass = 0.0 }		
+	set_variable = { geass_weapons = 0.0 }
+}
+
+>>>>>>> Stashed changes
 A11_Army_Decadence_Medium = {
 	
 	custom_effect_tooltip = A11_army_decadence_increase_medium

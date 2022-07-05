@@ -136,3 +136,19 @@ news_event = {  #Divided Japan
 	}
 
 }
+
+news_event = {  #Tokyo Bombings
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_007
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+	}
+
+}

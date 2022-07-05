@@ -715,7 +715,11 @@ country_event = {
  }
 
 
+<<<<<<< Updated upstream
  country_event = {  
+=======
+ country_event = {  #Tokyo Bombings
+>>>>>>> Stashed changes
 	id = area11.32
 	title = area11.32.t
 	desc = area11.32.d
@@ -726,6 +730,25 @@ country_event = {
 	
 	option = {
 		name = area11.32.a
+<<<<<<< Updated upstream
+=======
+
+		hidden_effect = {
+			country_event = {
+				id=area.11.33
+				days = 5
+			}
+		}
+
+		set_variable = {
+			tokyo_bombings = 1
+		}
+		swap_ideas = {
+			remove_idea = neglected_government_2
+			add_idea = neglected_government_end
+		}
+		add_political_power = -100
+>>>>>>> Stashed changes
 		
 		
 		ai_chance = {
@@ -734,7 +757,11 @@ country_event = {
 	}	
  }
 
+<<<<<<< Updated upstream
  country_event = {  
+=======
+ country_event = {  #Britannians Rioting
+>>>>>>> Stashed changes
 	id = area11.33
 	title = area11.33.t
 	desc = area11.33.d
@@ -745,6 +772,18 @@ country_event = {
 	
 	option = {
 		name = area11.33.a
+<<<<<<< Updated upstream
+=======
+		set_variable = {
+			tokyo_bombings = 2
+		}
+
+		add_stability = -0.05
+		add_popularity = {
+			ideology = ultra_nationalism
+			popularity = 0.15
+		}
+>>>>>>> Stashed changes
 		
 		
 		ai_chance = {
@@ -753,7 +792,11 @@ country_event = {
 	}	
  }
 
+<<<<<<< Updated upstream
  country_event = {  
+=======
+ country_event = {   #Clovis Decides To Fix Everything
+>>>>>>> Stashed changes
 	id = area11.34
 	title = area11.34.t
 	desc = area11.34.d
@@ -772,7 +815,11 @@ country_event = {
 	}	
  }
 
+<<<<<<< Updated upstream
  country_event = {  
+=======
+ country_event = {  #Ghetto Battles
+>>>>>>> Stashed changes
 	id = area11.35
 	title = area11.35.t
 	desc = area11.35.d
@@ -791,7 +838,11 @@ country_event = {
 	}	
  }
 
+<<<<<<< Updated upstream
  country_event = {  
+=======
+ country_event = {   #Ghetto Battles
+>>>>>>> Stashed changes
 	id = area11.36
 	title = area11.36.t
 	desc = area11.36.d
@@ -810,6 +861,49 @@ country_event = {
 	}	
  }
 
+<<<<<<< Updated upstream
+=======
+ country_event = {   #Ghetto Battles
+ id = area11.37
+ title = area11.37.t
+ desc = area11.37.d
+ picture = GFX_A11_event_37
+ fire_only_once = yes
+ is_triggered_only = yes
+ 
+ 
+ option = {
+	 name = area11.37.a
+	 
+	 
+	 ai_chance = {
+		 factor = 30
+	 }
+ }	
+}
+
+country_event = {   #Clovis Dies
+id = area11.38
+title = area11.38.t
+desc = area11.38.d
+picture = GFX_A11_event_38
+fire_only_once = yes
+is_triggered_only = yes
+
+
+option = {
+	name = area11.38.a
+	
+	
+	ai_chance = {
+		factor = 30
+	}
+}	
+}
+
+
+
+>>>>>>> Stashed changes
  country_event = {  
 	id = area11.31
 	title = area11.31.t

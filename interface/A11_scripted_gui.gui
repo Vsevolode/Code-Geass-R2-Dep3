@@ -267,4 +267,18 @@ guiTypes = {
 			}
 	
 		}
+
+		containerWindowType = {
+			name = "a11_geass_research_decision_ui_window"
+			position = { x = 0 y = 0 }
+			size = { width = 275 height = 275 }
+			
+			iconType = {
+				name = "A11_geass_research_picture"
+				orientation = upper_left
+				position = { x = 0 y = 0 }
+
+			}
+	
+		}
 }
