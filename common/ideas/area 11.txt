@@ -62,6 +62,26 @@ destroyed_infratructures = {
 		}
 	}
 
+	A11_honorary_britannians = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			recruitable_population_factor = 40
+			army_core_attack_factor = 0.10	
+            army_core_defence_factor = 0.10
+			
+		}
+	}
+
 	
 	neglected_government = {
 
@@ -159,8 +179,6 @@ destroyed_infratructures = {
 	}
 
 	
-<<<<<<< Updated upstream
-=======
 	neglected_government_end = {
 
 		allowed = {
@@ -181,7 +199,6 @@ destroyed_infratructures = {
 	}
 
 	
->>>>>>> Stashed changes
 	research_funds = {
 
 		allowed = {

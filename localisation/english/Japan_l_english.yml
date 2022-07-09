@@ -34,6 +34,12 @@ JAP_totalitarian_socialism_party_long:0 "Japanese Communist Party"
 
 
 #Ideas
+military_anarchy:0 "Military Anarchy"
+military_anarchy_desc:0 "Although Britannians have left our territory, we still haven't managed to restore order in all regions of the country, due to our current weaknesses. Mercenaries, Yakuza Gangs, Extremist Militias and Armed Citizens are running wild throughout Japan, and they don't seem willing to peacefully lay down their new military and civilian power."
+pacific_war_scars:0 "Scars Of The Pacific War"
+pacific_war_scars_desc:0 "The Second Pacific War has caused much destruction in Japan, as destroyed industries, collapsed infrastructures and scattered fields have become endemic in the country. Despite this, patriotism and nationalism have never been so strong among our people. We have shown that Britannia is not invincible, and it can be beaten. All Hail Kururugi!"
+stagnant_population_6:0 "Demographic Collapse"
+stagnant_population_6_desc:0 "The demographic situation of Japan was dire even before the war; but now, with the slaughter of many young soldiers and citizens, birth rates have collapsed and entire cities are currently de-populated."
 democratic_bastion:0 "Democracy of the Pacific"
 democratic_bastion_desc:0 "After the First Pacific War, Japan became, in the form of a modern republic, the first democracy on the Asian continent. The current political system is unique in the region and it guarantees a certain stability and many rights to its people. In particular, extensive political, personal, and economic freedoms are enshrined in the constitution for all citizens."
 diplomacy_neutrality:0 "Forced Neutrality"
@@ -250,6 +256,7 @@ yakuza_friends_desc:0 "Organized Crime will be useful as well to our cause. With
 
 
 #Various
+JAP_Rule_no_disband_and_cant_justify_war_goal_tt:0 "§RCannot Train, Disband Or Edit Units§!"
 JAP_form_gov:0 "§GA New Cabinet Will Be Formed§!"
 JAP_consumer_goods_up:0 "§RWe Will Increase Our Expenses!§!"
 JAP_controversial:0 "§RThis Will Be A Controversial Move§!"

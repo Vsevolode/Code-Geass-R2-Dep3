@@ -134,10 +134,7 @@ scripted_gui = {
 				check_variable = { Civil_Decadence < 0.50 }
             }
 		}
-<<<<<<< Updated upstream
-=======
 		properties = { 
->>>>>>> Stashed changes
 			A11_decadence_container = {
 				image = "GFX_decision_A11_decadence_container"
 			}
@@ -151,11 +148,6 @@ scripted_gui = {
 			Civil_Decadence = {
 				image = "[get_Civil_Decadence_gfx]"
 			}
-<<<<<<< Updated upstream
-		}				
-	}
-}
-=======
 		}
 	    }
 		
@@ -179,4 +171,3 @@ scripted_gui = {
 
 			
 	
->>>>>>> Stashed changes

@@ -140,6 +140,10 @@ spriteTypes = {
 
     #Area11
 	SpriteType = {
+		name = "GFX_idea_A11_honorary_britannians"
+		texturefile = "gfx/interface/ideas/A11/A11_honorary_britannians.dds"	
+	}
+	SpriteType = {
 		name = "GFX_idea_research_funds"
 		texturefile = "gfx/interface/ideas/A11/research_funds.dds"	
 	}
@@ -531,6 +535,10 @@ spriteTypes = {
 		name = "GFX_idea_stagnant_population_5"
 		texturefile = "gfx/interface/ideas/JAP/large_urbanising.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_stagnant_population_6"
+		texturefile = "gfx/interface/ideas/JAP/large_urbanising.dds"	
+	}
 		SpriteType = {
 		name = "GFX_idea_democratic_bastion"
 		texturefile = "gfx/interface/ideas/JAP/democratic_bastion.dds"	
@@ -593,6 +601,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_military_anarchy"
+		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+
+	SpriteType = {
 		name = "GFX_idea_total_war"
 		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
 	}
@@ -608,6 +626,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_idea_total_war_4"
+		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
+	}
+		SpriteType = {
+		name = "GFX_idea_total_war_5"
 		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
 	}
 

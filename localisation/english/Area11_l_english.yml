@@ -55,7 +55,7 @@ A11_recon:0 "§GIt's Time To Re-establish An Effective Government§!"
 A11_new_garrisons:0 "§GWe Will Gain New Garrison Forces§!"
 A11_cliques_weakened:0 "§RJapanese Resistanc Will Be Severely Weakened§!"
 A11_cleared_regions:0 "§RWe Must Have Cleared At Least 3 Regions.§!"
-
+A11_honorary_britannians_tt:0 "§RWe Will Get A Special Template For Honorary Britannians.§!"
 
 ### Country ###
 
@@ -305,6 +305,8 @@ A11_totalitarian_socialism_party:0 "Japanese Resistance"
 
 
 #Ideas
+A11_honorary_britannians:0 "Honorary Britannians System"
+A11_honorary_britannians_desc:0 "Honorary Britannians are Numbers who vow their loyalty to the Holy Britannian Empire. All non-Britannians living in Britannia-conquered Areas are allowed to accept honorary Britannian citizenship as long as they are willing to serve and be loyal to the Empire. Honorary Britannians are legally similar to ethnic Britannians: they are allowed to earn special privileges, live in wealthy cities, etc., but in exchange for military service in the army."
 A11_martial_law_idea_1:0 "Martial Law"
 A11_martial_law_idea_1_desc:0 "A series of repressive laws have been implemented, including a strict curfew, arrest without trial, and the institution of military courts, to improve internal order. Despite this, it will surely alienate the majority of the Eleven population."
 A11_martial_law_idea_2:0 "Martial Law"
@@ -364,14 +366,12 @@ A11_Suppression_Campaign_desc:0 "Although we have already claimed a complete mil
 
 
 #GUI STUFF
-<<<<<<< Updated upstream
-=======
 A11_Geass_Research:0 "Geass Research"
 A11_Geass_Research_desc:0 "Bartley Aspirius might be a respected General, but he has other interests as well. He has founded, with the protection of Clovis, the Code R Research Team, whose main focus is the research of C.C. and the nature of the Geass ability, with the intent of duplicating her powers. Furthermore, this might lead to the creation of powerful weapons thanks to the Geass powers. The existence of this project is secret even to some members of the Imperial Family, and it must maintain this level of secrecy, for the sake of its final success.\n\nTheoretical Development: [?Root.geass_understand|R%0].\n\nMaterial Procurement: [?Root.searching_material|R%0].\n\nInfrastructure Construction: [?Root.infrastructure_building|R%0].\n\nControlling The Geass: [?Root.controlling_geass|R%0].\n\nWeapons Manufacturing: [?Root.geass_weapons|R%0]."
 
-A11_geass_research_adv_medium:0 "We Will Make §RMedium§! Advancements In This Field"
-A11_geass_research_adv_low:0 "We Will Make §RLow§! Advancements In This Field"
-A11_geass_research_adv_high:0 "We Will Make §RHigh§! Advancements In This Field"
+A11_geass_research_adv_medium:0 "We Will Make §RMedium§! Advancements In §RGeass Research§!."
+A11_geass_research_adv_low:0 "We Will Make §RLow§! Advancements §RGeass Research§!."
+A11_geass_research_adv_high:0 "We Will Make §RHigh§! Advancements §RGeass Research§!."
 
 A11_fund_research_1:0 "Increase Funds To The Project"
 A11_fund_research_2:0 "Increase Funds To The Project"
@@ -389,7 +389,6 @@ A11_use_royal_connections:0 "Use Royal Connections"
 
 A11_geass_experiments:0 "Non-Conventional Experiments"
 
->>>>>>> Stashed changes
 
 A11_increase_training:0 "Improve Military Training"
 A11_routine_check_up:0 "Routine Checks In The Barracks"

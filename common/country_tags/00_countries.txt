@@ -117,3 +117,4 @@ KEN = "countries/Kenya.txt"
 
 ##Cosmetic
 JAP_PAR = "countries/JapanPartition.txt"
+

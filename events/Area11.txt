@@ -618,7 +618,22 @@ country_event = {
 	
 	option = {
 		name = area11.27.a
+		add_ideas = A11_honorary_britannians
+		custom_effect_tooltip = A11_honorary_britannians_tt
 		hidden_effect = {
+			division_template = {
+				name = "Honorary Britannians"
+				is_locked = yes
+				division_names_group = BRT_INF_02
+				priority = 0
+				template_counter = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+				}
+			}
 			country_event = { 
 				id = area11.28 
 				days = 15
@@ -715,11 +730,7 @@ country_event = {
  }
 
 
-<<<<<<< Updated upstream
- country_event = {  
-=======
  country_event = {  #Tokyo Bombings
->>>>>>> Stashed changes
 	id = area11.32
 	title = area11.32.t
 	desc = area11.32.d
@@ -730,8 +741,6 @@ country_event = {
 	
 	option = {
 		name = area11.32.a
-<<<<<<< Updated upstream
-=======
 
 		hidden_effect = {
 			country_event = {
@@ -748,7 +757,6 @@ country_event = {
 			add_idea = neglected_government_end
 		}
 		add_political_power = -100
->>>>>>> Stashed changes
 		
 		
 		ai_chance = {
@@ -757,11 +765,7 @@ country_event = {
 	}	
  }
 
-<<<<<<< Updated upstream
- country_event = {  
-=======
  country_event = {  #Britannians Rioting
->>>>>>> Stashed changes
 	id = area11.33
 	title = area11.33.t
 	desc = area11.33.d
@@ -772,8 +776,6 @@ country_event = {
 	
 	option = {
 		name = area11.33.a
-<<<<<<< Updated upstream
-=======
 		set_variable = {
 			tokyo_bombings = 2
 		}
@@ -783,7 +785,6 @@ country_event = {
 			ideology = ultra_nationalism
 			popularity = 0.15
 		}
->>>>>>> Stashed changes
 		
 		
 		ai_chance = {
@@ -792,11 +793,7 @@ country_event = {
 	}	
  }
 
-<<<<<<< Updated upstream
- country_event = {  
-=======
  country_event = {   #Clovis Decides To Fix Everything
->>>>>>> Stashed changes
 	id = area11.34
 	title = area11.34.t
 	desc = area11.34.d
@@ -815,11 +812,7 @@ country_event = {
 	}	
  }
 
-<<<<<<< Updated upstream
- country_event = {  
-=======
  country_event = {  #Ghetto Battles
->>>>>>> Stashed changes
 	id = area11.35
 	title = area11.35.t
 	desc = area11.35.d
@@ -838,11 +831,7 @@ country_event = {
 	}	
  }
 
-<<<<<<< Updated upstream
- country_event = {  
-=======
  country_event = {   #Ghetto Battles
->>>>>>> Stashed changes
 	id = area11.36
 	title = area11.36.t
 	desc = area11.36.d
@@ -861,8 +850,6 @@ country_event = {
 	}	
  }
 
-<<<<<<< Updated upstream
-=======
  country_event = {   #Ghetto Battles
  id = area11.37
  title = area11.37.t
@@ -903,7 +890,6 @@ option = {
 
 
 
->>>>>>> Stashed changes
  country_event = {  
 	id = area11.31
 	title = area11.31.t

@@ -480,6 +480,82 @@ spriteTypes = {
 
     #Japan
 	SpriteType = {
+		name = "GFX_unexpected_victory"
+		texturefile = "gfx/interface/goals/JAP/unexpected_victory.dds"			
+	}
+	SpriteType = {
+		name = "GFX_rubber_stamp_gov"
+		texturefile = "gfx/interface/goals/JAP/rubber_stamp_gov.dds"			
+	}
+	SpriteType = {
+		name = "GFX_adress_mil_anarchy"
+		texturefile = "gfx/interface/goals/JAP/adress_mil_anarchy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_peace_pres_act"
+		texturefile = "gfx/interface/goals/JAP/peace_pres_act.dds"			
+	}
+	SpriteType = {
+		name = "GFX_democracy_question"
+		texturefile = "gfx/interface/goals/JAP/democracy_question.dds"			
+	}
+	SpriteType = {
+		name = "GFX_confront_kirihara"
+		texturefile = "gfx/interface/goals/JAP/confront_kirihara.dds"			
+	}
+	SpriteType = {
+		name = "GFX_uniformity_act"
+		texturefile = "gfx/interface/goals/JAP/uniformity_act.dds"			
+	}
+	SpriteType = {
+		name = "GFX_tohdoh_position"
+		texturefile = "gfx/interface/goals/JAP/tohdoh_position.dds"			
+	}
+	SpriteType = {
+		name = "GFX_population_question"
+		texturefile = "gfx/interface/goals/JAP/population_question.dds"			
+	}
+	SpriteType = {
+		name = "GFX_international_aid"
+		texturefile = "gfx/interface/goals/JAP/international_aid.dds"			
+	}
+	SpriteType = {
+		name = "GFX_reassure_chinese"
+		texturefile = "gfx/interface/goals/JAP/reassure_chinese.dds"			
+	}
+	SpriteType = {
+		name = "GFX_partial_dem"
+		texturefile = "gfx/interface/goals/JAP/partial_dem.dds"			
+	}
+	SpriteType = {
+		name = "GFX_growing_violence"
+		texturefile = "gfx/interface/goals/JAP/growing_violence.dds"			
+	}
+	SpriteType = {
+		name = "GFX_tokyo_strike"
+		texturefile = "gfx/interface/goals/JAP/tokyo_strike.dds"			
+	}
+	SpriteType = {
+		name = "GFX_back_in_control"
+		texturefile = "gfx/interface/goals/JAP/back_in_control.dds"			
+	}
+	SpriteType = {
+		name = "GFX_chaos_expand"
+		texturefile = "gfx/interface/goals/JAP/chaos_expand.dds"			
+	}
+	SpriteType = {
+		name = "GFX_kirihara_steps_in"
+		texturefile = "gfx/interface/goals/JAP/kirihara_steps_in.dds"			
+	}
+	SpriteType = {
+		name = "GFX_it_falls_down"
+		texturefile = "gfx/interface/goals/JAP/it_falls_down.dds"			
+	}
+	SpriteType = {
+		name = "GFX_military_rule"
+		texturefile = "gfx/interface/goals/JAP/military_rule.dds"			
+	}
+	SpriteType = {
 		name = "GFX_second_kururugi_term"
 		texturefile = "gfx/interface/goals/JAP/second_kururugi_term.dds"			
 	}

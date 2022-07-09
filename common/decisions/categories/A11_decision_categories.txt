@@ -39,9 +39,6 @@ A11_Decadence = {
 	scripted_gui = a11_decadence_gui
 }
 
-<<<<<<< Updated upstream
-
-=======
 A11_Geass_Research = {
 	icon = GFX_decision_category_A11_Geass_Research
 	priority = 80
@@ -59,6 +56,5 @@ A11_Geass_Research = {
 
 	scripted_gui = a11_geass_research_gui
 }
->>>>>>> Stashed changes
 
 

@@ -35,7 +35,6 @@ division_template = {
 
 	}	
 	support = {
-		anti_tank = { x = 0 y = 2}
 		artillery = { x = 0 y = 1 } 
 		engineer = { x = 0 y = 0 }   
 	}

@@ -286,10 +286,6 @@ timeout_effect = {
 				}
 			}
            add_manpower = -300000
-		   swap_ideas = {
-			   remove_idea = total_war_4
-			   add_idea = total_war_5
-		   }
 
 			528 = {
 			damage_building = {

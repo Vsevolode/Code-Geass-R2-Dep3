@@ -30,8 +30,7 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-BRT_INF_01 = 
-{
+BRT_INF_01 = {
 	name = "Infantry Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -72,9 +71,50 @@ BRT_INF_01 =
 	}
 }
 
+BRT_INF_02 = {
+	name = "Honorary Britannians"
 
-BRT_MOT_01 = 
-{
+	for_countries = { AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%th Number Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%st Number Battalion" }
+		2 = { "%nd Number Battalion" }
+		3 = { "%rd Number Battalion" }
+		4 = { "%th Number Battalion" }
+		5 = { "%th Number Battalion" }
+		6 = { "%th Number Battalion" }
+		7 = { "%th Number Battalion" }
+		8 = { "%th Number Battalion" }
+		9 = { "%th Number Battalion" }
+		10 = { "%th Number Battalion" }
+		11 = { "%th Number Battalion" }
+		12 = { "%th Number Battalion" }
+		13 = { "%th Number Battalion" }
+		14 = { "%th Number Battalion" }
+		15 = { "%th Number Battalion" }
+		16 = { "%th Number Battalion" }
+		17 = { "%th Number Battalion" }
+		18 = { "%th Number Battalion" }
+		19 = { "%th Number Battalion" }
+		20 = { "%th Number Battalion" }		
+	}
+}
+
+
+
+BRT_MOT_01 = {
 	name = "Motorized Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
@@ -106,8 +146,7 @@ BRT_MOT_01 =
 }
 
 
-BRT_ARM_01 = 
-{
+BRT_ARM_01 = {
 	name = "Armored Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
@@ -138,8 +177,7 @@ BRT_ARM_01 =
 	}
 }
 
-BRT_PAR_01 = 
-{
+BRT_PAR_01 = {
 	name = "Parachute Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -170,8 +208,7 @@ BRT_PAR_01 =
 	}
 }
 
-BRT_MAR_01 = 
-{
+BRT_MAR_01 = {
 	name = "Marine Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -202,8 +239,7 @@ BRT_MAR_01 =
 	}
 }
 
-BRT_MNT_01 = 
-{
+BRT_MNT_01 = {
 	name = "Mountain Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -234,8 +270,7 @@ BRT_MNT_01 =
 	}
 }
 
-BRT_GAR_01 = 
-{
+BRT_GAR_01 = {
 	name = "Garrison Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
@@ -277,8 +312,7 @@ BRT_GAR_01 =
 }
 
 
-BRT_KN_01 = 
-{
+BRT_KN_01 = {
 	name = "Knightmare Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies

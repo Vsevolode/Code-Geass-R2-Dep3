@@ -82,7 +82,7 @@ focus_tree = {
 	
 		bypass = {
 	
-		}s
+		}
 	
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -90,13 +90,9 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-<<<<<<< Updated upstream
-			remove_ideas = A11_generic_general_1_idea
-=======
 			hidden_effect = {
 				remove_ideas = A11_generic_general_1_idea	
 			}
->>>>>>> Stashed changes
 			add_ideas = A11_generic_general_2_idea
 			add_political_power = 20
 			 
@@ -137,11 +133,6 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-<<<<<<< Updated upstream
-			remove_ideas = a11_vv_idea
-			add_ideas = A11_Aspirius_idea
-			add_political_power = 20
-=======
 			hidden_effect = {
 				A11_geass_research_setup = yes
 				remove_ideas = a11_vv_idea
@@ -150,7 +141,6 @@ focus_tree = {
 			add_political_power = 20
 
 
->>>>>>> Stashed changes
 
 			 
 		}
@@ -360,13 +350,10 @@ focus_tree = {
 				country_event = {
 					id=area11.32
 					days = 20
-<<<<<<< Updated upstream
-=======
 				}
 				news_event = {
 					id=news.7
 					days = 20
->>>>>>> Stashed changes
 				}	
 			}
 		}
@@ -537,9 +524,6 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-<<<<<<< Updated upstream
-              A11_Gov_Decadence_Medium = yes
-=======
 			custom_effect_tooltip = A11_geass_research_adv_high
 
               A11_Gov_Decadence_Medium = yes
@@ -547,7 +531,6 @@ focus_tree = {
 			  add_to_variable = { searching_material = 30 }
               
 
->>>>>>> Stashed changes
 			 
 		}
 	}
@@ -627,16 +610,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			country_event = area11.30
-<<<<<<< Updated upstream
-			add_political_power = 10
-=======
 			add_political_power = 20
 			add_to_variable = { controlling_geass = 40 }
 			add_to_variable = { geass_weapons = 40 }
 			custom_effect_tooltip = A11_geass_research_adv_high
 
 
->>>>>>> Stashed changes
 			 
 		}
 	}
@@ -680,12 +659,9 @@ focus_tree = {
 		completion_reward = {
 			country_event = area11.31
 			A11_Army_Improve_Low = yes
-<<<<<<< Updated upstream
-=======
 			add_to_variable = { geass_weapons = 50 }
 			custom_effect_tooltip = A11_geass_research_adv_high
 
->>>>>>> Stashed changes
 			 
 		}
 	}
@@ -1010,11 +986,7 @@ available_if_capitulated = no
 
 search_filters = { FOCUS_FILTER_POLITICAL }
 completion_reward = {
-<<<<<<< Updated upstream
-   add_political_power = 0.20
-=======
    add_political_power = 20
->>>>>>> Stashed changes
    add_stability = 0.02
 	 
 }

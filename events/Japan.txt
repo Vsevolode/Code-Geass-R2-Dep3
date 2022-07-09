@@ -348,7 +348,8 @@ country_event = { ##Truce
 	option = {
 		name = JAP.13.a
 		hidden_effect = {
-			load_focus_tree = japan_focus_2
+			add_war_support = -0.50
+			load_focus_tree = japan_focus_post_war
 			swap_ideas = {
 				remove_idea = stagnant_population_5
 				add_idea = stagnant_population_6
@@ -363,6 +364,7 @@ country_event = { ##Truce
 			remove_ideas = surprise_attack_jap_2
 			remove_ideas = minerary_industry_funds_5
 			remove_ideas = minerary_industry_funds_4
+			remove_ideas = minerary_industry_funds_fail
 			remove_ideas = minerary_industry_funds_fail_2
 		}
 		BRT = {
@@ -500,3 +502,4 @@ country_event = { #partition of Japan
 		}
 	}
 }
+
