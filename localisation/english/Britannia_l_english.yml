@@ -154,8 +154,13 @@ BRT.11.a:0 "We won't give up!"
 BRT.11.b:0 "Demand a Truce."
 
 BRT.13.t:0 "Movements In The Shadows"
+<<<<<<< Updated upstream
 BRT.13.d:0 "V.V. was the first ally of Charles during the Emblem of Blood, and this granted him a powerful position in the current administration, allowing him to retain a considerable space of maneuver, in evil and good.\n\nCurrently, V.V. has been the main antagonist to Marianne's influence, representing a counter-force to her power. Despite this, he is not the most vocal opponent, preferring an underhand approach, in order to avoid any suspection of him. The Secret Services are always keeping an eye, though, and only the Emperor's order could stop any further investigation."
 BRT.13.a:0 "It's Better To Keep An Eye on Him."
+=======
+BRT.13.d:0 "V.V. was the first ally of Charles during the Emblem of Blood, and this granted him a powerful position in the current administration. Allowing him to retain a considerable freedom of maneuver to do as he whims.\n\nCurrently, V.V. has been the main antagonist to Marianne's influence, representing a counter-force to her power. He remains the least vocal opponent, preferring an underhanded approach to avoid unnecessary attention. The Secret Services are always keeping an eye, though, and only the Emperor's order could stop any further investigation."
+BRT.13.a:0 "Something's up."
+>>>>>>> Stashed changes
 
 BRT.14.t:0 "Memories Of the Emblem Of Blood"
 BRT.14.d:0 "Prior to Charles' ascension to the throne, a violent internal feud occurred within the Britannian Imperial Family. During this period, assassination and betrayals were frequented among members of the Imperial Family that wanted the throne. In addition, this process casued a period of instability at the highest levels of the Britannian administration.\n\nThe situation was partially solved with the intervention of several noble families, who supported the succession of a strong leader that could put an end to the bloodshed, in exchange for the reduction of some of the nobility's power (even though during a brief period)."

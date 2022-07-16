@@ -132,6 +132,22 @@ characters={
 		}
 	}
 
+	A11_viceroy_2={
+		name = "Britannian Viceroy"
+		portraits={
+			civilian={
+				large="GFX_portrait_A11_viceroy"
+
+			}
+		}
+		country_leader={
+		     desc = "POLITICS_AREA_DESC"
+			ideology=paternal_autocracy
+			traits={ }
+			expire = "2020.1.1"
+		}
+	}
+
 
 	A11_viceroy={
 		name = "Britannian Viceroy"

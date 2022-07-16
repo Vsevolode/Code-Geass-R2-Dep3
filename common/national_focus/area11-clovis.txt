@@ -48,6 +48,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
             country_event = area11.25
+			add_political_power = 300
 			swap_ideas = {
 				remove_idea = neglected_government_5
 				add_idea = neglected_government_4
@@ -435,8 +436,10 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			set_technology = {
-				knightmare_police = 1
+			add_equipment_to_stockpile = {
+				type = knightmare_pol_1
+				amount = 400
+				producer = BRT
 			}
 			A11_Army_Improve_Low = yes
 			 
@@ -1668,17 +1671,15 @@ completion_reward = {
 		id = A11_tokyo_bombings
 		icon = GFX_A11_tokyo_bombings
 		relative_position_id = A11_clovis_decision
-		prerequisite = {
-			focus = A11_clovis_decision
+
+
+		allow_branch = {
+			check_variable = {
+				tokyo_bombings = 1
+			}
 		}
 
-		#allow_branch = {
-			#check_variable = {
-				#tokyo_bombings = 1
-			#}
-		#}
-
-		x = 0
+		x = 5
 		y = 3
 	
 		cost = 5

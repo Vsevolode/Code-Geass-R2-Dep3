@@ -348,7 +348,12 @@ country_event = { ##Truce
 	option = {
 		name = JAP.13.a
 		hidden_effect = {
+<<<<<<< Updated upstream
 			add_war_support = -0.50
+=======
+			JAP_post_war_struggle = yes
+			add_war_support = -0.30
+>>>>>>> Stashed changes
 			load_focus_tree = japan_focus_post_war
 			swap_ideas = {
 				remove_idea = stagnant_population_5
@@ -503,3 +508,620 @@ country_event = { #partition of Japan
 	}
 }
 
+<<<<<<< Updated upstream
+=======
+country_event = { 
+	id = JAP.16
+	title = JAP.16.t
+	desc = JAP.16.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.16.a
+        JAP_kururugi_influence_up_2 = yes
+	}
+}
+
+country_event = {  
+	id = JAP.17
+	title = JAP.17.t
+	desc = JAP.17.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.17.a
+		add_timed_idea = {
+			idea = JAP_reconstruction_1
+			days = 200
+		}
+	}
+}
+
+
+country_event = {  #Peace Preservation Act
+	id = JAP.18
+	title = JAP.18.t
+	desc = JAP.18.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Pass a Light Version Of It
+		name = JAP.18.a
+		JAP_kirihara_influence_up_2 = yes
+		JAP_tohdoh_influence_up = yes
+		add_stability = 0.02
+		swap_ideas = {
+			remove_idea = military_anarchy_2
+			add_idea = military_anarchy_3
+		}
+	}
+	option = { #Enact It Fully
+		name = JAP.18.b
+		remove_ideas = military_anarchy_2
+		add_stability = 0.05
+		JAP_kururugi_influence_up = yes
+
+	}
+}
+
+country_event = { 
+	id = JAP.19
+	title = JAP.19.t
+	desc = JAP.19.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Keep One Party State
+		name = JAP.19.a
+		JAP_kirihara_influence_up = yes
+		add_war_support = -0.05
+		swap_ideas = {
+			remove_idea = democratic_bastion_2
+			add_idea = democratic_bastion_3
+		}
+
+	}
+
+	option = {  #Restore "Democracy" 
+		name = JAP.19.b
+		JAP_kururugi_influence_up = yes
+		JAP_tohdoh_influence_up = yes
+		add_war_support = 0.05
+		swap_ideas = {
+			remove_idea = democratic_bastion_2
+			add_idea = democratic_bastion
+		}
+
+		hidden_effect = {
+			set_party_name = { 
+				ideology = autocracy
+				long_name = "Association of Friends of Constitutional Government-Kururugi"
+				name = "Rikken Seiyūkai-K"
+			}
+			set_party_name = { 
+				ideology = moderate_conservatism
+				long_name = "Association of Friends of Constitutional Government"
+				name = "Rikken Seiyūkai"
+			}
+
+			set_party_name = { 
+				ideology = moderate_liberalism
+				long_name = "Constitutional Democratic Party"
+				name = "Rikken Minseitō"
+			}
+
+			set_party_name = { 
+				ideology = moderate_socialism
+				long_name = "Social Democratic Party"
+				name = "Shakai Minshu-tō"
+			}
+		}
+
+	}
+}
+
+country_event = {   
+	id = JAP.20
+	title = JAP.20.t
+	desc = JAP.20.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {    
+		name = JAP.20.a
+		add_stability = 0.03
+		add_offsite_building = { type = industrial_complex level = 1 }
+		add_offsite_building = { type = industrial_complex level = 1 }
+		add_offsite_building = { type = industrial_complex level = 1 }
+			
+		JAP_kirihara_influence_up = yes
+		hidden_effect = {
+			JAP_kirihara_influence_up = yes
+		}
+	}
+
+	option = {
+		name = JAP.20.b
+		remove_ideas = JAP_kyoto_kirihara_idea
+		add_political_power = -50
+		JAP_kururugi_influence_up = yes
+		JAP_tohdoh_influence_up_2 = yes
+	}
+
+}
+
+country_event = { #Uniformity Act
+	id = JAP.21
+	title = JAP.21.t
+	desc = JAP.21.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {  #Pass the Act
+		name = JAP.21.a
+		JAP_kururugi_influence_up = yes
+		JAP_tohdoh_influence_up_2 = yes
+		add_political_power = -50
+		swap_ideas = {
+			remove_idea = industrial_corporations
+			add_idea = industrial_corporations_2
+		}
+
+	}
+	option = {   #Reject It
+		name = JAP.21.b
+		JAP_kirihara_influence_up = yes
+		add_political_power = 50
+
+	}
+}
+
+country_event = { 
+	id = JAP.22
+	title = JAP.22.t
+	desc = JAP.22.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = JAP.22.a
+		remove_ideas = JAP_tohdoh
+		add_war_support = -0.10
+		JAP_kururugi_influence_up_2 = yes
+
+	}
+
+	option = {
+		name = JAP.22.b
+		add_command_power = 50
+		add_political_power = 50
+		JAP_tohdoh_influence_up = yes
+		JAP_kirihara_influence_up_2 = yes
+
+	}
+}
+
+country_event = { 
+	id = JAP.23    
+	title = JAP.23.t
+	desc = JAP.23.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Focus On Nationalism
+		name = JAP.23.a
+		swap_ideas = {
+			remove_idea = pacific_war_scars
+			add_idea = pacific_war_scars_2
+		}
+		JAP_tohdoh_influence_up = yes
+		JAP_kururugi_influence_up = yes
+
+	}
+
+	option = {  #Focus On Reconstruction
+		name = JAP.23.b
+		swap_ideas = {
+			remove_idea = pacific_war_scars
+			add_idea = pacific_war_scars_3
+		}
+		JAP_kirihara_influence_up = yes
+
+	}
+}
+
+country_event = { 
+	id = JAP.24   
+	title = JAP.24.t
+	desc = JAP.24.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Treaty With China
+	    hidden_effect = {
+			country_event = {
+				id = JAP.25
+				days = 10
+			}
+		}
+		name = JAP.24.a
+		add_ideas = JAP_protests_1
+		CHI = { 
+			give_guarantee = JAP
+			add_opinion_modifier = {
+				target = JAP
+				modifier = friendship_treaty
+			}
+		}	
+		JAP = { 
+			add_opinion_modifier = {
+				target = CHI
+				modifier = friendship_treaty
+			}
+		}
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.25   
+	title = JAP.25.t
+	desc = JAP.25.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Growing Violence
+		name = JAP.25.a
+		hidden_effect = {
+			country_event = {
+				id = JAP.26
+				days = 10
+			}
+		}
+		add_political_power = -30
+		add_stability = -0.03
+		swap_ideas = {
+			remove_idea = JAP_protests_1
+			add_idea = JAP_protests_2
+		}
+
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.26
+	title = JAP.26.t
+	desc = JAP.26.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Police Tring To Disperse---Failure
+		name = JAP.26.a
+		hidden_effect = {
+			country_event = {
+				id = JAP.27
+				days = 10
+			}
+			282 = {
+				set_demilitarized_zone = yes
+			}
+			532 = {
+				set_demilitarized_zone = yes
+			}
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		swap_ideas = {
+			remove_idea = JAP_protests_2
+			add_idea = JAP_protests_3
+		}
+
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.27
+	title = JAP.27.t
+	desc = JAP.27.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Kururugi Sends The Army In
+		name = JAP.27.a
+		hidden_effect = {
+			if = {
+				limit = { 
+					check_variable = { population_approval > 50 }
+					check_variable = { kururugi_influence > kirihara_influence }
+					check_variable = { kururugi_influence > tohdoh_influence }
+
+				
+				}
+				country_event = {
+					id = JAP.28
+					days = 5
+				}
+			}
+			else = {
+				country_event = {
+					id = JAP.29
+					days = 5
+				}
+			}	
+		}
+
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.28
+	title = JAP.28.t
+	desc = JAP.28.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Kururugi Wins-Urprising Crushed
+		name = JAP.28.a
+		remove_ideas = JAP_protests_3
+		add_stability = 0.10
+		add_political_power = 100
+		hidden_effect= {
+			282 = {
+				set_demilitarized_zone = no
+			}
+			532 = {
+				set_demilitarized_zone = no
+			}
+		load_focus_tree = kururugi_japan
+	}
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.29
+	title = JAP.29.t
+	desc = JAP.29.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Protests Out Of Control
+		name = JAP.29.a
+		add_stability = -0.07
+		add_political_power = -50
+		hidden_effect = {
+		529 = {
+			set_demilitarized_zone = yes
+		}
+		528 = {
+			set_demilitarized_zone = yes
+		}
+		531 = {
+			set_demilitarized_zone = yes
+		}
+		533 = {
+			set_demilitarized_zone = yes
+		}
+		536 = {
+			set_demilitarized_zone = yes
+		}
+	    }
+		swap_ideas = {
+			remove_idea = JAP_protests_3
+			add_idea = JAP_protests_4
+		}
+		if = {
+			limit = { 
+				check_variable = { population_approval > 50 }
+				check_variable = { kirihara_influence > kururugi_influence }
+				check_variable = { kirihara_influence > tohdoh_influence }
+
+			
+			}
+			country_event = {
+				id = JAP.30
+				days = 5
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { population_approval > 50 }
+				check_variable = { tohdoh_influence > kururugi_influence }
+				check_variable = { tohdoh_influence > kirihara_influence }
+
+			}
+			country_event = {
+				id = JAP.31
+				days = 5
+			}
+		}
+		else = {
+			country_event = {
+				id = JAP.32
+				days = 5
+			}
+
+		}
+
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.30
+	title = JAP.30.t
+	desc = JAP.30.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Kirihara Wins
+		name = JAP.30.a
+		remove_ideas = JAP_protests_4
+		hidden_effect= { 
+		complete_national_focus = kirihara_steps_in
+		load_focus_tree = kirihara_japan
+	   }
+
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.31
+	title = JAP.31.t
+	desc = JAP.31.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #No one Wins
+		name = JAP.31.a
+		custom_effect_tooltip = it_falls_down_tt
+		hidden_effect= { 
+			JAP = {
+				set_cosmetic_tag = JAP_KAN
+				remove_ideas = JAP_protests_4
+				remove_ideas = industrial_corporations_2
+				remove_ideas = industrial_corporations
+				remove_ideas = JAP_reconstruction_2
+				remove_ideas = military_anarchy_3
+
+			}
+			529 = {
+				set_demilitarized_zone = no
+			}
+			528 = {
+				set_demilitarized_zone = no
+			}
+			531 = {
+				set_demilitarized_zone = no
+			}
+			533 = {
+				set_demilitarized_zone = no
+			}
+			536 = {
+				set_demilitarized_zone = no
+			}
+
+			KYU = {
+				transfer_state = 528
+			}
+			CHI = {
+				transfer_state = 526
+			}
+			RUS = {
+				transfer_state = 555
+			}
+			TOH = {
+				transfer_state = 942
+				transfer_state = 943
+				transfer_state = 533
+			}
+			SHI = {
+				transfer_state = 530
+			}
+			KAN = {
+				transfer_state = 531
+			}
+			CHG = {
+				transfer_state = 529
+				transfer_state = 944
+			}
+			HOK = {
+				transfer_state = 536
+			}
+			CHU = {
+				transfer_state = 535
+				transfer_state = 534
+			}
+
+		complete_national_focus = it_falls_down
+	   }
+
+
+	}
+
+
+}
+
+country_event = { 
+	id = JAP.32
+	title = JAP.32.t
+	desc = JAP.32.d
+	#picture = GFX_JAP_genbu_death
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {   #Tohdoh Wins
+		name = JAP.32.a
+		remove_ideas = JAP_protests_4
+		hidden_effect= { 
+			complete_national_focus = military_rule
+			load_focus_tree = junta_japan
+		   }
+
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes

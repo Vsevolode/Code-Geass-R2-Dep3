@@ -792,7 +792,7 @@ A11_Suppression_Campaign = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions > 1} }
 		}
-		cost = 15
+		cost = 40
 
 		days_remove = 20
 		days_re_enable = 30
@@ -994,7 +994,7 @@ A11_Suppression_Campaign = {
 			available = {
 				NOT = { check_variable = { A11_doing_Actions > 1} }
 			}
-			cost = 15
+			cost = 40
 	
 			days_remove = 20
 			days_re_enable = 30
@@ -1200,7 +1200,7 @@ A11_Suppression_Campaign = {
 				available = {
 					NOT = { check_variable = { A11_doing_Actions > 1} }
 				}
-				cost = 15
+				cost = 40
 		
 				days_remove = 20
 				days_re_enable = 30
@@ -1407,7 +1407,7 @@ A11_Suppression_Campaign = {
 				available = {
 					NOT = { check_variable = { A11_doing_Actions > 1} }
 				}
-				cost = 15
+				cost = 40
 		
 				days_remove = 20
 				days_re_enable = 30
@@ -1614,7 +1614,7 @@ A11_Suppression_Campaign = {
 				available = {
 					NOT = { check_variable = { A11_doing_Actions > 1} }
 				}
-				cost = 15
+				cost = 40
 		
 				days_remove = 20
 				days_re_enable = 30
@@ -1822,7 +1822,7 @@ A11_Suppression_Campaign = {
 				available = {
 					NOT = { check_variable = { A11_doing_Actions > 1} }
 				}
-				cost = 15
+				cost = 40
 		
 				days_remove = 20
 				days_re_enable = 30

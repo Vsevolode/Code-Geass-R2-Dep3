@@ -437,6 +437,7 @@ country_event = {  #Total victory against Japan - Establish Area
 	
 		option = {	
 		name = BRT.10.a
+		#load_focus_tree = britannia_focus_2
 
 	
 		
@@ -497,6 +498,7 @@ country_event = {  #Total victory against Japan - Establish Area
 	
 			option = {	
 		name = BRT.10.b
+		#load_focus_tree = britannia_focus_2
 
 		ai_chance = {
 			factor = 0

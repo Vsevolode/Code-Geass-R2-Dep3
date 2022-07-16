@@ -33,6 +33,16 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.16
+				add_political_power = 100
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.05
+				}
+
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -63,6 +73,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				JAP_kirihara_influence_up = yes
+				country_event = JAP.17
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -93,6 +108,14 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				add_stability = 0.05
+				swap_ideas = {
+					remove_idea = military_anarchy
+					add_idea = military_anarchy_2
+				}
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -123,6 +146,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.18
+				add_political_power = 30
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -153,6 +181,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.19
+				add_political_power = 30
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -183,6 +216,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.20
+				add_political_power = 30
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -214,6 +252,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.21
+				add_political_power = 30
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -245,6 +288,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.22
+				add_political_power = 30
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -275,6 +323,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.23
+				add_political_power = 30
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -308,6 +361,15 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				add_political_power = -40
+				add_offsite_building = { type = industrial_complex level = 2 }
+				swap_ideas = {
+					remove_idea = JAP_reconstruction_1
+					add_idea = JAP_reconstruction_2
+				}
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -338,6 +400,10 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				country_event = JAP.24
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -368,6 +434,12 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				add_stability = 0.05
+				add_ideas = partial_economic_mobilisation
+				add_ideas = extensive_conscription
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -388,8 +460,14 @@
 			y = 1
 			available = {
 				country_exists = JAP
+<<<<<<< Updated upstream
 			}
 			bypass = { }
+=======
+				always = no
+			}
+			bypass = { has_idea = JAP_protests_2 }
+>>>>>>> Stashed changes
 		
 	
 			mutually_exclusive = {
@@ -401,6 +479,10 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				custom_effect_tooltip = JAP_protests_2_tt
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -419,8 +501,14 @@
 			y = 1
 			available = {
 				country_exists = JAP
+<<<<<<< Updated upstream
 			}
 			bypass = { }
+=======
+				always = no
+			}
+			bypass = { has_idea = JAP_protests_3 }
+>>>>>>> Stashed changes
 		
 	
 			mutually_exclusive = {
@@ -432,6 +520,10 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				custom_effect_tooltip = JAP_protests_2_tt
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -451,8 +543,18 @@
 			y = 2
 			available = {
 				country_exists = JAP
+<<<<<<< Updated upstream
 			}
 			bypass = { }
+=======
+				always = no
+			}
+			bypass = {
+			NOT = {
+				has_idea = JAP_protests_3
+			}
+			 }
+>>>>>>> Stashed changes
 		
 	
 			mutually_exclusive = {
@@ -464,7 +566,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
 				load_focus_tree = japan_kururugi
+=======
+				custom_effect_tooltip = JAP_protests_kururugi_tt
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -484,7 +590,11 @@
 			available = {
 				country_exists = JAP
 			}
+<<<<<<< Updated upstream
 			bypass = { }
+=======
+			bypass = { has_idea = JAP_protests_4 }
+>>>>>>> Stashed changes
 		
 	
 			mutually_exclusive = {
@@ -496,6 +606,10 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				custom_effect_tooltip = JAP_protests_2_tt
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -514,6 +628,10 @@
 			y = 2
 			available = {
 				country_exists = JAP
+<<<<<<< Updated upstream
+=======
+				always = no
+>>>>>>> Stashed changes
 			}
 			bypass = { }
 		
@@ -527,7 +645,12 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
 				country_event = JAP.100
+=======
+				custom_effect_tooltip = JAP_protests_no_one_tt
+
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -546,6 +669,10 @@
 			y = 2
 			available = {
 				country_exists = JAP
+<<<<<<< Updated upstream
+=======
+				always = no
+>>>>>>> Stashed changes
 			}
 			bypass = { }
 		
@@ -559,6 +686,11 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				custom_effect_tooltip = JAP_protests_tohdoh_tt
+
+>>>>>>> Stashed changes
 			}
 	
 	
@@ -577,6 +709,10 @@
 			y = 2
 			available = {
 				country_exists = JAP
+<<<<<<< Updated upstream
+=======
+				always = no
+>>>>>>> Stashed changes
 			}
 			bypass = { }
 		
@@ -590,6 +726,10 @@
 			}
 		
 			completion_reward = {
+<<<<<<< Updated upstream
+=======
+				custom_effect_tooltip = JAP_protests_kirihara_tt
+>>>>>>> Stashed changes
 			}
 	
 	

@@ -1718,7 +1718,7 @@
 				set_party_name = { 
 					ideology = autocracy
 					long_name = "National Salvation Commiteee-Kururugi"
-					name = "National Salvation Commiteee-K"
+					name = "NSC-K"
 				}
 				
 			}

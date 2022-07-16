@@ -17,6 +17,33 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 
+	### Warlord Japan
+	spriteType = {
+		name = "GFX_portrait_Portrait_Sawasaki"
+		texturefile = "gfx/leaders/WARLORD_JAP/Portrait_Sawasaki.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Portrait_Kirihara"
+		texturefile = "gfx/leaders/WARLORD_JAP/Portrait_Kirihara.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Portrait_Mercenary"
+		texturefile = "gfx/leaders/WARLORD_JAP/Portrait_Mercenary.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Portrait_CHG_generic"
+		texturefile = "gfx/leaders/WARLORD_JAP/Portrait_CHG_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Portrait_HOK_generic"
+		texturefile = "gfx/leaders/WARLORD_JAP/Portrait_HOK_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Portrait_TOH_generic"
+		texturefile = "gfx/leaders/WARLORD_JAP/Portrait_TOH_generic.dds"
+	}
+
+
 
 	### CHI
 

@@ -62,11 +62,16 @@ A11_honorary_britannians_tt:0 "§RWe Will Get A Special Template For Honorary Br
 
 #Events
 area11.1.t:0 "Orders From Bismark"
+<<<<<<< Updated upstream
 area11.1.d:0 "As we are beginning the process of erasing the old Japanese identity and administration, the SRA has ordered the overwrite of the old Japanese legal and judicial code, in favour of a version similar to the Homeland one. Despite this, we have also the consider the ongoing insurgency and the very low support from locals and Britannians alike in the Area.\n\nIndeed, the administration must decide if the new code will be instantly enacted all over the country or it'll be introduced slowly and behind the curtains.\n\nIn the first case, we'll face some instability in the near future, but the second option will make us look weak in front of the resistance."
+=======
+area11.1.d:0 "As we are beginning the process of erasing the old Japanese identity and administration, the SRA has ordered the overwrite of the old Japanese legal and judicial code, in favor of a version similar to the Homeland one. Despite this, we have to consider the ongoing insurgency and the very low support from locals and Britannians alike in the Area.\n\nIndeed, the administration must decide if the new code will be instantly enacted all over the country or it'll be introduced slowly and behind the curtains.\n\nIn the first case, we'll face some instability in the near future, but the second option will make us look weak in front of the resistance."
+>>>>>>> Stashed changes
 area11.1.a:0 "Introduce Them Step By Step"
 area11.1.b:0 "Pull Them Quickly!"
 
 area11.2.t:0 "Old Gods, New Masters"
+<<<<<<< Updated upstream
 area11.2.d:0 "Although Britannia has imposed his mighty rule over Japan, the daily reports are showing a certain opposition to embrace Britannian values and culture. For this reason we must confine and liquidate all signs of the decadent Japanese tradition, including the religious aspect. Since the recent administrative division of the country, the army has often found Shintoist monuments, temples and traditional buildings, especially in the countryside.\n\nFor Viceroy Bismark, the solution is simple and fair: the systematic destruction of every trace of this nonsense. In this way, we'll clear out various zone to re-use for Britannian structures and, most important of all, a major point of Japanese identity is going to vanish forever. Eventually, the operation will be carried out along the normal anti-insurgency expeditions, to maxime the efficiency of the project."
 area11.2.a:0 "Tear Down Those Temples!"
 
@@ -80,6 +85,21 @@ area11.4.a:0 "Piece by Piece, The Whole Structure Will Crash Down..."
 
 area11.5.t:0 "Opening Of Tokyo Settlement"
 area11.5.d:0 "Many journalists from all over the world were called to see the construction site of the brand new Tokyo Settlement, which would have been reserved only for high-ranking nobles and the government. Bismark was proud to show the colossal building to the public, who was, for the most part, astonished by the palace's height. Only the European press seemed to be scared of the site, maybe thinking this might be the near future of Paris or Sankt Petersburg, considering the recent tensions in the Atlantic Ocean.\n\nAfter the initial introduction, the so-called Iron Viceroy explained that this was the symbol of the new Britannian personal ownership of the islands for the following decades to come. Furthermore, he invited the whole world to stop using or thinking about a possible "Japan", because in that moment they had its official funeral; obviously, this was instantly followed by numerous laughs from the public.\n\nSome time after the cerimony, when Bismark retired to SRA provisional centre, some Officers informed him of a probably avoided terrist bombing planned by the resistance in the site. He loudly cursed and he quickly thought, "We must activate that damn Operation Sunset as soon as possible!""
+=======
+area11.2.d:0 "Although Britannia has imposed her mighty rule over Japan, the daily reports are showing a certain opposition to the embracement Britannian values and culture. For this reason we must confine and liquidate all signs of the decadent Japanese tradition, including all religious aspects. Since the recent administrative division of the country, the army has discovered many Shintoist monuments, temples and traditional buildings, especially in the countryside.\n\nFor Viceroy Bismark, the solution is simple and fair: the systematic destruction of every trace of this nonsense. In this way, we'll clear out various zone to re-use for Britannian structures and, most important of all, a major point of Japanese identity is going to vanish forever. The operation will be carried out along the normal anti-insurgency expeditions, to maximize the efficiency of the project."
+area11.2.a:0 "Tear Down Those Temples!"
+
+area11.3.t:0 "Struggles Within The SRA"
+area11.3.d:0 "After the recent consolidation of our administrative hold over Area 11, it seems that various elements within the rival factions of the SRA are trying to gain more influence and power. In particular, the Purist Faction has been conducting hidden sabotages to our reforms in the last months, considered to be too "gentle" for the Elevens. Furthermore, many nobles have already expressed their desire to move to the newly planned settlements, and they WILL have a considerable political weight.\n\nLuckily, Bismark has been strengthening his grip over the SRA as well, and the Iron Viceroy is not going to tolerate any direct or indirect confrontation to his authority. In fact, he revealed his intention to use the Secret Services and loyal Generals to keep in track certain individuals and make sure that his projects will proceed without "interruptions""
+area11.3.a:0 "Bismark Rule Is Absolute."
+
+area11.4.t:0 "Complete Eradication"
+area11.4.d:0 "After the first phase of De-Japanization, that took interest mainly in material structures and symbols, time has finally come to hit the very core of old society and tradition. In particular, all religious-Shintoist writings, along its vocal expression in public places and houses, will be severely banned and rituals of any ideology or faith will be punished with forced labor. Furthermore, any allegiance to the old flag or Kururugi will mean instant deportation to the New Anglia penal colony or the hell of Area 7.\n\nAfter all, all aspects linked to traditional dresses, dates, cultural festivals and, especially; decadent habits and behaviour will disappear one way or another. One suppression past another, we will be able to reduce future instablity and confuse the public and the resistance. Indeed, it's our duty to educate Elevens of their place in our superior culture and embrace the mighty Imperial teachings, following the doctrine of Saint Charles Darwin and Social Darwinism."
+area11.4.a:0 "Piece by Piece, The Whole Structure Will Crash Down..."
+
+area11.5.t:0 "Opening Of Tokyo Settlement"
+area11.5.d:0 "Many journalists from all over the world were called to see the construction site of the brand new Tokyo Settlement, which would have been reserved only for high-ranking nobles and the government. Bismark was proud to show the colossal building to the public, who was, for the most part, astonished by the palace's height. Only the European press seemed to be scared of the site, contemplating this to be a possible future of Paris or Sankt Petersburg - Considering the recent tensions in the Atlantic Ocean.\n\nAfter the initial introduction, the so-called Iron Viceroy claimed that this was the symbol of Britannia's hegamony over the islands for the following decades to come. Furthermore, he invited the whole world to stop referring to the area as "Japan", as in that moment they had its official funeral; obviously, this was instantly followed by numerous laughs from the public.\n\nSome time after the ceremony, as Bismark retired to the SRA's provisional center, some officers informed him of an avoided terrorist bombing earlier planned by the resistance in the site. He loudly cursed, and quickly relayed to his staff: "We must commence that damn Operation Sunset as soon as possible!""
+>>>>>>> Stashed changes
 area11.5.a:0 "Britannian Architecture Is The Best!"
 
 area11.6.t:0 "Economic Report No.72"
@@ -87,11 +107,23 @@ area11.6.d:0 "Before activating the financial relief plan, the Viceroy has issue
 area11.6.a:0 "We can't trust those Elevens."
 area11.6.b:0 "Bismark orders, we obey."
 area11.7.t:0 "Meeting At Fuji"
+<<<<<<< Updated upstream
 area11.7.d:0 "It was about midnight, and Bismark was travelling with some guards near the old Fuji mine; the place of the meeting was proposed by the Kyoto House, as it was one of the least visited zones in Japan after the great chaos. Everything was according to the plan of the Viceroy, as the old Japanese corporations were ready to negotiate an informal truce and technically submit to the Britannian authority, guaranteeing the functioning of the immense Sakuradite's extraction sites all over Area 11.\n\nThe secret deal included also a general amnesty to all components of Kyoto House, who will actively collaborate to the reconstruction and will temporary cease all support to the Cliques resistance. In particular, Kirihara, the previous economic minister of Japan, was sent as a rapresentatives of all industrial groups, to talk with Bismark, who seemed more than happy to break the main base of the annoying sabotages.Obsviously, at least for the initial times, the deal will be shared only with the most trusted officials and the opposition won't be able to exploit this episode."
 area11.7.a:0 "This Must Not Leave The Area, You Hear Me?"
 area11.8.t:0 "A Chat With Odysseus"
 area11.8.d:0 "Bismark was preparing to receive Prime Minister Odysseus in the new Tokyo Settlement; although the Prince was officially here for holiday purposes, he would use the occasion to listen to the Viceroy's economic demands, too. In particular, Bismark had already made the request to extremely-low interest loans from the major Britannian conglomerates, but since these were controlled by the hostile great Britannian families, only the permission of a royal prince could have unlocked the situation.\n\nOdysseus was tired as always, with some traits of general boredom, just as last time the two men met, several years ago, in Pendragon for family matters. Bismark was already preparing his rethoric skills to convince the Prince, but he was stunned while Odysseus loudly said\n\n"Ahh, I can give you whatever loan you want Knight Of One, as long as I don't have to travel to these ruins!"\n\nThe Viceroy thought it'd be easy, but not THAT easy."
 area11.8.a:0 "Heh, too easy."
+=======
+area11.7.d:0 "It was about midnight, and Bismark was travelling with some guards near the old Fuji mine; the place of the meeting was proposed by the Kyoto House, as it was one of the least visited zones in Japan after the great chaos. Everything was according to the plan of the Viceroy, as the old Japanese corporations were ready to negotiate an informal truce and technically submit to the Britannian authority, guaranteeing the functionality of the immense Sakuradite's extraction sites all over Area 11.\n\nThe secret deal further included a general amnesty to all components of Kyoto House, who will actively collaborate to the reconstruction and will temporary cease all support to the Cliques' resistance. In particular, Kirihara, the previous economic minister of Japan, was sent as a representative of all industrial groups, to talk with Bismark, who seemed more than happy to break the main base of the annoying sabotages. Obviously, at least for the initial period, the deal will be shared only with the most trusted officials and the opposition won't be able to exploit this episode."
+area11.7.a:0 "This Must Not Leave The Area, You Hear Me?"
+
+
+area11.8.t:0 "A Chat With Odysseus"
+area11.8.d:0 "Bismark was preparing to receive Prime Minister Odysseus in the new Tokyo Settlement; although the Prince was officially here for holiday purposes, he would use the occasion to listen to the Viceroy's economic demands, too. In particular, Bismark had already petitioned a request for extremely-low interest loans from the major Britannian conglomerates, but since these were controlled by the hostile great Britannian families, only the permission of a royal prince could have unlocked the situation.\n\nOdysseus was tired as always, with his same shenanigans of general boredom and neglect, just as the last time the two men met several years ago in Pendragon for family matters. Bismark was already preparing his rhetoric skills to convince the Prince, but he was stunned after Odysseus yawned, casually claiming:\n\n"I can give you whatever loan you want, Knight Of One. As long as I don't have to visit those ruins..."\n\nThe Iron Viceroy thought it'd be easy, but not THAT easy."
+area11.8.a:0 "Heh, saves me the speech.
+
+
+>>>>>>> Stashed changes
 area11.9.t:0 "The Underground Economy"
 area11.9.d:0 "A radical economic reconstruction couldn't be possible without the suppression of the underground economy, present in the Area since the first years after the Pacific War. Although it has saved numerous civilians from a total deprivation of fundamental goods, such as food, clothes or tools, it has been widely exploited in these months by the Cliques, in order to gather armaments and guns from both the Area or China.\n\nFurthermore, it is increasingly becoming a problem for the SRA and the corporations, since a giant dark market has emerged as an hub for illegal trade, empowering Yakuza and local corrupted officers. Bismark has therefore decided a violent suppression, using military forces and loyal spies to localise the major illegal networks or other operations; indeed, this will surely damage the enemies of Britannia."
 area11.9.a:0 "They Will Suffer!"
@@ -99,6 +131,7 @@ area11.10.t:0 "The Social Ladder"
 area11.10.d:0 "According to the principles of our ideology, Social-Darwinism, we will radically reorganise the society of Area 11 and its labour market. In particular, a rigid social hierarchy will be established and it will resemble the structure of the other Areas' one. The Nobles and the Aristocrats will be positioned in the upper class, although the top of the pyramid will always be occupied by the Emperor, with the royal family, and the Knights of Rounds; furthermore, low and middle ranking officers, the bureaucracy and the organized-crime will be placed in the middle class.\n\nEventually, the lower class will be rapresented by the ordinary Britannian citizens and below the Honorary Britannians (Elevens who decided to serve in the Britannian Army in exchange for minimal human rights), while the Elevens at the bottom."
 area11.10.a:0 "Disequality Is Strength!"
 area11.11.t:0 "Modifying The Landscape"
+<<<<<<< Updated upstream
 area11.11.d:0 "Viceroy Bismark has just announced to the mainland his intention, in front of the SRA, to implement Project Borehole within this month. Project Borehole was a recent plan designed by various economists and engineers at the direct orders of Bismark, several months after the Second Pacific War, and it provided information about the construction of the greatest mine the world has ever seen. Furthermore, it assured a very high profit with the maximun efficiency, although it required a great deal of energy and extensive manpower. Luckily, the Geass Order has found the massive reserve of Sakuradite behind Mount Fuji, the perfect location to build the structure.\n\nIn this case, the landscape will be severely damaged, but it's still acceptable for the sake of resources; indeed, we won't make the same errors of Kururugi and sabotage our minerary industry just for an empty nationalism."
 area11.11.a:0 "Maximum Efficiency!"
 area11.12.t:0 "Taking Down The Legacy"
@@ -110,10 +143,28 @@ area11.13.a:0 "Work Makes You Free!"
 area11.14.t:0 "Tokyo Declaration"
 area11.14.d:0 "Near midnight, Bismark was seen heading towards the Fuji Mount, and immediately blocked by some guards loyal to the SRA, while Kirihara was seen in the same area by our spies. The connection was clear, and so the intentions of Bismark, who was forced to give in our demands. In the following days, he agreed to break any deal with the Kyoto House and make a joint declaration, in Tokyo Settlment, condemning the old Japanese government and its industries, in particular Kirihara.\n\nWith this step, we have assured the continuation of the standard Britannian economic politics, and the predominance of the pure Britannian conglomerates, which will operate in the territory without any further restriction.This victory will surely favour the power of radical factions within the SRA, purists and nobles in head."
 area11.14.a:0 "Nothing But Subversives."
+=======
+area11.11.d:0 "Viceroy Bismark has just announced to the mainland his intention, in front of the SRA, to implement Project Borehole during this month. Project Borehole was a recent plan designed by various economists and engineers at the direct orders of Bismark, several months after the Second Pacific War, and it provided information about the construction of the greatest mine the world has ever seen. Furthermore, it assured immense profit with maximun efficiency standards, although it will require a great deal of energy and extensive manpower. Luckily, the Geass Order has located the massive reserve of Sakuradite behind Mount Fuji which was deemed as the ideal location to build the structure.\n\nIt is estimated that the landscape will be severely damaged, but it's an acceptable sacrifice for the Empire of Britannia; indeed, we won't make the same errors of Kururugi and sabotage our minerary industry for a dead concept of nationality of a pathetic people."
+area11.11.a:0 "The Sakuradite Must Flow!"
+
+area11.12.t:0 "Taking Down The Legacy"
+area11.12.d:0 "Despite Kirihara's departure into an unknown hideout and the collapse of his industries, it seems that the other members of the Kyoto House are still trying to play the clock, taking precious time to decide their every move, under the banner of Kaguya Sumeragi; a young woman who intelligence's reports claim her recent nomination as Kyoto house's head mistress. The SRA, against Bismark's advice, has decided to issue a series of mandates to take down the remaining representatives of the old Japanese legacy.\n\nIn precedence, the Laws of Dissolution hit only Kirihara, since they were aimed at taking direct control of Sakuradite refineries. We understimated the tenacity of the remaining members of the Kyoto group. We expect that, with the last provisions, their economic activity that happens to be directly linked to the support for the resistance, will become drastically marginalized. Along with any remaining legacy of Kururugi"
+area11.12.a:0 "Too Merciful?"
+
+
+area11.13.t:0 "New Office Of Human Resources"
+area11.13.d:0 "New directives from the SRA has ordered the division of Elevens into two groups: the first will join as cannon fodder in the garrison's brigades, while the rest will be put to work in special "relief" zones, including many slaves from South America. These camps will be established to hasten economic recovery, with the reconstruction of many industrial parks and Sakuradite refineries.\n\nThe administrative part, instead; will be controlled by the economic branch of the SRA, excluding Bismark's group, in close ties with the corporations. Through this, the process is going to require considerable efforts and intensified pacification of the public, since many reports indicated riots in the major camps.\n\nThis is precisely why we have a military garrison. We are not here for their interests, but to ours.\n\nThankfully, the latest modules of the Police's Knightframes come with adequate whips."
+area11.13.a:0 "Idle hands are tools for the devil."
+
+area11.14.t:0 "Tokyo Declaration"
+area11.14.d:0 "Near midnight, Bismark was seen heading towards the Fuji Mount, and was immediately blocked by guards loyal to the SRA, whilst Kirihara was seen in the same area by our spies. The connection was clear; and so were the intentions of Bismark, who was forced to give into our demands. In the following days, he agreed to break any deal with the Kyoto House and make a joint declaration, in the Tokyo Settlment, condemning the old Japanese government and its industries.\n\nWith this step, we have assured the continuation of the standard Britannian economic politics, and the predominance of the pure Britannian conglomerates, which will operate in the territory without any further restriction. This victory will strengthen the position of radical factions within the SRA, purists and nobles in head."
+
+>>>>>>> Stashed changes
 area11.16.t:0 "The Art of Guerilla"
 area11.16.d:0 "After months of researchs and effort, we have managed to complete the mapping of major rebel activities across the new area, not without risks and some deaths. This was ordered directly by Bismark and it will surely help to figure out the best method to get rid of this insurgency.\n\nIn particular, we have verified that each major rebel group is not actively collaborating with one or another, and now they seem uncapable of uniting their plans. This rapresents a great advantage to us, since they don't have enough offensive power to seriously threaten our iron grip in major urban cities or supply point.\n\nThese groups can be considered as separate Cliques, with many remnants of the old Japanese army; each group of soldier is also commanded by a Senior General of Kururugi's army, which is regarded as a Generalissimo. Sometimes, we have confirmed internal clashes among these groups, which can be exploited to weaken their positions."
 area11.16.a:0 "Their Struggle Is Less United Than Expected."
 area11.17.t:0 "The Tiger In The North"
+<<<<<<< Updated upstream
 area11.17.d:0 "Several investigations and information gathering efforts have resulted in a more detailed map of all insurgency groups.\n\nIn the centre, ex-General Josui Kusakabe is leading the largest militia group in the country; in addition, he has a vast reserve of equipment, especially light one, located in secret warehouses in the ruins of Tokyo and its surroundings. The General has proved to be short-tempered and impulsive, which severely hurts his effectiveness in battle.\n\nIn the south, another ex-General, named Katase, is establishing his base somewhere around the Kyushu region, with several forts build in the mountainous territories. He lacks serious attack capabilities but he has a formidable defense.\n\nThe last, and by far the most dangerous, it's Tohdoh, the responsible of several victories against our Knightmares. He has,by far, the largest military skills, and he is the most sensible tactician of Kururugi's army. He uses Hit-And-Run strategies, a real thorn in the side of our troops."
 area11.17.a:0 "That Damned Lieutenant."
 area11.15.t:0 "Passing The Torch"
@@ -126,6 +177,106 @@ area11.19.t:0 "Bismark's Special Operation"
 area11.19.d:0 "Supreme Commander Bismark has decided that the time has come to strike a major blow to the Japanese resistance. His plan was carefully planned by Bismark himself and his closest advisors.\n\nThe major objective will be Kusakabe in the centre, where our elite troops will be deployed to eliminate most of warehouses (discovered by our Secret Services) and foil Japanese soldiers. We will make them believe that we will be retreating to more secure positions,near Sakuradite mines, and ,at last, a double flanking will do the job.\n\nIn the south, our Knightmares will take care of several defensive stronholds located around the mountain ranges, forcing Katase to flee into even more deeper positions, far from our supply posts.\n\nEventually, Tohdoh will be faced by Bismark's personal soldiers, with the help of Attack Helicopters and Long-Range Artillery, in this way,the superior firepower will stop Tohdoh from helping the other Cliques. After his operation, they will stay quiet and lick their wounds."
 area11.19.a:0 "This Should Keep Them At Bay For A While."
 
+=======
+area11.17.d:0 "Several investigations and information gathering efforts have resulted in a more detailed map of all insurgency groups.\n\nIn the center, ex-General Josui Kusakabe is leading the largest militia group in the country; in addition, he has a vast reserve of equipment, especially light arms and vehicles, located in secret warehouses in the ruins of Tokyo and its surroundings. The General has proven himself to be short-tempered and impulsive, which severely minimalizes his effectiveness in battle.\n\nIn the south, another ex-General, named Katase, is establishing his base somewhere around the Kyushu region, with several forts built in the mountainous territories. He lacks serious attack capabilities but has a formidable defensive position.\n\nThe last, and by far the most dangerous, is Tohdoh. The one responsible of several victories against our Knightmares. He has by far the most military experience, and he is the most sensible tactician of Kururugi's army. He uses Hit-And-Run strategies, a real thorn in the side of our troops."
+area11.17.a:0 "That Damned Lieutenant..."
+
+area11.15.t:0 "Passing The Torch"
+area11.15.d:0 "After several years of service, Bismark was ready to dismiss himself from the absolute ruler of Area 11 and dissolve the Supreme Reconstruction Authority; he was too tired to carry on another decade in this mess. Despite this, he wasn't so eager to let his work be ruined by some arrogant Britannian aristocratic of a Governor. For this reason, he had decided on the institution of a local Senate, which would have been filled with his supporters and advisors.\n\nAfter all, the situation in Area 11 was delicate and it had to be competently managed in order to maintain the stability they had achieved. Many collaborators begged him to remain in his place, but the Emperor had greater plans for him in battlefields, rather than bureaucratic offices."
+area11.15.a:0 "Bismark, you're an honor to the homelands."
+
+
+area11.18.t:0 "PenNIIOKhT Substance No. 33"
+area11.18.d:0 "Conventional tacticts are proving to be overall ineffective in most anti-terrorism operations, and Knightmare production is still in an inefficent stage to cover all of the islands simultaneously.\n\nLuckily for us, Pendragon Research Institute has offered us a powerful nervine agent; Possibly the most powerful ever developed in Britannian territory. Using this substance, codename "PenNIIOKhT substance No. 33", we will be able to catch and neutralize entire groups in a more efficient way, with drastically lower casualty rates to our ranks. It's important to consider that this actions will effect the civilian population as well, under the potential of the insurgents hiding within crowds."
+area11.18.a:0 "Prepare the gas..."
+
+
+area11.19.t:0 "Bismark's Special Operation"
+area11.19.d:0 "Supreme Commander Bismark has decided that the time has come to strike a major blow to the Japanese resistance. This plan was carefully put together by Bismark himself and his closest advisors.\n\nThe major objective will be Kusakabe in the center, where our elite troops will be deployed to eliminate most of warehouses (discovered by our Secret Services) and fool Japanese soldiers. We will make them believe that we will be retreating to more secure positions, near Sakuradite mines, and as they approach - A double vanguard of Knightmares will do the job.\n\nIn the south, specialized Knightmares will take care of several defensive strongholds located around the mountain ranges, forcing Katase to flee into deeper positions, far from our supply posts.\n\nEventually, Tohdoh will be faced by Bismark's personal soldiers, with the help of Attack Helicopters and Long-Range Artillery, in this way,the superior firepower will stop Tohdoh from helping the other Cliques. After his operation, they will stay quiet and lick their wounds."
+area11.19.a:0 "This Should Keep Them At Bay For A While."
+
+area11.20.t:0 "A New Britannian Dawn"
+area11.20.d:0 "Clovis' arrival to Area 11 had been one of parades.\n\nAn extravagant march of loud-booted infantry under several squadrons of Britannian next-generation aircraft rocked the Tokyo Settlement on the dawn of his Highness' arrival.\n\nStanding high atop his Land Cruiser, the Viceroy gave an awe-striking speech; Promising any of those still opposing Britannia "complete annihilation". Furthermore, a few noblewomen were spotted laughing and drinking at the back of the Cruiser, cheering for their Prince as he stepped down.\n\nA vanguard of Knightmares were on full display as they surrounded his escort, standing as a painful reminder to any of those that still had any internal association to the old flag of honorary Britannians and Elevens alike. More so to those of them that actively participated in the insurgency, whom by now have started to become tired - helplessly watching as their collar was passed to a new master."
+area11.20.a:0 "All Hail the Viceroy!\nAll Hail Britannia!"
+
+area11.21.t:0 "Area 12"
+area11.21.d:0 ""Sir. Yessir!"\n\nThe sun had barely rose over the Korean peninsula, yet the sky was filled with Britannian aircraft of all shapes. The scene shifts to focus on one massive Britannian aerial carrier; As Knightmares leap out of it and onto defenseless Chinese armored vehicles, depicting the most recently developed modules leaked by Britannian intelligence.\n\nStarring Clovis La Britannia in a Knightmare of gold and crimson, the movie "Area 12" had been commissioned and directed by the Viceroy: In which Honorary Britannians are displayed in a state of complete subservience to their pure-blooded masters, with Britannian forces using Area 11 as a staging ground for an invasion of the Korean peninsula and Manchukuo, carving out Area 12.\n\nThe movie, so far, had smashed box offices worldwide and many Chinese producers have promised retaliation. Furthermore, the Chinese Federation had banned the movie within its territories and sent a strongly-worded letter to the Holy Britannian Empire, requesting a formal apology. The Empe or ignored the letter."
+area11.21.a:0 "What do you mean by "sold out"?!"
+
+area11.22.t:0 "Lazy Afternoons"
+area11.22.d:0 "There was a serene breeze, as sergeant Lars led the three IFVs under his command through the narrow, thick forest path for the 7th time this month. Since the new Viceroy's assignment, he hadn't seen anything other than this strip of 37 kilometers and his personnel's faces.\n\nBack in Bismark's reign, he was just a corporal. But that bastard would have him patrol every traversable inch these islands had to offer, and combat was a weekly occurrence. Now, he thought - They were just wasting fuel. It wasn't like an insurgent squad would just spawn to the side of the road. And even if it did, they won't be able to chase them in this terrain. Headquarter's commands had been... "Strange". As if recent orders have been blind to previous casualties we've endured to date.\n\nInterrupting his train of thoughts like a roar of thunder; a sound that couldn't be comprehended without thinking that the front vehicle had driven over an improvised land-mine brought the whole patrol to a halt, and took Lar's heart straight back to Pendragon, to his beloved Lena.\n\nScrambling to climb over the hatch for a direly-needed view and ordering the rear vehicle to make a 180° turn, a well-placed sniper was all the insurgents needed now."
+area11.22.a:0 "A Noble's resort nearby?! I said we need the gas, NOW."
+
+area11.23.t:0 "A Strongly-Worded Letter"
+area11.23.d:0 "§ROFFICE OF ROYAL AFFAIRS§!\n§RTO: VICEROY CLOVIS LA BRITANNIA§!\n§RFROM: CHIEF OF STAFF BISMARK WALDSTEIN\n\n\n"Clovis. It is with utter abhorrence that I write you this.\n\nSince your appointment, you have delegated or delayed every critical decision the ministers have presented to you with careless heedlessness. Chasing every skirt in the settlement, letting the insurgency re-emerge, and crippling the administration would have had you now against a firing squad if not for your royal ties.\n\nTurning a blind eye to your incompetence risks throwing the entire Area to flames. If this goes on, §RI will have an audience with the Emperor and authoraize a dishonorable discharge of your position as Viceroy.§! You better man-up and fix this mess.""
+area11.23.a:0 "That arrogant fool! He wouldn't dare!"
+
+area11.24.t:0 "A Hands-free Approach?"
+area11.24.d:0 "The clock struck once, with all "guests" arriving on the minute.\n\nThey were all well-informed of how secretive this meeting was supposed to be, and how this SRA-mimicking body was going to operate. 18 officials, inclusive of the co-managers; were authorized to completely take over the Viceroy's responsiblities and actively manage every aspect of Area 11 atop their current duties, effectively making the Viceroyality a figurehead's title while retaining the Prince's authority to alter course at any time.\n\nNone opposed their undeclared promotions, with most welcoming the creation of the Royal Administrative Oversight. As far as Clovis was concerned, that name would mean exactly what it sounds as to Britannian press."
+area11.24.a:0 "And if Bismark hears of this..."
+
+area11.25.t:0 "The First Assembly"
+area11.25.d:0 "The first few hours were a complete mess.\n\nThe largest conference rooms could seem tiny when they're filled to the brim with an array of staff, each yelling at their assigned clerks to arrange their share of paperwork by "priority", or whatever that meant in the instance. The freight that came from Clovis' office to cluster the doorway every twenty minutes didn't ease anyone's nerves.\n\nBismark's obsession with micromanagement only came to light after diving into the more miniscule affairs that some of these documents covered, unveiling the mystery behind his early resignation. Every Knightmare's post-combat damage assessments, the cashflow of every Noble family within the settlement, and every request of establishing a new enterprise within the region would turn anyone's hair white.\n\nAt the end of the day, the only decision that the Oversight's board were able to unanimously agree on was that the bureaucracy needed a complete overhaul, but that could wait. What mattered now is that the goverment had started to wake up, and each of these men could pursue their own agendas."
+area11.25.a:0 "Ha, to think the Viceroy would last an hour here."
+
+area11.26.t:0 "Another day in Tokyo"
+area11.26.d:0 "It first seemed that the six-hour meetings would not last over a month or two, but now - Everyone within the RAO is getting tired. The shouting, insults, and infidelity accusations have become all but common. And the Area's problems don't seem to be coming to an end anytime soon.\n\nContrary to what some within the Royal Administrive Oversight had originally anticipated, of various ministers forming cliques to milk the Viceroyality of its assets; the decenteralization of authority have created an interdepartmental rivalry that would see political figures forwarding agendas that would defund their opponents, being more divided than to exploit their positions. Thanks to Hadleigh and Asprius' influence, the worst of these ploys have been avoided, yet this by no means entails that the area will be any less of a mess than it already is.\n\nThe local administration must come to fulfill a recently issued list of objectives and annual plans before applying to receive the generous subsidies granted to developing areas within the Empire. Until then, Britannization programs and infrastructure projects must continue."
+area11.26.a:0 "Be honest, is my hair turning white?"
+
+area11.28.t:0 "The Formation of the Japanese Liberation Front"
+area11.28.d:0 "Grave news have reached our intelligence.\n\nFor as long as we've been safeguarding Britannian interests throughout Area 11, every act of resistence against our forces had been divided. But now, this doesn't seem to be the case any further.\n\nIn response to increased Britannization amongst Elevens, the cliques, led by Katase Tatewaki; have issued a formal declaration that the Japanese sun's resurgance is as imminent as "the next Britannian atrocity".\n\nGossip is spreading like wildfire throughout the ghettos of this front. And the number of Elevens applying to become honorary Britannians have come to a grinding halt. Everywhere throughout the islands, everyone is speculating with hastening breaths what the future holds for Area 11."
+area11.28.a:0 ""Pffft. Get Asprius on the line.""
+
+area11.29.t:0 "Rounding up the Strings"
+area11.29.d:0 "The hour was 3:14 past midnight, yet the Code R team only truly thrived at night.\n\nAt the center of the facility was general Asprius, diligent as always: Facing a monitor of a magnificent scale. With hundreds of images of suspected individuals being passed through it by the minute. All around him were researchers and off-book detectives scouring documents of dates going back to the invasion's first landing in hopes of finding any trace.\n\nThey were all searching for the same features that all odd casuality reports hinted towards; A feminine, mostly-slim figure. Hazel, dead eyes. And most notably - Long, verdant hair. Whom these characteristics, grouped together, earned the nickname "Green witch".\n\nUnspoken desperation was crushing down on the team's initial enthusiasm, before everyone's search was brought to an instantaneous halt with a shout of "HOLD" by the general. Ordering the screen operator to go back exactly four images, and bingo. A stray photo taken by a Britannian security camera displays the "witch" openly walking in a lowly clerk's outfit within the settlement just a few hours ago. Without wasting a moment, the general called his best team."
+area11.29.a:0 "Eagle Six - Prepare for extraction."
+
+area11.30.t:0 "A Cat in the net"
+area11.30.d:0 ""It wouldn't hurt to be a little gentler."\n\nWith zeal, wary of sorcery; captain Alex ignored the witch's plea, instead tightening the sakuradite-refined full-body restraints his team had tied her on. His mother would often tell him stories of how old hags and witches would shapeshift into beautiful maidens to delude young princes. As captivating as she seemed in her vulnerability, he was not going to be swayed.\n\nAnd so, reported the captain, with his precious cargo aboard the APC:"
+area11.30.a:0 ""Copy that, delta-5. We're heading back to base.""
+
+area11.31.t:0 "Unexpected Guests"
+area11.31.d:0 "Ever since his assignment as her personal safeguard for the duration of their stay within the facility, captain Alex had grown attached to the witch. Having to hear her soothing, warm yet exhausted voice over the past two months throughout interexperiment breaks might have charmed him too greatly. His attitude with the researchers had shifted from proactive encouragement to silent scorn, being the one to feed her by his own hand seems to have ticked something within both of them.\n\nAlex thought to himself one last time.\nWas he genuinely about to betray his general and shame his family for the sake of this girl? Whom he not so long ago would not have hesitated to liquidate on the spot? Was he... under the charm of a spell?\n\nThe captain shook his head and closed his eyes. He was on a mission to secure her transportation to an even safer facility, and that would've been the last he'd see her. That meant this minute was his last chance of escaping with her.\n\n"Driver, take that alley. Get to the docks."\nWas he doing it? His heart never struck faster. His eyes flew off to meet the witch's, to earn a weakly yet heavenly smile in return. Rewarding his endeavor with a moment of bliss, before the distance the transport had traveled away from its escorts grew enough for it to be rammed by a tractor.\n\nFor ten or so seconds, everything was blank. But every detail of how insurgents flooded the transport and massacared his men was vivid. His head bled hard from the hit he took, and that might've been enough to convince the resistence's members of his fatality. With his weapon nowhere in arm's reach, he could only helplessly watch as his dearest was taken away and loaded up in an empty gas capsule at the back of what seemed to be a commercial-issue truck."
+area11.31.a:0 ""D-Delta-5... Do y-you copy...""
+
+area11.27.t:0 "Boot camp"
+area11.27.d:0 ""...As for those that wish to accept their rightful position as subordinates of Britannia - Good tidings will come. The future is bright. This is merely the beginning of a new life.""\n\nIf the constant propaganda slogans Britannian officers bombarded you with weren't enough, the speakers take the cake. But that didn't matter to private Suzaku kururugi.\n\nOn the 6th lap through the obsticles' enclosure, separating the wheat from the chaff becomes a matter of simple observation. Private Kururugi seems to be significantly ahead of his platoon, and his eyes show no sign of faltering.\n\nHaving previously surpassed written tests in Britannian history, culture, and politics - He is deemed to be the cream of the crop of this patch, and will be uplifted to a higher performing infantry unit." 
+area11.27.a:0 "An example to all Elevens."
+
+
+rea11.32.t:0 "The Japanese Liberation Front Strikes!"
+area11.32.d:0 "As our ministers were finalizing the official upgrade of Area 11's status to a state equal of imperial institutes as some of the model areas, the bastards of the JLF have made their move.\n\nA chain of bombings occured in major Britannian settlements throughout Area 11, with the Tokyo Settlement sustaining the heaviest of damages. Our police force's response wasn't fast enough to prevent the accident, as the perpetrators infiltrated Britannian districts from the Elevens' ghettos. The situation is further worsened by the lack of O.S.I. agents who majorly left when Bismark did.\n\nFew people were killed, and material damages are mostly manageable. Luckily, the Fuji mines and other extraction sites were spared, thanks to their tightened security. However, the greatest loss today was the destruction of our myth of invincibility."
+area11.32.a:0 "The insolent whelps!"
+
+
+area11.33.t:0 "Rioting In Tokyo Settlement!"
+area11.33.d:0 "Several days after the bombings occurred, an unanticipated movement gained public support within our capital. Britannians citizens have begun rioting in several districts of the Settlement.\n\nMany of them are praising the Bismark administration and have accused the current reign of bad governance, decadence, and of containing anti-Darwinist policies.\n\nIn order to deal with the situation, Prince Clovis had decided to make an appearance on national broadcasts and make a grand speech directed to the heart of Britannian citizenry. Considering his theatrical skills, there's no doubt that he will succeed in his task. As a precautionary measure, we will send a squadron of Knightmare police to stop further chaos and clear the main avenues."
+area11.33.a:0 ""O chivalrous Britannians, hear my plea!""
+
+area11.34.t:0 "Clovis' Announcement!"
+area11.34.d:0 "Prince Clovis, much to the surprise of the Royal Administrative Oversight, have come up with a plan to reinforce the Britannian Viceroyalty and keep the JLF in its place.\n\nWe will restart the notorious cleansing campaigns, identical to the bloody ones that characterized Bismark's era. They will be initially confined to specific zones within Area 11 to speculate how honoraries would react. Several ghettos near major Britannian Settlements will be the first targets.\n\nClovis is hoping to salvage the Green Witch Project, as the Code R research team have reported stolen material, documents and experimental assets from their base near Shinjuku, this to be linked to cells of local terrorists.\n\nThese operations will be also directed from Clovis in person, much to the disapproval of local Generals."
+area11.34.a:0 "Innocent Britannians will be avenged!"
+
+area11.35.t:0 "First Target: Yokohama."
+area11.35.d:0 "Right next to the Tokyo Settlement, the Yokohama ghetto has been a thorn in the side of Britannian administration due to its close distance to the major urbanized centre.\n\nThe first operation will therefore begin from this point. We will enforce traffic restrictions and use our honorary Britannians as the first line of assault. Knightmares will then level down the streets with their extraordinary firepower.\n\nConsidering our numerical superiority, it won't be necessary to call in reinforcements or a carefully planned strategy. All communication lines will be cut from the ghettos and the Tokyo settlement. So far, our forces have annihilated the outer streets without any resistence."
+area11.35.a:0 ""Roger that Delta-2, no survivors.""
+
+
+area11.36.t:0 "Second Target: Hinohara."
+area11.36.d:0 "The ghetto of Hinohara is will be much more distant from the Tokyo Settlement, but it is still an important strategic hub for illegal weapons' trafficking among local JLF cells.\n\nIn contrast to previous expectations, local opposition have reinforced outer bases with rudimental Anti-Knightmare weaponery and entrenchments. Despite this, we can sustain any limited losses due to our sheer numbers.\n\nWe do not seek their surrender, but their extermination. Our Knightmares will bulldoze everything down. A Knightmare pilot under the name of Jeremiah Gottwald has demonstrated examplary gallantry in battle and will be promoted after the assault."
+area11.36.a:0 "Negligible losses. Carry on."
+
+area11.37.t:0 "Third Target: Shinjuku."
+area11.37.d:0 "The primary target, the Shinjuku ghetto; the place where the terrorists are expected to hide our green witch are taking refuge within.\n\nThe entire ghetto was the target of an all-out encirclement by local forces, but the situation spiraled out of control. It was gradual at first, as if individual squads of Knightmares were falling by an invisible force. But now our entire platoon had been obliterated by a complete collapse of the metropolitan subways just below our center. Just as his highness' command centre fell in imminent danger, Earl Lloyd authoraized the Lancelot to take off, and so it did  with a blast.\n\nPrivate Suzaku Kururgi was able to wreck havoc on the enemies' Sutherlands. In a flurry of dancing flames, he went on relentlessly smashing and ripping apart the heads of enemy knightmares, outgunning the entire terrorist force and easily deflecting their bullets whenever encircled.\n\nIn a final waltz, private Suzaku come to a close confrontation with the enemy's commander and nearly decapitated the snake's head - Yet he had let the opportunity slip to rescue the useless lives of two Elevens! At the very least, he single-handedly cleared out the entire ghetto."
+area11.37.a:0 "That boy's an excellent piece of equipment!"
+
+
+
+area11.38.t:0 "Checkmate"
+area11.38.d:0 "At last. We've finally located the safehouse of the surviving Elevens. Yet right as we were about to exterminate them permanently from the ghetto - A strange order came from the Viceroy.\n\n"Attention all forces: Cease fire at once.\nI Clovis, third prince of Britannia and royal viceroy of Area 11 hereby command you; All forces are ordered to cease fire at once. You will also cease destruction of any buildings or property. All casualties, whether Britannian or Eleven shall be treated equally and without prejudice. In the name of Clovis La Britannia, you are hereby ordered: Cease fire at once. I shall allow no further fighting."\n\nRight at the time of this announcement, all of the guards and high command supposed to be in the company of the Viceroy were found at odd locations. One source claims a stray shot was heard coming from the Command Center.\n\nThe moment we sent soldiers to investigate was far too late. With Clovis' corpse laying on the floor in a puddle of blood. The perpetrator of this assassination had already escaped, and only a Britannian-issued pistol and body armor were present in the scene. This can only be the work of an honorary Britannian.\n\nOnce news of the Prince's death reaches press, the Purists' might go berserk. We must contain this disaster as soon as possible!"
+area11.38.a:0 "Damn those Elevens! Damn them all!"
+
+>>>>>>> Stashed changes
 
 
 
@@ -147,7 +298,12 @@ A11_gov_reconstruction_desc:0 "The first step to solve this mess it's to create 
 A11_military_prov:0 "Establish Military Regions"
 A11_military_prov_desc:0 "All territory of former Japan will be divided into special military zones, with each region controlled by a major officer from the occupation army. Our authority will also be greatly reinforced and another inefficient piece of the old administration will be destroyed."
 A11_brt_laws:0 "Introduce Britannian Laws"
+<<<<<<< Updated upstream
 A11_brt_laws_desc:0 "Another important step towards the integration of the Area is the complete overhaul of the old legal and judicial system, enacted before the Britannian invasion. Most of new laws will obviously taken from the mainland's government and society."
+=======
+A11_brt_laws_desc:0 "Another important step towards the integration of the Area is the complete overhaul of the old legal and judicial system, enacted before the Britannian invasion. Most of the new laws will be taken from the mainland's government and society."
+
+>>>>>>> Stashed changes
 A11_ban_jap:0 "Banish Kanji Alphabet"
 A11_ban_jap_desc:0 "A major obstacle to the integration into the empire is the different alphabet which was widely used before the invasion. Although it will be a real shellshock for the population, this is a mandatory step to the big picture of the Holy Britannian Empire. Of course, any resistance will be met with bullets and tanks."
 A11_start_cultural_repres:0 "Start the Cultural Repression"
@@ -157,7 +313,12 @@ A11_police_force_desc:0 "Almost all police forces of old Japan have already join
 A11_food_supply:0 "Emergency Food Imports"
 A11_food_supply_desc:0 "The old agricultural output of Japan is now near to zero, and mass starvation will soon occour in the major cities, causing a massive demographic collapse. To avoid this, emergency food imports from the other Areas in South America will be imported here at very low prices and distribuited to the loyal or passive elements from the population."
 A11_country:0 "Rebuilding A Nation"
+<<<<<<< Updated upstream
 A11_country_desc:0 "We have just achieved an almost complete control in the Area, excluding the partisan-controlled strongholds in the countryside, and now we can operate major reforms tp solve the catastrophic problems linked to the Second Pacific War."
+=======
+A11_country_desc:0 "We have just achieved an almost complete control in the Area, excluding the partisan-controlled strongholds in the countryside, and now we can operate major reforms to solve the catastrophic problems linked to the Second Pacific War."
+
+>>>>>>> Stashed changes
 A11_stab_sit:0 "Stabilize The Situation"
 A11_stab_sit_desc:0 "The first step, following Bismark plan, is to alleviate the demographic depression and, at the same time, rebuild many of the previous destroyed infrastuctures, using a modern Britannian architecture. Furthermore, the housing separation will rapresent the base for the future segregation regime for the natives."
 A11_new_build_division:0 "New Housing Segregation"
@@ -185,7 +346,11 @@ A11_concessions_desc:0 "As part of the deal, we will hand over sixty percent of 
 A11_allow_zaibatsu:0 "Return of The Kyoto House"
 A11_allow_zaibatsu_desc:0 "The Kyoto House has been partially integrated into Area 11 economy, turning the Viceroyalty into a singular case into the Holy Britannian Empire. Of course, this was caused by a situation of special emergency, and it's not guaranteed that the successive Viceroy will maintain the new status quo."
 A11__mines:0 "Rebuild The Mines"
+<<<<<<< Updated upstream
 A11__mines_desc:0 "The natural reserves of Sakuradite rapresent the cause of the entire Pacific War and , because of this, must operate at maximum efficiency to serve the Imperial economy; this Area will certainly become the most valuable in the Empire."
+=======
+A11__mines_desc:0 "The massive reserve of Sakuradite throughout the islands represent the cause of the Pacific War. Due to this, Area 11's economy will be repurposed to exploit the resource as extensively as possible. Our mines must operate at maximum efficiency to serve the Imperial economy. By re-introducing previous mines and greatly expanding their capabilities."
+>>>>>>> Stashed changes
 A11_funds_brt:0 "Low-Interest Loans"
 A11_funds_brt_desc:0 "Everything has a cost, including the operations of Bismark; in order to finalize the grand project, we will request funds and loands from the powerful families in Pendragon, who control eighty percent of total stocks belonging to the immense conglomerates."
 A11_integrate_bureau:0 "Integrate Previous Bureaucracy"
@@ -207,7 +372,11 @@ A11_no_deal_desc:0 "Although Kirihara has expressed a certain disponibility to t
 A11_crush_kirihara:0 "Crush Kirihara"
 A11_crush_kirihara_desc:0 "The SRA has concluded that Kirihara rapresents a spine in the thorn of Area 11, considering his endless supplying to the Resistance and its non-so-legal activities. Because of this, a mandate will be published and he'll be forced to definetely go underground. Time of Bismark's leniency is over."
 A11_seize_assets:0 "Seize All Assets"
+<<<<<<< Updated upstream
 A11_seize_assets_desc:0 "Now that Kirihara and the Kyoto House aren't in a position to resist, we can seize all properties belonging to the former Japanese corporations by the power of the army. The operation will begin from the industrial centres to the countryside."
+=======
+A11_seize_assets_desc:0 "Now that Kirihara and the Kyoto House aren't in a position to resist, we can seize all properties belonging to the former Japanese corporations. Machinery will be sold to the highest bidder of Imperial corporations and land will be awarded to the most successful of officers.A clear reminder of how "Strength is Justice"."
+>>>>>>> Stashed changes
 A11_forced_labour:0 "Forced Labour"
 A11_forced_labour_desc:0 "Honorary Britannians are not only useful as a military source of manpower, but they can work in our mines,as low level workers, to fill up the void left by Kirihara nad the Kyoto House. The SRA will convince the generals to lend a part of their manpower with the backing of Bismark."
 A11_civil_industry:0 "Repair Civilian Industries"
@@ -219,16 +388,25 @@ A11_purge_bureau_desc:0 "Despite our cleansing efforts, the old bureaucracy keep
 A11_order:0 "Order in The Streets"
 A11_order_desc:0 "Several middle-ranking officers, including the famous Kyoshiro Tohdoh, have gone into hiding since the Pacific War and they are currently divided into several Cliques all over the Area. Luckily, they haven't formed a united front yet, and we must exploit this division to destroy them."
 A11_secret_police:0 "Activate O.S.I."
+<<<<<<< Updated upstream
 A11_secret_police_desc:0 "Britannian Intelligence, with the O.S.I. agency, is one of the best in the world, and Bismark has the intention to use their power to spot the major centre of opposition and infiltrate their ranks, before the start of the suppression itself. Although we must not forget the O.S.I.'s linking to the Geass Order."
+=======
+A11_secret_police_desc:0 "Britannian Intelligence, in cooperation with agents from the O.S.I. agency - Answerable only to the Emperor - Bismark is giving the insurgency no room, and has authorized using their combined efforts to spot the major centre of opposition and infiltrate their ranks, before the start of the suppression itself."
+>>>>>>> Stashed changes
 A11_martial_law:0 "Enact Martial Law"
 A11_martial_law_desc:0 "Martial law is a natural step towards the eradication of the plague, even if it means the total suppression of the already few concessions given to the Elevens. Ironically, they will be similar to Kururugi's special laws imposed at the last stages of the war."
 A11_cleansing:0 "Cleansing Compaigns"
+<<<<<<< Updated upstream
 A11_cleansing_desc:0 "The campaign will be divided into three main routes: firstly, a series of military operations in the south to fully capture the industrial centres of Area 11 and break one important linking to the Kyoto House; then we shall counter the urban guerrilla that threaten our Sakuradite mines, and eventually we will attack the most dangerous general in the north, Tohdoh."
+=======
+A11_cleansing_desc:0 "The campaign will be divided into three main routes: First, a series of military operations in the south to fully capture the industrial centres of Area 11 and break one important linking to the Kyoto House; Then we shall counter the urban guerrilla that threaten our Sakuradite mines, and eventually we will attack the most dangerous general in the north, Tohdoh."
+>>>>>>> Stashed changes
 A11_chaos_south:0 "Smash The Plague"
 A11_chaos_south_desc:0 "Officer Katase has been entrenched in his fortification in the southern territories, holding a considerable number of Sakuradite mines. Although all his power, his military forces are not so powerful, and a swift repression would be enough to force him into hiding."
 A11_chaos_north:0 "Presence In The North"
 A11_chaos_north_desc:0 "The dispersed northen territories of Area 11 have been refuge to the most efficient General, Kyoshiro Tohdoh, who inflicted us a humiliating defeat in the Pacific War. More resources shall be poured into this zone to better couter its activities."
 A11_chaos_cities:0 "An End To Urban Anarchy"
+<<<<<<< Updated upstream
 A11_chaos_cities_desc:0 "General Kusakabe has made a name for himself with his guerrilla activities in the ruins of various cities, even infiltrating the new ghettos in construction. A reinforced policing and close surveillance should be enough to weaken the commander, but systematic repression could be a solution,too."
 A11_starve_them:0 "Gas Them To Death!"
 A11_starve_them_desc:0 "When our conventional weapon will be in difficulty, we will use biological armaments. After all, nervine incendiary gases will bypass their natural defenses. Bismark has also ordered to not use this in unnecessary situations, to avoid useless losses."
@@ -242,22 +420,62 @@ A11_oper_lazarus:0 "Operation Sunset"
 A11_oper_lazarus_desc:0 "The final blow to the Cliques is near; all military forces will be coordinated by the personal command of Bismark to eradicate major outposts in the countryside and conquest the remaining Sakuradite rafineries in their control. Indeed, their days are numbered."
 A11_retirement_bismark:0 "The Work Is Complete"
 A11_retirement_bismark_desc:0 "The economic reforms are complete and we have achieved an economic balance in the Area; some may call it stagnation but it's still better than the total mess of several years ago. The process has been tiring though, and rumors says current Viceroy could be thinking of an early retirement..."
+=======
+A11_chaos_cities_desc:0 "General Kusakabe has made a name for himself with his guerrilla activities in the ruins of various cities, even infiltrating the new ghettos in construction. Reinforcing the police force, tightening surveillance, and systematic oblitiration of his forward brigades will make him reconsider every inch he dares to make an advance towards."
+A11_starve_them:0 "Gas Them All"
+A11_starve_them_desc:0 "We will use biological armaments as we have in every previous revolt since its weaponization. The nervine incendiary gases will make short of their inane efforts. Bismark has ordered to not use this in unnecessary situations, but the more extreme of officers struggle to comply."
+A11_repulse_guard:0 "Repulse The Old Guard"
+A11_repulse_guard_desc:0 "The Cliques are tenacious. Ruthlessly counter-attacking our positions in extreme terrains, almost always defending isolated strongholds until the last man. From the lower ranks, they've marched through countless minefields by now and any material loss are more than compensated for by the labor of the remaining honoraries."
+A11_death_penalties:0 "The Seventy Rule"
+A11_death_penalties_desc:0 "The firing squad has been a very efficient method of containment in the other areas, so why don't we utilize it here too? Under the personal orders of Bismark, seventy percent of all captured manpower will be sentenced to the squad once they're in our hands. Obviously, though, they will be "misinformed" about the fate of those that surrender. We don't need more Elevens."
+A11_raze_campaigns:0 "Razing The Countryside"
+A11_raze_campaigns_desc:0 "Natural barriers and forests are often used by the rebels to operate sabotages and ambushes to our forces. Extensive "cleaning" operations that will entail burning entire forests to terminate a few squads will be put in place. and its success will be guaranteed by Knightmares' protection."
+A11_oper_lazarus:0 "Operation Sunset"
+A11_oper_lazarus_desc:0 "The final blow to the Cliques is near:All military forces will be coordinated by the personal command of Viceroy Bismark to eradicate the headquarters and major outposts of all three cliques simultaneously, and conquer the remaining Sakuradite refineries in the insurgents' control. We cannot tolerate this taint to Imperial prestige any further."
+A11_retirement_bismark:0 "Viceroyality Worthy of Britannia"
+A11_retirement_bismark_desc:0 "The economic reforms are complete and we have achieved an economic balance in the Area; some may call it stagnation, yet it's substantially better than the total wreck of several years ago. The process has been exhausting, and rumors claim the current Viceroy could be thinking of a well-deserved early retirement."
+>>>>>>> Stashed changes
 A11_open_civ_govern:0 "Introduce A Civilian Administration"
 A11_open_civ_govern_desc:0 "Bismark will retire in few months and bureaucratic practises are being compilated to formally disband the SRA and introduce a standard government, like all other Areas."
 A11_nominate_clovis:0 "Nominate Clovis La Britannia"
 A11_nominate_clovis_desc:0 "Emperor Charles has decided that Bismark's vacant position will be occupied by his son Clovis La Britannia. The Prince has never assumed the responsabilities of a Viceroy, and many fears his inexperience will be lethal to the careful balance achieved by Bismark."
 #Clovis Focus Tree
+<<<<<<< Updated upstream
 A11_clovis_gov:0 "Clovis Adventure"
 A11_smile_cam:0 "Smile For The Cameras"
 A11_bismark_legacy:0 "Bismark Legacy"
 A11_duties:0 "Duties, Duties, Duties..."
 A11_growing_boredom:0 "Growing Boredom"
 A11_corruption:0 "Rampant Corruption"
+=======
+A11_clovis_gov:0 "Clovis' Adventure"
+A11_clovis_gov_desc:0 "His Highness remains the most surprised of the Emperor's choice, yet he seems the most enthusiastic. Prince Clovis is keenly aware of the prestige associated with the complete subduction of an area, more so if that area has a culture as unique as that of Elevens, more so if that area has almost the entire world's known Sakuradite reserves."
+A11_smile_cam:0 "Smile For The Cameras"
+A11_smile_cam_desc:0 "Wherever our beloved Prince goes, Britannian press follows. And they especially followed the new airborne regiments' drilling he ordered the organization of. Our Prince and Viceroy had been seeing the troops well, but various essential administrative decisions had been put on hold until he finds time in his rightly-clustered schedule..."
+A11_bismark_legacy:0 "Bismark's Legacy"
+A11_bismark_legacy_desc:0 "The Viceroy had been energetic in ordering patrols all over the operational map, including territories that previous reports confirmed the security of. Some of the officers are noting that reports tend to get shorter, less insurgents are getting caught and casualties are beginning to mount as our patrols leave to drive through the same district several times a week."
+A11_duties:0 "Duties, Duties, Duties..."
+A11_duties_desc:0 "Compared to the inspiring enthusiasim his Highness displayed three months prior, it suddenly seems as if the bureaucracy's routine is not his "foremost priority". The startling success of his film-making career hadn't spared him time-leeching ladies and his strict orders of assigning patrols to almost static positions have feigned to our Viceroy that Area 11 is on the path to definite stability."
+A11_growing_boredom:0 "Growing Boredom"
+A11_growing_boredom_desc:0 "Staff meetings, new projects, statistics, and diplomatic appearances. Funding here, approval there - Exhilirating at first, yet everything to the Viceroy is becoming insufferably boring. So boring, in fact, that he forced generals to postpone all staff discussions and for the bureaucrats to stop pestering him entirely."
+A11_corruption:0 "Rampant Corruption"
+A11_corruption_desc:0 "Since the Viceroy's rather painful decision to decapitate the bureaucracy from his direct oversight. This has enabled us to resolve some of most urgent issues by "illegal" means - But it had equally enabled the head of every department to write any arbitary request to the government and stamp its approval without any necessary authorization."
+>>>>>>> Stashed changes
 A11_tolerate_purists:0 "Tolerate Purist Presence"
 A11_organised_crime:0 "Blind Eye On Crime"
+<<<<<<< Updated upstream
 A11_partying:0 "Drinks and Parties!"
 A11_pen_message:0 "A Message From Pendragon"
 A11_clovis_decision:0 "Clovis' Decision"
+=======
+A11_organised_crime_desc:0 "With a growing administrative strain on the goverment, all of its sectors are starting to crack. This is especially the case for local police departments. There have been rumors of bribery within officers' ranks and agreements with major crimelords and Yakuza remnants. The most extreme of which claim that human trafficking is emerging within the ghettos... What's the dignity of an Eleven, anyway?"
+A11_partying:0 "Drinks and Parties!"
+A11_partying_desc:0 "At last - His Highness can finally enjoy the sweet, sweet fruits of his hard work. Almost as sweet as his last affair with a dazzling youngwoman from Ashford... No longer is he bothered with mundane affairs. The Viceroyalty is an honorary title of prestige and glory. And as such, the wine shall flow!"
+A11_pen_message:0 "A Message From Pendragon"
+A11_pen_message_desc:0 "We have received an unusual letter from home. Every letter that came into office since the new administration had either been directed at the Viceroy bearing a Noblewoman's insignia, or had a clear title designated for state administration. This one was signed by Bismark - The Knight of One, and is classified from every eye below that of the Viceroy's."
+A11_clovis_decision:0 "Clovis' Decision"
+A11_clovis_decision_desc:0 "As irritating a return to office would be, Viceroy Clovis cannot risk Bismark tarnishing his reputation.His Highness concluded that the perfect course of action is forming an executive body. Composing it of the ministers, chief bureaucrats and top generals would resolve worst problems. To avoid indecision, it will be under co-management of Minister Hadleigh and General Aspirius."
+>>>>>>> Stashed changes
 A11_tokyo_bombings:0 "Tokyo Bombings"
 A11_organise:0 "Re-Start Cleaning Campaigns"
 A11_ghetto_battle_1:0 "Battle Of Yokohama"
@@ -265,6 +483,7 @@ A11_ghetto_battle_2:0 "Battle of Hinohara"
 A11_ghetto_battle_3:0 "Battle of Shinjuku"
 A11_clovis_death:0 "Endgame"
 A11_diarchy:0 "A Necessary Diarchy"
+<<<<<<< Updated upstream
 A11_war_minister:0 "Aspirius' Ambitions"
 A11_interior_minister:0 "Hadleigh' Proposals"
 A11_leisure_place:0 "A Place For Leisures..."
@@ -278,17 +497,70 @@ A11_remove_martial_law:0 "Relax Martial Law"
 A11_abolish_mil_regions:0 "Return To Normal"
 A11_minor_crackdowns:0 "Continue Minor Crackdowns"
 A11_honorary_brt:0 "Introduce Honorary Britannians"
+=======
+A11_diarchy_desc:0 "This Viceroyalty had been a calamity on the goverment. And the time had come to do something about the growing unrest both within and outside of the settlement. General Asprius had ordered bi-weekly 6-hour meetings until the despair that is of all of Clovis' paperwork would be conquered. And to make matters worse; Hadleigh requested a review of every approved project within the last four months."
+A11_war_minister:0 "Asprius' Ambitions"
+A11_war_minister_desc:0 "It's well-known to Clovis that Asprius' interests lies with what his Highness views as a cabal of esoteric lunatics, allowing the Viceroy to not bother entertaining the probablity of a coup. The General's competency in handling the RAO and his now near-limitless authority had finally given him the necessary freedom of initiative in pursuing the group's interests."
+A11_interior_minister:0 "Hadleigh's Proposals"
+A11_interior_minister_desc:0 "Through a series of programs that aim to expand the settlement, establish a tourist sector for the upper echelons and improve quality of life for the nobles - Hadleigh believes that this will attract far more lucrative investments and begin a gold-rush for the industrialization of Area 11."
+A11_leisure_place:0 "A Place For Leisures..."
+A11_leisure_place_desc:0 "A large portion of the outskirts of the Tokyo settlement will need to be dedicated as part of the development program. A series of facilities within the location have already surpassed the planning phase. At the head of list is the "Tower of Babel"; a projected massive tower serving as a vertical "pleasure district" of its own with everything from casinos and lavish restaurants to theaters."
+A11_duties_2:0 "...And Duties"
+A11_duties_2_desc:0 "To foster growth of the private sector, families wishing to extend their stay beyond limited tourism within Area 11 will require either establishing firms to employ the growing number of honorary Britannians or make massive investments into the local stock exchanges. This way; we will bloat the reputation of Area 11 as a home to the elite of the elite."
+A11_promote_culture:0 "Promote Britannian Culture"
+A11_promote_culture_desc:0 "As per imperial code of conduct, every new building constructed on the Area's soil must stand as a monument of Britannian supremacy. Every district must reflect the Empire's prestige, every tower must stand in triumph. And most importantly; Every Eleven must be reminded of their inferiority."
+A11_housing:0 "New Housing Programs"
+A11_housing_desc:0 "For the sake of our continuous rule on the Area 11, we will need to integrate a strong class composed of the local officers, incoming personnel, and the lower casts of nobility by giving them affordable yet accommodating housing, which is currently in severe scarcity relative to demand. The new developing zone will be dominated by districts for residential use."
+A11_new_universities:0 "Establish An Educational District"
+A11_new_universities_desc:0 "A dangerous issue becomes more apparent; Existing educational centers are painfully inadequate. A series of public schools will be the cornerstone of the developing zone to ease the pressure on currently operating institutes. Moreover, the Ashford Foundation's initiative of establishing the first private academy had been well-received."
+A11_art_contests:0 "Promote Art Contests"
+A11_art_contests_desc:0 "The romanticization of Britannian culture is what makes it the best in the world. By issuing expansive grants to prestigous artists from the core of the Empire to participate in local art exhibitions, we can paint a subtle image to the crowds; of Britannia stretching out its hand to the Elevens."
+A11_slow_ethnic_cleansing:0 "Slow Down Cultural Cleansing"
+A11_slow_ethnic_cleansing_desc:0 "The rate at which Elevens sign up to become honorary Britannians had hiked far beyond our current capabilities of taking every single individual through the rigid loyalty routines. As a momentary measure, we will abolish the most demanding of these tests. High command deems the past of Elevens to be of no further relevance." 
+A11_remove_martial_law:0 "Demilitarize Remote Regions"
+A11_remove_martial_law_desc:0 "The insurgency may be a shadow of the force Bismark faced a few years back, but some chokepoints, mostly of remnants of the Tohdoh clique, have re-emerged. As unpopular as this may sound, but our force is spread thin as it is - We have to momentarily abandon a few insignificant pockets to better concentrate our efforts inland, and give the most exhausted of our troops a breather." 
+A11_abolish_mil_regions:0 "The New Normal"
+A11_abolish_mil_regions_desc:0 "Perhaps motivated by our new patrol routes that don't seem as bold as they used to be, elements within the old cliques have seen a resurging activity. As if they are a cancer that keeps appearing whenever you extirpate its core. No bother. We will abandon the remote regions completely and focus on eradicating any fighting spirit that remains within the larger population."
+A11_minor_crackdowns:0 "Continue Minor Crackdowns"
+A11_minor_crackdowns_desc:0 "The ghettos have gone unscathed for too long. Such leniency has no place in Area 11. We will organize surprise searches and arbitary executions through every gathering of Elevens under our heels. They must be reminded that their place, if not in our labor camps - Lies in the ash."
+A11_honorary_brt:0 "Expand Honorary Britannians"
+A11_honorary_brt_desc:0 "For as long as we've began accepting Elevens, the honorary Britannians have acted as nothing more than cannon fodder in our army. Only given serious weaponary to assualt the heaviest of enemy entrenchments. Honoraries that fully prove themselves in loyalty and ability will be granted room to act within our military as Privates, with a very limited yet open possiblity of promotion."
+>>>>>>> Stashed changes
 A11_native_navy:0 "A Proper Navy"
 A11_geass_reserch:0 "Begin Geass Researches"
+<<<<<<< Updated upstream
 A11_project_green_witch:0 "Project Green Witch I"
+=======
+A11_geass_reserch_desc:0 "After years of being nothing more than an office of hypothetical analytics, the Code R research team had been officially established as an underground department under the Viceroy's palace. After some "accidents" and the liquidation of the honoraries that did much of the gruesome labor to enact the facility, very few know of the department's existence beyond the scientists in place."
+A11_project_green_witch:0 "Project Green Witch I"
+A11_project_green_witch_desc:0 "The pinnacle of our research and cooperation with the Geass cult had enlightened our experts of an entity powerful enough to sustain experimentation and take us closer to our ultimate objective. Rumors within the cult suggest that this being is who the O.S.I. had been on the trail of throughout Area 11. If that is true, then it's a race. And we cannot afford to lose."
+>>>>>>> Stashed changes
 A11_project_green_witch_2:0 "Project Green Witch II"
 A11_geass_cult:0 "Collaborate With The Cult"
+<<<<<<< Updated upstream
 A11_rebuild_army:0 "Reinforce The Garrison Army"
 A11_no_restrictions:0 "Knightmare Restrictions No More!"
 A11_knight_police:0 "Integrate Knight Police"
 A11_funds:0 "More Funds"
 A11_secret_bases:0 "Secret Bases For Secret Experiments"
 A11_upgrade_area_status:0 "Fruits Of Our Job"
+=======
+A11_geass_cult_desc:0 "In the span of a few weeks, intensified sakuradite studies have revealed invaluable insights to our team that'd otherwise have required years of hypothesies and inefficient calculations. But it's not nearly enough if we wish to achieve our goals within the decade. Collaboration with the Geass cult will be all that is needed to realize our vision."
+A11_rebuild_army:0 "Reinforce The Garrison Army"
+A11_rebuild_army_desc:0 "The past few months have been a disaster for the local garrison, with casualties coming close to that of the first occupation's years. We will formally request new officers from the homelands and anti-insurgency specialists from the archipelago of Area 10 to bring the Elevens back under our heels."
+A11_no_restrictions:0 "Knightmare Restrictions No More!"
+A11_no_restrictions_desc:0 "The results of untold lobbying and bribery back home with the military's chief legislators and industrial conglomerates have finally allowed our local brigades to acquire advanced Knightmare modules. The only concerns were widespread fears among the Britannian royal family and the officer corps alike that members of the resistence would get their hands on these modules, but that's unthinkable."
+A11_knight_police:0 "Integrate Knight Police"
+A11_knight_police_desc:0 "If our garrison had learned anything from this resources' sink of an occupation, it's that when you invade a nation with Knightmares: You should maintain order using the same knightmares. The vast majority of Knightmares left Area 11 when combat mostly came to an end. As fatal of a mistake that had been, the time to make up for it is now."
+A11_funds:0 "More Funds"
+A11_funds_desc:0 "As great as knightmares may be, they are still in a stage where they're inefficient and extremely costly if we're to require their sole presence on every square kilometer. Our infantry remains an integral force of the garrision, their equipment must see a direly needed overhaul and a severely delayed upgrade of heavy armaments must take place."
+A11_secret_bases:0 "Secret Bases For Secret Experiments"
+A11_upgrade_area_status:0 "Strength and Prosperity"
+A11_secret_bases_desc:0 "The recent achievements within the research team and the increasing demands of the garrison have given rise to a revolutionary idea - Geass-enhanced Knightmares. This concept must remain under every measure of secrecy, our dear witch must go another four hundred meters underground."
+A11_upgrade_area_status_desc:0 "Ever since Asprius and Hadleigh shared the reigns over the government, the garrison had been reporting diminishing casualty rates and the stock markets surpassed the moon. Construction, immigration, and applications of honorary citizenships are at an all-time high. Britannian excellence and honoraries' labor is taking Area 11 to a golden era of strength and prosperity."
+
+
+>>>>>>> Stashed changes
 
 
 ##Parties
@@ -511,7 +783,7 @@ A11_military_crackdown_hokkaido:0 "Enact A Military Crackdown"
 A11_targeted_assassinations_hokkaido:0 "Conduct Targeted Assassinations"
 A11_gas_countryside_hokkaido:0 "Launch A Gas Attack"
 A11_bribes_hokkaido:0 "Bribe The Officers"
-A11_force_them_underground_hokkaido:0 "Clamp Down The Local Resistance"
+A11_force_them_underground_hokkaido:0 "Clamp Down Local Resistance"
 
 A11_military_crackdown_kansai:0 "Enact A Military Crackdown"
 A11_targeted_assassinations_kansai:0 "Conduct Targeted Assassinations"

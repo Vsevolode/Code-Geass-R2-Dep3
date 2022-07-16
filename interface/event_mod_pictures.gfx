@@ -63,6 +63,67 @@ spriteTypes = {
 		name = "GFX_A11_event_20"
 		texturefile = "gfx/event_pictures/A11_event_20.dds"
 	}
+	spriteType = {
+		name = "GFX_A11_event_21"
+		texturefile = "gfx/event_pictures/A11_event_21.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_22"
+		texturefile = "gfx/event_pictures/A11_event_22.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_24"
+		texturefile = "gfx/event_pictures/A11_event_24.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_26"
+		texturefile = "gfx/event_pictures/A11_event_26.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_27"
+		texturefile = "gfx/event_pictures/A11_event_27.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_28"
+		texturefile = "gfx/event_pictures/A11_event_28.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_29"
+		texturefile = "gfx/event_pictures/A11_event_29.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_30"
+		texturefile = "gfx/event_pictures/A11_event_30.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_32"
+		texturefile = "gfx/event_pictures/A11_event_32.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_33"
+		texturefile = "gfx/event_pictures/A11_event_33.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_34"
+		texturefile = "gfx/event_pictures/A11_event_34.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_35"
+		texturefile = "gfx/event_pictures/A11_event_35.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_36"
+		texturefile = "gfx/event_pictures/A11_event_36.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_37"
+		texturefile = "gfx/event_pictures/A11_event_37.dds"
+	}
+	spriteType = {
+		name = "GFX_A11_event_38"
+		texturefile = "gfx/event_pictures/A11_event_38.dds"
+	}
+
 
 
 

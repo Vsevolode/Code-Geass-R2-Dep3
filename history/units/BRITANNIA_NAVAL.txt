@@ -34,20 +34,7 @@ units= {
 				}
 			}
 		}					
-		task_force = {					
-			name = "Cruisers, Battle Force"
-			location = 9814 # Los Angeles
-			# Cruiser Division 2 #			
-			ship = { name = "HMS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			# Cruiser Division 6 #		
-			ship = { name = "HMS New Orleans" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Astoria" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Minneapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Indianapolis" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-		}					
-					
+		
 		### Destroyer Flotilla 1 ###				
 		task_force = {					
 			name = "Destroyer Flotilla 1"				
@@ -88,35 +75,6 @@ units= {
 			ship = { name = "HMS Lawrence" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
 			ship = { name = "HMS Humphreys" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
 		}					
-		### Destroyer Flotilla 2 ###				
-		task_force = {					
-			name = "Destroyer Flotilla 2"				
-			location = 9814 # Los Angeles
-			ship = { name = "HMS Detroit" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			### Destroyer Squadron 7 ###
-			# 24th Destroyer Division			
-			ship = { name = "HMS Zane" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Wasmuth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Trever" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Perry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 28th Destroyer Division				
-			ship = { name = "HMS Chandler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Southard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Hovey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Long" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			### Destroyer Squadron 8 ###
-			ship = { name = "HMS Dallas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 9th Destroyer Division				
-			ship = { name = "HMS Reuben James" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Goff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Barry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Hopkins" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 10th Destroyer Division				
-			ship = { name = "HMS Broome" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Borie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Simpson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Truxtun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-		}	
 		# Separate DESRONS #
 		task_force = {					
 			name = "Destroyer Division 20"				
@@ -128,47 +86,7 @@ units= {
 			ship = { name = "HMS Biddle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
 		}					
 	}
-	
-	### SCOUTING FLEET ###
-	fleet = {
-		name = "Scouting Force"			
-		naval_base = 9814 # Los Angeles
-		task_force = {				
-			name = "Scouting Force"				
-			location = 9814 # Los Angeles
-			### Battleship Division 4 ###			
-			ship = { name = "HMS Arkansas" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS New York" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Texas" definition = carrier equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			### Cruisers ###				
-			ship = { name = "HMS Memphis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			# Cruiser Division 4 #		
-			ship = { name = "HMS Northampton" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Houston" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Pensacola" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Salt Lake City" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			# Cruiser Division 5 #		
-			ship = { name = "HMS Chicago" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Chester" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Louisville" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }					
-			# Cruiser Division 7 #
-			ship = { name = "HMS Tuscaloosa" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS San Francisco" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			ship = { name = "HMS Portland" definition = frigate equipment = { light_cruiser_1 = { amount = 1 owner = BRT version_name = "Portland Class" } } }				
-			### Destroyer Squadron 10 ###
-			ship = { name = "HMS Decatur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 22nd Destroyer Division				
-			ship = { name = "HMS Badger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Jacob Jones" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Leary" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Schenck" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			# 23rd Destroyer Division				
-			ship = { name = "HMS Babbitt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Hamilton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-			ship = { name = "HMS Roper" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRT } } }		
-		}					
-	}
-	
+
 	### SUBMARINE FORCE ###
 	fleet = {
 		name = "Submarine Base Force"			

@@ -1,4 +1,32 @@
 #reload countrycolors
+HOK = {
+	color = rgb { 51 102 255 }
+	color_ui = rgb { 51 102 255 }
+}
+
+KYU = {
+	color = rgb { 150 230 0 }
+	color_ui = rgb { 150 230 0 }
+}
+
+SHI = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 153 102 51 }
+}
+
+CHG = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
+CHU = {
+	color = rgb { 240 0 0 }
+	color_ui = rgb { 240 0 0 }
+}
+TOH = {
+	color = rgb { 255 204 204 }
+	color_ui = rgb { 255 204 204 }
+}
 
 
 ##BRITANNIA

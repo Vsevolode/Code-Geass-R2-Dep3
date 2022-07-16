@@ -548,12 +548,20 @@ spriteTypes = {
 		name = "GFX_idea_democratic_bastion_2"
 		texturefile = "gfx/interface/ideas/JAP/democratic_bastion_2.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_democratic_bastion_3"
+		texturefile = "gfx/interface/ideas/JAP/democratic_bastion_2.dds"	
+	}
 		SpriteType = {
 		name = "GFX_idea_diplomacy_neutrality"
 		texturefile = "gfx/interface/ideas/JAP/diplomacy_neutrality.dds"	
 	}
 		SpriteType = {
 		name = "GFX_idea_industrial_corporations"
+		texturefile = "gfx/interface/ideas/JAP/industrial_corporations.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_industrial_corporations_2"
 		texturefile = "gfx/interface/ideas/JAP/industrial_corporations.dds"	
 	}
 		SpriteType = {
@@ -606,14 +614,63 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+<<<<<<< Updated upstream
 		name = "GFX_idea_pacific_war_scars"
 		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
 	}
+=======
+		name = "GFX_idea_military_anarchy_2"
+		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_military_anarchy_3"
+		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars_2"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars_3"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_JAP_reconstruction_1"
+		texturefile = "gfx/interface/ideas/JAP/JAP_reconstruction_1.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_reconstruction_2"
+		texturefile = "gfx/interface/ideas/JAP/JAP_reconstruction_1.dds"	
+	}
+>>>>>>> Stashed changes
 
 	SpriteType = {
 		name = "GFX_idea_total_war"
 		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_1"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_2"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_3"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_4"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+
 
 	
 	SpriteType = {

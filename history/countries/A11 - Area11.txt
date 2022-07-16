@@ -87,6 +87,7 @@ recruit_character = ind_groups
 recruit_character = brt_army
 recruit_character = A11_aristocrats
 recruit_character = A11_viceroy
+recruit_character = A11_viceroy_2
 recruit_character = A11_gen_general_1
 recruit_character = A11_gen_general_2
 recruit_character = A11_gen_general_3

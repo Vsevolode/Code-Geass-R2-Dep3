@@ -1019,6 +1019,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			hidden_effect = {
+				
 				set_country_flag = JAP_invasion
 				set_country_flag = Super_Event_Visible
 			}	
