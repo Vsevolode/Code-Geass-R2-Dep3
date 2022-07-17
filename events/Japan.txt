@@ -348,12 +348,8 @@ country_event = { ##Truce
 	option = {
 		name = JAP.13.a
 		hidden_effect = {
-<<<<<<< Updated upstream
-			add_war_support = -0.50
-=======
 			JAP_post_war_struggle = yes
 			add_war_support = -0.30
->>>>>>> Stashed changes
 			load_focus_tree = japan_focus_post_war
 			swap_ideas = {
 				remove_idea = stagnant_population_5
@@ -508,8 +504,6 @@ country_event = { #partition of Japan
 	}
 }
 
-<<<<<<< Updated upstream
-=======
 country_event = { 
 	id = JAP.16
 	title = JAP.16.t
@@ -1124,4 +1118,3 @@ country_event = {
 
 
 
->>>>>>> Stashed changes

@@ -6,13 +6,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_category_A11_Decadence"
 		textureFile = "gfx/interface/decisions/decision_category_A11_Decadence.dds"
-<<<<<<< Updated upstream
-=======
 	}
 	spriteType = {
 		name = "GFX_decision_category_A11_Geass_Research"
 		textureFile = "gfx/interface/decisions/decision_category_A11_Geass_Research.dds"
->>>>>>> Stashed changes
 	}
 	spriteType = {
 		name = "GFX_decision_category_JAP_post_war_struggle"

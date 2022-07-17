@@ -106,7 +106,7 @@ A11_Decadence = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
 		}
-		cost = 50
+		cost = 30
 
 		days_remove = 30
 		days_re_enable = 20
@@ -145,7 +145,7 @@ A11_Decadence = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
 		}
-		cost = 40
+		cost = 30
 
 		days_remove = 15
 		days_re_enable = 20
@@ -266,7 +266,7 @@ A11_Decadence = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
 		}
-		cost = 50
+		cost = 30
 
 		days_remove = 30
 		days_re_enable = 20
@@ -309,7 +309,7 @@ A11_Decadence = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
 		}
-		cost = 40
+		cost = 30
 
 		days_remove = 15
 		days_re_enable = 20
@@ -431,7 +431,7 @@ A11_Decadence = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
 		}
-		cost = 50
+		cost = 40
 
 		days_remove = 30
 		days_re_enable = 20
@@ -473,7 +473,7 @@ A11_Decadence = {
 		available = {
 			NOT = { check_variable = { A11_doing_Actions_2 > 1} }
 		}
-		cost = 40
+		cost = 30
 
 		days_remove = 15
 		days_re_enable = 20
@@ -537,13 +537,16 @@ A11_Decadence = {
 					check_variable = { A11_Chosen_Field = 3 }
 
 				}
+				check_variable = { Gov_Decadence < 100 }
+				check_variable = { Army_Decadence < 100 }
+				check_variable = { Civil_Decadence < 100 }
 	
 	    }
 
 		timeout_effect = {
-			A11_Army_Decadence_Medium = yes
-			A11_Gov_Decadence_Medium = yes
-			A11_Civil_Decadence_Medium = yes
+			A11_Army_Decadence_Low = yes
+			A11_Gov_Decadence_Low = yes
+			A11_Civil_Decadence_Low = yes
 		}
     }
 

@@ -40,8 +40,6 @@ ideas = {
 				stability_factor = -0.05
 				production_speed_buildings_factor = -0.10
 				consumer_goods_factor = 0.05
-<<<<<<< Updated upstream
-=======
 			}
 		}
 
@@ -143,7 +141,6 @@ ideas = {
 				army_defence_factor = -0.05
 				custom_modifier_tooltip = JAP_Rule_no_disband_and_cant_justify_war_goal_tt
 		         
->>>>>>> Stashed changes
 			}
 		}
 
@@ -168,15 +165,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-<<<<<<< Updated upstream
-				max_command_power = -25
-				planning_speed = -0.1
-				army_attack_factor = -0.05
-				army_defence_factor = -0.05
-=======
 				max_command_power = -15
 				planning_speed = -0.1
->>>>>>> Stashed changes
 				custom_modifier_tooltip = JAP_Rule_no_disband_and_cant_justify_war_goal_tt
 		         
 			}

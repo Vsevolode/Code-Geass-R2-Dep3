@@ -614,11 +614,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-<<<<<<< Updated upstream
-		name = "GFX_idea_pacific_war_scars"
-		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
-	}
-=======
 		name = "GFX_idea_military_anarchy_2"
 		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
 	}
@@ -648,7 +643,6 @@ spriteTypes = {
 		name = "GFX_idea_JAP_reconstruction_2"
 		texturefile = "gfx/interface/ideas/JAP/JAP_reconstruction_1.dds"	
 	}
->>>>>>> Stashed changes
 
 	SpriteType = {
 		name = "GFX_idea_total_war"

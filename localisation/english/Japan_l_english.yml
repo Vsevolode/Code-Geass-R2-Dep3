@@ -34,8 +34,6 @@ JAP_totalitarian_socialism_party_long:0 "Japanese Communist Party"
 
 
 #Ideas
-<<<<<<< Updated upstream
-=======
 JAP_protests_1:0 "Sporadic Protests"
 JAP_protests_1_desc:0 "Few protests have erupted against the current economic situation and, especially, the new treaty with the Chinese Federation."
 JAP_protests_2:0 "Widespread Protests"
@@ -54,18 +52,14 @@ military_anarchy_2:0 "Military Anarchy"
 military_anarchy_2_desc:0 "Although Britannians have left our territory, we still haven't managed to restore order in all regions of the country, due to our current weaknesses. Mercenaries, Yakuza Gangs, Extremist Militias and Armed Citizens are running wild throughout Japan, and they don't seem willing to peacefully lay down their new military and civilian power."
 military_anarchy_3:0 "Military Anarchy"
 military_anarchy_3_desc:0 "Although Britannians have left our territory, we still haven't managed to restore order in all regions of the country, due to our current weaknesses. Mercenaries, Yakuza Gangs, Extremist Militias and Armed Citizens are running wild throughout Japan, and they don't seem willing to peacefully lay down their new military and civilian power."
->>>>>>> Stashed changes
 military_anarchy:0 "Military Anarchy"
 military_anarchy_desc:0 "Although Britannians have left our territory, we still haven't managed to restore order in all regions of the country, due to our current weaknesses. Mercenaries, Yakuza Gangs, Extremist Militias and Armed Citizens are running wild throughout Japan, and they don't seem willing to peacefully lay down their new military and civilian power."
 pacific_war_scars:0 "Scars Of The Pacific War"
 pacific_war_scars_desc:0 "The Second Pacific War has caused much destruction in Japan, as destroyed industries, collapsed infrastructures and scattered fields have become endemic in the country. Despite this, patriotism and nationalism have never been so strong among our people. We have shown that Britannia is not invincible, and it can be beaten. All Hail Kururugi!"
-<<<<<<< Updated upstream
-=======
 pacific_war_scars_2:0 "Scars Of The Pacific War"
 pacific_war_scars_2_desc:0 "The Second Pacific War has caused much destruction in Japan, as destroyed industries, collapsed infrastructures and scattered fields have become endemic in the country. Despite this, patriotism and nationalism have never been so strong among our people. We have shown that Britannia is not invincible, and it can be beaten. All Hail Kururugi!"
 pacific_war_scars_3:0 "Scars Of The Pacific War"
 pacific_war_scars_3_desc:0 "The Second Pacific War has caused much destruction in Japan, as destroyed industries, collapsed infrastructures and scattered fields have become endemic in the country. Despite this, patriotism and nationalism have never been so strong among our people. We have shown that Britannia is not invincible, and it can be beaten. All Hail Kururugi!"
->>>>>>> Stashed changes
 stagnant_population_6:0 "Demographic Collapse"
 stagnant_population_6_desc:0 "The demographic situation of Japan was dire even before the war; but now, with the slaughter of many young soldiers and citizens, birth rates have collapsed and entire cities are currently de-populated."
 democratic_bastion:0 "Democracy of the Pacific"
@@ -288,8 +282,6 @@ yakuza_friends_desc:0 "Organized Crime will be useful as well to our cause. With
 
 
 #Various
-<<<<<<< Updated upstream
-=======
 it_falls_down_tt:0 "§RJapan Will Cease To Exist As A Unified Country.§!"
 JAP_protests_kirihara_tt:0 "§RKirihara Wins This Round.§!"
 JAP_protests_tohdoh_tt:0 "§RTohdoh Wins This Round.§!"
@@ -299,7 +291,6 @@ JAP_protests_2_tt:0 "§RThe Situation Is Escalating...§!"
 friendship_treaty:0 "Treaty Of Friendship"
 JAP_pop_approval_up_tt:0 "§GPublic Approval Is Growing.§!"
 JAP_pop_approval_down_tt:0 "§RPublic Approval Is Shrinking.§!"
->>>>>>> Stashed changes
 JAP_Rule_no_disband_and_cant_justify_war_goal_tt:0 "§RCannot Train, Disband Or Edit Units§!"
 JAP_form_gov:0 "§GA New Cabinet Will Be Formed§!"
 JAP_consumer_goods_up:0 "§RWe Will Increase Our Expenses!§!"

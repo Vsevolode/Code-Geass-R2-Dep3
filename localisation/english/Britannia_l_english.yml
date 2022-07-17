@@ -44,7 +44,7 @@ pacific_war_escalating:0 "The War Is Escalating..."
 
  news.6.t:0 "Division of Japan"
  news.6.d:0 "Few could expect that the outcome of the Second Pacific War would have been a second partition among the three superpowers, but apparently Japan is now splitted between in two rump states.\n\nAfter the risky decision of Britannia to continue the war, despite several losses and a general stalemate, EU and, especially, China have sent an invasion force to avoid a complete Britannian take-over of Japan. In particular, under the excuse of humanitarian intervention, the Chinese Army have established a de-facto Military Protectorate over southern Japan while Britannia created a similar administration in the northen regions.\n\nTensions are high in the devastated country, since a lot of Kururugi's officials, generals and common citizens are already flooding to South Japan and could create further chaos in the cities."
- news.6.a:0 "This Is The Setting Sun."
+ news.6.a:0 "The Setting of their Sun."
 
 ### GENERIC STUFF  ###
   country_capitulated.0.t:0 "[Root.GetName] has capitulated"
@@ -109,7 +109,7 @@ BRT.1.d:0 "This is a disaster!\n\nOne of the Empire's most important Empresses, 
 BRT.1.a:0 "This could have been avoided..."
 
 BRT.2.t:0 "Something is Up"
-BRT.2.d:0 "After weeks of hard investigation, employing the best agents in the entire district, we discovered some connections between the murder and parts of the government itself. The hidden web also seems to connect the Secret Order of Geass, a fanatical religious organization that has some influence in the Royal Family. At this point, it is likely that the Order and corrupt guards within the palace are behind the assassination. Even if it is an internal plot, it would create a huge shock in the hands of the press and must be kept secret, at all costs."
+BRT.2.d:0 "After weeks of hard investigation, employing the best agents in the entire district, we discovered some connections between the murder and parts of the government itself. The hidden web also seems to connect to the Secret Order of Geass, a fanatical religious organization that has influence in the Royal Family. At this point, it is likely that the Order and corrupt guards within the palace are behind the assassination. Even if it is an internal plot, it would create a huge shock in the hands of the press and must be kept secret, at all costs."
 BRT.2.a:0 "This is getting out of hand..."
 
 BRT.3.t:0 "Dead End"
@@ -118,8 +118,8 @@ BRT.3.a:0 "Watch your Back, dear detective..."
 
 BRT.4.t:0 "Priorities"
 BRT.4.d:0 "Despite the fact that the case is now closed, the consequences of the aftermath are still present. In particular, the other two superpowers have noticed our weaker position and have taken a more aggressive attitude toward us. In addition, many tensions and fears have arisen in the royal government and the royal family itself. Now, we have to decide the area where our limited resources should go first."
-BRT.4.a:0 "Prioritize the Internal Situation."
-BRT.4.b:0 "Deal with the Foreign Threat."
+BRT.4.a:0 "Prioritize the internal situation."
+BRT.4.b:0 "Deal with the foreign threat."
 
 BRT.5.t:0 "Operation Rolling Thunder"
 BRT.5.d:0 "After weeks of preparations, we are ready to launch an invasion of the Chinese-controlled Philippines. It is important to capture the entire archipelago quickly, so that we can outmaneuver the enemy and avoid a direct confrontation.\n\n Three main attacks will start from Area 10; in particular, the main armies will be on Palau, Guam, and Iwo Jima, with full naval and air support. In the end, future territories will be critical to the future expansion into the Pacific theater of the great Britannian Empire."
@@ -154,16 +154,11 @@ BRT.11.a:0 "We won't give up!"
 BRT.11.b:0 "Demand a Truce."
 
 BRT.13.t:0 "Movements In The Shadows"
-<<<<<<< Updated upstream
-BRT.13.d:0 "V.V. was the first ally of Charles during the Emblem of Blood, and this granted him a powerful position in the current administration, allowing him to retain a considerable space of maneuver, in evil and good.\n\nCurrently, V.V. has been the main antagonist to Marianne's influence, representing a counter-force to her power. Despite this, he is not the most vocal opponent, preferring an underhand approach, in order to avoid any suspection of him. The Secret Services are always keeping an eye, though, and only the Emperor's order could stop any further investigation."
-BRT.13.a:0 "It's Better To Keep An Eye on Him."
-=======
 BRT.13.d:0 "V.V. was the first ally of Charles during the Emblem of Blood, and this granted him a powerful position in the current administration. Allowing him to retain a considerable freedom of maneuver to do as he whims.\n\nCurrently, V.V. has been the main antagonist to Marianne's influence, representing a counter-force to her power. He remains the least vocal opponent, preferring an underhanded approach to avoid unnecessary attention. The Secret Services are always keeping an eye, though, and only the Emperor's order could stop any further investigation."
 BRT.13.a:0 "Something's up."
->>>>>>> Stashed changes
 
 BRT.14.t:0 "Memories Of the Emblem Of Blood"
-BRT.14.d:0 "Prior to Charles' ascension to the throne, a violent internal feud occurred within the Britannian Imperial Family. During this period, assassination and betrayals were frequented among members of the Imperial Family that wanted the throne. In addition, this process casued a period of instability at the highest levels of the Britannian administration.\n\nThe situation was partially solved with the intervention of several noble families, who supported the succession of a strong leader that could put an end to the bloodshed, in exchange for the reduction of some of the nobility's power (even though during a brief period)."
+BRT.14.d:0 "Prior to Charles' ascension to the throne, a violent internal feud occurred within the Britannian imperial family. During this period, assassination and betrayals were frequented among members of the various claimants that eyed the throne. In addition, this era saw domestic instability at its peak throughout the Empire's history.\n\nThe situation was partially solved with the intervention of several noble families, who supported the succession of a strong leader that could put an end to the bloodshed, in exchange for the reduction of some of the nobility's power (albeit for a brief period) - And that leader was Charles."
 BRT.14.a:0 "An Era To Forget."
 
 
@@ -234,7 +229,7 @@ BRT_army_desc:0 "The Philippines are one of the few territories that stand betwe
 BRT_oriental:0 "The Oriental Incident"
 BRT_oriental_desc:0 "After the Operation, we received condemnations from all nations in Asia, and the most important ones have decided to embargo our goods and impose harsh sanctions on our trade. This is a disaster for the economy, we must be quick to act or the consequences will be severe."
 BRT_laziness_odysseus:0 "Sway PM Odysseus"
-BRT_laziness_odysseus_desc:0 "Prime Minister Odysseus, despite his initial commitment in response to Marianne's death, is becoming lazier and lazier each day. We need to make a little "talk" to assure his partecipation, including threats."
+BRT_laziness_odysseus_desc:0 "Prime Minister Odysseus, despite his initial commitment in response to Marianne's death, is becoming lazier by the day. We need to have a little "talk" to assure his active participation in state politics."
 BRT_aid_MON_rebels:0 "Aid Mongolian Rebels"
 BRT_aid_MON_rebels_desc:0 "Many ministers have proposed a strong reaction against the embargo, that being the funding of several separatist groups in Mongolia. They will be reached using our connections with Yakuza, the Kyoto House and several Triads in Chinese territory."
 BRT_block_sup:0 "Flex Our Military Might"
@@ -264,13 +259,13 @@ BRT_protectionism_desc:0 "In order to defend Britannian industry after the embar
 BRT_KN_dev:0 "Continue Knightmare Development"
 BRT_KN_dev_desc:0 "Even before the death of Marianne, our scientists were experimenting the power of Sakuradite to create powerful weapons called "Knightmares", that will grant an enormous advantage with our enemies. The research is complex, though, and it will still require some time."
 BRT_KN_module_1:0 "KN Research-Phase 1"
-BRT_KN_module_1_desc:0 "The base for Knightmare's development is the creation of "emergency survival cockpits" for conventional vehicles. Equipped with rocket engines to fly the crew away from the wreck, the contraptions are equipped with artificial legs to allow greater mobility. Limited room inside said vehicles restricted the number of legs to two."
+BRT_KN_module_1_desc:0 "The base for Knightmare's development is the creation of emergency survival cockpits for conventional vehicles. Equipped with rocket engines to fly the crew away from the wreck, the contraptions are equipped with artificial legs to allow greater mobility. Limited room inside said vehicles restricted the number of legs to two."
 BRT_KN_module_2:0 "KN Research-Phase 2"
 BRT_KN_module_2_desc:0 "The Landspinner Propulsion System is essentially a set of wheels that can be attached to the back of each heel of a Knightmare Frame's foot. This will allow greater mobility and speed to our future weapons."
 BRT_KN_module_3:0 "KN Research-Phase 3"
 BRT_KN_module_3_desc:0 "For our next experiments, we will create the Factsphere Sensor, which is is essentially an advanced camera that relays live thermographic images and data to the pilot. It uses both an active and a passive sensor for microwave band and visible light. A fire-control use environmental sensor, in addition to acoustic pickup."
-BRT_KN_ashford:0 "Help Ashford Fundation"
-BRT_KN_ashford_desc:0 "Ashford family has always been a great ally among our government,and they are also managing a pretty efficient institute of research, the Ashford Fundation. With their help, we will be able to finally create a proper Knightmare module to standardize into our army."
+BRT_KN_ashford:0 "Help Ashford Foundation"
+BRT_KN_ashford_desc:0 "Ashford family has always been a great ally among our government,and they are also managing a pretty efficient institute of research, the Ashford Foundation. With their help, we will be able to finally create a proper Knightmare module to standardize into our army."
 BRT_KN_old_guard:0 "Fight The Old Guard"
 BRT_KN_old_guard_desc:0 "Several old generals, including our current chief of army, are still opposing the creation of Knightmares. They rely on more traditional tacticts and they consider Knightmares as science-fiction. They must be sidelined with direct orders from Emperor Charles."
 BRT_KN_glasgow:0 "Glasgow's Deployment"
@@ -326,6 +321,6 @@ BRT_gen_industry:0 "Abdon Development"
 BRT_generic_materiel:0 "Bardwell & Co."
 BRT_gen_air:0 "Cumberbatch Aircrafts"
 BRT_gen_naval:0 "Crawford Naval Complexes"
-BRT_gen_tank_man_2:0 "Ashford Fundation"
+BRT_gen_tank_man_2:0 "Ashford Foundation"
 BRT_gen_tank_man:0 "Cranfield Heavy Industries"
 
