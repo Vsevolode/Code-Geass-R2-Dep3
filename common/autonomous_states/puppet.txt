@@ -38,11 +38,15 @@ autonomy_state = {
 	}
 
 
-		allowed = {
-			NOT = { is_in_faction_with = FRA } 
-			NOT = { is_in_faction_with = BRT }
-			NOT = { is_in_faction_with = CHI }
+	allowed = {
+		NOT = {
+			OR = {
+				is_in_faction_with = FRA 
+				is_in_faction_with = BRT
+				is_in_faction_with = CHI
+			}
 		}
+	}
 	
 
 
