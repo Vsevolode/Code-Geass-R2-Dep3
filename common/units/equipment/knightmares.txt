@@ -843,8 +843,6 @@ equipments = {
 	knightmare_melee_3 = {
 		year = 2019
 
-		build_cost_ic = 140.0
-
 		
 		archetype = knightmare_melee
 		parent = knightmare_melee_2
@@ -872,6 +870,8 @@ equipments = {
 		hard_attack = 250
 		ap_attack = 240
 		air_attack = 70
+
+		build_cost_ic = 140.0
 	}
 
 
