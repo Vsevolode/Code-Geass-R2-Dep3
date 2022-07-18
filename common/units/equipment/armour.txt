@@ -81,7 +81,7 @@ equipments = {
 		}
 
 
-        build_cost_ic = 35.0
+        build_cost_ic = 18.0
 		maximum_speed = 8
 		reliability = 0.8
 
@@ -89,7 +89,7 @@ equipments = {
 		defense = 8
 		breakthrough = 12
 		hardness = 0.85
-		armor_value = 90
+		armor_value = 40
 
 		#Offensive Abilities
 		soft_attack = 25
@@ -199,7 +199,7 @@ mbt_3 = {
 	defense = 25
 	breakthrough = 60
 	hardness = 0.95
-	armor_value = 160
+	armor_value = 120
 
 	#Offensive Abilities
 	soft_attack = 115
