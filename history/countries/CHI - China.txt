@@ -2,6 +2,7 @@
 
 oob = "CHINA"
 
+set_naval_oob = "CHINA_NAVAL"
 
 
 set_stability = 0.47
