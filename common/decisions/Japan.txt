@@ -1,3 +1,220 @@
+JAP_post_war_struggle = {
+	JAP_increase_kirihara_support = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { kirihara_influence < 100 }
+		}
+
+		available = {
+			tag = JAP
+		}
+		cost = 20
+
+		days_remove = 15
+		days_re_enable = 15
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			add_political_power = 20
+			JAP_kirihara_influence_up_2 = yes
+			JAP_pop_approval_down_2 = yes
+		}
+
+
+	}
+	JAP_increase_kururugi_support = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { kururugi_influence < 100 }
+		}
+
+		available = {
+			tag = JAP
+		}
+		cost = 20
+
+		days_remove = 15
+		days_re_enable = 15
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			add_political_power = 20
+			JAP_kururugi_influence_up_2 = yes
+			JAP_pop_approval_down_2 = yes
+		}
+
+
+	}
+	JAP_increase_tohdoh_support = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { tohdoh_influence < 100 }
+		}
+
+		available = {
+			tag = JAP
+		}
+		cost = 20
+
+		days_remove = 15
+		days_re_enable = 15
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			add_political_power = 20
+			JAP_tohdoh_influence_up_2 = yes
+			JAP_pop_approval_down_2 = yes
+		}
+
+
+	}
+	JAP_future_promises = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { population_approval < 100 }
+		}
+
+		available = {
+			tag = JAP
+		}
+		cost = 30
+
+		days_remove = 30
+		days_re_enable = 30
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			add_political_power = 20
+			add_popularity = {
+				ideology = autocracy
+				popularity = 0.01
+			}
+			JAP_pop_approval_up_2 = yes
+		}
+
+
+	}
+
+	JAP_future_promises_2 = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { population_approval < 100 }
+		}
+
+		available = {
+			tag = JAP
+		}
+		cost = 50
+
+		days_remove = 40
+		days_re_enable = 30
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			add_political_power = 40
+			add_popularity = {
+				ideology = autocracy
+				popularity = 0.03
+			}
+			JAP_pop_approval_up = yes
+		}
+
+
+	}
+
+	JAP_hide_divisions = {
+
+		fire_only_once = no
+
+		visible = {
+			check_variable = { population_approval < 100 }
+		}
+
+		available = {
+			tag = JAP
+		}
+		cost = 40
+
+		days_remove = 30
+		days_re_enable = 15
+
+		complete_effect = {
+		}
+
+
+		remove_effect = {
+			add_stability =  0.02
+			JAP_pop_approval_up = yes
+		}
+
+
+	}
+
+
+	JAP_public_approval = {
+
+		days_mission_timeout = 20
+		is_good = no
+		fire_only_once = no
+		cancel_if_not_visible = yes
+
+		allowed = { 
+			tag = JAP 	
+		} 
+
+		available = {
+			always = no
+		}
+
+
+		activation = {  
+			check_variable = { population_approval > 0 }              
+			tag = JAP  
+			check_variable = {
+				struggle_begins = 1
+			}
+		}
+
+		visible = {
+			always = yes
+	
+	    }
+
+		timeout_effect = {
+			JAP_pop_approval_down = yes
+			add_war_support = -0.02
+			add_stability = -0.02
+		}
+    }
+}
+
+
+
 pacific_war_JAP = {
 
 
@@ -286,10 +503,6 @@ timeout_effect = {
 				}
 			}
            add_manpower = -300000
-		   swap_ideas = {
-			   remove_idea = total_war_4
-			   add_idea = total_war_5
-		   }
 
 			528 = {
 			damage_building = {

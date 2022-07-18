@@ -30,8 +30,7 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-JAP_INF_01 = 
-{
+JAP_INF_01 = {
 	name = "Infantry Division"
 
 	for_countries = { JAP }
@@ -220,8 +219,7 @@ JAP_INF_01 =
 	}
 }
 
-JAP_CAV_01 = 
-{
+JAP_CAV_01 = {
 	name = "Cavalry Division"
 
 	for_countries = { JAP }
@@ -262,8 +260,7 @@ JAP_CAV_01 =
 	}
 }
 
-JAP_MOT_01 = 
-{
+JAP_MOT_01 = {
 	name = "Motorized Division"
 
 	for_countries = { JAP }
@@ -446,8 +443,7 @@ JAP_MOT_01 =
 	}
 }
 
-JAP_MEC_01 = 
-{
+JAP_MEC_01 = {
 	name = "Mechanized Division"
 
 	for_countries = { JAP }
@@ -630,8 +626,7 @@ JAP_MEC_01 =
 	}
 }
 
-JAP_ARM_01 = 
-{
+JAP_ARM_01 = {
 	name = "Armored Division"
 
 	for_countries = { JAP }
@@ -682,8 +677,7 @@ JAP_ARM_01 =
 	}
 }
 
-JAP_PAR_01 = 
-{
+JAP_PAR_01 = {
 	name = "Paratrooper Division"
 
 	for_countries = { JAP }
@@ -724,8 +718,7 @@ JAP_PAR_01 =
 	}
 }
 
-JAP_MAR_01 = 
-{
+JAP_MAR_01 = {
 	name = "Marine Division"
 
 	for_countries = { JAP }
@@ -770,8 +763,7 @@ JAP_MAR_01 =
 	}
 }
 
-JAP_MNT_01 = 
-{
+JAP_MNT_01 = {
 	name = "Mountain Division"
 
 	for_countries = { JAP }
@@ -815,8 +807,7 @@ JAP_MNT_01 =
 	}
 }
 
-JAP_GAR_01 = 
-{
+JAP_GAR_01 = {
 	name = "Garrison Units"
 
 	for_countries = { JAP }
@@ -879,8 +870,7 @@ JAP_GAR_01 =
 }
 
 
-JAP_IMB_01 = 
-{
+JAP_IMB_01 = {
 	name = "Mixed Brigade"
 
 	for_countries = { JAP }

@@ -30,8 +30,7 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-BRT_INF_01 = 
-{
+BRT_INF_01 = {
 	name = "Infantry Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -43,38 +42,79 @@ BRT_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Infantry Imperial Battalion"
+	fallback_name = "%d Infantry Imperial Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Infantry Imperial Battalion" }
-		2 = { "%nd Infantry Imperial Battalion" }
-		3 = { "%rd Infantry Imperial Battalion" }
-		4 = { "%th Infantry Imperial Battalion" }
-		5 = { "%th Infantry Imperial Battalion" }
-		6 = { "%th Infantry Imperial Battalion" }
-		7 = { "%th Infantry Imperial Battalion" }
-		8 = { "%th Infantry Imperial Battalion" }
-		9 = { "%th Infantry Imperial Battalion" }
-		10 = { "%th Infantry Imperial Battalion" }
-		11 = { "%th Infantry Imperial Battalion" }
-		12 = { "%th Infantry Imperial Battalion" }
-		13 = { "%th Infantry Imperial Battalion" }
-		14 = { "%th Infantry Imperial Battalion" }
-		15 = { "%th Infantry Imperial Battalion" }
-		16 = { "%th Infantry Imperial Battalion" }
-		17 = { "%th Infantry Imperial Battalion" }
-		18 = { "%th Infantry Imperial Battalion" }
-		19 = { "%th Infantry Imperial Battalion" }
-		20 = { "%th Infantry Imperial Battalion" }		
+		1 = { "%d Infantry Imperial Battalion" }
+		2 = { "%d Infantry Imperial Battalion" }
+		3 = { "%d Infantry Imperial Battalion" }
+		4 = { "%d Infantry Imperial Battalion" }
+		5 = { "%d Infantry Imperial Battalion" }
+		6 = { "%d Infantry Imperial Battalion" }
+		7 = { "%d Infantry Imperial Battalion" }
+		8 = { "%d Infantry Imperial Battalion" }
+		9 = { "%d Infantry Imperial Battalion" }
+		10 = { "%d Infantry Imperial Battalion" }
+		11 = { "%d Infantry Imperial Battalion" }
+		12 = { "%d Infantry Imperial Battalion" }
+		13 = { "%d Infantry Imperial Battalion" }
+		14 = { "%d Infantry Imperial Battalion" }
+		15 = { "%d Infantry Imperial Battalion" }
+		16 = { "%d Infantry Imperial Battalion" }
+		17 = { "%d Infantry Imperial Battalion" }
+		18 = { "%d Infantry Imperial Battalion" }
+		19 = { "%d Infantry Imperial Battalion" }
+		20 = { "%d Infantry Imperial Battalion" }		
+	}
+}
+
+BRT_INF_02 = {
+	name = "Honorary Britannians"
+
+	for_countries = { AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%d Number Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Number Battalion" }
+		2 = { "%d Number Battalion" }
+		3 = { "%d Number Battalion" }
+		4 = { "%d Number Battalion" }
+		5 = { "%d Number Battalion" }
+		6 = { "%d Number Battalion" }
+		7 = { "%d Number Battalion" }
+		8 = { "%d Number Battalion" }
+		9 = { "%d Number Battalion" }
+		10 = { "%d Number Battalion" }
+		11 = { "%d Number Battalion" }
+		12 = { "%d Number Battalion" }
+		13 = { "%d Number Battalion" }
+		14 = { "%d Number Battalion" }
+		15 = { "%d Number Battalion" }
+		16 = { "%d Number Battalion" }
+		17 = { "%d Number Battalion" }
+		18 = { "%d Number Battalion" }
+		19 = { "%d Number Battalion" }
+		20 = { "%d Number Battalion" }		
 	}
 }
 
 
-BRT_MOT_01 = 
-{
+
+BRT_MOT_01 = {
 	name = "Motorized Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
@@ -86,28 +126,27 @@ BRT_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { BRT_INF_01 }
 
-	fallback_name = "%th Mechanized Royal Battalion"
+	fallback_name = "%d Mechanized Royal Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Mechanized Royal Battalion" }
-		2 = { "%nd Mechanized Royal Battalion" }
-		3 = { "%rd Mechanized Royal Battalion" }
-		4 = { "%th Mechanized Royal Battalion" }
-		5 = { "%th Mechanized Royal Battalion" }
-		6 = { "%th Mechanized Royal Battalion" }
-		7 = { "%th Mechanized Royal Battalion" }
-		8 = { "%th Mechanized Royal Battalion" }
-		9 = { "%th Mechanized Royal Battalion" }
-		10 = { "%th Mechanized Royal Battalion" }
+		1 = { "%d Mechanized Royal Battalion" }
+		2 = { "%d Mechanized Royal Battalion" }
+		3 = { "%d Mechanized Royal Battalion" }
+		4 = { "%d Mechanized Royal Battalion" }
+		5 = { "%d Mechanized Royal Battalion" }
+		6 = { "%d Mechanized Royal Battalion" }
+		7 = { "%d Mechanized Royal Battalion" }
+		8 = { "%d Mechanized Royal Battalion" }
+		9 = { "%d Mechanized Royal Battalion" }
+		10 = { "%d Mechanized Royal Battalion" }
 	}
 }
 
 
-BRT_ARM_01 = 
-{
+BRT_ARM_01 = {
 	name = "Armored Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
@@ -119,27 +158,26 @@ BRT_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Armored Royal Battalion"
+	fallback_name = "%d Armored Royal Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Armored Royal Battalion" }
-		2 = { "%nd Armored Royal Battalion" }
-		3 = { "%rd Armored Royal Battalion" }
-		4 = { "%th Armored Royal Battalion" }
-		5 = { "%th Armored Royal Battalion" }
-		6 = { "%th Armored Royal Battalion" }
-		7 = { "%th Armored Royal Battalion" }
-		8 = { "%th Armored Royal Battalion" }
-		9 = { "%th Armored Royal Battalion" }
-		10 = { "%th Armored Royal Battalion" }
+		1 = { "%d Armored Royal Battalion" }
+		2 = { "%d Armored Royal Battalion" }
+		3 = { "%d Armored Royal Battalion" }
+		4 = { "%d Armored Royal Battalion" }
+		5 = { "%d Armored Royal Battalion" }
+		6 = { "%d Armored Royal Battalion" }
+		7 = { "%d Armored Royal Battalion" }
+		8 = { "%d Armored Royal Battalion" }
+		9 = { "%d Armored Royal Battalion" }
+		10 = { "%d Armored Royal Battalion" }
 	}
 }
 
-BRT_PAR_01 = 
-{
+BRT_PAR_01 = {
 	name = "Parachute Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -151,27 +189,26 @@ BRT_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Parachuted Royal Battalion"
+	fallback_name = "%d Parachuted Royal Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Parachuted Royal Battalion" }
-		2 = { "%nd Parachuted Royal Battalion" }
-		3 = { "%rd Parachuted Royal Battalion" }
-		4 = { "%th Parachuted Royal Battalion" }
-		5 = { "%th Parachuted Royal Battalion" }
-		6 = { "%th Parachuted Royal Battalion" }
-		7 = { "%th Parachuted Royal Battalion" }
-		8 = { "%th Parachuted Royal Battalion" }
-		9 = { "%th Parachuted Royal Battalion" }
-		10 = { "%th Parachuted Royal Battalion" }
+		1 = { "%d Parachuted Royal Battalion" }
+		2 = { "%d Parachuted Royal Battalion" }
+		3 = { "%d Parachuted Royal Battalion" }
+		4 = { "%d Parachuted Royal Battalion" }
+		5 = { "%d Parachuted Royal Battalion" }
+		6 = { "%d Parachuted Royal Battalion" }
+		7 = { "%d Parachuted Royal Battalion" }
+		8 = { "%d Parachuted Royal Battalion" }
+		9 = { "%d Parachuted Royal Battalion" }
+		10 = { "%d Parachuted Royal Battalion" }
 	}
 }
 
-BRT_MAR_01 = 
-{
+BRT_MAR_01 = {
 	name = "Marine Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -183,27 +220,26 @@ BRT_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Marine Royal Battalion"
+	fallback_name = "%d Marine Royal Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Marine Royal Battalion" }
-		2 = { "%nd Marine Royal Battalion" }
-		3 = { "%rd Marine Royal Battalion" }
-		4 = { "%th Marine Royal Battalion" }
-		5 = { "%th Marine Royal Battalion" }
-		6 = { "%th Marine Royal Battalion" }
-		7 = { "%th Marine Royal Battalion" }
-		8 = { "%th Marine Royal Battalion" }
-		9 = { "%th Marine Royal Battalion" }
-		10 = { "%th Marine Royal Battalion" }
+		1 = { "%d Marine Royal Battalion" }
+		2 = { "%d Marine Royal Battalion" }
+		3 = { "%d Marine Royal Battalion" }
+		4 = { "%d Marine Royal Battalion" }
+		5 = { "%d Marine Royal Battalion" }
+		6 = { "%d Marine Royal Battalion" }
+		7 = { "%d Marine Royal Battalion" }
+		8 = { "%d Marine Royal Battalion" }
+		9 = { "%d Marine Royal Battalion" }
+		10 = { "%d Marine Royal Battalion" }
 	}
 }
 
-BRT_MNT_01 = 
-{
+BRT_MNT_01 = {
 	name = "Mountain Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -215,27 +251,26 @@ BRT_MNT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Mountaineers Royal Battalion"
+	fallback_name = "%d Mountaineers Royal Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Mountaineers Royal Battalion" }
-		2 = { "%nd Mountaineers Royal Battalion" }
-		3 = { "%rd Mountaineers Royal Battalion" }
-		4 = { "%th Mountaineers Royal Battalion" }
-		5 = { "%th Mountaineers Royal Battalion" }
-		6 = { "%th Mountaineers Royal Battalion" }
-		7 = { "%th Mountaineers Royal Battalion" }
-		8 = { "%th Mountaineers Royal Battalion" }
-		9 = { "%th Mountaineers Royal Battalion" }
-		10 = { "%th Mountaineers Royal Battalion" }
+		1 = { "%d Mountaineers Royal Battalion" }
+		2 = { "%d Mountaineers Royal Battalion" }
+		3 = { "%d Mountaineers Royal Battalion" }
+		4 = { "%d Mountaineers Royal Battalion" }
+		5 = { "%d Mountaineers Royal Battalion" }
+		6 = { "%d Mountaineers Royal Battalion" }
+		7 = { "%d Mountaineers Royal Battalion" }
+		8 = { "%d Mountaineers Royal Battalion" }
+		9 = { "%d Mountaineers Royal Battalion" }
+		10 = { "%d Mountaineers Royal Battalion" }
 	}
 }
 
-BRT_GAR_01 = 
-{
+BRT_GAR_01 = {
 	name = "Garrison Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }			# Also includes releasable Portuguese colonlies
@@ -247,38 +282,37 @@ BRT_GAR_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Infantry Imperial Battalion"
+	fallback_name = "%d Infantry Imperial Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Infantry Imperial Battalion" }
-		2 = { "%nd Infantry Imperial Battalion" }
-		3 = { "%rd Infantry Imperial Battalion" }
-		4 = { "%th Infantry Imperial Battalion" }
-		5 = { "%th Infantry Imperial Battalion" }
-		6 = { "%th Infantry Imperial Battalion" }
-		7 = { "%th Infantry Imperial Battalion" }
-		8 = { "%th Infantry Imperial Battalion" }
-		9 = { "%th Infantry Imperial Battalion" }
-		10 = { "%th Infantry Imperial Battalion" }
-		11 = { "%th Infantry Imperial Battalion" }
-		12 = { "%th Infantry Imperial Battalion" }
-		13 = { "%th Infantry Imperial Battalion" }
-		14 = { "%th Infantry Imperial Battalion" }
-		15 = { "%th Infantry Imperial Battalion" }
-		16 = { "%th Infantry Imperial Battalion" }
-		17 = { "%th Infantry Imperial Battalion" }
-		18 = { "%th Infantry Imperial Battalion" }
-		19 = { "%th Infantry Imperial Battalion" }
-		20 = { "%th Infantry Imperial Battalion" }		
+		1 = { "%d Infantry Imperial Battalion" }
+		2 = { "%d Infantry Imperial Battalion" }
+		3 = { "%d Infantry Imperial Battalion" }
+		4 = { "%d Infantry Imperial Battalion" }
+		5 = { "%d Infantry Imperial Battalion" }
+		6 = { "%d Infantry Imperial Battalion" }
+		7 = { "%d Infantry Imperial Battalion" }
+		8 = { "%d Infantry Imperial Battalion" }
+		9 = { "%d Infantry Imperial Battalion" }
+		10 = { "%d Infantry Imperial Battalion" }
+		11 = { "%d Infantry Imperial Battalion" }
+		12 = { "%d Infantry Imperial Battalion" }
+		13 = { "%d Infantry Imperial Battalion" }
+		14 = { "%d Infantry Imperial Battalion" }
+		15 = { "%d Infantry Imperial Battalion" }
+		16 = { "%d Infantry Imperial Battalion" }
+		17 = { "%d Infantry Imperial Battalion" }
+		18 = { "%d Infantry Imperial Battalion" }
+		19 = { "%d Infantry Imperial Battalion" }
+		20 = { "%d Infantry Imperial Battalion" }		
 }
 }
 
 
-BRT_KN_01 = 
-{
+BRT_KN_01 = {
 	name = "Knightmare Division"
 
 	for_countries = { BRT AR2 AR3 AR4 AR5 AR6 AR7 AR8 AR9 A10 A11 }				# Also includes releasable Portuguese colonlies
@@ -290,31 +324,31 @@ BRT_KN_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%th Knightmare Imperial Battalion"
+	fallback_name = "%d Knightmare Imperial Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st Knightmare Imperial Battalion" }
-		2 = { "%nd Knightmare Imperial Battalion" }
-		3 = { "%rd Knightmare Imperial Battalion" }
-		4 = { "%th Knightmare Imperial Battalion" }
-		5 = { "%th Knightmare Imperial Battalion" }
-		6 = { "%th Knightmare Imperial Battalion" }
-		7 = { "%th Knightmare Imperial Battalion" }
-		8 = { "%th Knightmare Imperial Battalion" }
-		9 = { "%th Knightmare Imperial Battalion" }
-		10 = { "%th Knightmare Imperial Battalion" }
-		11 = { "%th Knightmare Imperial Battalion" }
-		12 = { "%th Knightmare Imperial Battalion" }
-		13 = { "%th Knightmare Imperial Battalion" }
-		14 = { "%th Knightmare Imperial Battalion" }
-		15 = { "%th Knightmare Imperial Battalion" }
-		16 = { "%th Knightmare Imperial Battalion" }
-		17 = { "%th Knightmare Imperial Battalion" }
-		18 = { "%th Knightmare Imperial Battalion" }
-		19 = { "%th Knightmare Imperial Battalion" }
-		20 = { "%th Knightmare Imperial Battalion" }		
+		1 = { "%d Knightmare Imperial Battalion" }
+		2 = { "%d Knightmare Imperial Battalion" }
+		3 = { "%d Knightmare Imperial Battalion" }
+		4 = { "%d Knightmare Imperial Battalion" }
+		5 = { "%d Knightmare Imperial Battalion" }
+		6 = { "%d Knightmare Imperial Battalion" }
+		7 = { "%d Knightmare Imperial Battalion" }
+		8 = { "%d Knightmare Imperial Battalion" }
+		9 = { "%d Knightmare Imperial Battalion" }
+		10 = { "%d Knightmare Imperial Battalion" }
+		11 = { "%d Knightmare Imperial Battalion" }
+		12 = { "%d Knightmare Imperial Battalion" }
+		13 = { "%d Knightmare Imperial Battalion" }
+		14 = { "%d Knightmare Imperial Battalion" }
+		15 = { "%d Knightmare Imperial Battalion" }
+		16 = { "%d Knightmare Imperial Battalion" }
+		17 = { "%d Knightmare Imperial Battalion" }
+		18 = { "%d Knightmare Imperial Battalion" }
+		19 = { "%d Knightmare Imperial Battalion" }
+		20 = { "%d Knightmare Imperial Battalion" }		
 }
 }

@@ -1,0 +1,73 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	### Split between San Pedro (Los Angeles) and San Diego ###
+	fleet = {
+		name = "Garrison Force"			
+		naval_base = 9998 # San Diego
+									
+		task_force = {					
+			name = "Cruisers"
+			location = 9998 # Los Angeles
+			# Cruiser Division 2 #			
+			ship = { name = "HMS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+		}					
+					
+		### Destroyer Flotilla 1 ###				
+		task_force = {					
+			name = "Submarine"				
+			location = 9998 # San Diego
+			ship = { name = "HMS Raleigh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			### Destroyer Squadron 1 ###				
+			# 1st Destroyer Division				
+			# 2nd Destroyer Division				
+			ship = { name = "HMS Farragut" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
+			ship = { name = "HMS Dale" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
+			ship = { name = "HMS Monaghan" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
+			ship = { name = "HMS Aylwin" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
+			### Destroyer Squadron 9 ###				
+		}					
+
+
+	
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	### Under Construction Notes ###
+	# DD: Mahan class (x13) ("HMS Porter" "HMS Phelps" "HMS Clark" "HMS Moffett" "HMS Mahan" "HMS Cummings" "HMS FlHMSer" "HMS Case" "HMS Conyngham" "HMS Cassin" "HMS Shaw" "HMS Cushing" "HMS Perkins")
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "BRT"
+			version_name = "Northcape Class"
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "BRT"
+			version_name = "Salomon Class"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 2
+	}
+
+
+}
+
+#####################

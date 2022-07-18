@@ -117,3 +117,14 @@ KEN = "countries/Kenya.txt"
 
 ##Cosmetic
 JAP_PAR = "countries/JapanPartition.txt"
+JAP_KAN = "countries/JapanKanto.txt"
+
+##Japan Divided
+CHU = "countries/Chubu.txt"
+CHG = "countries/Chuguko.txt"
+KYU = "countries/Kyushu.txt"
+KAN = "countries/Kansai.txt"
+SHI = "countries/Shikoku.txt"
+HOK = "countries/Hokkaido.txt"
+TOH = "countries/Tohoku.txt"
+

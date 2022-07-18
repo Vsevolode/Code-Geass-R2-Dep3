@@ -40,6 +40,18 @@ country_event = {
 
 	
 	option = {
+		set_technology = {
+			knightmare_frame_4 = 1
+		}
+		set_technology = {
+			knightmare_frame_3 = 1
+		}
+		set_technology = {
+			landspinner = 1
+		}
+		set_technology = {
+			factspheres = 1
+		}
 		name = BRT.101.a
 		load_oob = "Britannia_take_philippines"
     }
@@ -264,14 +276,13 @@ country_event = {
     ideology = autocracy
     popularity = 0.05
 	}
-	BRT = {	
-		declare_war_on = {
-			target = CHI
-		}
-    }
+	declare_war_on = {
+		target = CHI
+		type = annex_everything
+	}
 		
 		ai_chance = {
-			factor = 20
+			factor = 0
 		}
 		
 		
@@ -426,6 +437,7 @@ country_event = {  #Total victory against Japan - Establish Area
 	
 		option = {	
 		name = BRT.10.a
+		#load_focus_tree = britannia_focus_2
 
 	
 		
@@ -476,6 +488,8 @@ country_event = {  #Total victory against Japan - Establish Area
 		transfer_state = 944
 		transfer_state = 943
 		transfer_state = 942
+		load_oob = "A11_START"
+		load_oob = "A11_NAVAL"
 		}
 		
 	}	
@@ -484,6 +498,7 @@ country_event = {  #Total victory against Japan - Establish Area
 	
 			option = {	
 		name = BRT.10.b
+		#load_focus_tree = britannia_focus_2
 
 		ai_chance = {
 			factor = 0
@@ -530,6 +545,8 @@ country_event = {  #Total victory against Japan - Establish Area
 		transfer_state = 944
 		transfer_state = 943
 		transfer_state = 942
+		load_oob = "A11_START"
+		load_oob = "A11_NAVAL"
 		}
 		
 		

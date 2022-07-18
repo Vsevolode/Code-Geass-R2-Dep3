@@ -464,6 +464,10 @@ knightmare_mass_prod:0 "Mass Production KN"
 landspinner_equip:0 "Landspinner" 
 factspheres_equip:0 "Factsphere"
 cold_war_tank_equip_desc:0 "MBT Tank"
+sp_artillery_research:0 "SP Artillery Research"
+
+cv_CAS_equipment:0 "Carrier Ground Support"
+CAS_equipment:0 "Ground Support"
 
 
 

@@ -200,6 +200,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	balanced_fist = {
+
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	
 	white_prince = {
@@ -2236,6 +2247,26 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	capital_ship_producer_offense_1 = {
+		random = no
+		equipment_bonus = {
+			ship_hull_carrier = {
+				carrier_size = 0.1
+				naval_range = 0.10
+
+			}
+			ship_hull_heavy = {
+				lg_attack = 0.10
+				hg_attack = 0.10
+				naval_range = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	capital_ship_producer_offense_2 = {
 			random = no
@@ -2353,7 +2384,7 @@ leader_traits = {
 		artillery_producer_defense_1 = {
 			random = no
 			equipment_bonus = {
-				sp_artillery = {
+				sp_artillery_1 = {
 					defense = 0.1
 					soft_attack = 0.05
 	

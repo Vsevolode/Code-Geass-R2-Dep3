@@ -161,6 +161,9 @@ opinion_modifiers = {
 	
 	
 	##### CUSTOM
+	friendship_treaty = {
+		value = 50
+	}
 		surprise_attack = {
 		value = -50
 	}

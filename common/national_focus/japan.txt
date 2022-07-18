@@ -24,7 +24,7 @@
 			country_exists = JAP
 			has_government = moderate_conservatism
 		}
-		bypass = {}
+		bypass = { }
 	
 
 		mutually_exclusive = {
@@ -37,20 +37,15 @@
 	
 		completion_reward = {
 			hidden_effect = {
-				set_variable = {
-					var = we_are_not_fucked_by_britannia
-					value = 1
-				}
+			add_ideas = {
+				JAP_generic_intelligence_idea
+				JAP_generic_minister_1_idea
+				JAP_kyoto_kirihara_idea
+				JAP_kururugi_idea
+				JAP_sawasaki_idea
 
-				add_ideas = {
-					JAP_generic_intelligence_idea
-					JAP_generic_minister_1_idea
-					JAP_kyoto_kirihara_idea
-					JAP_kururugi_idea
-					JAP_sawasaki_idea
-
-				}	
 			}
+		    }
 
 			add_political_power = -50
 			custom_effect_tooltip = JAP_form_gov
@@ -68,9 +63,7 @@
 		y = 1
 		available = {
 			country_exists = JAP
-						custom_trigger_tooltip = {
-				JAP_not_war = yes
-			}
+			
 		}
 		bypass = {}
 	
@@ -548,9 +541,6 @@
 		bypass = {}
 	
 
-		mutually_exclusive = {
-			focus = house_always_win
-		}
 
 
 		ai_will_do = {
@@ -830,9 +820,7 @@
 		icon = GFX_import_guns
 		cost = 2
 
-		mutually_exclusive = {
-			focus = EU_advisors
-		}
+	
 		x = -1
 		y = 1
 		available = {
@@ -863,7 +851,7 @@
 				producer = CHI
 			}
 			add_equipment_to_stockpile = {
-				type = light_tank_equipment
+				type = mbt_1
 				amount = 1000
 				producer = CHI
 			}
@@ -1098,6 +1086,7 @@
 		y = 1
 		available = {
 			country_exists = JAP
+			has_completed_focus = promote_datings
 		
 
 		}
@@ -1243,6 +1232,7 @@
 		y = 1
 		available = {
 			country_exists = JAP
+			has_completed_focus = ban_abortion
 		
 	
 			check_variable = { JAP_abortion = 1 }	
@@ -1287,7 +1277,9 @@
 		}
 
 		allow_branch = {
-			has_war_with = BRT	
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1319,8 +1311,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1357,8 +1351,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1414,8 +1410,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1453,8 +1451,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1493,8 +1493,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1548,8 +1550,10 @@
             has_war_with = BRT			
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1592,8 +1596,10 @@
 			set_variable = { suzaku_var = 0 }  #starts at zero, if it advances suzaku_var > 1 - P.M. Kurugi is murderized
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1633,8 +1639,10 @@
 			}				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1672,8 +1680,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1708,7 +1718,7 @@
 				set_party_name = { 
 					ideology = autocracy
 					long_name = "National Salvation Commiteee-Kururugi"
-					name = "National Salvation Commiteee-K"
+					name = "NSC-K"
 				}
 				
 			}
@@ -1732,8 +1742,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1773,8 +1785,10 @@
 			has_completed_focus = extreme_bushido				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1795,7 +1809,7 @@
 	
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = extensive_conscription
+				remove_idea = limited_conscription
 				add_idea = all_adults_serve
 			}
 			add_command_power = 100	
@@ -1813,8 +1827,10 @@
 			country_exists = JAP			
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1850,8 +1866,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1889,8 +1907,10 @@
 			has_completed_focus = people_militia			
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1929,8 +1949,10 @@
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	
@@ -1965,12 +1987,15 @@
 		x = 0
 		y = 1
 		available = {
+			has_completed_focus = pouring_mercenaries
 			country_exists = JAP
             has_war_with = BRT				
 		}
 
-		allow_branch = {
-			has_war_with = BRT	
+				allow_branch = {
+			BRT = {
+			has_completed_focus  = BRT_war 
+		}
 		}
 		bypass = {}
 	

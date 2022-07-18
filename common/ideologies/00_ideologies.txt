@@ -85,6 +85,8 @@ ideologies = {
 			}
 			romano_brit = {
 			}
+			genbuism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -135,8 +137,6 @@ ideologies = {
 			military_dictatorship = {
 			}
 			oligarchic_government = {
-			}
-			genbuism = {
 			}
 			jap_neo_feudalism = {
 			}
@@ -233,7 +233,7 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_fascist = yes # 
 	}
 	
 	moderate_liberalism = {
@@ -289,7 +289,7 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_fascist = yes # 
 	}
 	
 	moderate_socialism = {
@@ -341,7 +341,7 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_fascist = yes # 
 	}
 	
 	
@@ -384,7 +384,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_fascist = yes# uses the commie AI behaviour
 		
 		rules = {
 			can_force_government = no
@@ -446,7 +446,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_fascist = yes # uses the commie AI behaviour
 		
 		rules = {
 			can_force_government = no

@@ -37,6 +37,11 @@ technologies = {
 				factor = 5
 				date > "2002.1.1"
 			}
+
+			modifier = {
+				factor = 4000
+				tag = BRT
+			}
 		}
 
 		
@@ -117,6 +122,11 @@ technologies = {
 				factor = 5
 				date > "2005.1.1"
 			}
+
+			modifier = {
+				factor = 4000
+				tag = BRT
+			}
 		}
 
 		
@@ -155,6 +165,11 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "2005.1.1"
+			}
+
+			modifier = {
+				factor = 4000
+				tag = BRT
 			}
 		}
 
@@ -202,6 +217,11 @@ technologies = {
 				factor = 5
 				date > "2006.1.1"
 			}
+
+			modifier = {
+				factor = 4000
+				tag = BRT
+			}
 		}
 
 		
@@ -247,6 +267,11 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "2008.1.1"
+			}
+
+			modifier = {
+				factor = 4000
+				tag = BRT
 			}
 		}
 
@@ -294,6 +319,11 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "2009.1.1"
+			}
+
+			modifier = {
+				factor = 4000
+				tag = BRT
 			}
 		}
 
@@ -383,7 +413,7 @@ technologies = {
 		start_year = 2011
 		folder = {
 			name = knightmares_folder
-			position = { x = 14 y = 8.5 }
+			position = { x = 14 y = 11 }
 		}
 		
 		ai_will_do = {

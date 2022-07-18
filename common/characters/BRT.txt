@@ -139,7 +139,7 @@ characters={
 			traits = {
 				army_CombinedArms_3
 			}
-			cost = 100
+			cost = 600
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -414,16 +414,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = minister_of_interior
 			idea_token = BRT_generic_general_1_idea
 			allowed  = {
 				original_tag  = BRT
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -440,16 +441,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = head_of_government
 			idea_token = BRT_odysseus_idea
 			allowed  = {
 				original_tag  = BRT
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -466,16 +468,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = head_of_government
 			idea_token = BRT_schneizel_idea
 			allowed  = {
 				original_tag  = BRT
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -492,16 +495,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = head_of_government
 			idea_token = BRT_guinevere_idea
 			allowed  = {
 				original_tag  = BRT
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -518,16 +522,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = economy_minister
 			idea_token = BRT_generic_noble_1_idea
 			allowed  = {
 				original_tag  = BRT
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -544,16 +549,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = foreign_minister
 			idea_token = BRT_generic_minister_1_idea
 			allowed  = {
 				original_tag  = BRT
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -570,6 +576,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = intelligence
 			idea_token = BRT_VV_idea
 			allowed  = {
@@ -579,10 +586,10 @@ characters={
 				geass_connections
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = BRT
 			}
 			cancel_if_invalid = no
 		}

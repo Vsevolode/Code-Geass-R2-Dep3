@@ -51,12 +51,24 @@ focus = {
 	completion_reward = {
          add_political_power = 100
 		 add_stability = 0.03
-		 add_ideas = BRT_bismark
 
 
 		 hidden_effect = {
 			 retire_country_leader = yes
+			 add_ideas = A11_generic_minister_1_idea
+			 add_ideas = A11_generic_general_1_idea
+			 add_ideas = a11_vv_idea
+			 add_ideas = a11_bismark_idea
 		 }
+		 add_country_leader_role = {
+			character = a11_bismark
+			promote_leader = yes
+			country_leader = {
+			  ideology = paternal_autocracy
+			  expire = 2020.1.1.1
+			  traits = {  }
+			}
+		  }
 		 
 	}
 }
@@ -361,7 +373,7 @@ focus = {
 
 	search_filters = { FOCUS_FILTER_POLITICAL }
 	completion_reward = {
-            add_manpower = 10000
+            add_manpower = 70000
 			add_stability = 0.03
 	}
 }
@@ -957,6 +969,10 @@ focus = {
 		factor = 100
 	}
 
+	historical_ai = {
+		is_historical_focus_on = yes
+	}
+
 	available = {
 		custom_trigger_tooltip = {
 			tooltip = A11_kirihara_yes
@@ -990,7 +1006,7 @@ focus = {
 		A11_economic_slump_better = yes
 		custom_effect_tooltip = A11_economic_slump_better
 
-			add_ideas = A11_kyoto_kirihara
+			add_ideas = a11_kirihara_idea
 		    
 	}
 
@@ -1160,7 +1176,7 @@ focus = {
 		add_stability = 0.03
            532 = {
 			add_building_construction = {
-				type = sakuradite_refinery
+				type = synthetic_refinery
 				level = 1
 				instant_build = yes
 			}
@@ -1168,7 +1184,7 @@ focus = {
 
 		   531 = {
 			add_building_construction = {
-				type = sakuradite_refinery
+				type = synthetic_refinery
 				level = 2
 				instant_build = yes
 			}
@@ -1176,7 +1192,7 @@ focus = {
 
 		   528 = {
 			add_building_construction = {
-				type = sakuradite_refinery
+				type = synthetic_refinery
 				level = 2
 				instant_build = yes
 			}
@@ -1381,7 +1397,7 @@ focus = {
 	search_filters = { FOCUS_FILTER_POLITICAL }
 	completion_reward = {
 		A11_economic_slump_worse = yes
-		add_ideas =	BRT_generic_noble_1
+		add_ideas =	a11_gen_noble_idea
 		custom_effect_tooltip = A11_economic_slump_worse
 		
 
@@ -1426,7 +1442,7 @@ focus = {
 	    hidden_effect = {
 			create_corps_commander = {
 				name = "Darwin Ansley"
-				portrait_path = "gfx/leaders/A11/A11_general_1"
+				portrait_path = "gfx/leaders/A11/A11_general_1.dds"
 				traits = { career_officer bearer_of_artillery }
 				skill = 4
 				attack_skill = 2
@@ -1436,7 +1452,7 @@ focus = {
 			}
 			create_corps_commander = {
 				name = "Strudwick Barclay"
-				portrait_path = "gfx/leaders/A11/A11_general_2"
+				portrait_path = "gfx/leaders/A11/A11_general_2.dds"
 				traits = { bearer_of_artillery }
 				skill = 4
 				attack_skill = 2
@@ -1446,7 +1462,7 @@ focus = {
 			}
 			create_corps_commander = {
 				name = "Crawford Marlow"
-				portrait_path = "gfx/leaders/A11/A11_general_3"
+				portrait_path = "gfx/leaders/A11/A11_general_3.dds"
 				traits = { inflexible_strategist }
 				skill = 4
 				attack_skill = 3
@@ -1456,7 +1472,7 @@ focus = {
 			}
 			create_corps_commander = {
 				name = "Bradford Penley"
-				portrait_path = "gfx/leaders/A11/A11_general_4"
+				portrait_path = "gfx/leaders/A11/A11_general_4.dds"
 				traits = { media_personality infantry_officer }
 				skill = 4
 				attack_skill = 2
@@ -1594,7 +1610,7 @@ focus = {
 
 		532 = {
 				add_building_construction = {
-					type = sakuradite_refinery
+					type = synthetic_refinery
 					level = 5
 					instant_build = yes
 				}
@@ -1991,6 +2007,7 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = area11.16
 			A11_post_war_chaos_better = yes
 			custom_effect_tooltip = A11_post_war_chaos_better
 		}
@@ -2029,7 +2046,24 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-	
+			A11_post_war_chaos_better = yes
+			custom_effect_tooltip = A11_post_war_chaos_better
+            add_war_support = -0.05
+	       282 = {
+			add_resistance = -10    
+		   }
+
+		   563 = {
+			add_resistance = -10    
+		   }
+
+		   528 = {
+			add_resistance = -10    
+		   }
+
+		   531 = {
+			add_resistance = -10    
+		   }
 		}
 	}
 
@@ -2066,6 +2100,16 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+
+			add_ideas = A11_martial_law_idea_1
+
+			282 = {
+				add_resistance = -20   
+			   }
+	
+			   563 = {
+				add_resistance = -20    
+			   }
 	
 		}
 	}
@@ -2104,6 +2148,15 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			A11_post_war_chaos_better = yes
+			custom_effect_tooltip = A11_post_war_chaos_better
+
+
+			add_manpower = 50000
+			country_event = area11.17
+			hidden_effect = { load_oob = "A11_GARRISON"}
+			custom_effect_tooltip = A11_new_garrisons
+			
 	
 		}
 	}
@@ -2142,7 +2195,11 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-	
+			A11_reinforce_control_kyushu = yes   
+			add_war_support = 0.03
+			528 = {
+                add_resistance = -5
+			}	
 		}
 	}
 
@@ -2180,7 +2237,11 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-	
+			A11_reinforce_control_hokkaido = yes   
+			add_war_support = 0.03
+			536 = {
+                add_resistance = -5
+			}
 		}
 	}
 
@@ -2218,7 +2279,11 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-	
+			A11_reinforce_control_kanto = yes   
+			add_war_support = 0.03
+			282 = {
+                add_resistance = -5
+			}
 		}
 	}
 
@@ -2259,6 +2324,23 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			country_event = area11.18
+			532 = {
+                add_manpower = -10000
+				set_garrison_strength = 10
+			}
+			530 = {
+                add_manpower = -15000
+				set_garrison_strength = 10
+			}
+			533 = {
+                add_manpower = -10000
+				set_garrison_strength = 10
+			}
+			528 = {
+                add_manpower = -10000
+				set_garrison_strength = 10
+			}
 	
 		}
 	}
@@ -2300,6 +2382,11 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			A11_post_war_chaos_better = yes
+			custom_effect_tooltip = A11_post_war_chaos_better
+
+			add_political_power = 50
+			add_war_support = 0.05
 	
 		}
 	}
@@ -2340,7 +2427,11 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-	
+			add_political_power = 200
+	          swap_ideas = {
+				remove_idea = A11_martial_law_idea_1
+				add_idea = A11_martial_law_idea_2
+			  }
 		}
 	}
 
@@ -2381,6 +2472,31 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_stability = 0.05
+			535 = {
+                remove_building = {
+					type = infrastructure
+					level = 2
+				}
+			}
+			534 = {
+				remove_building = {
+					type = infrastructure
+					level = 2
+				}
+			}
+			943 = {
+				remove_building = {
+					type = infrastructure
+					level = 2
+				}
+			}
+			536 = {
+				remove_building = {
+					type = infrastructure
+					level = 2
+				}
+			}
 	
 		}
 	}
@@ -2398,6 +2514,10 @@ focus = {
 		}
 	
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = A11_cleared_regions
+			}
+		check_variable = { tot_cleared_regions > 5 }
 		
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
@@ -2422,7 +2542,13 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-	
+			remove_mission = A11_Suppression_Campaign
+			A11_post_war_chaos_better = yes
+			custom_effect_tooltip = A11_post_war_chaos_better
+
+	          country_event = area11.19
+			  add_stability = 0.15
+			  add_war_support = 0.15
 		}
 	}
 
@@ -2467,11 +2593,6 @@ focus = {
 				modifier = economic_collapse_area_11
 			}
 			add_ideas = economic_stagnation_A11
-			hidden_effect = {
-				country_event = {
-			       id = area11.16
-				}	
-			}
 		}
 
 	}
@@ -2554,11 +2675,94 @@ focus = {
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			load_focus_tree = area11_focus_2
 	        retire_country_leader = yes
-			add_ideas = BRT_clovis
 			hidden_effect = {
-			 remove_ideas = BRT_bismark	
+				A11_decadence_setup = yes
+				remove_dynamic_modifier = {
+					modifier = demographic_death_area_11
+				}
+				add_ideas = a11_clovis_idea
+				remove_ideas = a11_bismark_idea
+				A11 = {
+				555 = {
+				add_compliance = 80 
+			    }
+				536 = {
+					add_compliance = 80 
+				}
+				533 = {
+						add_compliance = 80 
+				}
+				534 = {
+					add_compliance = 80 
+				}
+				535 = {
+					add_compliance = 80 
+				}
+				532 = {
+					add_compliance = 80 
+				}
+				531 = {
+					add_compliance = 80 
+				}
+				529 = {
+					add_compliance = 80 
+				}
+				530 = {
+					add_compliance = 80 
+				}
+				528 = {
+					add_compliance = 80 
+				}
+				526 = {
+					add_compliance = 80 
+				}
+				282 = {
+					add_compliance = 80 
+				}
+				944 = {
+					add_compliance = 80 
+				}
+				943 = {
+					add_compliance = 80 
+				}
+				942 = {
+					add_compliance = 80 
+				}
+			    }
+
+				set_party_name = { 
+					ideology = ultra_nationalism
+					long_name = "Britannian Governorship-Radicals"
+					name = "Britannian Governorship-Radicals"
+				}
+				set_party_name = { 
+					ideology = authoritarian_democracy
+					long_name = "Britannian Governorship-Aristocrats"
+					name = "Britannian Governorship-Aristocrats"
+				}
+				set_party_name = { 
+					ideology = autocracy
+					long_name = "Britannian Governorship"
+					name = "Britannian Governorship"
+				}
+				set_party_name = { 
+					ideology = moderate_conservatism
+					long_name = "Britannian Governorship-Kyoto House"
+					name = "Britannian Governorship-Kyoto House"
+				}	
 			}
+			add_country_leader_role = {
+				character = a11_clovis
+				promote_leader = yes
+				country_leader = {
+				  ideology = paternal_autocracy
+				  expire = 2020.1.1.1
+				  traits = {  }
+				}
+			  }
+		
 		}
 	}
 

@@ -62,6 +62,162 @@ destroyed_infratructures = {
 		}
 	}
 
+	A11_honorary_britannians = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			recruitable_population_factor = 40
+			army_core_attack_factor = 0.10	
+            army_core_defence_factor = 0.10
+			
+		}
+	}
+
+	
+	neglected_government = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.05
+			stability_factor = -0.05
+		}
+	}
+
+		
+	neglected_government_2 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.10
+			consumer_goods_factor = 0.05
+			stability_factor = -0.10
+		}
+	}
+		
+	neglected_government_3 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.15
+			consumer_goods_factor = 0.05
+			stability_factor = -0.15
+		}
+	}
+		
+	neglected_government_4 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.15
+			consumer_goods_factor = 0.10
+			stability_factor = -0.20
+		}
+	}
+
+	neglected_government_5 = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.20
+			consumer_goods_factor = 0.10
+			stability_factor = -0.25
+		}
+	}
+
+	
+	neglected_government_end = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			political_power_factor = -0.50
+			consumer_goods_factor = 0.10
+			stability_factor = -0.30
+		}
+	}
+
+	
+	research_funds = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		modifier = {
+			research_speed_factor = 0.10
+			consumer_goods_factor = 0.05
+		}
+	}
+
+
 
 	food_imports = {
 
@@ -284,6 +440,44 @@ economic_stagnation_A11 = {
 		production_speed_buildings_factor = 0.05
 	}
 }
+
+A11_martial_law_idea_1 = {
+		
+	allowed = {
+	   always = no
+   }
+
+   allowed_civil_war = {
+	   always = yes
+   }
+
+   removal_cost = -1
+   
+   modifier = {
+   stability_factor = 0.10
+   root_out_resistance_effectiveness_factor = -0.05
+   resistance_growth = 0.05
+   }
+}
+
+A11_martial_law_idea_2 = {
+		
+	allowed = {
+	   always = no
+   }
+
+   allowed_civil_war = {
+	   always = yes
+   }
+
+   removal_cost = -1
+   
+   modifier = {
+   stability_factor = 0.15
+   root_out_resistance_effectiveness_factor = -0.10
+   resistance_growth = 0.10
+   }
+}
 		
 		
 		
@@ -308,150 +502,7 @@ economic_stagnation_A11 = {
 
 
 	
-	
-	head_of_government = {	
-	
-	
-		BRT_bismark = {
 
-			picture = bismark
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = A11
-			}
-			
-			traits = { autocracy_guy knight_one }
-		}
-
-		BRT_clovis = {
-
-			picture = clovis
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = A11
-			}
-			
-			traits = { autocracy_guy artist_prince }
-		}
-		
-	}
-	
-	
-	intelligence = {
-						BRT_VV = {
-
-			picture = VV_britannia
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = BRT
-			}
-			
-			traits = { geass_connections }
-		}	
-	}	
-	
-	economy_minister = {
-	
-							BRT_generic_noble_1 = {
-
-			picture = BRT_generic_noble_1
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = BRT
-			}
-			
-			traits = { oligarchy_guy corrupt_kleptocrat }
-		}
-
-		A11_kyoto_kirihara = {
-
-			picture = A11_kyoto_kirihara
-			available = {
-			custom_trigger_tooltip = {
-			tooltip = government_change
-			always = no
-			}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-			original_tag = A11
-			}
-			
-			traits = { oligarchy_guy kyoto_house }
-		}
-	}
-	
-	
-	minister_of_interior = {
-		
-							BRT_generic_general_1 = {
-
-			picture = BRT_generic_general_1
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = BRT
-			}
-			
-			traits = { autocracy_guy iron_fist }
-		}
-	}	
-	
-	foreign_minister = {
-	
-								BRT_generic_minister_1 = {
-
-			picture = BRT_generic_minister_1
-						available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			
-			allowed = {
-				original_tag = BRT
-			}
-			
-			traits = { oligarchy_guy purist_simpaty }
-		}
-	}
 
 
 	materiel_manufacturer = { 
@@ -459,12 +510,11 @@ economic_stagnation_A11 = {
 		designer = yes
 		
 		A11_kubouin_group = {
-			picture = A11_kubouin_group
+			picture = JAP_kubouin_group
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_allow_zaibatsu
 			}
 	
 			available = {
@@ -482,12 +532,12 @@ economic_stagnation_A11 = {
 		}
 
 		A11_alton_cong = {
-			picture = A11_generic_industry_4
+			picture = generic_artillery_manufacturer_1
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_no_deal
+
 			}
 	
 			available = {
@@ -495,12 +545,12 @@ economic_stagnation_A11 = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				sp_artillery = 0.02
 			}
 			
 		
 						
-			traits = {  }
+			traits = { artillery_producer_defense_1 }
 			
 		}
 	
@@ -511,12 +561,11 @@ economic_stagnation_A11 = {
 		designer = yes
 		
 		A11_yoshino = {
-			picture = A11_yoshino
+			picture = JAP_yoshino
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_allow_zaibatsu
 			}
 	
 			available = {
@@ -534,12 +583,11 @@ economic_stagnation_A11 = {
 		}
 
 		A11_pendragon_ins = {
-			picture = A11_generic_industry_3
+			picture = generic_air_manufacturer_2
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_no_deal
 			}
 	
 			available = {
@@ -547,12 +595,12 @@ economic_stagnation_A11 = {
 			}
 			
 			research_bonus = {
-	
+				light_air = 0.02
 			}
 			
 		
 						
-			traits = {  }
+			traits = { CAS_manufacturer  }
 			
 		}
 	
@@ -563,11 +611,10 @@ economic_stagnation_A11 = {
 		designer = yes
 		
 		A11_munakata_dev = {
-			picture = A11_munakata_dev
+			picture = JAP_munakata_dev
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_allow_zaibatsu
 			}
 	
 			available = {
@@ -585,12 +632,11 @@ economic_stagnation_A11 = {
 		}
 
 		A11_darwin_ass = {
-			picture = A11_generic_industry_2
+			picture = generic_electronics_concern_2
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_no_deal
 			}
 	
 			available = {
@@ -598,12 +644,12 @@ economic_stagnation_A11 = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				sakuradite = 0.02
 			}
 			
 		
 						
-			traits = {  }
+			traits = { railway_company }
 			
 		}
 	
@@ -615,12 +661,11 @@ economic_stagnation_A11 = {
 		designer = yes
 		
 		A11_kirihara_ind = {
-			picture = A11_kirihara_ind
+			picture = JAP_kirihara_ind
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_allow_zaibatsu
 			}
 	
 			available = {
@@ -634,17 +679,16 @@ economic_stagnation_A11 = {
 			
 		
 						
-			traits = { medium_tank_producer_mass_2 kyoto_family_1 }
+			traits = { modern_tank_manufacturer kyoto_family_1 }
 			
 		}
 
 		A11_beswick_ind = {
-			picture = A11_generic_industry_1
+			picture = generic_tank_manufacturer_2
 	
 			
 			allowed = {
 				original_tag = A11
-				has_completed_focus = A11_no_deal
 			}
 	
 			available = {
@@ -652,14 +696,70 @@ economic_stagnation_A11 = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				armor = 0.02
 			}
 			
 		
 						
-			traits = {  }
+			traits = { tank_manufacturer }
 			
 		}
 	
 	}
+
+
+	
+naval_manufacturer = { 
+		
+	designer = yes
+	
+	A11_stratford = {
+		picture = generic_naval_manufacturer_2
+
+		
+				
+		allowed = {
+			original_tag = A11
+		}
+
+		available = {
+			has_completed_focus = A11_no_deal
+		}
+		
+		research_bonus = {
+			naval_equipment = 0.02
+		}
+		
+
+					
+		traits = { capital_ship_producer_offense_1 }
+		
+	}
+
+
+	osakabe_shipyard = {
+		picture = JAP_shipyard_1
+
+		
+				
+					
+		allowed = {
+			original_tag = A11
+		}
+
+		available = {
+			has_completed_focus = A11_allow_zaibatsu
+		}
+		
+		research_bonus = {
+			naval_equipment = 0.10
+		}
+		
+
+					
+		traits = { capital_ship_producer_offense_2 kyoto_family_5 }
+		
+	}
+
+}
 }	

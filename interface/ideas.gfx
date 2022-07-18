@@ -1,5 +1,107 @@
 spriteTypes = {	
 
+	### GENERIC COMPANIES
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_motorized_equipment_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_motorized_equipment_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_motorized_equipment_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_infantry_equipment_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_infantry_equipment_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_infantry_equipment_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_artillery_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_artillery_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_artillery_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_2"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_3"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_refining_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_generic_electronics_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_electronics_concern_2"
+		texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_electronics_concern_3"
+		texturefile = "gfx/interface/ideas/idea_generic_electronics_concern_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_1"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_2"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_3"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
+	}
+
 	#Autonomies
 	spriteType = {
 		name = "GFX_member_state_icon"
@@ -37,6 +139,34 @@ spriteTypes = {
 
 
     #Area11
+	SpriteType = {
+		name = "GFX_idea_A11_honorary_britannians"
+		texturefile = "gfx/interface/ideas/A11/A11_honorary_britannians.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_research_funds"
+		texturefile = "gfx/interface/ideas/A11/research_funds.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_2"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_3"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_4"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_neglected_government_5"
+		texturefile = "gfx/interface/ideas/A11/administrative_strain.dds"	
+	}
 	SpriteType = {
 		name = "GFX_idea_extreme_stratocracy_A11"
 		texturefile = "gfx/interface/ideas/BRT/extreme_stratocracy.dds"	
@@ -114,6 +244,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_economic_stagnation_A11"
 		texturefile = "gfx/interface/ideas/A11/economic_stagnation_A11.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_A11_martial_law_idea_1"
+		texturefile = "gfx/interface/ideas/A11/A11_martial_law_idea.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_A11_martial_law_idea_2"
+		texturefile = "gfx/interface/ideas/A11/A11_martial_law_idea.dds"	
 	}
 
     #Companies
@@ -397,6 +535,10 @@ spriteTypes = {
 		name = "GFX_idea_stagnant_population_5"
 		texturefile = "gfx/interface/ideas/JAP/large_urbanising.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_stagnant_population_6"
+		texturefile = "gfx/interface/ideas/JAP/large_urbanising.dds"	
+	}
 		SpriteType = {
 		name = "GFX_idea_democratic_bastion"
 		texturefile = "gfx/interface/ideas/JAP/democratic_bastion.dds"	
@@ -404,6 +546,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_democratic_bastion_2"
+		texturefile = "gfx/interface/ideas/JAP/democratic_bastion_2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_democratic_bastion_3"
 		texturefile = "gfx/interface/ideas/JAP/democratic_bastion_2.dds"	
 	}
 		SpriteType = {
@@ -414,8 +560,16 @@ spriteTypes = {
 		name = "GFX_idea_industrial_corporations"
 		texturefile = "gfx/interface/ideas/JAP/industrial_corporations.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_industrial_corporations_2"
+		texturefile = "gfx/interface/ideas/JAP/industrial_corporations.dds"	
+	}
 		SpriteType = {
 		name = "GFX_idea_resource_economy"
+		texturefile = "gfx/interface/ideas/JAP/resource_economy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_resource_economy_2"
 		texturefile = "gfx/interface/ideas/JAP/resource_economy.dds"	
 	}
 
@@ -455,13 +609,78 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_military_anarchy"
+		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_military_anarchy_2"
+		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_military_anarchy_3"
+		texturefile = "gfx/interface/ideas/JAP/military_anarchy.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars_2"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_pacific_war_scars_3"
+		texturefile = "gfx/interface/ideas/JAP/pacific_war_scars.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_JAP_reconstruction_1"
+		texturefile = "gfx/interface/ideas/JAP/JAP_reconstruction_1.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_reconstruction_2"
+		texturefile = "gfx/interface/ideas/JAP/JAP_reconstruction_1.dds"	
+	}
+
+	SpriteType = {
 		name = "GFX_idea_total_war"
 		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_1"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_2"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_3"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_protests_4"
+		texturefile = "gfx/interface/ideas/JAP/JAP_protests.dds"	
+	}
+
 
 	
 	SpriteType = {
 		name = "GFX_idea_total_war_2"
+		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_total_war_3"
+		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_total_war_4"
+		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
+	}
+		SpriteType = {
+		name = "GFX_idea_total_war_5"
 		texturefile = "gfx/interface/ideas/JAP/total_war.dds"	
 	}
 

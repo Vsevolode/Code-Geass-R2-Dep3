@@ -35,7 +35,6 @@ division_template = {
 
 	}	
 	support = {
-		anti_tank = { x = 0 y = 2}
 		artillery = { x = 0 y = 1 } 
 		engineer = { x = 0 y = 0 }   
 	}
@@ -551,3 +550,66 @@ units = {
 
 	}
 }	
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BRT"
+		}
+		requested_factories = 4
+		progress = 0.73
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BRT"
+		}
+		requested_factories = 3
+		progress = 0.85
+		efficiency = 50
+	}
+	
+		add_equipment_production = {
+		equipment = {
+			type = motorised_infantry
+			creator = "BRT"
+		}
+		requested_factories = 3
+		progress = 0.85
+		efficiency = 50
+	}
+	
+			add_equipment_production = {
+		equipment = {
+			type = sp_artillery
+			creator = "BRT"
+		}
+		requested_factories = 3
+		progress = 0.85
+		efficiency = 50
+	}
+
+ add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "BRT"
+		}
+		requested_factories = 4
+		progress = 0.85
+		efficiency = 50
+	}
+
+ add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "BRT"
+		}
+		requested_factories = 4
+		progress = 0.85
+		efficiency = 50
+	}
+
+}

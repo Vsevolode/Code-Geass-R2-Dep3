@@ -31,16 +31,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = head_of_government
 			idea_token = CHI_fat_guy_idea
 			allowed  = {
 				original_tag  = CHI
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = CHI
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -57,17 +58,19 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = foreign_minister
 			idea_token = CHI_gen_eunuch_idea
 			allowed  = {
 				original_tag  = CHI
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = CHI
 			}
+			
 			cancel_if_invalid = no
 			traits  = {
 				oligarchy_guy brit_simp
@@ -83,16 +86,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = minister_of_interior
 			idea_token = CHI_short_guy_idea
 			allowed  = {
 				original_tag  = CHI
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = CHI
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -109,16 +113,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = economy_minister
 			idea_token = CHI_black_guy_idea
 			allowed  = {
 				original_tag  = CHI
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = CHI
 			}
 			cancel_if_invalid = no
 			traits  = {
@@ -135,6 +140,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 2000
 			slot = intelligence
 			idea_token = CHI_Chang_idea
 			allowed  = {
@@ -144,10 +150,10 @@ characters={
 				triads_boss
 			}
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = government_change
-					always = no
-				}
+				NOT = {
+				has_country_flag = government_change
+			    }
+				original_tag  = CHI
 			}
 			cancel_if_invalid = no
 		}

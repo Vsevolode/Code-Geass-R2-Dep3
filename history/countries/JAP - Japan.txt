@@ -9,7 +9,7 @@ set_research_slots = 4
 set_fuel_ratio = 1.0
 add_ideas = {
     JAP_kirihara_ind 
-    osakabe_shipyard
+    JAP_osakabe_shipyard
     JAP_kubouin_group
     JAP_yoshino
     JAP_munakata_dev

@@ -10,6 +10,8 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
+
+		build_cost_ic = 0.50
 		
 		
 		#Misc Abilities
@@ -30,8 +32,7 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 3
-		
-		build_cost_ic = 15
+
 		resources = {
 			steel = 1
 			chromium = 3
@@ -79,8 +80,9 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 3
+
+		build_cost_ic = 0.50
 		
-		build_cost_ic = 15
 		resources = {
 			steel = 2
 			chromium = 2
@@ -109,6 +111,8 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
+
+		build_cost_ic = 25.0
 		
 		
 		resources = {
@@ -160,6 +164,8 @@ equipments = {
 		hardness = 0.9
 		armor_value = 120
 
+		build_cost_ic = 25.0
+
 		#Offensive Abilities
 		soft_attack = 100
 		hard_attack = 15
@@ -188,6 +194,8 @@ equipments = {
 		# Modifiers the equipment uses
 		maximum_speed = 17
 		reliability = 0.8
+
+		build_cost_ic = 30.0
 
 		#Defensive Abilities
 		defense = 35
@@ -224,6 +232,8 @@ equipments = {
 		maximum_speed = 20
 		reliability = 0.8
 
+		build_cost_ic = 35.0
+
 		#Defensive Abilities
 		defense = 37
 		breakthrough = 14
@@ -255,7 +265,7 @@ equipments = {
 			steel = 5
 			chromium = 6
 		}
-		
+		build_cost_ic = 35.0
 		# Modifiers the equipment uses
 		maximum_speed = 22
 		reliability = 0.8
@@ -290,6 +300,7 @@ equipments = {
 			steel = 5
 			chromium = 6
 		}
+		build_cost_ic = 40.0
 		
 		# Modifiers the equipment uses
 		maximum_speed = 25
@@ -331,6 +342,8 @@ equipments = {
 
 		maximum_speed = 7
 		reliability = 0.8
+
+		build_cost_ic = 10.0
 
 		#Defensive Abilities
 		defense = 6
@@ -383,6 +396,8 @@ equipments = {
 			chromium = 4
 		}
 
+		build_cost_ic = 25.0
+
 		maximum_speed = 14
 		reliability = 0.9
 
@@ -414,6 +429,7 @@ equipments = {
 			steel = 4
 			chromium = 5
 		}
+		build_cost_ic = 25.0
 
 		maximum_speed = 25
 		reliability = 0.8
@@ -441,7 +457,7 @@ equipments = {
 		visual_level = 1  # Image priority in production screen
 		
 		
-		
+		build_cost_ic = 30.0
 		resources = {
 			sakuradite = 8
 			steel = 4
@@ -474,7 +490,7 @@ equipments = {
 		priority = 1      # Priority for usage over other equipment.
 		visual_level = 1  # Image priority in production screen
 		
-		
+		build_cost_ic = 35.0
 		
 		resources = {
 			sakuradite = 9
@@ -509,6 +525,8 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
+
+		build_cost_ic = 30.0
 		
 		
 		resources = {
@@ -544,7 +562,7 @@ equipments = {
 		visual_level = 1  # Image priority in production screen
 		
 		
-		
+		build_cost_ic = 30.0
 		resources = {
 			sakuradite = 6
 			steel = 5
@@ -603,6 +621,8 @@ equipments = {
 		ap_attack = 15
 		air_attack = 10
 
+		build_cost_ic = 35.0
+
 
 	}
 
@@ -639,6 +659,8 @@ equipments = {
 		hard_attack = 50
 		ap_attack = 10
 		air_attack = 0
+
+		build_cost_ic = 25.0
 	}
 
 	knightmare_artillery_1 = {
@@ -672,6 +694,8 @@ equipments = {
 		hard_attack = 50
 		ap_attack = 10
 		air_attack = 0
+
+		build_cost_ic = 30.0
 	}
 
 	knightmare_artillery_2 = {
@@ -705,6 +729,8 @@ equipments = {
 		hard_attack = 60
 		ap_attack = 10
 		air_attack = 0
+
+		build_cost_ic = 35.0
 	}
 
 	knightmare_melee = {
@@ -718,6 +744,7 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
+		build_cost_ic = 25.0
 		
 		
 		resources = {
@@ -774,6 +801,8 @@ equipments = {
 				hard_attack = 20
 				ap_attack = 20
 				air_attack = 10
+
+				build_cost_ic = 30.0
 	}
 
 	
@@ -811,11 +840,15 @@ equipments = {
 		hard_attack = 30
 		ap_attack = 30
 		air_attack = 15
+
+		build_cost_ic = 30.0
 	}
 
 		
 	knightmare_melee_3 = {
 		year = 2019
+
+		build_cost_ic = 35.0
 
 		
 		archetype = knightmare_melee

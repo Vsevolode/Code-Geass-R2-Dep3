@@ -30,6 +30,7 @@ set_technology = {
 	fighter1 = 1
 	g_support1 = 1
 	bomber1 = 1
+	transport = 1
 }
 
 
@@ -267,16 +268,7 @@ recruit_character = BRT_monica
 recruit_character = BRT_luciano
 recruit_character = BRT_ernst
 
-create_navy_leader = {
-	name = "Avelin Thompson"
-	picture = "Portrait_Thompson.dds"
-	traits = { cruiser_captain }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 2
-	coordination_skill = 2
-}
+
 create_navy_leader = {
 	name = "Regis Kitchener"
 	picture = "Portrait_Kitchener.dds"

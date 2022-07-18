@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Bùbīng shī"	
+	name = "Imperial Division"	
 
 	division_names_group = "CHI_INF_01"
 
@@ -28,15 +28,15 @@
 
 
 division_template = {
-	name = "Zhuāngjiǎ shī" 		
+	name = "Imperial Garrision" 		
 
-	division_names_group = "CHI_MEC_01"
+	division_names_group = "CHI_GAR_01"
 
     regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 
     }
 
@@ -60,7 +60,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -73,7 +73,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -86,7 +86,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -99,7 +99,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -112,7 +112,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -125,7 +125,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -137,7 +137,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -148,7 +148,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -161,7 +161,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -174,7 +174,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -187,7 +187,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -200,7 +200,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -213,7 +213,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -225,7 +225,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -236,7 +236,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -249,7 +249,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -262,7 +262,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -275,7 +275,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -288,7 +288,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -301,7 +301,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -313,7 +313,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -324,7 +324,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -337,7 +337,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -350,7 +350,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -363,7 +363,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -376,7 +376,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -389,7 +389,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -401,7 +401,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -412,7 +412,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -425,7 +425,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -438,7 +438,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -451,7 +451,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -464,7 +464,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -477,7 +477,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -489,7 +489,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -501,7 +501,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -514,7 +514,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -527,7 +527,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -540,7 +540,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -553,7 +553,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -566,7 +566,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -578,7 +578,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -591,7 +591,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -604,7 +604,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -617,7 +617,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -629,7 +629,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -642,7 +642,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -655,7 +655,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -668,7 +668,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -680,7 +680,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Bùbīng shī"
+		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -690,3 +690,35 @@ units = {
 
 }
 
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 15
+		progress = 0.73
+		efficiency = 50
+	}
+	
+	
+		add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 8
+		progress = 0.85
+		efficiency = 50
+	}
+	
+			add_equipment_production = {
+		equipment = {
+			type = eu_war_artillery
+			creator = "CHI"
+		}
+		requested_factories = 8
+		progress = 0.85
+		efficiency = 50
+	}
+}
