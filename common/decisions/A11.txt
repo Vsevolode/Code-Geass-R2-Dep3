@@ -771,6 +771,11 @@ A11_Suppression_Campaign = {
 					value = 1
 				}
 			}
+			
+		   A11 = {
+			add_state_core = 536
+		   }
+
             add_political_power = 100
 			add_stability = 0.03
 			add_war_support = 0.03
@@ -814,6 +819,8 @@ A11_Suppression_Campaign = {
 			hidden_effect = {
 				add_to_variable = { A11_doing_Actions = -1 }
 			}
+					
+
 
 
 		}
@@ -971,6 +978,12 @@ A11_Suppression_Campaign = {
 					value = 1
 				}
 			}
+			A11 = {
+				add_state_core = 282
+		    }
+			A11 = {
+				add_state_core = 532
+		    }
             add_political_power = 100
 			add_stability = 0.03
 			add_war_support = 0.03
@@ -1176,6 +1189,15 @@ A11_Suppression_Campaign = {
 				add_political_power = 100
 				add_stability = 0.03
 				add_war_support = 0.03
+				A11 = {
+					add_state_core = 533
+				}
+				A11 = {
+					add_state_core = 943
+				}
+				A11 = {
+					add_state_core = 942
+				}
 	
 			}
 		}
@@ -1385,6 +1407,12 @@ A11_Suppression_Campaign = {
 							value = 1
 						}
 					}
+					A11 = {
+						add_state_core = 535
+					}
+					A11 = {
+						add_state_core = 534
+					}
 					add_political_power = 100
 					add_stability = 0.03
 					add_war_support = 0.03
@@ -1591,6 +1619,12 @@ A11_Suppression_Campaign = {
 							var = tot_cleared_regions
 							value = 1
 						}
+					}
+					A11 = {
+						add_state_core = 531
+					}
+					A11 = {
+						add_state_core = 944
 					}
 					add_political_power = 100
 					add_stability = 0.03
@@ -1799,6 +1833,12 @@ A11_Suppression_Campaign = {
 							value = 1
 						}
 					}
+					A11 = {
+						add_state_core = 530
+					}
+					A11 = {
+						add_state_core = 529
+					}
 					add_political_power = 100
 					add_stability = 0.03
 					add_war_support = 0.03
@@ -2001,6 +2041,12 @@ A11_Suppression_Campaign = {
 							var = tot_cleared_regions
 							value = 1
 						}
+					}
+					A11 = {
+						add_state_core = 526
+					}
+					A11 = {
+						add_state_core = 528
 					}
 					add_political_power = 100
 					add_stability = 0.03

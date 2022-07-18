@@ -744,7 +744,7 @@ country_event = {
 
 		hidden_effect = {
 			country_event = {
-				id=area.11.33
+				id=area11.33
 				days = 5
 			}
 		}

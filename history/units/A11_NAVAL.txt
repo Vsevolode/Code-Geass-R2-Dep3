@@ -10,26 +10,26 @@ units= {
 		naval_base = 9998 # San Diego
 									
 		task_force = {					
-			name = "Cruisers"
+			name = "Destroyer"
 			location = 9998 # Los Angeles
 			# Cruiser Division 2 #			
-			ship = { name = "HMS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
-			ship = { name = "HMS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Omaha" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = A11 } } }				
+			ship = { name = "HMS Milwaukee" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = A11 } } }				
+			ship = { name = "HMS Cincinnati" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = A11 } } }				
 		}					
 					
 		### Destroyer Flotilla 1 ###				
 		task_force = {					
 			name = "Submarine"				
 			location = 9998 # San Diego
-			ship = { name = "HMS Raleigh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRT } } }				
+			ship = { name = "HMS Raleigh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = A11  } } }				
 			### Destroyer Squadron 1 ###				
 			# 1st Destroyer Division				
 			# 2nd Destroyer Division				
-			ship = { name = "HMS Farragut" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
-			ship = { name = "HMS Dale" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
-			ship = { name = "HMS Monaghan" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
-			ship = { name = "HMS Aylwin" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = BRT version_name = "Farragut Class" } } }
+			ship = { name = "HMS Farragut" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner =A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Dale" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Monaghan" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Aylwin" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
 			### Destroyer Squadron 9 ###				
 		}					
 
