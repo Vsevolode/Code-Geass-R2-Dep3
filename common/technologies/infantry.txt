@@ -86,6 +86,29 @@ technologies = {
 			support_equipment_1 
 		}
 
+		enable_subunits = {
+			signal_company
+		}
+
+		enable_subunits = {
+			mot_recon
+		}
+		enable_subunits = {
+			maintenance_company
+		}
+		enable_subunits = {
+			logistics_company
+		}
+		enable_subunits = {
+			field_hospital
+		}
+		enable_subunits = {
+			engineer
+		}
+		enable_subunits = {
+			military_police
+		}
+
 
 		research_cost = 1.5
 		start_year = 2009

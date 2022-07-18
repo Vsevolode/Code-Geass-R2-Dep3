@@ -1,5 +1,24 @@
 ideas = {
+	hidden_ideas = {
+		ai_brt_war = {
+		
+			allowed = {
+			   always = no
+		   }
+
+		   allowed_civil_war = {
+			   always = yes
+		   }
+
+		   removal_cost = -1
+		   
+		   modifier = {
+			ai_focus_aggressive_factor = 0.30
+		   }
+	   }
+	}	
     country = {
+
 	
 	    efficient_administration = {
 		

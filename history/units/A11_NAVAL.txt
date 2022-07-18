@@ -26,10 +26,10 @@ units= {
 			### Destroyer Squadron 1 ###				
 			# 1st Destroyer Division				
 			# 2nd Destroyer Division				
-			ship = { name = "HMS Farragut" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner =A11  version_name = "Farragut Class" } } }
-			ship = { name = "HMS Dale" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
-			ship = { name = "HMS Monaghan" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
-			ship = { name = "HMS Aylwin" definition = submarine_1 equipment = { submarine_1_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Farragut" definition = submarine_1 equipment = { submarine_1 = { amount = 1 owner =A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Dale" definition = submarine_1 equipment = { submarine_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Monaghan" definition = submarine_1 equipment = { submarine_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
+			ship = { name = "HMS Aylwin" definition = submarine_1 equipment = { submarine_1 = { amount = 1 owner = A11  version_name = "Farragut Class" } } }
 			### Destroyer Squadron 9 ###				
 		}					
 
