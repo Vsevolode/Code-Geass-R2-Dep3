@@ -191,7 +191,7 @@ equipments = {
 		}
 		
 		# Modifiers the equipment uses
-		maximum_speed = 17
+		maximum_speed = 16
 		reliability = 0.8
 
 		build_cost_ic = 75.0
