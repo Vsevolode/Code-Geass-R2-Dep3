@@ -452,29 +452,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_ideas = BRT_gen_tank_man_2
-			custom_effect_tooltip = kn_template
-			hidden_effect = {
-				
-			division_template = {
-				name = "Knightmare Frame Squadron"
-				is_locked = yes
-				division_names_group = BRT_KN_01
-				priority = 1
-				template_counter = 1
-				regiments = {
-					infantry = { x = 0 y = 0 }
-					knightmare_mass_prod_unit = { x = 0 y = 1 }
-					infantry = { x = 1 y = 0 }
-					knightmare_mass_prod_unit= { x = 1 y = 1 }
-				}
-				support = {
-					engineer = { x = 0 y = 0 }
-					artillery = { x = 0 y = 1 }
-					recon = { x = 0 y = 2 }
-				}
-			}
-			}
-
+			army_experience = 25
 		}
 	}
 
@@ -555,10 +533,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = kn_template
 			custom_effect_tooltip = kn_deploy
 			hidden_effect = {
-			load_oob = "deploy_knightmares"
-		}
+				load_oob = "deploy_knightmares"
+			}
 		}
 	}
 
