@@ -804,8 +804,116 @@ spriteTypes = {
 
     #Britannia
 	SpriteType = {
+		name = "GFX_BRT_buy_britannian"
+		texturefile = "gfx/interface/goals/BRT/BRT_buy_britannian.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_economy_science"
+		texturefile = "gfx/interface/goals/BRT/BRT_economy_science.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_cult_question"
+		texturefile = "gfx/interface/goals/BRT/BRT_cult_question.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_areas_question"
+		texturefile = "gfx/interface/goals/BRT/BRT_areas_question.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_take_key_positions"
+		texturefile = "gfx/interface/goals/BRT/BRT_take_key_positions.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_discuss_state_role"
+		texturefile = "gfx/interface/goals/BRT/BRT_discuss_state_role.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_protectionism_thesis"
+		texturefile = "gfx/interface/goals/BRT/BRT_protectionism_thesis.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_reinforce_atlantic_fleet"
+		texturefile = "gfx/interface/goals/BRT/BRT_reinforce_atlantic_fleet.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_reinforce_new_areas"
+		texturefile = "gfx/interface/goals/BRT/BRT_reinforce_new_areas.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_new_frontier"
+		texturefile = "gfx/interface/goals/BRT/BRT_new_frontier.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_lost_homeland"
+		texturefile = "gfx/interface/goals/BRT/BRT_lost_homeland.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_favour_corporatism"
+		texturefile = "gfx/interface/goals/BRT/BRT_favour_corporatism.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_mantain_balance"
+		texturefile = "gfx/interface/goals/BRT/BRT_mantain_balance.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_favour_technocracy"
+		texturefile = "gfx/interface/goals/BRT/BRT_favour_technocracy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_purist_question"
+		texturefile = "gfx/interface/goals/BRT/BRT_purist_question.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_political_field"
+		texturefile = "gfx/interface/goals/BRT/BRT_political_field.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_economic_field"
+		texturefile = "gfx/interface/goals/BRT/BRT_economic_field.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_diplomatic_field"
+		texturefile = "gfx/interface/goals/BRT/BRT_diplomatic_field.dds"			
+	}
+	SpriteType = {
 		name = "GFX_BRT_KN_glasgow"
 		texturefile = "gfx/interface/goals/BRT/BRT_KN_glasgow.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_piece_empire"
+		texturefile = "gfx/interface/goals/BRT/BRT_piece_empire.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_odysseus_resign"
+		texturefile = "gfx/interface/goals/BRT/BRT_odysseus_resign.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_struggle_begins"
+		texturefile = "gfx/interface/goals/BRT/BRT_struggle_begins.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_see_results"
+		texturefile = "gfx/interface/goals/BRT/BRT_see_results.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_shuffle_remaining_ministers"
+		texturefile = "gfx/interface/goals/BRT/BRT_shuffle_remaining_ministers.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_shuffle_economic_minister"
+		texturefile = "gfx/interface/goals/BRT/BRT_shuffle_economic_minister.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_shuffle_foreign_minister"
+		texturefile = "gfx/interface/goals/BRT/BRT_shuffle_foreign_minister.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_paris_conference"
+		texturefile = "gfx/interface/goals/BRT/BRT_paris_conference.dds"			
+	}
+	SpriteType = {
+		name = "GFX_BRT_china_detente"
+		texturefile = "gfx/interface/goals/BRT/BRT_china_detente.dds"			
 	}
 	SpriteType = {
 			name = "GFX_BRT_KN_old_guard"

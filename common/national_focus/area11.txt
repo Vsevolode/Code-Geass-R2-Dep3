@@ -373,7 +373,7 @@ focus = {
 
 	search_filters = { FOCUS_FILTER_POLITICAL }
 	completion_reward = {
-            add_manpower = 70000
+            add_manpower = 200000
 			add_stability = 0.03
 	}
 }
@@ -414,18 +414,23 @@ focus = {
            add_war_support = 0.07
 		   add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = 2000
+			amount = 8000
 			producer = BRT
 		}
 		add_equipment_to_stockpile = {
-			type = knightmare_equipment_gen_3
-			amount = 100
+			type = sp_artillery_1
+			amount = 1000
+			producer = BRT
+		}
+		add_equipment_to_stockpile = {
+			type = knightmare_mass_prod_2
+			amount = 1000
 			producer = BRT
 		}
 
 		add_equipment_to_stockpile = {
 			type = support_equipment
-			amount = 800
+			amount = 1000
 			producer = BRT
 		}
 	}
@@ -1132,11 +1137,10 @@ focus = {
 		  A11_economic_slump_better = yes
 		  custom_effect_tooltip = A11_economic_slump_better
 		  add_political_power = -20
-		  hidden_effect = {
 			  add_ideas = A11_munakata_dev
 			  add_ideas = A11_kubouin_group
 			  add_ideas = A11_kirihara_ind
-		  }
+		  
 	}
 }
 

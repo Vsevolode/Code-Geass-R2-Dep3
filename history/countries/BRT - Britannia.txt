@@ -9,6 +9,8 @@ set_war_support = 0.40
 
 
 set_technology = {
+	eu_war_anti_air = 1
+	modern_spaa_1 = 1
 	infantry_weapons = 1
 	support_equip = 1
 	infantry_weapons1 = 1
@@ -235,8 +237,7 @@ add_ideas = {
 	extensive_conscription
 	export_focus
 	partial_economic_mobilisation
-
-
+	ai_brt_war 
 }
 recruit_character = charles_brt
 recruit_character = aristocrats_brt

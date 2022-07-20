@@ -192,7 +192,7 @@ area11.27.d:0 ""...As for those that wish to accept their rightful position as s
 area11.27.a:0 "An example to all Elevens."
 
 
-rea11.32.t:0 "The Japanese Liberation Front Strikes!"
+area11.32.t:0 "The Japanese Liberation Front Strikes!"
 area11.32.d:0 "As our ministers were finalizing the official upgrade of Area 11's status to a state equal of imperial institutes as some of the model areas, the bastards of the JLF have made their move.\n\nA chain of bombings occured in major Britannian settlements throughout Area 11, with the Tokyo Settlement sustaining the heaviest of damages. Our police force's response wasn't fast enough to prevent the accident, as the perpetrators infiltrated Britannian districts from the Elevens' ghettos. The situation is further worsened by the lack of O.S.I. agents who majorly left when Bismark did.\n\nFew people were killed, and material damages are mostly manageable. Luckily, the Fuji mines and other extraction sites were spared, thanks to their tightened security. However, the greatest loss today was the destruction of our myth of invincibility."
 area11.32.a:0 "The insolent whelps!"
 
@@ -489,6 +489,8 @@ extreme_stratocracy_A11_2:0 "Stratocratic Model"
 extreme_stratocracy_A11_2_desc:0 "Currently, we are trying to imitate the strict Britannian social structure in all its components. In particular, we will create a new society divided in well-defined classes."
 economic_stagnation_A11:0 "Economic Balance"
 economic_stagnation_A11_desc:0 "With the recession gone, Bismark has bought a period of delicate economic balance and he has restored order in the financial field."
+neglected_government_end:0 "Unstable Government"
+neglected_government_end_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
 neglected_government_5:0 "Unstable Government"
 neglected_government_5_desc:0 "The Britannian Colonial Government is currently busier in petty parties and leisures to actually manage this territory, with all consequences that derive from the situation."
 neglected_government_2:0 "Unstable Government"

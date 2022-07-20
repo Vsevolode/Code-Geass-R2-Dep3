@@ -518,7 +518,7 @@ A11_martial_law_idea_2 = {
 			}
 	
 			available = {
-				has_completed_focus = A11_allow_zaibatsu
+				has_idea = a11_kirihara_idea
 			}
 			
 			research_bonus = {
@@ -569,7 +569,7 @@ A11_martial_law_idea_2 = {
 			}
 	
 			available = {
-				has_completed_focus = A11_allow_zaibatsu
+				has_idea = a11_kirihara_idea
 			}
 			
 			research_bonus = {
@@ -618,7 +618,7 @@ A11_martial_law_idea_2 = {
 			}
 	
 			available = {
-				has_completed_focus = A11_allow_zaibatsu
+				has_idea = a11_kirihara_idea
 			}
 			
 			research_bonus = {
@@ -669,7 +669,7 @@ A11_martial_law_idea_2 = {
 			}
 	
 			available = {
-				has_completed_focus = A11_allow_zaibatsu
+				has_idea = a11_kirihara_idea
 			}
 			
 			research_bonus = {
@@ -748,7 +748,7 @@ naval_manufacturer = {
 		}
 
 		available = {
-			has_completed_focus = A11_allow_zaibatsu
+			has_idea = a11_kirihara_idea
 		}
 		
 		research_bonus = {

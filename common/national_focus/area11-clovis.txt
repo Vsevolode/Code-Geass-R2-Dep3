@@ -352,14 +352,19 @@ focus_tree = {
 					id=area11.32
 					days = 20
 				}
-				news_event = {
-					id=news.7
-					days = 20
-				}	
+				#news_event = {
+					#id=news.7
+					#days = 20
+				#}	
 			}
 		}
 	
 		available = {
+			NOT = {
+				check_variable = {
+					tokyo_bombings = 1
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = A11_decadence_low_all
 			}
@@ -1673,14 +1678,8 @@ completion_reward = {
 		relative_position_id = A11_clovis_decision
 
 
-		allow_branch = {
-			check_variable = {
-				tokyo_bombings = 1
-			}
-		}
-
 		x = 5
-		y = 3
+		y = 4
 	
 		cost = 5
 	
@@ -1689,16 +1688,14 @@ completion_reward = {
 		}
 	
 		available = {
-		
+			has_idea = neglected_government_end
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
 	
 		}
 	
 		bypass = {
-			check_variable = {
-				tokyo_bombings = 1
-			}
+			has_idea = neglected_government_end
 	
 		}
 	

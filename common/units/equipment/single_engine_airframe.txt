@@ -229,7 +229,7 @@ equipments = {
 		parent = fighter_equipment_0
 		priority = 10
 
-		air_range = 700
+		air_range = 750
 		maximum_speed = 500
 		air_agility = 50
 		air_attack = 18
@@ -329,7 +329,7 @@ equipments = {
 		carrier_capable = yes
 		priority = 30
 		
-		air_range = 560
+		air_range = 660
 		maximum_speed =	450
 		air_agility = 50
 		air_attack = 18
@@ -354,7 +354,7 @@ equipments = {
 		carrier_capable = yes
 		priority = 30
 		
-		air_range = 800
+		air_range = 850
 		maximum_speed =	585
 		air_agility = 65
 		air_attack = 27
