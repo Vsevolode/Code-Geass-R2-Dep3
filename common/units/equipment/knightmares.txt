@@ -342,7 +342,7 @@ equipments = {
 		maximum_speed = 7
 		reliability = 0.8
 
-		build_cost_ic = 10.0
+		build_cost_ic = 45.0
 
 		#Defensive Abilities
 		defense = 6
@@ -508,7 +508,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 240
-		hard_attack = 260
+		hard_attack = 210
 		ap_attack = 230
 		air_attack = 160
 	}
