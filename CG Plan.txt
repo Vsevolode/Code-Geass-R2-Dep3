@@ -70,5 +70,3 @@ V 0.2 'The Great Showdawn'
 -Lelouch's Britannia and Schneizel rebellion
 -Zero Requiem.
 -Britannian Civil War and other additional content? Don't know
-
-#test
