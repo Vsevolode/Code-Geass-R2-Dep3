@@ -17,11 +17,10 @@
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 2 y = 3 }
 	}	
-					support = {
+	support = {
 		artillery = { x = 0 y = 1 } 
 		engineer = { x = 0 y = 0 }   
 	}
-		
 
 	
 }
@@ -51,11 +50,8 @@ division_template = {
 
 
 units = {
-
-	
-																																												division= {	
-
-		division_name = {    
+	division= {
+		division_name = {   
 			is_name_ordered = yes
 			name_order = 1
 		}
@@ -65,78 +61,144 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 4189
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
-		division_name = {    
+	division= {
+		division_name = {   
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 1047
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 10062
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {	
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 11981
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 1070
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 7108
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9938
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7071
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12068
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7186
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4196
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1055
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9974
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
@@ -147,103 +209,447 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 7191
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 7014
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
-		division_name = {    
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 10076
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 11913
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 11913
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 3992
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 4619
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division= {	
-			division_name = {    
+		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
+		location = 7097
 		division_template = "Imperial Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10000
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4205
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10068
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9843
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3900
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1150
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 964
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5033
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2015
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4709
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4823
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1834
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1791
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {	
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10627
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12612
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11752
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6999
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6999
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7965
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7965
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1319
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1319
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7137
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7137
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10404
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7101
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7097
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+
+
+	division= {	
+
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3992
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {	
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4619
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9958
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7418
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -254,9 +660,18 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1047
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 
+	}
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -267,9 +682,7 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -280,9 +693,7 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -293,9 +704,7 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -306,8 +715,40 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-																																													division= {	
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4189
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 
+	}
+
+	division= {	
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10062
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11981
+		division_template = "Imperial Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -318,20 +759,7 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -342,544 +770,7 @@ units = {
 		start_equipment_factor = 1.0
 
 	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-
-division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
+	division= {
 		division_name = {    
 			is_name_ordered = yes
 			name_order = 1
@@ -925,617 +816,4 @@ instant_effect = {
 		progress = 0.85
 		efficiency = 50
 	}
-
-division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
-		division= {	
-			division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																														division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-																																													division= {	
-
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-
 }
