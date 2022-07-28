@@ -108,7 +108,7 @@ equipments = {
 		breakthrough = 4
 		soft_attack = 30
 		
-		build_cost_ic = 12.5
+		build_cost_ic = 8.5
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -128,7 +128,7 @@ equipments = {
 		breakthrough = 6
 		soft_attack = 45
 		
-		build_cost_ic = 16
+		build_cost_ic = 12
 		resources = {
 			tungsten = 1
 			steel = 3
@@ -148,7 +148,7 @@ equipments = {
 		breakthrough = 8
 		soft_attack = 68
 		
-		build_cost_ic = 24
+		build_cost_ic = 15
 		resources = {
 			tungsten = 2
 			steel = 3
@@ -169,7 +169,7 @@ equipments = {
 		soft_attack = 90
 		armor_value = 60
 		
-		build_cost_ic = 32
+		build_cost_ic = 22
 		resources = {
 			sakuradite = 1
 			tungsten = 1
@@ -288,7 +288,7 @@ equipments = {
 		soft_attack = 150
 		hard_attack = 20
 		
-		build_cost_ic = 18
+		build_cost_ic = 28
 		resources = {
 			sakuradite = 1
 			tungsten = 2
