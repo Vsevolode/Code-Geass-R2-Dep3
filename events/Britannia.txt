@@ -435,7 +435,7 @@ country_event = {  #Total victory against Japan - Establish Area
 	 
 	
 	
-		option = {	
+		option = {
 		name = BRT.10.a
 		load_focus_tree = britannia_focus_2
 
@@ -449,8 +449,15 @@ country_event = {  #Total victory against Japan - Establish Area
 		hidden_effect = { 
 
 
-		A11 = { 
+		A11 = {
+			inherit_technology = BRT
 			set_variable = { A11_Chosen_State = 1 }
+			BRT = {
+	set_autonomy = {
+		target = A11
+		autonomous_state = area_reformation
+	}
+	}
 		##Dynamic Initial Modifiers
 		set_variable = {
 			var = post_war_chaos
@@ -495,8 +502,7 @@ country_event = {  #Total victory against Japan - Establish Area
 	}	
 
     }
-	
-			option = {	
+	option = {	
 		name = BRT.10.b
 		load_focus_tree = britannia_focus_2
 
@@ -506,7 +512,14 @@ country_event = {  #Total victory against Japan - Establish Area
 		
 		hidden_effect = { 
 	
-		A11 = { 
+		A11 = {
+			BRT = {
+				set_autonomy = {
+					target = A11
+					autonomous_state = area_reformation
+				}
+			}
+			inherit_technology = BRT
 			set_variable = { A11_Chosen_State = 1 }
 			A11_resistance_setup = yes
 				##Dynamic Initial Modifiers

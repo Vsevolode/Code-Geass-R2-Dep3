@@ -966,7 +966,7 @@ focus_tree = {
 		}
 	}
 	
-							focus = {
+	focus = {
 		id = BRT_war
 		icon = GFX_BRT_war
 		prerequisite = { focus = BRT_block_sup }
