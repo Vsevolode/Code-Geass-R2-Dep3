@@ -12,6 +12,7 @@ JAP_ADJ:0 "Japanese"
 never_surrender:0 "Stubborn Defender"
 JAP_not_war:0 "The International Situation Is §GStable§!"
 
+
 ### Tooltips ###
 POLITICS_KURURUGI_DESC:0 "Genbu Kurugi is the current leader of Japan and father of Suzaku Kururugi. He is known for his inflexible personality and rigid ways, but Kurugi is also responsible for Japan's independence and economic growth. Moreover, he will defend his nation at all costs against all invaders."
 ##Parties
@@ -39,7 +40,7 @@ JAP_protests_1_desc:0 "Few protests have erupted against the current economic si
 JAP_protests_2:0 "Widespread Protests"
 JAP_protests_2_desc:0 "Protests have grown in intensity and intensity, reaching various important cities, such as Yokohama. The situation is highly unstable."
 JAP_protests_3:0 "Tokyo Urprising"
-JAP_protests_3_desc:0 "Massive rioting has exploded in Tokyo, and the government, with Prime Minister Kururugi, has left the city for security's sake."
+JAP_protests_3_desc:0 "Massive rioting has exploded in Tokyo, and the government ,with Prime Minister Kururugi, has left the city for security's sake."
 JAP_protests_4:0 "National Urprising"
 JAP_protests_4_desc:0 "The situation is out of control: rioting and looting is currently undergoing in every region of the country. A drastic action is requited, or it will be game over."
 
@@ -376,6 +377,7 @@ JAP.15.t:0 "Partition of Japan"
 JAP.15.d:0 "This is a disaster, Japan is being attacked from all three superpowers at the same time!\n\nSome weeks ago, Kururugi and his government were hoping for a truce with Britannia, considering the heavy losses, but this didn't happen and, instead, Charles decided to continue the war until the very end. EU and especially China, after some considerations, decided to intervene in order to avoid a complete take-over of the nation by Britannia. Although they pretend to execute an humanitarian intervention, Kururugi thinks that this will be the beginning of a partition of Japan among the superpowers.\n\nAs we are talking now, the Chinese army is advancing behind our back and soon the entire front will collapse; the only thing we can do now is to decide which side we should surrender first to."
 JAP.15.a:0 "Japan Is Lost.\n(Play Chinese Japan)"
 JAP.15.b:0 "Japan Is Lost.\n(Play Britannian Japan)"
+JAP.15.c:0 "Japan Can Endure."
 
 #suzaku argument
 JAP.14.t:0 "Death of Prime Minister Kururugi!"

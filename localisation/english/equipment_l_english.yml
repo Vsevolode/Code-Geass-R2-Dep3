@@ -1,4 +1,7 @@
 ﻿l_english:
+ ACTUAL_EQUIPMENT_ENTRY:0 " - $NUM|Y0$ of $NAME|Y$"
+ ACTUAL_EQUIPMENT_ENTRY_STRING:0 " - $NUM|Y$ of $NAME|Y$"
+ ACTUAL_EQUIPMENT_ENTRY_PERCENT:0 " - $NUM|Y0%$ from their production of $NAME|Y$"
  UNLOCK_DIVISION_TANK_TEMPLATE:0 "We Will Unlock Modern Armoured Divisions"
  tank_design:0 "Armored Vehicle Design"
  tank_design_desc:0 "The development of tanks was originally started in the final phases Great European War, and it soon became the main character of warfare all over the world. Its dominance lasted until the new millennium, in the form of the Main Battle Tank type; however, this status quo might change in face of Knightmares and lethal anti-tank weapons for infantry. Furthermore, alternative armoured vehicles, such as land cruisers, are emerging in the world stage."
