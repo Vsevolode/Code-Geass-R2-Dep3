@@ -583,6 +583,11 @@ A11_Suppression_Campaign = {
    #Hokkaido Section
 	A11_military_crackdown_hokkaido = {
 
+
+		priority = {
+			base = 7
+		}
+
 		fire_only_once = no
 
 		visible = {
@@ -622,6 +627,11 @@ A11_Suppression_Campaign = {
 	}	
 
 	A11_targeted_assassinations_hokkaido = {
+
+		
+		priority = {
+			base = 7
+		}
 		
 		fire_only_once = no
 
@@ -658,6 +668,11 @@ A11_Suppression_Campaign = {
 	}
 
 	A11_gas_countryside_hokkaido = {
+
+		
+		priority = {
+			base = 7
+		}
 				
 		fire_only_once = no
 
@@ -700,6 +715,11 @@ A11_Suppression_Campaign = {
 	}
 
 	A11_bribes_hokkaido = {
+
+		
+		priority = {
+			base = 7
+		}
 				
 		fire_only_once = no
 
@@ -740,6 +760,11 @@ A11_Suppression_Campaign = {
 	}
 
 	A11_force_them_underground_hokkaido = {
+
+		
+		priority = {
+			base = 8
+		}
 				
 		fire_only_once = yes
 
@@ -788,6 +813,11 @@ A11_Suppression_Campaign = {
 	 #Kanto Section
 	 A11_military_crackdown_kanto = {
 
+		
+		priority = {
+			base = 7
+		}
+
 		fire_only_once = no
 
 		visible = {
@@ -829,6 +859,11 @@ A11_Suppression_Campaign = {
 	}	
 
 	A11_targeted_assassinations_kanto = {
+
+		
+		priority = {
+			base = 7
+		}
 		
 		fire_only_once = no
 
@@ -865,6 +900,11 @@ A11_Suppression_Campaign = {
 	}
 
 	A11_gas_countryside_kanto = {
+
+		
+		priority = {
+			base = 7
+		}
 				
 		fire_only_once = no
 
@@ -907,6 +947,11 @@ A11_Suppression_Campaign = {
 	}
 
 	A11_bribes_kanto = {
+
+		
+		priority = {
+			base = 7
+		}
 				
 		fire_only_once = no
 
@@ -947,6 +992,11 @@ A11_Suppression_Campaign = {
 	}
 
 	A11_force_them_underground_kanto = {
+
+		
+		priority = {
+			base = 8
+		}
 				
 		fire_only_once = yes
 
@@ -998,6 +1048,11 @@ A11_Suppression_Campaign = {
 		 #Tohoku Section
 		 A11_military_crackdown_tohoku = {
 
+			
+		priority = {
+			base = 7
+		}
+
 			fire_only_once = no
 	
 			visible = {
@@ -1037,6 +1092,11 @@ A11_Suppression_Campaign = {
 		}	
 	
 		A11_targeted_assassinations_tohoku = {
+
+			
+		priority = {
+			base = 7
+		}
 			
 			fire_only_once = no
 	
@@ -1073,6 +1133,11 @@ A11_Suppression_Campaign = {
 		}
 	
 		A11_gas_countryside_tohoku = {
+
+			
+		priority = {
+			base = 7
+		}
 					
 			fire_only_once = no
 	
@@ -1115,6 +1180,11 @@ A11_Suppression_Campaign = {
 		}
 	
 		A11_bribes_tohoku = {
+
+			
+		priority = {
+			base = 7
+		}
 					
 			fire_only_once = no
 	
@@ -1155,6 +1225,11 @@ A11_Suppression_Campaign = {
 		}
 	
 		A11_force_them_underground_tohoku = {
+
+			
+		priority = {
+			base = 8
+		}
 					
 			fire_only_once = yes
 	
@@ -1212,6 +1287,10 @@ A11_Suppression_Campaign = {
 
 			 #Chubu Section
 			 A11_military_crackdown_chubu = {
+				
+		priority = {
+			base = 7
+		}
 
 				fire_only_once = no
 		
@@ -1253,6 +1332,10 @@ A11_Suppression_Campaign = {
 		
 			A11_targeted_assassinations_chubu = {
 				
+		priority = {
+			base = 7
+		}
+				
 				fire_only_once = no
 		
 				visible = {
@@ -1288,6 +1371,10 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_gas_countryside_chubu = {
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1336,6 +1423,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_bribes_chubu = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1376,6 +1468,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_force_them_underground_chubu = {
+
+				
+		priority = {
+			base = 8
+		}
 						
 				fire_only_once = yes
 		
@@ -1425,6 +1522,10 @@ A11_Suppression_Campaign = {
 
 			 #Kansai Section
 			 A11_military_crackdown_kansai = {
+				
+		priority = {
+			base = 7
+		}
 
 				fire_only_once = no
 		
@@ -1465,6 +1566,11 @@ A11_Suppression_Campaign = {
 			}	
 		
 			A11_targeted_assassinations_kansai = {
+
+				
+		priority = {
+			base = 7
+		}
 				
 				fire_only_once = no
 		
@@ -1501,6 +1607,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_gas_countryside_kansai = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1549,6 +1660,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_bribes_kansai = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1589,6 +1705,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_force_them_underground_kansai = {
+
+				
+		priority = {
+			base = 8
+		}
 						
 				fire_only_once = yes
 		
@@ -1639,6 +1760,11 @@ A11_Suppression_Campaign = {
 			 #Chuguko Section
 			 A11_military_crackdown_chuguko = {
 
+				
+		priority = {
+			base = 7
+		}
+
 				fire_only_once = no
 		
 				visible = {
@@ -1678,6 +1804,11 @@ A11_Suppression_Campaign = {
 			}	
 		
 			A11_targeted_assassinations_chuguko = {
+
+				
+		priority = {
+			base = 7
+		}
 				
 				fire_only_once = no
 		
@@ -1714,6 +1845,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_gas_countryside_chuguko = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1762,6 +1898,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_bribes_chuguko = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1802,6 +1943,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_force_them_underground_chuguko = {
+
+				
+		priority = {
+			base = 8
+		}
 						
 				fire_only_once = yes
 		
@@ -1853,6 +1999,11 @@ A11_Suppression_Campaign = {
 			 #kyushu Section
 			 A11_military_crackdown_kyushu = {
 
+				
+		priority = {
+			base = 7
+		}
+
 				fire_only_once = no
 		
 				visible = {
@@ -1892,6 +2043,11 @@ A11_Suppression_Campaign = {
 			}	
 		
 			A11_targeted_assassinations_kyushu = {
+
+				
+		priority = {
+			base = 7
+		}
 				
 				fire_only_once = no
 		
@@ -1928,6 +2084,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_gas_countryside_kyushu = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -1971,6 +2132,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_bribes_kyushu = {
+
+				
+		priority = {
+			base = 7
+		}
 						
 				fire_only_once = no
 		
@@ -2011,6 +2177,11 @@ A11_Suppression_Campaign = {
 			}
 		
 			A11_force_them_underground_kyushu = {
+
+				
+		priority = {
+			base = 8
+		}
 						
 				fire_only_once = yes
 		
