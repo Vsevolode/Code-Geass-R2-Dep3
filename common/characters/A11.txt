@@ -133,7 +133,7 @@ characters={
 	}
 
 	A11_viceroy_2={
-		name = "Britannian Viceroy"
+		name = "Emergency Government"
 		portraits={
 			civilian={
 				large="GFX_portrait_A11_viceroy"

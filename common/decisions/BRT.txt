@@ -227,7 +227,7 @@ BRT_pacific = {		#Name of category that decisions will appear under, decisions M
 	
 	available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
 	JAP = {
-		surrender_progress > 95
+		surrender_progress > 80
 	}
 	}
 	activation = {    
