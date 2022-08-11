@@ -13,8 +13,7 @@ state={
 			industrial_complex = 1
 			4241 = {
 				naval_base = 1
-				coastal_bunker = 3
-				bunker = 5
+				
 			}
 		}
 		victory_points = {
