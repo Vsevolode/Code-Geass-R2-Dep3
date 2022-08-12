@@ -26,7 +26,7 @@
 
 
 division_template = {
-	name = "Imperial Garrision" 		
+	name = "Imperial Garrison" 		
 
 	division_names_group = "CHI_GAR_01"
 
@@ -44,6 +44,29 @@ division_template = {
 
 }
 
+
+division_template = {
+	name = "Imperial Tank Division" 		
+
+	division_names_group = "CHI_GAR_01"
+
+    regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+    }
+	
+	
+	support = {
+		Artillery = { x = 0 y = 0 } 
+	}
+
+}
 
 
 units = {
@@ -293,7 +316,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -303,7 +326,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -313,7 +336,7 @@ units = {
 			name_order = 1
 		}
 		location = 1047
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -323,7 +346,7 @@ units = {
 			name_order = 1
 		}
 		location = 1047
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -333,7 +356,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -343,7 +366,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -353,7 +376,7 @@ units = {
 			name_order = 1
 		}
 		location = 1070
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -363,7 +386,7 @@ units = {
 			name_order = 1
 		}
 		location = 1070
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -373,7 +396,7 @@ units = {
 			name_order = 1
 		}
 		location = 11981
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -383,7 +406,7 @@ units = {
 			name_order = 1
 		}
 		location = 11981
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -393,7 +416,7 @@ units = {
 			name_order = 1
 		}
 		location = 9938
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -403,7 +426,7 @@ units = {
 			name_order = 1
 		}
 		location = 9938
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -413,7 +436,7 @@ units = {
 			name_order = 1
 		}
 		location = 12068
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -423,7 +446,7 @@ units = {
 			name_order = 1
 		}
 		location = 12068
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -433,7 +456,7 @@ units = {
 			name_order = 1
 		}
 		location = 7186
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -443,7 +466,7 @@ units = {
 			name_order = 1
 		}
 		location = 7186
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -453,7 +476,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -463,7 +486,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -473,7 +496,7 @@ units = {
 			name_order = 1
 		}
 		location = 4196
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -483,7 +506,7 @@ units = {
 			name_order = 1
 		}
 		location = 4196
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -493,7 +516,7 @@ units = {
 			name_order = 1
 		}
 		location = 1055
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -503,7 +526,7 @@ units = {
 			name_order = 1
 		}
 		location = 1055
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -513,7 +536,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -523,7 +546,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -533,7 +556,7 @@ units = {
 			name_order = 1
 		}
 		location = 7191
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -543,7 +566,7 @@ units = {
 			name_order = 1
 		}
 		location = 7191
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -553,7 +576,7 @@ units = {
 			name_order = 1
 		}
 		location = 7014
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -563,7 +586,7 @@ units = {
 			name_order = 1
 		}
 		location = 7014
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -573,7 +596,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -583,7 +606,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -593,7 +616,7 @@ units = {
 			name_order = 1
 		}
 		location = 13279
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -603,7 +626,7 @@ units = {
 			name_order = 1
 		}
 		location = 13279
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -613,7 +636,7 @@ units = {
 			name_order = 1
 		}
 		location = 10068
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -623,7 +646,7 @@ units = {
 			name_order = 1
 		}
 		location = 10068
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -633,7 +656,7 @@ units = {
 			name_order = 1
 		}
 		location = 1123
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -643,7 +666,7 @@ units = {
 			name_order = 1
 		}
 		location = 1123
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -653,7 +676,7 @@ units = {
 			name_order = 1
 		}
 		location = 3900
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -663,7 +686,7 @@ units = {
 			name_order = 1
 		}
 		location = 3900
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -673,7 +696,7 @@ units = {
 			name_order = 1
 		}
 		location = 964
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -683,7 +706,7 @@ units = {
 			name_order = 1
 		}
 		location = 964
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -693,7 +716,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -703,7 +726,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -713,7 +736,7 @@ units = {
 			name_order = 1
 		}
 		location = 957
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -723,7 +746,7 @@ units = {
 			name_order = 1
 		}
 		location = 957
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -733,7 +756,7 @@ units = {
 			name_order = 1
 		}
 		location = 9604
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -743,7 +766,7 @@ units = {
 			name_order = 1
 		}
 		location = 9604
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -753,7 +776,7 @@ units = {
 			name_order = 1
 		}
 		location = 12446
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -763,7 +786,7 @@ units = {
 			name_order = 1
 		}
 		location = 12446
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -773,7 +796,7 @@ units = {
 			name_order = 1
 		}
 		location = 10627
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -783,7 +806,7 @@ units = {
 			name_order = 1
 		}
 		location = 1791
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -793,7 +816,7 @@ units = {
 			name_order = 1
 		}
 		location = 1834
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -803,7 +826,7 @@ units = {
 			name_order = 1
 		}
 		location = 4801
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -813,7 +836,7 @@ units = {
 			name_order = 1
 		}
 		location = 12557
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -823,7 +846,7 @@ units = {
 			name_order = 1
 		}
 		location = 12189
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -833,7 +856,7 @@ units = {
 			name_order = 1
 		}
 		location = 4805
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -843,7 +866,7 @@ units = {
 			name_order = 1
 		}
 		location = 4506
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -853,7 +876,7 @@ units = {
 			name_order = 1
 		}
 		location = 10433
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -863,7 +886,7 @@ units = {
 			name_order = 1
 		}
 		location = 4572
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -873,7 +896,7 @@ units = {
 			name_order = 1
 		}
 		location = 11771
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -883,7 +906,7 @@ units = {
 			name_order = 1
 		}
 		location = 1519
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -893,7 +916,7 @@ units = {
 			name_order = 1
 		}
 		location = 7222
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -903,7 +926,7 @@ units = {
 			name_order = 1
 		}
 		location = 1069
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -913,7 +936,7 @@ units = {
 			name_order = 1
 		}
 		location = 10404
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -923,7 +946,7 @@ units = {
 			name_order = 1
 		}
 		location = 12019
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -933,7 +956,7 @@ units = {
 			name_order = 1
 		}
 		location = 7799
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -943,7 +966,7 @@ units = {
 			name_order = 1
 		}
 		location = 4709
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -953,7 +976,7 @@ units = {
 			name_order = 1
 		}
 		location = 4709
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -963,7 +986,7 @@ units = {
 			name_order = 1
 		}
 		location = 2015
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -973,7 +996,7 @@ units = {
 			name_order = 1
 		}
 		location = 7965
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -983,7 +1006,7 @@ units = {
 			name_order = 1
 		}
 		location = 7418
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -993,7 +1016,7 @@ units = {
 			name_order = 1
 		}
 		location = 9958
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1003,7 +1026,7 @@ units = {
 			name_order = 1
 		}
 		location = 8049
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1013,7 +1036,7 @@ units = {
 			name_order = 1
 		}
 		location = 2045
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1023,7 +1046,7 @@ units = {
 			name_order = 1
 		}
 		location = 12141
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1033,7 +1056,7 @@ units = {
 			name_order = 1
 		}
 		location = 4999
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1043,7 +1066,7 @@ units = {
 			name_order = 1
 		}
 		location = 1010
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1053,7 +1076,7 @@ units = {
 			name_order = 1
 		}
 		location = 12524
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1063,7 +1086,7 @@ units = {
 			name_order = 1
 		}
 		location = 4704
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1073,7 +1096,7 @@ units = {
 			name_order = 1
 		}
 		location = 7976
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1083,7 +1106,7 @@ units = {
 			name_order = 1
 		}
 		location = 4501
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1093,7 +1116,7 @@ units = {
 			name_order = 1
 		}
 		location = 4504
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1103,40 +1126,660 @@ units = {
 			name_order = 1
 		}
 		location = 7294
-		division_template = "Imperial Garrision"
+		division_template = "Imperial Garrison"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11931
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11931
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11931
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11931
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10000
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10000
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10000
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10000
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7071
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7071
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7071
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7071
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1150
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1150
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1150
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1150
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10062
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10062
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10062
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10062
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4189
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4189
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4189
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4189
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7097
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7097
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7097
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7097
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9843
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9843
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9843
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9843
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11771
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11771
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11771
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11771
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0	
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1319
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1319
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1319
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1319
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5033
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5033
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5033
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5033
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9974
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9974
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9974
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9974
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7222
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7222
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7222
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7222
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4619
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4619
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4619
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4619
+		division_template = "Imperial Tank Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+    }		
 }
 
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "CHI"
 		}
-		requested_factories = 15
+		requested_factories = 7
 		progress = 0.73
 		efficiency = 50
 	}
-	
+    	
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
 			creator = "CHI"
 		}
-		requested_factories = 8
+		requested_factories = 4
+		progress = 0.85
+		efficiency = 50
+	}
+     
+	add_equipment_production = {
+		equipment = {
+			type = eu_war_artillery
+			creator = "CHI"
+		}
+		requested_factories = 5
 		progress = 0.85
 		efficiency = 50
 	}
 	
 	add_equipment_production = {
 		equipment = {
-			type = eu_war_artillery
+			type = motorized_equipment_1
 			creator = "CHI"
 		}
-		requested_factories = 8
+		requested_factories = 5
 		progress = 0.85
 		efficiency = 50
-	}
+    }
+	
+	add_equipment_production = {
+		equipment = {
+			type = cold_war_tank_2
+			creator = "CHI"
+		}
+		requested_factories = 10
+		progress = 0.85
+		efficiency = 50
+    }
 }

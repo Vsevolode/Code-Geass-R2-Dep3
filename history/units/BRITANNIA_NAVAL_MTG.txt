@@ -382,7 +382,7 @@ units= {
 instant_effect = {
 
 	### Under Construction Notes ###
-	# DD: Mahan class (x13) ("HMS Porter" "HMS Phelps" "HMS Clark" "HMS Moffett" "HMS Mahan" "HMS Cunnings" "HMS FlHMSer" "HMS Case" "HMS Conyngham" "HMS Cassin" "HMS Shaw" "HMS Cushing" "HMS Perkins")
+	# DD: Mahan class (x13) ("HMS Porter" "HMS Phelps" "HMS Clark" "HMS Moffett" "HMS Mahan" "HMS Cummings" "HMS FlHMSer" "HMS Case" "HMS Conyngham" "HMS Cassin" "HMS Shaw" "HMS Cushing" "HMS Perkins")
 	add_equipment_production = {
 		equipment = {
 			type = destroyer_1

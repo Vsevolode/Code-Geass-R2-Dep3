@@ -1820,7 +1820,7 @@ completion_reward = {
 		}
 	
 		available = {
-		
+			has_completed_focus = A11_ghetto_battle_1
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
 	
@@ -1862,7 +1862,8 @@ completion_reward = {
 		}
 	
 		available = {
-		
+			has_completed_focus = A11_ghetto_battle_1
+			has_completed_focus = A11_ghetto_battle_2
 		country_exists = A11
 		A11 = { is_puppet_of = BRT }
 	
