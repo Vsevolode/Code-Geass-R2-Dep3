@@ -162,6 +162,28 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
+		location = 1415
+		division_template = "Philippine Light Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+		division= {	
+		#name = "1st Britannian Garrison"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4241
+		division_template = "Philippine Light Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		#name = "1st Britannian Garrison"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 4241
 		division_template = "Philippine Light Infantry"
 		start_experience_factor = 0.3
@@ -179,37 +201,38 @@ units = {
 		start_equipment_factor = 0.6
 	}
 
-	
-
-
-	
-	
-	
-
-
-
 }
 
 
-##### Starting Production #####
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
-			creator = "CAN"
+			type = infantry_equipment_0
+			creator = "ENG"
 		}
-		requested_factories = 4
+		requested_factories = 1
 		progress = 0.73
-		efficiency = 100
+		efficiency = 50
 	}
-
+    	
 	add_equipment_production = {
 		equipment = {
-			type = eu_war_artillery
-			creator = "CAN"
+			type = support_equipment_1
+			creator = "CHI"
 		}
 		requested_factories = 2
 		progress = 0.85
-		efficiency = 100
+		efficiency = 50
 	}
+     
+	add_equipment_production = {
+		equipment = {
+			type = eu_war_artillery
+			creator = "CHI"
+		}
+		requested_factories = 2
+		progress = 0.85
+		efficiency = 50
+	}
+	
 }
