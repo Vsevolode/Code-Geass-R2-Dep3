@@ -1,69 +1,244 @@
 ﻿division_template = {
-	name = "Imperial Division"	
+	name = "Chinese Cavalry Division"	
+
+	division_names_group = "CHI_CAV_01"
+
+	regiments = {
+		Cavalry = { x = 0 y = 0 }
+		Cavalry = { x = 0 y = 1 }
+		Cavalry = { x = 0 y = 2 }
+		Cavalry = { x = 0 y = 3 }
+		Cavalry = { x = 0 y = 4 }
+		Cavalry = { x = 1 y = 0 }
+		Cavalry = { x = 1 y = 1 }
+		Cavalry = { x = 1 y = 2 }
+		Cavalry = { x = 1 y = 3 }
+		Cavalry = { x = 1 y = 4 }
+	}
+	
+}
+
+
+division_template = {
+	name = "Chinese Light Infantry Division"	
 
 	division_names_group = "CHI_INF_01"
 
 	regiments = {
+		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	support = {
+	    Artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 } 
+		
+    }
+}
+
+division_template = {
+	name = "Chinese Infantry Division"	
+
+	division_names_group = "CHI_INF_01"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 1 y = 3 }
-		infantry = { x = 2 y = 3 }
-		artillery_brigade = { x = 0 y = 0 }
-		artillery_brigade = { x = 0 y = 3 }
-	}	
-	support = {
-		artillery = { x = 0 y = 1 } 
-		engineer = { x = 0 y = 0 }   
+		artillery_brigade = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }	
 	}
 
 }
 
 
 division_template = {
-	name = "Imperial Garrison" 		
+	name = "Chinese Massed Division" 		
 
-	division_names_group = "CHI_GAR_01"
+	division_names_group = "CHI_INF_01"
 
     regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+		infantry = { x = 4 y = 0 }
+		infantry = { x = 4 y = 1 }
+		infantry = { x = 4 y = 2 }
+		infantry = { x = 4 y = 3 }
     }
 	support = {
-		engineer = { x = 0 y = 0 } 
+		engineer = { x = 0 y = 0 } 		
 	}
 
 }
 
 
 division_template = {
-	name = "Imperial Tank Division" 		
+	name = "Chinese Tank Division" 		
 
-	division_names_group = "CHI_GAR_01"
+	division_names_group = "CHI_ARM_01"
 
     regiments = {
 		modern_armor = { x = 0 y = 0 }
 		modern_armor = { x = 0 y = 1 }
 		modern_armor = { x = 1 y = 0 }
 		modern_armor = { x = 1 y = 1 }
-		modern_armor = { x = 2 y = 0 }
-		modern_armor = { x = 2 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
 		motorized = { x = 3 y = 0 }
 		motorized = { x = 3 y = 1 }
+		motorized = { x = 4 y = 0 }
+		motorized = { x = 4 y = 1 }
     }
-	
-	
+		
 	support = {
-		Artillery = { x = 0 y = 0 } 
+		Artillery = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+
+}
+
+
+division_template = {
+	name = "Chinese Combined Tank Division" 		
+
+	division_names_group = "CHI_ARM_01"
+
+    regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized = { x = 1 y = 4 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 3 }
+    }
+		
+	support = {
+		Artillery = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+
+}
+
+
+division_template = {
+	name = "Chinese Large Tank Division" 		
+
+	division_names_group = "CHI_ARM_01"
+
+    regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 1 y = 3 }
+		modern_armor = { x = 1 y = 4 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+		motorized = { x = 2 y = 4 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+		motorized = { x = 3 y = 3 }
+		motorized = { x = 3 y = 4 }
+	}
+		
+	support = {
+		Artillery = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+
+}
+
+
+division_template = {
+	name = "Chinese Motorized Division" 		
+
+	division_names_group = "CHI_MOT_01"
+
+    regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized = { x = 1 y = 4 }
+    }
+		
+	support = {
+		Artillery = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }	
+	}
+
+}
+
+division_template = {
+	name = "Chinese Motorized With Artillery Division" 		
+
+	division_names_group = "CHI_MOT_01"
+
+    regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		mot_artillery_brigade = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 1 y = 3 }
+    }
+		
+	support = {
+		Artillery = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }	
 	}
 
 }
@@ -75,128 +250,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11931
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7571
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4606
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1004
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1603
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6932
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1575
-		division_template = "Imperial Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {   
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11913
-		division_template = "Imperial Division"
+		location = 6999
+		division_template = "Chinese Cavalry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -206,7 +261,127 @@ units = {
 			name_order = 1
 		}
 		location = 6999
-		division_template = "Imperial Division"
+		division_template = "Chinese Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6999
+		division_template = "Chinese Cavalry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6999
+		division_template = "Chinese Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1069
+		division_template = "Chinese Cavalry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1069
+		division_template = "Chinese Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7571
+		division_template = "Chinese Cavalry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4606
+		division_template = "Chinese Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1004
+		division_template = "Chinese Cavalry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1603
+		division_template = "Chinese Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6932
+		division_template = "Chinese Cavalry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1575
+		division_template = "Chinese Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Chinese Massed Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6999
+		division_template = "Chinese Light Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -216,7 +391,7 @@ units = {
 			name_order = 1
 		}
 		location = 4619
-		division_template = "Imperial Division"
+		division_template = "Chinese Massed Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -226,7 +401,7 @@ units = {
 			name_order = 1
 		}
 		location = 1319
-		division_template = "Imperial Division"
+		division_template = "Chinese Light Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -236,7 +411,7 @@ units = {
 			name_order = 1
 		}
 		location = 5033
-		division_template = "Imperial Division"
+		division_template = "Chinese Massed Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -246,7 +421,7 @@ units = {
 			name_order = 1
 		}
 		location = 7101
-		division_template = "Imperial Division"
+		division_template = "Chinese Light Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -256,7 +431,7 @@ units = {
 			name_order = 1
 		}
 		location = 7097
-		division_template = "Imperial Division"
+		division_template = "Chinese Massed Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -266,7 +441,7 @@ units = {
 			name_order = 1
 		}
 		location = 3992
-		division_template = "Imperial Division"
+		division_template = "Chinese Light Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -276,7 +451,7 @@ units = {
 			name_order = 1
 		}
 		location = 7137
-		division_template = "Imperial Division"
+		division_template = "Chinese Massed Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -286,7 +461,7 @@ units = {
 			name_order = 1
 		}
 		location = 10076
-		division_template = "Imperial Division"
+		division_template = "Chinese Light Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -296,7 +471,7 @@ units = {
 			name_order = 1
 		}
 		location = 9843
-		division_template = "Imperial Division"
+		division_template = "Chinese Massed Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -306,7 +481,7 @@ units = {
 			name_order = 1
 		}
 		location = 4925
-		division_template = "Imperial Division"
+		division_template = "Chinese Light Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -316,7 +491,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -326,7 +501,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -336,7 +511,7 @@ units = {
 			name_order = 1
 		}
 		location = 1047
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -346,7 +521,7 @@ units = {
 			name_order = 1
 		}
 		location = 1047
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -356,7 +531,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -366,7 +541,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -376,7 +551,7 @@ units = {
 			name_order = 1
 		}
 		location = 1070
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -386,7 +561,7 @@ units = {
 			name_order = 1
 		}
 		location = 1070
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -396,7 +571,7 @@ units = {
 			name_order = 1
 		}
 		location = 11981
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -406,7 +581,7 @@ units = {
 			name_order = 1
 		}
 		location = 11981
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -416,7 +591,7 @@ units = {
 			name_order = 1
 		}
 		location = 9938
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -426,7 +601,7 @@ units = {
 			name_order = 1
 		}
 		location = 9938
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -436,7 +611,7 @@ units = {
 			name_order = 1
 		}
 		location = 12068
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -446,7 +621,7 @@ units = {
 			name_order = 1
 		}
 		location = 12068
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -456,7 +631,7 @@ units = {
 			name_order = 1
 		}
 		location = 7186
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -466,7 +641,7 @@ units = {
 			name_order = 1
 		}
 		location = 7186
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -476,7 +651,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -486,7 +661,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -496,7 +671,7 @@ units = {
 			name_order = 1
 		}
 		location = 4196
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -506,7 +681,7 @@ units = {
 			name_order = 1
 		}
 		location = 4196
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -516,7 +691,7 @@ units = {
 			name_order = 1
 		}
 		location = 1055
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -526,7 +701,7 @@ units = {
 			name_order = 1
 		}
 		location = 1055
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -536,7 +711,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -546,7 +721,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -556,7 +731,7 @@ units = {
 			name_order = 1
 		}
 		location = 7191
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -566,7 +741,7 @@ units = {
 			name_order = 1
 		}
 		location = 7191
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -576,7 +751,7 @@ units = {
 			name_order = 1
 		}
 		location = 7014
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -586,7 +761,7 @@ units = {
 			name_order = 1
 		}
 		location = 7014
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -596,7 +771,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -606,7 +781,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized With Artillery Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -616,7 +791,7 @@ units = {
 			name_order = 1
 		}
 		location = 13279
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -626,7 +801,7 @@ units = {
 			name_order = 1
 		}
 		location = 13279
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -636,7 +811,7 @@ units = {
 			name_order = 1
 		}
 		location = 10068
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -646,7 +821,7 @@ units = {
 			name_order = 1
 		}
 		location = 10068
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -656,7 +831,7 @@ units = {
 			name_order = 1
 		}
 		location = 1123
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -666,7 +841,7 @@ units = {
 			name_order = 1
 		}
 		location = 1123
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -676,7 +851,7 @@ units = {
 			name_order = 1
 		}
 		location = 3900
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -686,7 +861,7 @@ units = {
 			name_order = 1
 		}
 		location = 3900
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -696,7 +871,7 @@ units = {
 			name_order = 1
 		}
 		location = 964
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -706,7 +881,7 @@ units = {
 			name_order = 1
 		}
 		location = 964
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -716,7 +891,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -726,7 +901,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -736,7 +911,7 @@ units = {
 			name_order = 1
 		}
 		location = 957
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -746,7 +921,7 @@ units = {
 			name_order = 1
 		}
 		location = 957
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -756,7 +931,7 @@ units = {
 			name_order = 1
 		}
 		location = 9604
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -766,7 +941,7 @@ units = {
 			name_order = 1
 		}
 		location = 9604
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -776,7 +951,7 @@ units = {
 			name_order = 1
 		}
 		location = 12446
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -786,7 +961,7 @@ units = {
 			name_order = 1
 		}
 		location = 12446
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -796,7 +971,7 @@ units = {
 			name_order = 1
 		}
 		location = 10627
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -806,7 +981,7 @@ units = {
 			name_order = 1
 		}
 		location = 1791
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -816,7 +991,7 @@ units = {
 			name_order = 1
 		}
 		location = 1834
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -826,7 +1001,7 @@ units = {
 			name_order = 1
 		}
 		location = 4801
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Motorized Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -836,7 +1011,7 @@ units = {
 			name_order = 1
 		}
 		location = 12557
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -846,7 +1021,7 @@ units = {
 			name_order = 1
 		}
 		location = 12189
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -856,7 +1031,7 @@ units = {
 			name_order = 1
 		}
 		location = 4805
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -866,267 +1041,7 @@ units = {
 			name_order = 1
 		}
 		location = 4506
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10433
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4572
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11771
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1519
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7222
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1069
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10404
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12019
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7799
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4709
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4709
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 2015
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7965
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7418
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9958
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 8049
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 2045
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12141
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4999
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1010
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12524
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4704
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7976
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4501
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4504
-		division_template = "Imperial Garrison"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division= {
-		division_name = {    
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7294
-		division_template = "Imperial Garrison"
+		division_template = "Chinese Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1136,7 +1051,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1146,7 +1061,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1156,7 +1071,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1166,7 +1081,7 @@ units = {
 			name_order = 1
 		}
 		location = 11931
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1176,7 +1091,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1186,7 +1101,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1196,7 +1111,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1206,7 +1121,7 @@ units = {
 			name_order = 1
 		}
 		location = 10000
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
@@ -1216,7 +1131,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1226,7 +1141,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1236,7 +1151,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1246,7 +1161,7 @@ units = {
 			name_order = 1
 		}
 		location = 7071
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1256,7 +1171,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1266,7 +1181,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1276,7 +1191,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1286,7 +1201,7 @@ units = {
 			name_order = 1
 		}
 		location = 1150
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1296,7 +1211,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1306,7 +1221,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1316,7 +1231,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1326,7 +1241,7 @@ units = {
 			name_order = 1
 		}
 		location = 10062
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1336,7 +1251,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1346,7 +1261,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1356,7 +1271,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1366,7 +1281,7 @@ units = {
 			name_order = 1
 		}
 		location = 4189
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1376,7 +1291,7 @@ units = {
 			name_order = 1
 		}
 		location = 7097
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1386,7 +1301,7 @@ units = {
 			name_order = 1
 		}
 		location = 7097
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1396,7 +1311,7 @@ units = {
 			name_order = 1
 		}
 		location = 7097
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1406,7 +1321,7 @@ units = {
 			name_order = 1
 		}
 		location = 7097
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1416,7 +1331,7 @@ units = {
 			name_order = 1
 		}
 		location = 9843
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1426,7 +1341,7 @@ units = {
 			name_order = 1
 		}
 		location = 9843
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1436,7 +1351,7 @@ units = {
 			name_order = 1
 		}
 		location = 9843
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1446,7 +1361,7 @@ units = {
 			name_order = 1
 		}
 		location = 9843
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1456,7 +1371,7 @@ units = {
 			name_order = 1
 		}
 		location = 11771
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1466,7 +1381,7 @@ units = {
 			name_order = 1
 		}
 		location = 11771
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1476,7 +1391,7 @@ units = {
 			name_order = 1
 		}
 		location = 11771
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Combined Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1486,7 +1401,7 @@ units = {
 			name_order = 1
 		}
 		location = 11771
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0	
     }
@@ -1496,7 +1411,7 @@ units = {
 			name_order = 1
 		}
 		location = 1319
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1506,7 +1421,7 @@ units = {
 			name_order = 1
 		}
 		location = 1319
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1516,7 +1431,7 @@ units = {
 			name_order = 1
 		}
 		location = 1319
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1526,7 +1441,7 @@ units = {
 			name_order = 1
 		}
 		location = 1319
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1536,7 +1451,7 @@ units = {
 			name_order = 1
 		}
 		location = 5033
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1546,7 +1461,7 @@ units = {
 			name_order = 1
 		}
 		location = 5033
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1556,7 +1471,7 @@ units = {
 			name_order = 1
 		}
 		location = 5033
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1566,7 +1481,7 @@ units = {
 			name_order = 1
 		}
 		location = 5033
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1576,7 +1491,7 @@ units = {
 			name_order = 1
 		}
 		location = 11913
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1586,7 +1501,7 @@ units = {
 			name_order = 1
 		}
 		location = 11913
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1596,7 +1511,7 @@ units = {
 			name_order = 1
 		}
 		location = 11913
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1606,7 +1521,7 @@ units = {
 			name_order = 1
 		}
 		location = 11913
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1616,7 +1531,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1626,7 +1541,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1636,7 +1551,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1646,7 +1561,7 @@ units = {
 			name_order = 1
 		}
 		location = 9974
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1656,7 +1571,7 @@ units = {
 			name_order = 1
 		}
 		location = 7222
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1666,7 +1581,7 @@ units = {
 			name_order = 1
 		}
 		location = 7222
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1676,7 +1591,7 @@ units = {
 			name_order = 1
 		}
 		location = 7222
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1686,7 +1601,7 @@ units = {
 			name_order = 1
 		}
 		location = 7222
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1696,7 +1611,7 @@ units = {
 			name_order = 1
 		}
 		location = 4619
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1706,7 +1621,7 @@ units = {
 			name_order = 1
 		}
 		location = 4619
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1716,7 +1631,7 @@ units = {
 			name_order = 1
 		}
 		location = 4619
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }
@@ -1726,7 +1641,7 @@ units = {
 			name_order = 1
 		}
 		location = 4619
-		division_template = "Imperial Tank Division"
+		division_template = "Chinese Large Tank Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
     }		
