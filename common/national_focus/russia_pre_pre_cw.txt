@@ -1,0 +1,623 @@
+focus_tree = {
+	id = pre_cw_russia_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	
+
+	default = no
+				focus = {
+			id = RUS_Revise_the_Constitution_of_1919 #####(Cadet project) Make one event here, in which we will tell an alternative history of Russia
+			icon = GFX
+			cost = 5
+			x = 18
+			y = 0
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Use_the_Chernovs_Plan #####(more admin buffs, medium eco buffs) Do one event too, where we will tell you in detail about the plan and give a little political power (50-100)
+			icon = GFX
+			cost = 3
+			x = 6
+			y = 2
+			prerequisite = { focus = RUS_Revise_the_Constitution_of_1919 }
+			relative_position_id = RUS_Revise_the_Constitution_of_1919
+			mutually_exclusive = { focus = RUS_Use_the_Conovalovs_Plan }
+			mutually_exclusive = { focus = RUS_Use_the_Bulganins_Plan }
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Creation_of_an_Anti_Corruption_Agency #####(-100 pp + 5 stab) 
+			icon = GFX
+			cost = 10
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Use_the_Chernovs_Plan }
+			relative_position_id = RUS_Use_the_Chernovs_Plan
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Centralization_of_state_assets #####(Removing debuffs ) Reduce the impact of the idea on corruption by 1/5
+			icon = GFX
+			cost = 5
+			x = -1
+			y = 1
+			prerequisite = { focus = RUS_Creation_of_an_Anti_Corruption_Agency }
+			relative_position_id = RUS_Creation_of_an_Anti_Corruption_Agency
+			mutually_exclusive = { focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions }
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions #####(Removing debuffs) Reduce the impact of the idea of crisis by 1/5
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_Creation_of_an_Anti_Corruption_Agency }
+			relative_position_id = RUS_Creation_of_an_Anti_Corruption_Agency
+			mutually_exclusive = { focus = RUS_Centralization_of_state_assets }
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Independence_of_the_courts_budget #####(Removing debuffs +50 pp)  Reduce the impact of the idea on corruption by 1/5
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_Centralization_of_state_assets }
+			prerequisite = { focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions }
+			relative_position_id = RUS_Centralization_of_state_assets
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Strengthening_the_national_banking_system #####(Removing debuffs +pp) Reduce the impact of the idea of crisis by 1/5
+			icon = GFX
+			cost = 5
+			x = -2
+			y = 2
+			prerequisite = { focus = RUS_Centralization_of_state_assets
+							 focus = RUS_Increase_the_credit_rate
+							 focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions}
+
+			relative_position_id = RUS_Centralization_of_state_assets
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+					focus = {
+			id = RUS_ruble_appreciation #####(Removing debuffs +pp) Reduce the impact of the idea of crisis by 1/5
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Strengthening_the_national_banking_system}
+
+			relative_position_id = RUS_Strengthening_the_national_banking_system
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+						focus = {
+			id = RUS_Revision_of_part_of_international_agreements_in_national_currency #####(Event. If succeed - EU makes repaind of the loans more easier) I don't know how to do it yet, leave it empty
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_ruble_appreciation}
+
+			relative_position_id = RUS_ruble_appreciation
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+					focus = {
+			id = RUS_Simplification_of_legislation #####(Removing debuffs +pp) Reduce the impact of the idea on corruption by 1/5
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Independence_of_the_courts_budget }
+			relative_position_id = RUS_Independence_of_the_courts_budget
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_demonstrative_arrests #####(Removing debuffs +50 pp -5 stab) Reduce the impact of the idea on corruption by 1/5
+			icon = GFX
+			cost = 5
+			x = -1
+			y = 1
+			prerequisite = { focus = RUS_Simplification_of_legislation }
+			relative_position_id = RUS_Simplification_of_legislation
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_anti_corruption_education_of_the_population #####(Removing debuffs +50 pp) Reduce the impact of the idea on corruption by 1/5
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_Simplification_of_legislation }
+			relative_position_id = RUS_Simplification_of_legislation
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+	########################################################################
+				focus = {
+			id = RUS_Use_the_Conovalovs_Plan #####(more eco buffs, medium adm buffs) Do one event too, where we will tell you in detail about the plan and give a little political power (50-100)
+			icon = GFX
+			cost = 3
+			x = 0
+			y = 2
+			prerequisite = { focus = RUS_Revise_the_Constitution_of_1919 }
+			relative_position_id = RUS_Revise_the_Constitution_of_1919
+			mutually_exclusive = { focus = RUS_Use_the_Chernovs_Plan }
+			mutually_exclusive = { focus = RUS_Use_the_Bulganins_Plan }
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Set_price_limit_for_essential_products #####(-5 stab  Reduce the impact of the idea of crisis by 1/5 )
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_Use_the_Conovalovs_Plan }
+			relative_position_id = RUS_Use_the_Conovalovs_Plan
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Stimulate_small_business #####(-50 pp  Reduce the impact of the idea of crisis by 1/5)
+			icon = GFX
+			cost = 5
+			x = -1
+			y = 1
+			prerequisite = { focus = RUS_Use_the_Conovalovs_Plan }
+			relative_position_id = RUS_Use_the_Conovalovs_Plan
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Increase_the_credit_rate #####( -5 stab  Reduce the impact of the idea of crisis by 1/5)
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_Stimulate_small_business }
+			prerequisite = { focus = RUS_Set_price_limit_for_essential_products }
+			relative_position_id = RUS_Stimulate_small_business
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_The_beginning_of_industrialization #####( Reduce the impact of the idea on reducing the productivity of military factories and factories by 1/5)
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Increase_the_credit_rate }
+			relative_position_id = RUS_Increase_the_credit_rate
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Development_of_new_deposits #####( Reduce the receipt of resources by 15 percent)
+			icon = GFX
+			cost = 5
+			x = -1
+			y = 1
+			prerequisite = { focus = RUS_The_beginning_of_industrialization }
+			relative_position_id = RUS_The_beginning_of_industrialization
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Creation_of_new_processing_plants #####( Reduce the receipt of resources by 15 percent +2 civilian factories)
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Development_of_new_deposits }
+			relative_position_id = RUS_Development_of_new_deposits
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+					focus = {
+			id = RUS_Project_of_the_Rybinsk_Hydroelectric_Power_Station #####( Reduce the impact of the idea on reducing the productivity of military factories and factories by 1/5)
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_The_beginning_of_industrialization }
+			relative_position_id = RUS_The_beginning_of_industrialization
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+						focus = {
+			id = RUS_Electrification_of_Siberia #####( Reduce the impact of the idea on reducing the productivity of military factories and factories by 1/5)
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Project_of_the_Rybinsk_Hydroelectric_Power_Station }
+			relative_position_id = RUS_Project_of_the_Rybinsk_Hydroelectric_Power_Station
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+##################################################################################################
+				focus = {
+			id = RUS_Use_the_Bulganins_Plan #####(more army buffs, medium eco buffs) Do one event too, where we will tell you in detail about the plan and give a little political power (50-100)
+			icon = GFX
+			cost = 3
+			x = -6
+			y = 2
+			prerequisite = { focus = RUS_Revise_the_Constitution_of_1919 }
+			relative_position_id = RUS_Revise_the_Constitution_of_1919
+			mutually_exclusive = { focus = RUS_Use_the_Chernovs_Plan }
+			mutually_exclusive = { focus = RUS_Use_the_Conovalovs_Plan }
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Invitation_of_European_colleagues #####(Add a new good general)
+			icon = GFX
+			cost = 3
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Use_the_Bulganins_Plan }
+			relative_position_id = RUS_Use_the_Bulganins_Plan
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Modernization_of_airfields #####(Improve several airfields on the border with the EU (2-3))
+			icon = GFX
+			cost = 5
+			x = -3
+			y = 1
+			prerequisite = { focus = RUS_Invitation_of_European_colleagues }
+			relative_position_id = RUS_Invitation_of_European_colleagues
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+					focus = {
+			id = RUS_The_use_of_English_jet_engines #####(+ Bonus to the study of fighters \ cas (probably 2 uses for +100 to the speed of research))
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Modernization_of_airfields }
+			relative_position_id = RUS_Modernization_of_airfields
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_The_use_of_French_military_doctrine #####-50% of the cost of any doctrine (1 time) (Reduce the impact of Army committies by 5% each debuffs)
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Invitation_of_European_colleagues }
+			relative_position_id = RUS_Invitation_of_European_colleagues
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Development_of_modern_armored_vehicles #####1 bonus to the research of armored vehicles (1 time +100%)
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 2
+			prerequisite = { focus = RUS_The_use_of_French_military_doctrine }
+			relative_position_id = RUS_The_use_of_French_military_doctrine
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Training_in_cadet_corps_according_to_the_European_model ##### (Reduce the impact of Republican army by 1/5)
+			icon = GFX
+			cost = 5
+			x = -1
+			y = 1
+			prerequisite = { focus = RUS_The_use_of_French_military_doctrine }
+			relative_position_id = RUS_The_use_of_French_military_doctrine
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Creation_of_a_unified_military_command ##### (Reduce the impact of Army committies by 5% each debuffs & Reduce the impact of Republican army by 1/5)
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Training_in_cadet_corps_according_to_the_European_model }
+			relative_position_id = RUS_Training_in_cadet_corps_according_to_the_European_model
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_The_doctrine_of_modern_warfare ##### (-50% of the cost of any doctrine (1 time))
+			icon = GFX
+			cost = 5
+			x = 1
+			y = 1
+			prerequisite = { focus = RUS_Creation_of_a_unified_military_command }
+			prerequisite = { focus = RUS_Development_of_modern_armored_vehicles }
+			relative_position_id = RUS_Creation_of_a_unified_military_command
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+				focus = {
+			id = RUS_Creation_of_the_Baltic_Fleet #####(Create a submarine template and add 3 to the production 50% ready))
+			icon = GFX
+			cost = 5
+			x = 3
+			y = 1
+			prerequisite = { focus = RUS_Invitation_of_European_colleagues }
+			relative_position_id = RUS_Invitation_of_European_colleagues
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+			focus = {
+			id = RUS_Construction_of_new_northern_ports #####(Add 3 dockyards to the Murmansk and Arkhangelsk area )
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Creation_of_the_Baltic_Fleet }
+			relative_position_id = RUS_Creation_of_the_Baltic_Fleet
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
+			focus = {
+			id = RUS_Purchase_of_old_blueprints_from_EU_members ##### (Event, where Russia wants to buy some blueprints (Like cruisers from Germany, Carriers from France and BB from Kalmar (Make them random for now, in the future I will contact the 2nd department so that events are called from countries)
+			icon = GFX
+			cost = 5
+			x = 0
+			y = 1
+			prerequisite = { focus = RUS_Construction_of_new_northern_ports }
+			relative_position_id = RUS_Construction_of_new_northern_ports
+			available = {
+			}
+			ai_will_do = {
+					factor = 100
+				}
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+	}
