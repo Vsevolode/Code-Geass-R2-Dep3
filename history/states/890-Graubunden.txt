@@ -1,7 +1,10 @@
 state={
 	id=890
 	name="STATE_890"
+	manpower = 2461200
 
+	state_category = town # was: rural
+	
 	history={
 		owner = SWI
 		buildings = {
@@ -16,8 +19,6 @@ state={
 	provinces={
 		658 3660 3662 
 	}
-	manpower=410200
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

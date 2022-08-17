@@ -1,6 +1,9 @@
 state={
 	id=889
 	name="STATE_889"
+	manpower = 1921200
+
+	state_category = rural # was: pastoral
 
 	history={
 		owner = SWI
@@ -18,8 +21,6 @@ state={
 	provinces={
 		3641 9600 
 	}
-	manpower=320200
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

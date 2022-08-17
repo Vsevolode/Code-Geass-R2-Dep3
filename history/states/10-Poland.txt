@@ -1,8 +1,11 @@
 
 state={
 	id=10
-	name="STATE_10"
+	name="STATE_10" # Warszawa
+	manpower = 18516000
 
+	state_category = metropolis # was: large_ctiy
+	
 	history={
 		owner = POL
 		victory_points = {
@@ -13,7 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 6
+			arms_factory = 2 #was: 6
 			industrial_complex = 2
 			anti_air_building = 2
 			air_base = 5
@@ -26,8 +29,6 @@ state={
 	provinces={
 		467 524 3482 3544 6511 9400 11492 12562 
 	}
-	manpower=3086000
 	buildings_max_level_factor=1.000
-	state_category=large_city
 	local_supplies=7.000
 }

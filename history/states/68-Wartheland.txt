@@ -2,10 +2,13 @@
 state={
 	id=68
 	name="STATE_68"
+	manpower = 7505040
 	resources={
-		aluminium=15.000
+		aluminium = 15.000
 	}
 
+	state_category = city
+	
 	history={
 		victory_points = {
 			3473 1 
@@ -24,8 +27,6 @@ state={
 	provinces={
 		444 537 3473 6236 9387 11478 
 	}
-	manpower=1250840
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }

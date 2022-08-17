@@ -1,11 +1,13 @@
-
 state={
 	id=29
 	name="STATE_29"
+	manpower = 9938400
 	resources={
-		steel=42.000
-		aluminium=8.000
+		steel = 42.000
+		aluminium = 8.000
 	}
+
+	state_category = town
 
 	history={
 		owner = FRA
@@ -18,26 +20,19 @@ state={
 			air_base = 10
 			11548 = {
 				naval_base = 6
-
 			}
-
 		}
 		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 5
-
+				industrial_complex = 2 # was: 5
 			}
-
 		}
-
 	}
 
 	provinces={
 		3476 3536 6504 9500 11548 11606 
 	}
-	manpower=1656400
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

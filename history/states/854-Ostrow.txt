@@ -1,7 +1,10 @@
 state={
 	id=854
 	name="STATE_854"
+	manpower = 18000
 
+	state_category = pastoral
+	
 	history={
 		owner = POL
 		buildings = {
@@ -15,8 +18,6 @@ state={
 	provinces={
 		11385 
 	}
-	manpower=3000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

@@ -2,7 +2,10 @@
 state={
 	id=11
 	name="STATE_11"
+	manpower = 5831640
 
+	state_category = large_town # was: town
+	
 	history={
 		owner = LIT
 		victory_points = {
@@ -26,7 +29,5 @@ state={
 	}
 
 	local_supplies=10.0 
-	manpower=971940
 	buildings_max_level_factor=1.000
-	state_category=town
 }

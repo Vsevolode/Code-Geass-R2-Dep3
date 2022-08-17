@@ -1,7 +1,11 @@
 
 state={
 	id=93
-	name="STATE_93"
+	name="STATE_93" # Wolyn
+	manpower = 11913600
+
+
+	state_category=large_town # Changed from town
 
 	history={
 		victory_points = {
@@ -23,8 +27,6 @@ state={
 	provinces={
 		422 474 513 572 3412 3496 6435 6520 6546 6557 9520 11441 11503 11543 
 	}
-	manpower=1985600
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

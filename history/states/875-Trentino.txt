@@ -1,10 +1,13 @@
 state={
 	id=875
 	name="STATE_875"
+	manpower = 2041920
 	resources={
-		aluminium=14.000
+		aluminium = 14.000
 	}
 
+	state_category = rural
+	
 	history={
 		victory_points = {
 			11598 1 
@@ -22,8 +25,6 @@ state={
 	provinces={
 		656 6631 9598 11598 
 	}
-	manpower=340320
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

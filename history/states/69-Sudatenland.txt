@@ -1,15 +1,13 @@
-state=
-{
+state={
 	id=69
 	name="STATE_69"
-	manpower = 2830000
-	
-	state_category = town
-	
+	manpower = 16980000	
 	resources={
-		steel=4 # was: 8
+		steel = 4 # was: 8
 	}
 	
+	state_category = town
+
 	history={
 		victory_points = {
 			3585 3
@@ -23,15 +21,14 @@ state=
 		owner = DAN
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 1 # was: 2
 			anti_air_building = 1
-
 		}
 		add_core_of = DAN
 	}
-	provinces=
-	{
-424 469 543 557 3418 3585 5283 6470 7857 9555 11401 11414 11432 11525 	}
-
+	
+	provinces={
+		424 469 543 557 3418 3585 5283 6470 7857 9555 11401 11414 11432 11525
+	}
 	local_supplies=0.0 
 }

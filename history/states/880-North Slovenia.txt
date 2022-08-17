@@ -1,6 +1,9 @@
 state={
 	id=880
 	name="STATE_880"
+	manpower = 2586000
+
+	state_category = rural
 
 	history={
 		owner = DAN
@@ -12,17 +15,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-
 		}
 		add_core_of = DAN
-
 	}
 
 	provinces={
 		596 665 3631 3654 9596 
 	}
-	manpower=431000
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

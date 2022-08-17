@@ -2,7 +2,10 @@
 state={
 	id=814
 	name="STATE_814"
+	manpower = 1318440
 
+	state_category = town
+	
 	history={
 		owner = LIT
 		victory_points = {
@@ -22,7 +25,5 @@ state={
 	provinces={
 		3272 6281 6407 11312 
 	}
-	manpower=219740
 	buildings_max_level_factor=1.000
-	state_category=town
 }

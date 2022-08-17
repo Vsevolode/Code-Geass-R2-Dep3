@@ -2,7 +2,7 @@
 state={
 	id=83
 	name="STATE_83"
-	manpower = 632900
+	manpower = 3797400
 	
 	state_category = town
 
@@ -10,7 +10,7 @@ state={
 		owner = ROM
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			arms_factory = 0 # was: 1
 			industrial_complex = 1
 		}
 		victory_points = {

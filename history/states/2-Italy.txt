@@ -1,12 +1,11 @@
 state= {
 	id=2
 	name="STATE_2" # Latium
-	manpower = 2781971
+	manpower = 16691826
 	
 	state_category = city
 
-	history=
-	{
+	history={
 		owner = FRA
 		victory_points = { 9904 40 }
 		victory_points = { 11846 5 }
@@ -25,8 +24,8 @@ state= {
 		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 2
-				industrial_complex = 5
+				arms_factory = 1 # was: 2
+				industrial_complex = 2 # was: 5
 			}
 		}
 	}
@@ -34,6 +33,5 @@ state= {
 	provinces= {
 		923 6862 9794 9904 11751 11846 11882
  	}
-
 	local_supplies=0.0 
 }

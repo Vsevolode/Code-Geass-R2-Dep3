@@ -2,7 +2,11 @@
 state={
 	id=192
 	name="STATE_192"
+	manpower = 717428
 
+
+	state_category=city
+	
 	history={
 		owner = UKR
 		victory_points = {
@@ -10,7 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 2 # was: 3
 			air_base = 6
 			11670 = {
 				naval_base = 3
@@ -26,8 +30,6 @@ state={
 	provinces={
 		741 754 3575 3738 3757 9698 9714 11670 11703 
 	}
-	manpower=1286238
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=6.000
 }
