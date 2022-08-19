@@ -2,14 +2,13 @@
 state={
 	id=144
 	name="STATE_144"
-	manpower = 355251
-	
-	state_category = rural
-	
+	manpower = 2131506
 	resources={
-		steel=9 # was: 12
+		steel = 9 # was: 12
 		tungsten = 15 # was: 20
 	}
+	
+	state_category = town # was: rural
 
 	history={
 		owner = KAL

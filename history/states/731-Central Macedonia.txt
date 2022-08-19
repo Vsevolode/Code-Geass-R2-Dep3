@@ -2,7 +2,11 @@
 state={
 	id=731
 	name="STATE_731"
+	manpower = 6934200
 
+
+	state_category = town
+	
 	history={
 		owner = GRE
 		victory_points = {
@@ -10,7 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 3
+			industrial_complex = 2 # was: 3
 			air_base = 2
 			11818 = {
 				naval_base = 3
@@ -26,8 +30,6 @@ state={
 	provinces={
 		895 936 966 3526 3844 3936 10163 11818 
 	}
-	manpower=1155700
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

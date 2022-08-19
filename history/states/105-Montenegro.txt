@@ -2,10 +2,14 @@
 state={
 	id=105
 	name="STATE_105"
+	manpower = 4635000
 	resources={
-		chromium=20.000
-		aluminium=70.000
+		chromium = 20.000
+		aluminium = 70.000
 	}
+	
+	
+	state_category=rural
 
 	history={
 		victory_points = {
@@ -28,8 +32,6 @@ state={
 	provinces={
 		937 6913 9809 11858 
 	}
-	manpower=772500
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=3.000
 }

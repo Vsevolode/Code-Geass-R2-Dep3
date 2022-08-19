@@ -1,8 +1,11 @@
 
 state={
 	id=98
-	name="STATE_98"
+	name="STATE_98" # Plock
+	manpower = 8472600
 
+	state_category = town # was: rural
+	
 	history={
 		victory_points = {
 			3230 5 
@@ -19,8 +22,6 @@ state={
 	provinces={
 		3230 6259 6321 6567 9290 9316 
 	}
-	manpower=1412100
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=7.000
 }

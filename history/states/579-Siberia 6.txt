@@ -1,7 +1,9 @@
-
 state={
 	id=579
 	name="STATE_579"
+	manpower = 272904
+
+	state_category = pastoral
 
 	history={
 		victory_points = {
@@ -10,17 +12,13 @@ state={
 		owner = RUS
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = RUS
-
 	}
 
 	provinces={
 		1664 1684 3169 4669 7689 7738 8461 9142 
 	}
-	manpower=45484
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

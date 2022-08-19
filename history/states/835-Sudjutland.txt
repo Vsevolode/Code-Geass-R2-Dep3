@@ -1,6 +1,9 @@
 state={
 	id=835
-	name="STATE_835"
+	name="STATE_835" # South Jutland
+	manpower = 3120066
+
+	state_category = town # was: rural
 
 	history={
 		owner = KAL
@@ -15,12 +18,9 @@ state={
 
 	}
 
-
 	provinces={
 		332 11251 
 	}
-	manpower=520011
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

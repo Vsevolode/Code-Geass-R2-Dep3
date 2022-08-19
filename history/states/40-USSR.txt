@@ -1,8 +1,7 @@
-
 state={
 	id=40
 	name="STATE_40" # Barnaul
-	manpower = 2107451
+	manpower = 12644706
 	
 	state_category = large_town
 
@@ -15,7 +14,7 @@ state={
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 2
+				industrial_complex = 1 # was: 2
 			}
 		}
 		victory_points = {

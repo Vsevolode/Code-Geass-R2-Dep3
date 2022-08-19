@@ -1,12 +1,11 @@
-
-state = {
-	id = 516
-	name = "STATE_516" # Taymyria
-	manpower = 21974
+state={
+	id=516
+	name="STATE_516" # Taymyria
+	manpower = 131844
 	
 	state_category = pastoral
 
-	history = {
+	history={
 		victory_points = {
 			4859 1
 		}
@@ -20,6 +19,5 @@ state = {
 	provinces = {
 		 2900 2923 2972 3336 4692 4733 4812 4859 9224 10607 10635 11122 11261 11328 12643 12687 13064 13065 
 	}
-
 	local_supplies = 0.0 
 }

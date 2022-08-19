@@ -2,6 +2,9 @@
 state={
 	id=55
 	name="STATE_55"
+	manpower = 10549404
+
+	state_category = town
 
 	history={
 		owner = GER
@@ -20,8 +23,6 @@ state={
 	provinces={
 		564 3397 3524 6549 9524 9547 11445 11533 
 	}
-	manpower=1758234
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=15.000
 }

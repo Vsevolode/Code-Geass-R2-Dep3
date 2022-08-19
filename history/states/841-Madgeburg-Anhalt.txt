@@ -1,7 +1,10 @@
 state={
 	id=841
 	name="STATE_841"
+	manpower = 12066000
 
+	state_category = town
+	
 	history={
 		owner = GER
 		victory_points = {
@@ -18,8 +21,6 @@ state={
 	provinces={
 		3522 6487 9238 9560 11219 11359 11468 
 	}
-	manpower=2011000
 	buildings_max_level_factor=1.000
-	state_category = town
 	local_supplies=0.000
 }

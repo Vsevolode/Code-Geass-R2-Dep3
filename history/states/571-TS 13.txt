@@ -1,8 +1,7 @@
-
 state={
 	id=571
 	name="STATE_571" # Omsk
-	manpower = 1317157
+	manpower = 7902942
 	
 	state_category = town
 	history={
@@ -17,7 +16,7 @@ state={
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 2
+				arms_factory = 1 # was: 2
 			}
 		}
 	}
