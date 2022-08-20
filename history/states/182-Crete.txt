@@ -1,9 +1,10 @@
 state = {
 	id=182
 	name="STATE_182"
-	manpower = 387900
+	manpower = 2327400
 	
 	state_category = town
+	
 	history = {
 		owner = GRE
 		victory_points = {

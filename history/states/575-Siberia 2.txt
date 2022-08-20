@@ -1,8 +1,7 @@
-
 state={
 	id=575
 	name="STATE_575" # Kirensk
-	manpower = 146494
+	manpower = 878964
 	
 	state_category = wasteland
 

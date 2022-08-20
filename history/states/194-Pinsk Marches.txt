@@ -1,8 +1,7 @@
-
 state={
 	id=194
 	name="STATE_194" # Mozyr
-	manpower = 934632
+	manpower = 5607792
 	
 	state_category = rural
 
@@ -21,6 +20,5 @@ state={
 	provinces={
 		215 3203 3293 3507 6232 6319 6556 9249 9554 11453 
 	}
-
 	local_supplies=0.0 
 }

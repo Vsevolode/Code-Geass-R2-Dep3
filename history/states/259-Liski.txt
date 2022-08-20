@@ -2,9 +2,9 @@
 state={
 	id=259
 	name="STATE_259" # Poltava
-	manpower = 1442584
+	manpower = 8655504
 	
-	state_category = rural
+	state_category = town # was: Rural
 
 	history={
 		victory_points = {

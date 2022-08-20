@@ -1,11 +1,13 @@
-
 state={
 	id=825
 	name="STATE_825"
+	manpower = 130770
 	resources={
-		oil=7.000
+		oil = 7.000
 	}
 
+	state_category = rural
+	
 	history={
 		victory_points = {
 			105 1 
@@ -15,19 +17,14 @@ state={
 			infrastructure = 1
 			12530 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = RUS
-
 	}
 
 	provinces={
 		105 198 3147 6040 6192 9205 10207 11047 11119 12530 
 	}
-	manpower=21795
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

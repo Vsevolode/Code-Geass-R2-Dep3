@@ -1,7 +1,9 @@
-
 state={
 	id=217
 	name="STATE_217"
+	manpower = 6810420
+
+	state_category=city
 
 	history={
 		owner = RUS
@@ -13,24 +15,18 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 1
-
 		}
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 2
-
+				arms_factory = 1 # was: 2
 			}
-
 		}
-
 	}
 
 	provinces={
 		498 520 3503 3529 3555 6503 6527 9459 9474 9504 9530 11447 11474 11484 
 	}
-	manpower=1135070
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=7.000
 }

@@ -2,8 +2,9 @@
 state={
 	id=355
 	name="STATE_355"
-	manpower = 1151863
-	state_category = rural
+	manpower = 6911178
+	
+	state_category = town # was: rural
 
 	history={
 		owner = OTT

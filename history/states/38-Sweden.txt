@@ -1,13 +1,13 @@
 
 state={
 	id=38
-	name="STATE_38"
-	manpower=931955
+	name="STATE_38" # Norrland
+	manpower = 5591730
 	resources={
-		steel=40 # was: 62
+		steel = 40 # was: 62
 	}
 	
-	state_category = town
+	state_category = large_town # was: town
 	
 
 	history={

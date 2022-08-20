@@ -1,6 +1,7 @@
 state = {
 	id = 822
 	name = "STATE_822" #Chukotka
+	manpower = 205092
 
 	history = {
 		owner = RUS
@@ -14,13 +15,11 @@ state = {
 			}
 		}
 		add_core_of = RUS
-
 	}
 
 	provinces = {
 		4744 5264 13062 13063 13204
 	}
-	manpower = 34182
 	buildings_max_level_factor = 1
 	state_category = "pastoral"
 

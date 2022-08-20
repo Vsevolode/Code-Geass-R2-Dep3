@@ -1,7 +1,10 @@
 state={
 	id=847
 	name="STATE_847"
+	manpower = 6243000
 
+	state_category = rural
+	
 	history={
 		owner = GER
 		victory_points = {
@@ -19,8 +22,6 @@ state={
 	provinces={
 		3283 3510 6462 9470 
 	}
-	manpower=1040500
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }
