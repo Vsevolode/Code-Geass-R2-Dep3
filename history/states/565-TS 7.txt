@@ -1,13 +1,13 @@
-
 state={
 	id=565
 	name="STATE_565" # Bodaybo
-	manpower = 195325
-	state_category = rural
+	manpower = 1171950
 	resources={
-		steel=10 # was: 32
-		chromium=5 # was: 12
+		steel = 10 # was: 32
+		chromium = 5 # was: 12
 	}
+
+	state_category = rural
 
 	history={
 		owner = RUS

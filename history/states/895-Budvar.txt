@@ -1,7 +1,11 @@
 state={
 	id=895
 	name="STATE_895"
+	manpower = 738000
 
+
+	state_category = pastoral
+	
 	history={
 		owner = YUG
 		victory_points = {
@@ -18,8 +22,6 @@ state={
 	provinces={
 		9821 
 	}
-	manpower=123000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

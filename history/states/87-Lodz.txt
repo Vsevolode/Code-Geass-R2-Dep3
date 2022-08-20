@@ -2,7 +2,10 @@
 state={
 	id=87
 	name="STATE_87"
+	manpower = 15792000
 
+	state_category = city # was: town
+	
 	history={
 		owner = POL
 		buildings = {
@@ -27,8 +30,6 @@ state={
 	provinces={
 		493 548 584 6401 9439 9508 9546 11428 11515 13261 
 	}
-	manpower=2632000
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

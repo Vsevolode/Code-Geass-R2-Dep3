@@ -1,8 +1,7 @@
-state=
-{
+state={
 	id=124
 	name="STATE_124"
-	manpower = 56988
+	manpower = 341928
 	
 	state_category = small_island
 	
@@ -11,7 +10,7 @@ state=
 		owner = KAL
 		add_core_of = KAL
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3 # was: 6
 			408 = {
 				naval_base = 1
 			}

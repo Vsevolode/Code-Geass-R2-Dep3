@@ -2,7 +2,8 @@
 state={
 	id=159
 	name="STATE_159"
-	manpower = 5597704
+	manpower = 33586224
+	
 	state_category = metropolis
 
 	history={
@@ -12,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 7
+			arms_factory = 2 # was: 7
 			industrial_complex = 3
 			air_base = 10
 
@@ -20,7 +21,7 @@ state={
 		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 7
+				arms_factory = 2 # was: 7
 				industrial_complex = 4
 			}
 		}

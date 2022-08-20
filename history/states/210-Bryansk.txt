@@ -1,8 +1,7 @@
-
 state={
 	id=210
 	name="STATE_210" # Nevel
-	manpower = 830133
+	manpower = 4980798
 	
 	state_category = rural
 
@@ -20,6 +19,5 @@ state={
 	provinces={
 		207 248 354 387 3333 6242 6293 9254 9331 9353 9386 11234 11259 
 	}
-
 	local_supplies=0.0 
 }

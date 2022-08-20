@@ -1,6 +1,9 @@
 state={
 	id=856
 	name="STATE_856"
+	manpower = 1860000
+
+	state_category = rural
 
 	history={
 		owner = FRA
@@ -12,17 +15,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-
 		}
 		add_core_of = FRA
-
 	}
 
 	provinces={
 		3560 5291 
 	}
-	manpower=310000
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

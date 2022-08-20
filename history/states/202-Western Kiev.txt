@@ -1,8 +1,8 @@
 
 state={
 	id=202
-	name="STATE_202"
-	manpower = 2495352
+	name="STATE_202" # Kiev
+	manpower = 14972112
 	resources={
 		oil=8 # was: 14
 		aluminium=7 # was: 12
@@ -18,7 +18,7 @@ state={
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 2 # was: 4
 			fuel_silo = 1
 			air_base = 8
 		}

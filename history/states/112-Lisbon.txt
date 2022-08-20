@@ -1,10 +1,13 @@
 state={
 	id=112
 	name="STATE_112"
+	manpower = 11974800
 	resources={
-		tungsten=50.000
+		tungsten = 50.000
 	}
 
+	state_category=city
+	
 	history={
 		owner = POR
 		victory_points = {
@@ -16,9 +19,9 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 2
+			industrial_complex = 1 # was 2
 			air_base = 5
-			dockyard = 2
+			dockyard = 1 # was 2
 			11805 = {
 				naval_base = 8
 			}
@@ -30,9 +33,7 @@ state={
 	provinces={
 		799 3798 3861 6924 11805 
 	}
-	manpower=1995800
 	buildings_max_level_factor=1.000
-	state_category=city
 
 	local_supplies=12.0 
 }

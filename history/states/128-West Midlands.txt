@@ -1,8 +1,7 @@
-
 state={
 	id=128
 	name="STATE_128"
-	manpower = 3685235
+	manpower = 22111410
 	
 	state_category = metropolis
 	resources={
@@ -11,19 +10,19 @@ state={
 
 	history={
 		owner = ENG
+		add_core_of = ENG
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 2
+			arms_factory = 1 # was 2
 			industrial_complex = 3
 			air_base = 6
 		}
 		victory_points = {
 			9297 25
 		}
-		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 3
+				arms_factory = 1 # was: 3
 				industrial_complex = 4
 			}
 		}
@@ -32,6 +31,5 @@ state={
 	provinces={
 		3241 3301 6270 6301 7239 9297 11345 
 	}
-
 	local_supplies=0.0 
 }

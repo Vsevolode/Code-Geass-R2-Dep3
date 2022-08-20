@@ -2,7 +2,8 @@
 state={
 	id=200
 	name="STATE_200" # Zaporozhe
-	manpower = 1294082
+	manpower = 7764492
+	
 	state_category = town
 
 	history={
