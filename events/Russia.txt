@@ -1,0 +1,50 @@
+
+add_namespace = RUS
+
+
+country_event = {  
+	id = RUS.1
+	title = RUS.1.t
+	desc = RUS.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	
+	option = {
+		name = RUS.1.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 10
+    }     
+}
+
+country_event = {  
+	id = RUS.2
+	title = RUS.2.t
+	desc = RUS.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	
+	option = {
+		name = RUS.2.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 75
+    }     
+}
+
+
+
+
+
+
+
+
+

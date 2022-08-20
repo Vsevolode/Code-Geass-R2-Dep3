@@ -1,6 +1,6 @@
 ideas = {
     country = {
-			RUS_Agrarian_economy = {
+		RUS_Agrarian_economy = {
 			####################(improved by reforming)
 			removal_cost = -1 
 			allowed = { 
@@ -12,7 +12,19 @@ ideas = {
 				local_resources_factor = -0.5
 			}
 		}
-			RUS_Economical_crisis = {
+		RUS_Agrarian_economy_improved_3 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				production_factory_max_efficiency_factor = -0.4
+				industrial_capacity_factory = -0.4
+				local_resources_factor = -0.4
+			}
+		}
+		RUS_Economical_crisis = {
 			####################(improved by reforming)
 			removal_cost = -1 
 			allowed = { 
@@ -23,7 +35,18 @@ ideas = {
 				production_speed_buildings_factor = -0.5		
 			}
 		}
-			RUS_low_level_education = {
+		RUS_Economical_crisis_improved_1 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				consumer_goods_factor = 0.20
+				production_speed_buildings_factor = -0.4		
+			}
+		}
+		RUS_low_level_education = {
 			####################(improved by reforming)
 			removal_cost = -1 
 			allowed = { 
@@ -33,7 +56,17 @@ ideas = {
 				research_speed_factor = -0.25	
 			}
 		}
-			RUS_EU_loans = {
+		RUS_low_level_education_improved_1 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				research_speed_factor = -0.20	
+			}
+		}
+		RUS_EU_loans = {
 			removal_cost = -1 
 			allowed = { 
 			original_tag = RUS
@@ -42,7 +75,7 @@ ideas = {
 				
 			}
 		}
-			RUS_Army_committees = { 
+		RUS_Army_committees = { 
 			####################(improved by reforming)
 			removal_cost = -1 
 			allowed = { 
@@ -56,7 +89,21 @@ ideas = {
 				planning_speed = -0.25
 			}
 		}
-			RUS_Weak_Republican_army = { 
+		RUS_Army_committees_improved_1 = { 
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				max_command_power = -30
+				command_power_gain_mult = -0.15
+				experience_gain_army_factor = -0.1
+				experience_gain_navy_factor = -0.1
+				planning_speed = -0.2
+			}
+		}
+		RUS_Weak_Republican_army = { 
 			####################(improved by reforming)
 			removal_cost = -1 
 			allowed = { 
@@ -70,7 +117,21 @@ ideas = {
 				army_org_factor = -0.1
 			}
 		}
-			RUS_Сorrupt_government = {
+		RUS_Weak_Republican_army_improved_1 = { 
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				conscription = 0.005
+				stability_factor = -0.05
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				army_org_factor = -0.05
+			}
+		}
+		RUS_Сorrupt_government = {
 			####################(improved by reforming)
 			removal_cost = -1 
 			allowed = { 
@@ -81,6 +142,19 @@ ideas = {
 				political_power_factor = -0.15
 				consumer_goods_factor = 0.1
 				political_advisor_cost_factor = 0.3
+			}
+		}
+		RUS_Сorrupt_government_improved_1 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				stability_factor = -0.075
+				political_power_factor = -0.12
+				consumer_goods_factor = 0.07
+				political_advisor_cost_factor = 0.2
 			}
 		}
 			RUS_Russian_nationalism = {

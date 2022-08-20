@@ -11,76 +11,76 @@ focus_tree = {
 	
 
 	default = no
-				focus = {
-			id = RUS_Revise_the_Constitution_of_1919 #####(Cadet project) Make one event here, in which we will tell an alternative history of Russia
-			icon = GFX
-			cost = 5
-			x = 18
-			y = 0
-			available = {
-			}
-			ai_will_do = {
-					factor = 100
-				}
-			available_if_capitulated = no
-			completion_reward = {
+	focus = {
+		id = RUS_Revise_the_Constitution_of_1919 #####(Cadet project) Make one event here, in which we will tell an alternative history of Russia
+		icon = GFX
+		cost = 5
+		x = 18
+		y = 0
+		available = {
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = no
+		completion_reward = {
+			country_event = RUS.1
+		}
+	}
+	focus = {
+		id = RUS_Use_the_Chernovs_Plan #####(more admin buffs, medium eco buffs) Do one event too, where we will tell you in detail about the plan and give a little political power (50-100)
+		icon = GFX
+		cost = 3
+		x = 6
+		y = 2
+		prerequisite = { focus = RUS_Revise_the_Constitution_of_1919 }
+		relative_position_id = RUS_Revise_the_Constitution_of_1919
+		mutually_exclusive = { focus = RUS_Use_the_Conovalovs_Plan }
+		mutually_exclusive = { focus = RUS_Use_the_Bulganins_Plan }
+		available = {
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = no
+		completion_reward = {
 
 		}
 	}
-				focus = {
-			id = RUS_Use_the_Chernovs_Plan #####(more admin buffs, medium eco buffs) Do one event too, where we will tell you in detail about the plan and give a little political power (50-100)
-			icon = GFX
-			cost = 3
-			x = 6
-			y = 2
-			prerequisite = { focus = RUS_Revise_the_Constitution_of_1919 }
-			relative_position_id = RUS_Revise_the_Constitution_of_1919
-			mutually_exclusive = { focus = RUS_Use_the_Conovalovs_Plan }
-			mutually_exclusive = { focus = RUS_Use_the_Bulganins_Plan }
-			available = {
+	focus = {
+		id = RUS_Creation_of_an_Anti_Corruption_Agency #####(-100 pp + 5 stab) 
+		icon = GFX
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = { focus = RUS_Use_the_Chernovs_Plan }
+		relative_position_id = RUS_Use_the_Chernovs_Plan
+		available = {
+		}
+		ai_will_do = {
+				factor = 100
 			}
-			ai_will_do = {
-					factor = 100
-				}
-			available_if_capitulated = no
-			completion_reward = {
+		available_if_capitulated = no
+		completion_reward = {
 
 		}
 	}
-				focus = {
-			id = RUS_Creation_of_an_Anti_Corruption_Agency #####(-100 pp + 5 stab) 
-			icon = GFX
-			cost = 10
-			x = 0
-			y = 1
-			prerequisite = { focus = RUS_Use_the_Chernovs_Plan }
-			relative_position_id = RUS_Use_the_Chernovs_Plan
-			available = {
-			}
-			ai_will_do = {
-					factor = 100
-				}
-			available_if_capitulated = no
-			completion_reward = {
-
+	focus = {
+		id = RUS_Centralization_of_state_assets #####(Removing debuffs ) Reduce the impact of the idea on corruption by 1/5
+		icon = GFX
+		cost = 5
+		x = -1
+		y = 1
+		prerequisite = { focus = RUS_Creation_of_an_Anti_Corruption_Agency }
+		relative_position_id = RUS_Creation_of_an_Anti_Corruption_Agency
+		mutually_exclusive = { focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions }
+		available = {
 		}
-	}
-				focus = {
-			id = RUS_Centralization_of_state_assets #####(Removing debuffs ) Reduce the impact of the idea on corruption by 1/5
-			icon = GFX
-			cost = 5
-			x = -1
-			y = 1
-			prerequisite = { focus = RUS_Creation_of_an_Anti_Corruption_Agency }
-			relative_position_id = RUS_Creation_of_an_Anti_Corruption_Agency
-			mutually_exclusive = { focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions }
-			available = {
+		ai_will_do = {
+				factor = 100
 			}
-			ai_will_do = {
-					factor = 100
-				}
-			available_if_capitulated = no
-			completion_reward = {
+		available_if_capitulated = no
+		completion_reward = {
 
 		}
 	}
