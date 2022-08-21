@@ -39,7 +39,42 @@ country_event = {
 		add_political_power = 75
     }     
 }
+country_event = {  
+	id = RUS.3
+	title = RUS.3.t
+	desc = RUS.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
 
+	
+	
+	option = {
+		name = RUS.3.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 75
+    }     
+}
+country_event = {  
+	id = RUS.4
+	title = RUS.4.t
+	desc = RUS.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	
+	option = {
+		name = RUS.4.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 75
+    }     
+}
 
 
 

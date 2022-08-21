@@ -157,6 +157,57 @@ ideas = {
 				political_advisor_cost_factor = 0.2
 			}
 		}
+		RUS_Сorrupt_government_improved_2 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				stability_factor = -0.05
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+				political_advisor_cost_factor = 0.1
+			}
+		}
+		RUS_Сorrupt_government_improved_3 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				stability_factor = -0.025
+				political_power_factor = -0.07
+				consumer_goods_factor = 0.03
+				political_advisor_cost_factor = 0.1
+			}
+		}
+		RUS_Сorrupt_government_improved_4 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				stability_factor = -0.01
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.02
+				political_advisor_cost_factor = 0.1
+			}
+		}
+		RUS_Сorrupt_government_improved_5 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				stability_factor = -0.01
+				political_power_factor = -0.02
+				consumer_goods_factor = 0.01
+			}
+		}
 			RUS_Russian_nationalism = {
 			removal_cost = -1 
 			allowed = { 

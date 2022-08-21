@@ -44,7 +44,7 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-
+			country_event = RUS.2
 		}
 	}
 	focus = {
@@ -62,7 +62,8 @@ focus_tree = {
 			}
 		available_if_capitulated = no
 		completion_reward = {
-
+			add_political_power = -100
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -81,10 +82,20 @@ focus_tree = {
 			}
 		available_if_capitulated = no
 		completion_reward = {
-
+			swap_ideas = {
+			remove_idea = RUS_Сorrupt_government
+			add_idea = RUS_Сorrupt_government_improved_1 }
+			219 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
 		}
 	}
-				focus = {
+	focus = {
 			id = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions #####(Removing debuffs) Reduce the impact of the idea of crisis by 1/5
 			icon = GFX
 			cost = 5
@@ -100,17 +111,37 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+				swap_ideas = {
+				remove_idea = RUS_Economical_crisis
+				add_idea = RUS_Economical_crisis_improved_1 }
+				random_state = {
+					limit = {
+						controller = { tag = RUS }}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				random_state = {
+					limit = {
+						controller = { tag = RUS }}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
 		}
 	}
-				focus = {
+		focus = {
 			id = RUS_Independence_of_the_courts_budget #####(Removing debuffs +50 pp)  Reduce the impact of the idea on corruption by 1/5
 			icon = GFX
 			cost = 5
 			x = 1
 			y = 1
-			prerequisite = { focus = RUS_Centralization_of_state_assets }
-			prerequisite = { focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions }
+			prerequisite = { focus = RUS_Centralization_of_state_assets
+							 focus = RUS_Greater_influence_of_the_state_on_the_economy_of_the_regions }
 			relative_position_id = RUS_Centralization_of_state_assets
 			available = {
 			}
@@ -119,10 +150,22 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
-		}
-	}
-				focus = {
+				add_political_power = 25
+				if = {
+				limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_1}}
+				swap_ideas = {
+				remove_idea = RUS_Сorrupt_government_improved_1
+				add_idea = RUS_Сorrupt_government_improved_2 }}
+				if = {
+				limit = { RUS = { has_idea = RUS_Сorrupt_government}}
+				swap_ideas = {
+				remove_idea = RUS_Сorrupt_government
+				add_idea = RUS_Сorrupt_government_improved_1 }}
+				
+			}
+			}
+			
+		focus = {
 			id = RUS_Strengthening_the_national_banking_system #####(Removing debuffs +pp) Reduce the impact of the idea of crisis by 1/5
 			icon = GFX
 			cost = 5
@@ -196,14 +239,26 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
+			add_political_power = 25
+				if = {
+					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_2}}
+					swap_ideas = {
+					remove_idea = RUS_Сorrupt_government_improved_2
+					add_idea = RUS_Сorrupt_government_improved_3 }}
+				if = {
+					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_1}}
+					swap_ideas = {
+					remove_idea = RUS_Сorrupt_government_improved_1
+					add_idea = RUS_Сorrupt_government_improved_2 }}
+				
 
 		}
 	}
 				focus = {
-			id = RUS_demonstrative_arrests #####(Removing debuffs +50 pp -5 stab) Reduce the impact of the idea on corruption by 1/5
+			id = RUS_demonstrative_arrests #####(Removing debuffs -5 stab) Reduce the impact of the idea on corruption by 1/5
 			icon = GFX
 			cost = 5
-			x = -1
+			x = 0
 			y = 1
 			prerequisite = { focus = RUS_Simplification_of_legislation }
 			relative_position_id = RUS_Simplification_of_legislation
@@ -214,17 +269,28 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+				add_stability = -0.05
+				if = {
+					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_3}}
+					swap_ideas = {
+					remove_idea = RUS_Сorrupt_government_improved_3
+					add_idea = RUS_Сorrupt_government_improved_4 }}
+				if = {
+					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_2}}
+					swap_ideas = {
+					remove_idea = RUS_Сorrupt_government_improved_2
+					add_idea = RUS_Сorrupt_government_improved_3 }}
+				
 		}
 	}
 				focus = {
-			id = RUS_anti_corruption_education_of_the_population #####(Removing debuffs +50 pp) Reduce the impact of the idea on corruption by 1/5
+			id = RUS_anti_corruption_education_of_the_population #####(Removing debuffs -50 pp) Reduce the impact of the idea on corruption by 1/5
 			icon = GFX
 			cost = 5
-			x = 1
+			x = 0
 			y = 1
-			prerequisite = { focus = RUS_Simplification_of_legislation }
-			relative_position_id = RUS_Simplification_of_legislation
+			prerequisite = { focus = RUS_demonstrative_arrests }
+			relative_position_id = RUS_demonstrative_arrests
 			available = {
 			}
 			ai_will_do = {
@@ -232,7 +298,18 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+				add_political_power = -50
+				if = {
+					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_4}}
+					swap_ideas = {
+					remove_idea = RUS_Сorrupt_government_improved_4
+					add_idea = RUS_Сorrupt_government_improved_5 }}
+				if = {
+					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_3}}
+					swap_ideas = {
+					remove_idea = RUS_Сorrupt_government_improved_3
+					add_idea = RUS_Сorrupt_government_improved_4 }}
+				
 		}
 	}
 	########################################################################
@@ -253,7 +330,7 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			country_event = RUS.3
 		}
 	}
 				focus = {
@@ -419,7 +496,7 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			country_event = RUS.4
 		}
 	}
 				focus = {
