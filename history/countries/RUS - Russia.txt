@@ -58,6 +58,7 @@ RUS_Сorrupt_government
 RUS_Russian_nationalism
 RUS_low_level_education
 RUS_Economical_crisis
+RUS_Not_explored_deposits
 RUS_EU_loans
 }
 

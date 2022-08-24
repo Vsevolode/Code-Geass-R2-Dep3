@@ -1,5 +1,36 @@
 ideas = {
     country = {
+		RUS_Not_explored_deposits = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				local_resources_factor = -0.5
+			}
+		}
+		RUS_Not_explored_deposits_improved_1 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				local_resources_factor = -0.4
+			}
+		}
+		RUS_Not_explored_deposits_improved_2 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				local_resources_factor = -0.3
+			}
+		}
+	
 		RUS_Agrarian_economy = {
 			####################(improved by reforming)
 			removal_cost = -1 
@@ -9,7 +40,28 @@ ideas = {
 			modifier = { 	
 				production_factory_max_efficiency_factor = -0.5
 				industrial_capacity_factory = -0.5
-				local_resources_factor = -0.5
+			}
+		}
+		RUS_Agrarian_economy_improved_1 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				production_factory_max_efficiency_factor = -0.4
+				industrial_capacity_factory = -0.4
+			}
+		}
+		RUS_Agrarian_economy_improved_2 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				production_factory_max_efficiency_factor = -0.3
+				industrial_capacity_factory = -0.3
 			}
 		}
 		RUS_Agrarian_economy_improved_3 = {
@@ -19,9 +71,30 @@ ideas = {
 			original_tag = RUS
 			} 
 			modifier = { 	
-				production_factory_max_efficiency_factor = -0.4
-				industrial_capacity_factory = -0.4
-				local_resources_factor = -0.4
+				production_factory_max_efficiency_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+		}
+		RUS_Agrarian_economy_improved_4 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.15
+			}
+		}
+		RUS_Agrarian_economy_improved_5 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 	
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
 			}
 		}
 		RUS_Economical_crisis = {
@@ -44,6 +117,28 @@ ideas = {
 			modifier = { 
 				consumer_goods_factor = 0.20
 				production_speed_buildings_factor = -0.4		
+			}
+		}
+		RUS_Economical_crisis_improved_2 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.3		
+			}
+		}
+		RUS_Economical_crisis_improved_3 = {
+			####################(improved by reforming)
+			removal_cost = -1 
+			allowed = { 
+			original_tag = RUS
+			} 
+			modifier = { 
+				consumer_goods_factor = 0.125
+				production_speed_buildings_factor = -0.25		
 			}
 		}
 		RUS_low_level_education = {

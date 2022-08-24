@@ -183,7 +183,16 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			if = {
+				limit = { RUS = { has_idea = RUS_Agrarian_economy_improved_3}}
+				swap_ideas = {
+				remove_idea = RUS_Agrarian_economy_improved_3
+				add_idea = RUS_Agrarian_economy_improved_4 }}
+				if = {
+				limit = { RUS = { has_idea = RUS_Agrarian_economy_improved_1}}
+				swap_ideas = {
+				remove_idea = RUS_Agrarian_economy_improved_1
+				add_idea = RUS_Agrarian_economy_improved_2 }}
 		}
 	}
 					focus = {
@@ -202,7 +211,18 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.025
+			if = {
+				limit = { RUS = { has_idea = RUS_Agrarian_economy_improved_4}}
+				swap_ideas = {
+				remove_idea = RUS_Agrarian_economy_improved_4
+				add_idea = RUS_Agrarian_economy_improved_5 }}
+				if = {
+				limit = { RUS = { has_idea = RUS_Agrarian_economy_improved_2}}
+				swap_ideas = {
+				remove_idea = RUS_Agrarian_economy_improved_2
+				add_idea = RUS_Agrarian_economy_improved_3 }}
 		}
 	}
 						focus = {
@@ -240,6 +260,8 @@ focus_tree = {
 			available_if_capitulated = no
 			completion_reward = {
 			add_political_power = 25
+			custom_effect_tooltip = RUS_corruption_decrease
+				hidden_effect = {
 				if = {
 					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_2}}
 					swap_ideas = {
@@ -250,7 +272,7 @@ focus_tree = {
 					swap_ideas = {
 					remove_idea = RUS_Сorrupt_government_improved_1
 					add_idea = RUS_Сorrupt_government_improved_2 }}
-				
+				}
 
 		}
 	}
@@ -270,6 +292,8 @@ focus_tree = {
 			available_if_capitulated = no
 			completion_reward = {
 				add_stability = -0.05
+				custom_effect_tooltip = RUS_corruption_decrease
+				hidden_effect = {
 				if = {
 					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_3}}
 					swap_ideas = {
@@ -280,7 +304,7 @@ focus_tree = {
 					swap_ideas = {
 					remove_idea = RUS_Сorrupt_government_improved_2
 					add_idea = RUS_Сorrupt_government_improved_3 }}
-				
+					}
 		}
 	}
 				focus = {
@@ -299,6 +323,8 @@ focus_tree = {
 			available_if_capitulated = no
 			completion_reward = {
 				add_political_power = -50
+				custom_effect_tooltip = RUS_corruption_decrease
+				hidden_effect = {
 				if = {
 					limit = { RUS = { has_idea = RUS_Сorrupt_government_improved_4}}
 					swap_ideas = {
@@ -309,7 +335,7 @@ focus_tree = {
 					swap_ideas = {
 					remove_idea = RUS_Сorrupt_government_improved_3
 					add_idea = RUS_Сorrupt_government_improved_4 }}
-				
+				}
 		}
 	}
 	########################################################################
@@ -348,7 +374,19 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			add_stability = -0.05
+			if = {
+				limit =  { RUS = { has_idea = RUS_Economical_crisis_improved_1}}
+			swap_ideas = {
+			remove_idea = RUS_Economical_crisis_improved_1
+			add_idea = RUS_Economical_crisis_improved_2
+			}}
+			if = {
+				limit =  { RUS = { has_idea = RUS_Economical_crisis}}
+			swap_ideas = {
+			remove_idea = RUS_Economical_crisis
+			add_idea = RUS_Economical_crisis_improved_1
+			}}
 		}
 	}
 				focus = {
@@ -366,6 +404,19 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
+			add_political_power = -50
+			if = {
+				limit =  { RUS = { has_idea = RUS_Economical_crisis_improved_1}}
+			swap_ideas = {
+			remove_idea = RUS_Economical_crisis_improved_1
+			add_idea = RUS_Economical_crisis_improved_2
+			}}
+			if = {
+				limit =  { RUS = { has_idea = RUS_Economical_crisis}}
+			swap_ideas = {
+			remove_idea = RUS_Economical_crisis
+			add_idea = RUS_Economical_crisis_improved_1
+			}}
 
 		}
 	}
@@ -385,6 +436,11 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
+			add_stability = -0.05
+			swap_ideas = {
+			remove_idea = RUS_Economical_crisis_improved_2
+			add_idea = RUS_Economical_crisis_improved_3
+			}
 
 		}
 	}
@@ -403,7 +459,16 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			swap_ideas = {
+			remove_idea = RUS_Agrarian_economy
+			add_idea = RUS_Agrarian_economy_improved_1
+			}
+			add_tech_bonus = {
+				name = ind_innovations
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
 		}
 	}
 				focus = {
@@ -421,7 +486,11 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			swap_ideas = {
+			remove_idea = RUS_Not_explored_deposits
+			add_idea = RUS_Not_explored_deposits_improved_1
+			}
+			
 		}
 	}
 				focus = {
@@ -439,9 +508,32 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
+			swap_ideas = {
+			remove_idea = RUS_Not_explored_deposits_improved_1
+			add_idea = RUS_Not_explored_deposits_improved_2}
+			random_state = {
+				limit = {
+						controller = { tag = RUS }}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			random_state = {
+				limit = {
+						controller = { tag = RUS }}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 
 		}
-	}
 					focus = {
 			id = RUS_Project_of_the_Rybinsk_Hydroelectric_Power_Station #####( Reduce the impact of the idea on reducing the productivity of military factories and factories by 1/5)
 			icon = GFX
@@ -457,6 +549,18 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
+			swap_ideas = {
+			remove_idea = RUS_Agrarian_economy_improved_1
+			add_idea = RUS_Agrarian_economy_improved_2
+			}
+			248 = {
+				add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+			}
 
 		}
 	}
@@ -475,7 +579,10 @@ focus_tree = {
 				}
 			available_if_capitulated = no
 			completion_reward = {
-
+			swap_ideas = {
+			remove_idea = RUS_Agrarian_economy_improved_2
+			add_idea = RUS_Agrarian_economy_improved_3
+			}
 		}
 	}
 ##################################################################################################
